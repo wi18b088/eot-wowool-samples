@@ -11,7 +11,7 @@ graph_config = {
   "links" : [
           {   "from"      : { "expr" : "Person"  , "attributes" : ["gender"]  },
               "to"        : { "expr" : "Company" , "attributes" : ["country"] } ,
-              "relation"  : { "label": "P2C" , "invers_label" : "C2P"}
+              "relation"  : { "label": "P2C" }
           }
           ,
           {   "from"      : { "expr" : "Person" },
@@ -49,7 +49,9 @@ try:
 
     from eot.wowool.tool.entity_graph.cypher import CypherStream
     cs = CypherStream("EOT")
-    print(cs(results))
+    for neo4j_query in cs(results):
+        print(neo4j_query)
+
     from eot.wowool.tool.entity_graph.d3js_graph import D3JSGraphStream
 
     with open( "index.html", "w" ) as fh:

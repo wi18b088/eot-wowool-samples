@@ -11,7 +11,7 @@ graph_config = {
   "links" : [
           {   "from"      : { "expr" : "Person"  , "attributes" : ["gender"]  },
               "to"        : { "expr" : "Company" , "attributes" : ["country"] } ,
-              "relation"  : { "label": "P2C" , "invers_label" : "C2P"}
+              "relation"  : { "label": "P2C" }
           }
           ,
           {   "from"      : { "expr" : "Person" },
@@ -40,24 +40,17 @@ try:
     print(doc)
     graphit = EntityGraph( graph_config )
     # returns a panda dataframe.
-    graphit.slots['Document'] = {"data":"hello"}
+    graphit.slots['Document'] = {"data":"file1.txt"}
     results = graphit(doc)
 
+    print("--- From: results.df_from ------------------------------")
     print( results.df_from)
+    print("--- Relation: results.df_relation ----------------------")
     print( results.df_relation)
+    print("--- To: results.df_to ----------------------------------")
     print( results.df_to)
-
-    from eot.wowool.tool.entity_graph.cypher import CypherStream
-    cs = CypherStream("EOT")
-    print(cs(results))
-    from eot.wowool.tool.entity_graph.d3js_graph import D3JSGraphStream
-
-    with open( "index.html", "w" ) as fh:
-        fh.write("<html><body>")
-        fh.write("""<div id="graphid"></div>""")
-        out = D3JSGraphStream(fh, filter = lambda c: c.uri != 'NP' )
-        out( None, results, "graphid")
-        fh.write("</body></html>")
+    print("--- Merged: results ------------------------------------")
+    print( results )
 
 except Error as ex:
    print("Exception:",ex)
