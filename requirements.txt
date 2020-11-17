@@ -1,0 +1,11 @@
+eot-io
+eot-wowool-common
+eot-wowool-dutch-basic
+eot-wowool-dutch-entity
+eot-wowool-english-basic
+eot-wowool-english-entity
+eot-wowool-lid-basic
+eot-wowool-lxcommon-basic
+eot-wowool-sdk
+eot-wowool-topic-identifier
+panda
