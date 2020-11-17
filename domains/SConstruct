@@ -1,0 +1,16 @@
+# using scons
+import os
+import sys
+print(sys.argv)
+
+verbose_level = ARGUMENTS.get('verbose', 'info')
+verbose_option = ""
+if verbose_level != 'info':
+    verbose_option = f"--verbose {verbose_level}"
+
+
+builder = Builder( action=f'pywoc -t -l en {verbose_option} -o $TARGET $SOURCES', suffix='.dom', src_suffix='.wow')
+
+env = Environment(ENV = os.environ, BUILDERS = {'pywoc' : builder})
+env.pywoc(target = 'helloworld.dom', source = ["helloworld.wow"])
+
