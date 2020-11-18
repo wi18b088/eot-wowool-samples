@@ -22,5 +22,11 @@ try:
     for concept in Concept.iter(doc, concept_filter) :
         print( { **concept } )
 
+    print( '-' * 40 )
+    for person in Concept.iter(doc, lambda concept: concept.uri == "Person"):
+        for person_parts in Concept.iter(person, lambda concept: concept.uri.startswith("Person")):
+            print( f"Person: {person_parts.uri:<20}, stem={person_parts.literal}" )
+
+
 except Error as ex:
     print("Exception:",ex)

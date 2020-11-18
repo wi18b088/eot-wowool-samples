@@ -1,6 +1,6 @@
-lexicon:{ world , earthling }= PLACE;
 lexicon:{ greetings, hello }= GREETING;
+lexicon:{ world , earthling }= PLACE;
 
-@test: hello worlds
+@test: he says, hello worlds
 @expected: hello world=TEST
 rule:{ GREETING PLACE }=TEST;
