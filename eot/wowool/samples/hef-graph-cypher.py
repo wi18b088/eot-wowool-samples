@@ -99,7 +99,7 @@ try:
     from eot.wowool.tool.entity_graph.cypher import CypherStream
     cs = CypherStream("EOT")
 
-    with open("cypher-out.txt", "w") as f:
+    with open("cypher-out.cypher", "w") as f:
         for neo4j_query in cs(results):
             f.write(f"{neo4j_query}\n")
 
