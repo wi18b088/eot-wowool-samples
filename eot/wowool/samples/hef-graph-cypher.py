@@ -48,6 +48,10 @@ graph_config = {
                 "to"        : { "expr" : "BatteryDict"},
                 "relation"  : { "label" : "Density" }
           },
+          {     "from"      : { "expr" : "EnginePower" },
+                "to"        : { "expr" : "EngineType"},
+                "relation"  : { "label" : "Power" }
+          },
           #{     "from"      : { "expr" : "Website" },
           #      "to"        : { "expr" : "Person", "attributes" : ["gender"] }, ### Rules we have to make: Grab person from text
           #      "relation"  : { "label" : "AffiliatedTo" }
