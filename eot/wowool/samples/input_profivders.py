@@ -8,7 +8,7 @@ from eot.io import InputProviders
 
 try:
 
-    for ip in InputProviders( "/Users/phforest/corpus/english/bloomberg"):
+    for ip in InputProviders( "/share/neo4jgithub/eot-wowool-samples/rules"):
         print(ip.id(), ip.text())
 
 
