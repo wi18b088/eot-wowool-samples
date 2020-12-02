@@ -8,8 +8,9 @@ from eot.io import InputProviders
 
 try:
 
-    for ip in InputProviders( "/share/neo4jgithub/eot-wowool-samples/rules"):
-        print(ip.id(), ip.text())
+    for ip in InputProviders( "/share/neo4jgithub/eot-wowool-samples/docs"):
+        print(ip.id())
+        # print(ip.text(), ip.id())
 
 
 except Error as ex:

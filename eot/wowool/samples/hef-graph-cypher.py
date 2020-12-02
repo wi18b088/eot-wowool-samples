@@ -5,6 +5,7 @@ from eot.wowool.native import Analyzer, Domain
 from eot.wowool.annotation import Concept
 from eot.wowool.error import Error
 from eot.wowool.tool import EntityGraph
+from eot.io import InputProviders
 
 graph_config = {
   "links" : [
@@ -65,7 +66,13 @@ try:
     entities = Domain( "english-entity" )
     # rule = Domain( source = """ rule:{ 'user' '\:' {(<>)+}=USER }; """)
     myrule = Domain("/share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/flyingrules.dom")
-    doc = english("A plane has a lithium-ion battery inside. Hydrogen engine with a range of 200 km. In 1990 www.google.com was created. The price of the new hydrogen engine is €2000000")
+
+    inputText = ""
+    for i, ip in enumerate(InputProviders( "/share/neo4jgithub/eot-wowool-samples/docs")):
+        inputText = f"{inputText}\n{ip.text()}"
+
+
+    doc = english(inputText)
     doc = entities(doc)
     doc = myrule(doc)
     # print(doc)
