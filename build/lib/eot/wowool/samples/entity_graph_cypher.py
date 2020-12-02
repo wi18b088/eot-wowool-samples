@@ -38,18 +38,14 @@ try:
     doc = entities(doc)
     doc = myrule(doc)
     print(doc)
-    print("-"*10)
     graphit = EntityGraph( graph_config )
     # returns a panda dataframe.
     graphit.slots['Document'] = {"data":"hello"}
     results = graphit(doc)
 
     print( results.df_from)
-    print("-"*10)
     print( results.df_relation)
-    print("-"*10)
     print( results.df_to)
-    print("-"*10)
 
     from eot.wowool.tool.entity_graph.cypher import CypherStream
     cs = CypherStream("EOT")

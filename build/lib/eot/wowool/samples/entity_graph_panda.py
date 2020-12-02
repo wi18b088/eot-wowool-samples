@@ -38,32 +38,19 @@ try:
     doc = entities(doc)
     doc = myrule(doc)
     print(doc)
-    print("-"*10)
     graphit = EntityGraph( graph_config )
     # returns a panda dataframe.
-    graphit.slots['Document'] = {"data":"hello"}
+    graphit.slots['Document'] = {"data":"file1.txt"}
     results = graphit(doc)
 
+    print("--- From: results.df_from ------------------------------")
     print( results.df_from)
-    print("-"*10)
+    print("--- Relation: results.df_relation ----------------------")
     print( results.df_relation)
-    print("-"*10)
+    print("--- To: results.df_to ----------------------------------")
     print( results.df_to)
-    print("-"*10)
-
-    from eot.wowool.tool.entity_graph.cypher import CypherStream
-    cs = CypherStream("EOT")
-    for neo4j_query in cs(results):
-        print(neo4j_query)
-
-    from eot.wowool.tool.entity_graph.d3js_graph import D3JSGraphStream
-
-    with open( "index.html", "w" ) as fh:
-        fh.write("<html><body>")
-        fh.write("""<div id="graphid"></div>""")
-        out = D3JSGraphStream(fh, filter = lambda c: c.uri != 'NP' )
-        out( None, results, "graphid")
-        fh.write("</body></html>")
+    print("--- Merged: results ------------------------------------")
+    print( results )
 
 except Error as ex:
    print("Exception:",ex)
