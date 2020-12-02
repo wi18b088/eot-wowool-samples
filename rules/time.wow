@@ -1,4 +1,4 @@
 rule:
 {
     "([:digit:])+" 'hour' "([:digit:])+" 'minute'
-} =time;
+} =Time;

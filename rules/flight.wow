@@ -12,4 +12,4 @@ duck,
 helicopter,
 rocket,
 jet,
-} =flying;
+} =Flying;

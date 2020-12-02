@@ -2,4 +2,4 @@
 rule:
 {
    (Num)? <+currency>
-} =price;
+} =Price;

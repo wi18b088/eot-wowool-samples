@@ -46,6 +46,6 @@ lexicon: (input="normalized_literal")
 	Ampaire,
 	United Technologies( Corporation)?,
 	Raytheon( Technologies)?( Corporation)?
-} =manufacturer;
+} =Manufacturer;
 
 

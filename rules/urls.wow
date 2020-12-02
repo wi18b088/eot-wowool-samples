@@ -1,4 +1,4 @@
 rule:
 {
     <+internet>
-} =websites;
+} =Website;
