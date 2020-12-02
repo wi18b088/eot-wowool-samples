@@ -14,7 +14,7 @@ graph_config = {
           },
           {     "from"      : { "expr" : "EngineType" },
                 "to"        : { "expr" : "Range"},
-                "relation"  : { "label" : "Correlation" }
+                "relation"  : { "label" : "Efficiency" }
           },
           {     "from"      : { "expr" : "BatteryDensity" },
                 "to"        : { "expr" : "Range"},
@@ -27,7 +27,28 @@ graph_config = {
           {     "from"      : { "expr" : "EngineType" },
                 "to"        : { "expr" : "Manufacturer"},
                 "relation"  : { "label" : "Invention" }
-          },            
+          }, 
+          {     "from"      : { "expr" : "Time" },
+                "to"        : { "expr" : "City"},
+                "relation"  : { "label" : "FlightTime" }
+          },
+          {     "from"      : { "expr" : "Price" },
+                "to"        : { "expr" : "EngineType"},
+                "relation"  : { "label" : "Cost" }
+          },
+          {     "from"      : { "expr" : "Price" },
+                "to"        : { "expr" : "EngineType"},
+                "relation"  : { "label" : "Cost" }
+          },
+          {     "from"      : { "expr" : "Year" },
+                "to"        : { "expr" : "Website"},
+                "relation"  : { "label" : "YearPublished" }
+          },
+          #{     "from"      : { "expr" : "Website" },
+          #      "to"        : { "expr" : "Person"}, ### Rules we have to make: Grab person from text
+          #      "relation"  : { "label" : "AffiliatedTo" }
+          #},
+
       ] #Links we can still create: 
 }
 
@@ -40,7 +61,7 @@ try:
     doc = entities(doc)
     doc = myrule(doc)
     # print(doc)
-    requested_concepts = set(['EngineType','Battery', 'flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer'])
+    requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website'])
     concept_filter = lambda concept : concept.uri in requested_concepts
     for concept in Concept.iter(doc)  :
         # print( f"Tagname: {concept.uri}, literal: {concept.literal:<20}, stem={concept.stem}" )
