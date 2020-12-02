@@ -29,8 +29,8 @@ text {
 
 <body>
 <script>
-var nodes = [{"name": "flying", "count": 10.0, "uri": "node"}, {"name": "plane", "count": 10.0, "uri": "flying"}, {"name": "Battery", "count": 10.0, "uri": "node"}, {"name": "lithium - ion", "count": 10.0, "uri": "Battery"}];
-var links = [{"source": 1, "target": 3, "value": 155.2, "type": "relation"}, {"source": 0, "target": 1, "value": 155.2}, {"source": 2, "target": 3, "value": 155.2}];
+var nodes = [{"name": "flying", "count": 10.0, "uri": "node"}, {"name": "plane", "count": 10.0, "uri": "flying"}, {"name": "EngineType", "count": 10.0, "uri": "node"}, {"name": "Hydrogen", "count": 10.0, "uri": "EngineType"}, {"name": "Battery", "count": 10.0, "uri": "node"}, {"name": "lithium - ion", "count": 10.0, "uri": "Battery"}, {"name": "Range", "count": 10.0, "uri": "node"}, {"name": "200 km", "count": 10.0, "uri": "Range"}];
+var links = [{"source": 1, "target": 5, "value": 155.2, "type": "relation"}, {"source": 0, "target": 1, "value": 155.2}, {"source": 4, "target": 5, "value": 155.2}, {"source": 3, "target": 7, "value": 155.2, "type": "relation"}, {"source": 2, "target": 3, "value": 155.2}, {"source": 6, "target": 7, "value": 155.2}];
 
 
 // Compute the distinct nodes from the links.
