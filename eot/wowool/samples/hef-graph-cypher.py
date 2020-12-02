@@ -11,7 +11,11 @@ graph_config = {
           {   "from"      : { "expr" : "flying" },
               "to"        : { "expr" : "Battery"},
               "relation"  : { "label" : "transition" }
-          }
+          },
+        {       "from"      : { "expr" : "EngineType" },
+                "to"        : { "expr" : "Range"},
+                "relation"  : { "label" : "Efficiency" }
+        }         
       ]
 }
 
@@ -21,7 +25,7 @@ try:
     # rule = Domain( source = """ rule:{ 'user' '\:' {(<>)+}=USER }; """)
     myrule = Domain("/share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/flyingrules.dom")
     doc = english("New battery technology has emerged. The new technology is called lithium-ion, the abbreviation is li-ion. Lithium has a battery density of 500 Wh/l. This battery type can be used with electric engines, hybrid engines (a combination of ICE engines and electric engines) or with hydrogen engines. Using a lithium battery aircrafts can reach up to 200 km/h or 130 mp/h and have a range of 160 km or 100 miles")
-    doc = english("A plane has a lithium-ion battery inside.")
+    #doc = english("A plane has a lithium-ion battery inside.")
     doc = entities(doc)
     doc = myrule(doc)
     # print(doc)
