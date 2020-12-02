@@ -16,7 +16,7 @@ graph_config = {
                 "to"        : { "expr" : "Range"},
                 "relation"  : { "label" : "Efficiency" }
           },         
-      ]
+      ] #Links we can still create: battery density -> Range, EngineType -> Manufacturer, EnginePower -> Range,
 }
 
 try:
