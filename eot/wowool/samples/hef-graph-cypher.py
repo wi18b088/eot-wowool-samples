@@ -8,7 +8,7 @@ from eot.wowool.tool import EntityGraph
 
 graph_config = {
   "links" : [
-          {   "from"      : { "expr" : "flying" },
+          {   "from"      : { "expr" : "Flying" },
               "to"        : { "expr" : "Battery"},
               "relation"  : { "label" : "transition" }
           },
@@ -25,7 +25,7 @@ graph_config = {
                 "relation"  : { "label" : "Efficiency" }
           },
           {     "from"      : { "expr" : "EngineType" },
-                "to"        : { "expr" : "Manufacturer"},
+                "to"        : { "expr" : "Manufacturer", "attributes" : ["country"]},
                 "relation"  : { "label" : "Invention" }
           }, 
           {     "from"      : { "expr" : "Time" },
@@ -44,8 +44,12 @@ graph_config = {
                 "to"        : { "expr" : "Website"},
                 "relation"  : { "label" : "YearPublished" }
           },
+          {     "from"      : { "expr" : "BatteryDens" },
+                "to"        : { "expr" : "BatteryDict"},
+                "relation"  : { "label" : "Density" }
+          },
           #{     "from"      : { "expr" : "Website" },
-          #      "to"        : { "expr" : "Person"}, ### Rules we have to make: Grab person from text
+          #      "to"        : { "expr" : "Person", "attributes" : ["gender"] }, ### Rules we have to make: Grab person from text
           #      "relation"  : { "label" : "AffiliatedTo" }
           #},
 
@@ -57,7 +61,7 @@ try:
     entities = Domain( "english-entity" )
     # rule = Domain( source = """ rule:{ 'user' '\:' {(<>)+}=USER }; """)
     myrule = Domain("/share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/flyingrules.dom")
-    doc = english("A plane has a lithium-ion battery inside. Hydrogen engine with a range of 200 km.")
+    doc = english("A plane has a lithium-ion battery inside. Hydrogen engine with a range of 200 km. In 1990 www.google.com was created. The price of the new hydrogen engine is €2000000")
     doc = entities(doc)
     doc = myrule(doc)
     # print(doc)
