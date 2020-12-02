@@ -1,0 +1,30 @@
+AbstractA powerful pulsed dc converter has been developed for charging battery assemblies on board of hybrid and electric aircraft, which enables full battery capacity charging in cruise mode of the aircraft. This 10-kW modular design converter can operate in a buck–boost mode in a voltage range of 130–300 V with a current limit of 70 A at an output voltage of 150 V. The efficiency of the created converter is ~96–99%, depending on the power consumed in the load. The proposed modular design and multiphase control circuit can be used to create converters with different capacities and high efficiency.
+REFERENCES1A. S. Gohardani, R. Dunn, and N. Millecam, in Proceedings of the 54th AIAA Aerospace Sciences Meeting, San Diego, CA,2016, AIAA Paper 2016-0865. https://doi.org/10.2514/6.2016-08652N. Morioka, M. Takeuchi, and H. Oyori, IHI Eng. Rev. 47, 33 (2014).
+                    Google Scholar 
+                3A. Khaligh and Z. Li, IEEE Trans. Veh. Technol. 59, 2806 (2010).Article 
+    
+                    Google Scholar 
+                4G. Romeo, F. Borello, G. Correa, and E. Cestino, Int. J. Hydrogen Energy 38, 469 (2013).Article 
+    
+                    Google Scholar 
+                5A. N. Varyukhin, M. V. Malashin, S. I. Moshkunov, V. Yu. Khomich, and E. A. Shershunova, in Proceedings of the Conference of Russia and Croatia Scientists (MISiS, Moscow, 2019), p. 192.6O. Kreutzer, B. Eckardt, and M. März, in Proceedings of the 16th  IEEE European Conference on Power Electronics and Applications (IEEE, 2014), p. 1. https://doi.org/10.1109/EPE.2014.69107977M. Gaboriault and A. Notman, in Proceedings of the 19th Annual IEEE Applied Power Electronics Conference and Exposition APEC’04 (IEEE, 2004), Vol. 3, p. 1411.8S. I. Moshkunov, V. Yu. Khomich, and E. A. Shershunova, Tech. Phys. Lett. 44, 84 (2018).ADS 
+    Article 
+    
+                    Google Scholar 
+                9L. Dixon, in Unitrode Power Supply Design Seminar Handbook (Unitrode Corp., 1990), p. 5.1.
+                    Google Scholar 
+                Download references
+
+FundingThis work was supported by program of the Presidium of the Russian Academy of Sciences no. 7 “New Developments in Promising Areas of Energy, Mechanics, and Robotics.”
+Author informationAffiliationsInstitute of Electrophysics and Electric Power, Russian Academy of Sciences, 191186, St. Petersburg, RussiaS. I. Moshkunov, V. Yu. Khomich & E. A. ShershunovaAuthorsS. I. MoshkunovView author publicationsYou can also search for this author in
+                        PubMed Google ScholarV. Yu. KhomichView author publicationsYou can also search for this author in
+                        PubMed Google ScholarE. A. ShershunovaView author publicationsYou can also search for this author in
+                        PubMed Google ScholarCorresponding authorCorrespondence to
+                E. A. Shershunova.
+Ethics declarations
+The authors declare that they have no conflict of interest.
+
+Additional informationTranslated by G. Dedkov
+Rights and permissionsReprints and Permissions
+About this articleCite this articleMoshkunov, S.I., Khomich, V.Y. & Shershunova, E.A. A Buck–Boost Voltage Converter for Charging a Battery on Board Electric Aircraft.
+                    Tech. Phys. Lett.  46, 749–751 (2020). https://doi.org/10.1134/S1063785020080106Download citationReceived: 02 December 2019Revised: 02 December 2019Accepted: 27 April 2020Published: 15 September 2020Issue Date: August 2020DOI: https://doi.org/10.1134/S1063785020080106Keywords: voltage converterbuck/boostelectric aircraftstorage battery.

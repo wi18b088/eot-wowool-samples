@@ -1,0 +1,141 @@
+AbstractThe importance of small passenger aircraft design fitting up to nine passengers and the evaluation of associated technologies have been recently increasing. This is related to the upcoming interest in on demand air mobility concepts not only for intra- or inter-urban transport but also for thin-haul routes ranging from 150 km to approximately 500–800 km. Such concepts seem feasible as key enabling technologies (e.g., flight automation and battery technology) are likely to be mature enough to enable these concepts in the foreseeable future. However, until battery specific energy in particular surpasses the threshold of approximately 400 Wh/kg, hybrid electric propulsion concepts could serve as an interim solution. Therefore, this paper deals with the question of how hybrid electric concepts score compared to conventional piston engine aircraft and which concept promises the most benefits. This includes consideration of propulsion-airframe integration benefits of electric engines through distributed electric propulsion (DEP). Results show that the series hybrid electric concept is superior to a parallel setup if at least a 15% higher cruise lift-to-drag ratio can be achieved due to DEP (30–50% increase likely). Despite higher weight, variable operating costs can be reduced by 15–35% with application of series hybrid electric propulsion concepts.
+Notes1.With the current CS-23 amendment 4 no electric powered aircraft can be certified. However, a revision to support electric powered aircraft with multiple engines is currently in progress.2.Borer states an efficiency multiplier of 4.0–4.5 in relevant cruise conditions. An efficiency multiplier of 2.9–3.3 can be attributed to a higher electric powertrain efficiency.
+AbbreviationsCS:
+Certification specifications
+DEP:
+Distributed electric propulsion
+MTOW:
+Maximum take-off weight
+ODAM:
+On demand air mobility
+OWELWE:
+Operating weight empty less well and engine
+
+δ
+                  :
+Battery degradation
+
+C
+                  :
+Cost
+
+d
+                  :
+Distance
+
+D
+                  :
+Drag
+
+η
+                  :
+Efficiency
+
+E
+                  :
+Energy
+
+φ
+                  :
+Share
+
+f
+                  :
+Fraction
+
+g
+                  :
+Gravity acceleration
+
+L/D
+                  :
+Lift-to-drag ratio
+
+h
+                  :
+Height
+
+m
+                  :
+Mass
+
+P
+                  :
+Power
+
+c
+                  :
+Unit specific cost
+Acft:
+Aircraft
+AE:
+All-electric
+AP:
+Airframe and powerplant
+Bat:
+Battery
+BtT:
+Battery-to-thrust
+CE:
+Combustion engine
+CV:
+Conventional
+El:
+Electric
+Eng:
+Engine
+FtT:
+Fuel-to-thrust
+Main:
+Maintenance
+
+i
+                  :
+Mission segment
+PH:
+Parallel hybrid
+Pl:
+Payload
+
+P/W
+                           :
+Power-to-weight
+SH:
+Series hybrid
+StT:
+Shaft-to-thrust
+T:
+Transport
+
+M
+                  :
+Quantity of relevant mission segments
+h/a:
+Hours per year
+
+References1.Moore, M.D.: Concept of operations for highly autonomous electric zip aviation. In: 12th AIAA Aviation Technology, Integration, and Operations (ATIO) Conference and 14th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference (2012)2.Moore, M.D., Goodrich, K.H.: High speed mobility through on-demand aviation. In: American Institute of Aeronautics and Astronautics (ed.) 2013 Aviation Technology, Integration, and Operations Conference (2013)3.Kreimeier, M., Stumpf, E., Gottschalk, D.: Economical assessment of air mobility on demand concepts with focus on Germany. In: 16th AIAA Aviation Technology, Integration, and Operations Conference (2016)4.Hiserote, R., Harmon, F.: Analysis of hybrid-electric propulsion system designs for small unmanned aircraft systems. In: 8th Annual International Energy Conversion Engineering Conference (2010)5.Koster, J., Humbargar, C., Serani, E., Velazco, A., Hillery, D., Makepeace, L.: Hybrid electric integrated optimized system (HELIOS)—design of a hybrid propulsion system for aircraft. In: 49th AIAA Aerospace Sciences Meeting including the New Horizons Forum and Aerospace Exposition (2011)6.Schömann, J.: Hybrid-electric propulsion systems for small unmanned aircraft. Techn. Univ., Diss.–München, 2014, 1st edn. Luftfahrt. Dr. Hut, München (eng) (2014)7.Friedrich, C., Robertson, P.A.: Hybrid-electric propulsion for aircraft. J. Aircr. 52(1), 176–189 (2015)Article 
+    
+                    Google Scholar 
+                8.Friedrich, C., Robertson, P.A.: Design of hybrid-electric propulsion systems for light aircraft. In: 14th AIAA Aviation Technology, Integration, and Operations Conference (2014)9.Nam, T., Soban, D., Mavris, D.: A generalized aircraft sizing method and application to electric aircraft. In: 3rd International Energy Conversion Engineering Conference (2005)10.Nam, T., Soban, D., Mavris, D.: Power based sizing method for aircraft consuming unconventional energy. In: 43rd AIAA Aerospace Sciences Meeting and Exhibit (2005)11.Isikveren, A.T., Seitz, A., Vratny, P.C., Pornet, C., Plötner, K.O., Hornung, M.: Conceptual studies of universally-electric systems architectures suitable for transport aircraft. 281368. In: 61. Deutscher Luft- und Raumfahrtkongress (2012)12.Lorenz, L., Seitz, A., Kuhn, H., Sizmann, A.: Hybrid power trains for future mobility. In: Deutsche Gesellschaft für Luft- u. Raumfahrt (ed.) 62. Deutscher Luft- und Raumfahrtkongress (2013)13.Singh, R., Isikveren, A.T., Kaiser, S., Pornet, C., Vratny, P.C.: Pre-design strategies and sizing techniques for dual-energy aircraft. Aircr. Eng. Aerosp. Technol. 86(6), 525–542 (2014)Article 
+    
+                    Google Scholar 
+                14.Pornet, C.: Electric drives for propulsion system of transport aircraft. In: Chomat, M. (ed.) New Applications of Electric Drives. InTech (2015)15.Pornet, C., Gologan, C., Vratny, P.C., Seitz, A., Schmitz, O., Isikveren, A.T., Hornung, M.: Methodology for sizing and performance assessment of hybrid energy aircraft. J. Aircr. 52(1), 341–352 (2015)Article 
+    
+                    Google Scholar 
+                16.Singh, R., Pornet, C., Kaiser, S., Isikveren, A.T., Hornung, M.: Integrated fuel-battery hybrid for a narrow-body sized transport aircraft. Aircr. Eng. Aerosp. Technol. 86(6), 568–574 (2014)Article 
+    
+                    Google Scholar 
+                17.Singh, R., Pornet, C., Kaiser, S., Gologan, C.: Cost-based flight technique optimization for hybrid energy aircraft. Aircr. Eng. Aerosp. Technol. 86(6), 591–598 (2014)Article 
+    
+                    Google Scholar 
+                18.Patterson, M.D., German, B.J., Moore, M.D.: Performance analysis and design of on-demand electric aircraft concepts. In: 12th AIAA Aviation Technology, Integration, and Operations (ATIO) Conference and 14th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference (2012)19.Estrada Rodas, E.A., Lewe, J.-H., Mavris, D.N.: Feasibility focused design of electric on-demand aircraft concepts. In: 14th AIAA Aviation Technology, Integration, and Operations Conference (2014)20.Cirrus Aircraft: Airplane information manual for the Cirrus design SR22 (2011)21.Cirrus Aircraft: Pilot’s operating handbook and FAA approved airplane flight manual for the Cirrus SR22T (2013)22.Stoll, A.M., Bevirt, J., Moore, M.D., Fredericks, W.J., Borer, N.K.: Drag reduction through distributed electric propulsion. In: 14th AIAA Aviation Technology, Integration, and Operations Conference (2014)23.Borer, N.K., Patterson, M.D., Viken, J.K., Moore, M.D., Bevirt, J., Stoll, A.M., Gibson, A.R.: Design and performance of the NASA SCEPTOR distributed electric propulsion flight demonstrator. In: 16th AIAA Aviation Technology, Integration, and Operations Conference (2016)24.National Aeronautics and Space Administration (NASA): NASA’s X-57 electric research plane (2016)25.European Aviation Safety Agency: Certification specification 23—normal, utility, aerobatic and commuter aeroplanes (2015)26.Patterson, M.D., Derlaga, J.M., Borer, N.K.: High-lift propeller system configuration selection for NASA’s SCEPTOR distributed electric propulsion flight demonstrator. In: 16th AIAA Aviation Technology, Integration, and Operations Conference27.Moore, M.D.: NASA distributed electric propulsion. In: Symposium E2-Fliegen, Stuttgart (2015)28.Gudmundsson, S.: General aviation aircraft design. Applied methods and procedures, 1st edn. Butterworth-Heinemann, Oxford, (2014)29.Hepperle, M.: Electric flight—potential and limitations. In: Energy Efficient Technologies and Concepts of Operation. NATO Science and Technology Organization (2012)30.Fraunhofer-Institut für System- und Innovationsforschung ISI: Produkt-Roadmap Lithium-Ionen Batterien 2030, Karlsruhe (2012)31.Exxon Mobile Aviation: World jet fuel specifications. With Avgas Supplement (2008)32.Sadraey, M.H.: Aircraft design. A systems engineering approach. Aerospace series. Wiley, Chichester (2012)
+                    Google Scholar 
+                33.Siemens: Siemens develops world-record electric motor for aircraft, Munich (2015)34.Raymer, D.P.: Aircraft design. A conceptual approach, 5th edn. AIAA education series. AIAA American Inst. of Aeronautics and Astronautics, Reston (2012)35.Fefermann, Y., Maury, C., Level, C., Zarati, K., Salanne, J.P., Pornet, C., Thoraval, B., Isikveren, A.T.: Hybrid-electric motive power systems for commuter transport application. In: 30th congress of the International Council of the Aeronautical Sciences (ICAS) (2016)36.Panteia: Survey on standard weights of passengers and baggage. Final report, EASA 2008.C.06/30800/R20090095/30800000/FBR/RLO (2009)37.Seemann, R., Langhans, S., Schilling, T., Gollnick, V.: Modeling the life cycle cost of jet engine maintenance. In: 60. Deutscher Luft- und Raumfahrtkongress (2011)38.Markou, C., Cros, G., Sng, A.: Airline maintenance cost executive commentary. An exclusive benchmark analysis (FY2014 data) by IATA’s maintenance cost task force. IATA (2015)39.Steiler, G.: Elektroautos sind relativ günstig im Unterhalt. Institut für Automobilwirtschaft (IFA) (2012)40.Blesl, M., Bruchof, D., Hartmann. N., Ösdemir, D., Fahl, U., Eltrop, L., Voß, A.: Entwicklungsstand und Perspektiven der Elektromobilität (2009)41.Fraunhofer-Institut für System- und Innovationsforschung ISI: Technologie-Roadmap Energiespeicher für die Elektromobilität 2030, Karlsruhe (2012)42.European Union: Commission implementing regulation (EU) No 391/2013 (2013)43.Pipistrel: Panthera. Technical data. http://www.panthera-aircraft.com/technical-data (2016). Accessed 20 July 201644.Lancair: Evolution Piston. Specifications. http://www.evolutionaircraft.com/aircraft/evolution-piston/ (2016). Accessed 20 July 201645.The Boston Consulting Group: Batteries for electric cars. Challenges, opportunities, and the outlook to 2020 (2010)46.Hensley, R., Newman, J., Rogers, M.: Battery technology charges ahead. McKinsey (2012)47.IRENA: Battery storage for renewables. Market status and technology outlook (2015)48.Cobb, J.: Tesla projects battery costs could drop to $100/kWh by 2020. http://www.hybridcars.com/tesla-projects-battery-costs-could-drop-to-100kwh-by-2020/ (2015). Accessed 12 Aug 201649.Fraunhofer Institute for Solar Energy Systems (ISE): Levelized cost of electricity renewable energy technologies. Study (2013)Download references
+
+Author informationAffiliationsInstitute of Aerospace Systems, RWTH Aachen University, Wüllnerstr. 7, 52062, Aachen, GermanyM. Kreimeier & E. StumpfAuthorsM. KreimeierView author publicationsYou can also search for this author in
+                        PubMed Google ScholarE. StumpfView author publicationsYou can also search for this author in
+                        PubMed Google ScholarCorresponding authorCorrespondence to
+                M. Kreimeier.
+Rights and permissionsReprints and Permissions
+About this articleCite this articleKreimeier, M., Stumpf, E. Benefit evaluation of hybrid electric propulsion concepts for CS-23 aircraft.
+                    CEAS Aeronaut J 8, 691–704 (2017). https://doi.org/10.1007/s13272-017-0269-9Download citationReceived: 08 November 2016Revised: 14 August 2017Accepted: 26 September 2017Published: 14 October 2017Issue Date: December 2017DOI: https://doi.org/10.1007/s13272-017-0269-9KeywordsHybrid electric propulsion conceptsOn demand air mobilityCS-23 aircraftBenefit evaluation

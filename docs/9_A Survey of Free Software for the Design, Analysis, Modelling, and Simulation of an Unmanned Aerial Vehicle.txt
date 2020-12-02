@@ -1,0 +1,231 @@
+AbstractThe objective of this paper is to analyze free software for the design, analysis, modelling, and simulation of an unmanned aerial vehicle (UAV). Free software is the best choice when the reduction of production costs is necessary; nevertheless, the quality of free software may vary. This paper probably does not include all of the free software, but tries to describe or mention at least the most interesting programs. The first part of this paper summarizes the essential knowledge about UAVs, including the fundamentals of flight mechanics and aerodynamics, and the structure of a UAV system. The second section generally explains the modelling and simulation of a UAV. In the main section, more than 50 free programs for the design, analysis, modelling, and simulation of a UAV are described. Although the selection of the free software has been focused on small subsonic UAVs, the software can also be used for other categories of aircraft in some cases; e.g. for MAVs and large gliders. The applications with an historical importance are also included. Finally, the results of the analysis are evaluated and discussed—a block diagram of the free software is presented, possible connections between the programs are outlined, and future improvements of the free software are suggested.
+References1.Vogeltanz T, Jašek R (2014) Free software for the modelling and simulation of a mini-UAV. In: Mathematics and computers in science and industry, Varna, Bulgaria, 13–15 September 2014, pp 210–2152.Chen XQ, Chen YQ, Chase JG (2009) Mobile robots—state of the art in land, sea, air, and collaborative missions. In-Tech, Croatia, pp 177–201
+                    Google Scholar 
+                3.Jodeh NM (2006) Development of autonomous unmanned aerial vehicle research platform: modeling, simulating, and flight testing. Wright-Patterson Air Force Base, Dayton4.Abdunabi T (2006) Modelling and autonomous flight simulation of a small unmanned aerial vehicle. The University of Sheffield, Sheffield
+                    Google Scholar 
+                5.Petricca L, Ohlckers P, Grinde C (2011) Micro- and nano-air vehicles: state of the art. Int J Aerosp Eng. doi:10.1155/2011/214549
+6.Mueller TJ, DeLaurier JD (2003) Aerodynamics of small vehicles. Annu Rev Fluid Mech 35(1):89–111. doi:10.1146/annurev.fluid.35.101101.161102
+Article 
+    MATH 
+    
+                    Google Scholar 
+                7.Swarup A, Sudhir (2014) Comparison of quadrotor performance using backstepping and sliding mode control. In: Proceedings of the 2014 international conference on circuits, systems and control, Interlaken, Switzerland, 22–24 February 2014, pp 79–828.Yun C, Li X (2013) Design of UAV flight simulation software based on simulation training method. WSEAS Trans Inf Sci Appl 10(2):37–46
+                    Google Scholar 
+                9.Naidoo Y, Stopforth R, Bright G (2011) Development of an UAV for search and rescue applications: mechatronic integration for a quadrotor helicopter. In: IEEE Africon 2011, Livingstone, Zambia, 13–15 September 201110.Kurnaz S, Cetin O, Kaynak O (2010) Adaptive neuro-fuzzy inference system based autonomous flight control of unmanned air vehicles. Expert Syst Appl 37(2):1229–1234Article 
+    
+                    Google Scholar 
+                11.Fabiani P, Fuertes V, Piquereau A, Mampey R, Teichteil-Königsbuch F (2007) Autonomous flight and navigation of VTOL UAVs: from autonomy demonstrations to out-of-sight flights. Aerosp Sci Technol 11(2–3):183–193Article 
+    
+                    Google Scholar 
+                12.Kumar V, Yong H, Min D, Choi E (2010) Auto landing control for small scale unmanned helicopter with flight gear and HILS. In: Proceeding of the 5th international conference on computer sciences and convergence information technology, ICCIT 2010, Seoul, Korea, November 30–December 2, 2010, pp 676–68113.Gol G, Bayraktar NF, Kiyak E (2014) PID controlling of the quadrotor and sensor performance tests. Int J Circuits Syst Signal Proces 8:266–275
+                    Google Scholar 
+                14.Ye J, Guo H, Tang S, Wang Q (2012) The research on visual flight simulation for unmanned helicopter. In: Communications in computer and information science, vol 325, CCIS, pp 332–34115.Babka DW (2011) Flight testing in a simulation based environment. California Polytechnic University, San Luis Obispo, California, USA [Online]. http://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?article=1045&context=aerosp
+16.Foster TM (2005) Dynamic stability and handling qualities of small unmanned-aerial-vehicles. Brigham Young University, Brigham, p 125
+                    Google Scholar 
+                17.Austin R (2010) Unmanned aircraft systems: UAVs design, development and deployment. Wiley, Wiltshire, p 332
+                    Google Scholar 
+                18.Shankar P, Chung W, Husman J, Wells V (2013) A novel software framework for teaching aircraft dynamics and control. Comput Appl Eng Educ. doi:10.1002/cae.21579
+19.Uragun B (2011) Energy efficiency for unmanned aerial vehicles. In: 2011 10th international conference on machine learning and applications, Honolulu, Hawaii, USA, 18–21 December 2011. doi:10.1109/ICMLA.2011.159
+20.Hahn AS (2010) Vehicle sketch pad: a parametric geometry modeler for conceptual aircraft design. In: 48th AIAA aerospace sciences meeting including the new horizons forum and aerospace exposition, Orlando, Florida, USA, 4–7 January 201021.Belben JB, McDonaldy RA (2013) Enabling rapid conceptual design using geometry-based multi-fidelity models in VSP. In: 51st AIAA aerospace sciences meeting including the new horizons forum and aerospace exposition, grapevine (Dallas/Ft. Worth Region), Texas, USA, 7–10 January 201322.DG Hull (2007) Fundamentals of airplane flight mechanics. Springer, Berlin23.Chelaru TV, Pana V, Chelaru A (2009) Dynamics and flight control of the UAV formations. WSEAS Trans Syst Control 4(4):198–210
+                    Google Scholar 
+                24.Mazhar F, Khan AM, Chaudhry IA, Ahsan M (2013) On using neural networks in UAV structural design for CFD data fitting and classification. Aerosp Sci Technol 30(1):210–225Article 
+    
+                    Google Scholar 
+                25.Lissaman PBS (1983) Low-reynolds-number airfoils. Annu Rev Fluid Mech 15(1):223–239. doi:10.1146/annurev.fl.15.010183.001255
+Article 
+    MATH 
+    
+                    Google Scholar 
+                26.Boussalis H, Valavanis K, Guillaume D, Pena F, Diaz EU, Alvarenga J (2013) Control of a simulated wing structure with multiple segmented control surfaces. In: 21st Mediterranean conference on control and automation (Med), pp 501–50627.Reynolds number calculator [Online]. http://airfoiltools.com/calculator/reynoldsnumber. Accessed 12 Dec 201428.Pederson DJ (2011) Conceptual design tool to analyze electrochemically-powered micro air vehicles. Wright-Patterson Air Force Base, Dayton, p 193
+                    Google Scholar 
+                29.U.S. Department of Transportation (2000) Rotorcraft flying handbook [Online]. U.S. Department of Transportation, Federal Aviation Administration, Flight Standards Service, FAA-H-8083-21, Washington, D.C., USA. http://www.faa.gov/regulations_policies/handbooks_manuals/aircraft/media/faa-h-8083-21.pdf
+30.U.S. Department of Transportation (2012) Helicopter flying handbook [Online]. U.S. Department of Transportation, Federal Aviation Administration, Flight Standards Service, FAA-H-8083-21A, USA. http://www.faa.gov/regulations_policies/handbooks_manuals/aviation/helicopter_flying_handbook/media/helicopter_flying_handbook.pdf
+31.Jing D, Haifeng W (2013) System health management for unmanned aerial vehicle: conception, state-of-art, framework and challenge. In: The 11th IEEE international conference on electronic measurement and instruments, Harbin, China, 16–18 August 201332.Cetin O, Kurnaz S, Kaynak O (2011) Fuzzy logic based approach to design of autonomous landing system for unmanned aerial vehicles. J Intell Robot Syst Theory Appl 61(1–4):239–250Article 
+    
+                    Google Scholar 
+                33.Perhinschi MG, Napolitano MR, Tamayo S (2010) Integrated simulation environment for unmanned autonomous systems—towards a conceptual framework. Model Simul Eng. doi:10.1155/2010/736201
+34.Gonzalez-Espasandin O, Leo TJ, Navarro-Arevalo E (2014) Fuel cells: a real option for unmanned aerial vehicles propulsion. Sci World J. doi:10.1155/2014/497642
+35.Kahale E, Garcia PC, Bestaoui Y (2013) Autonomous path tracking of a kinematic airship in presence of unknown gust. J Intell Robot Syst 69(1–4):431–446. doi:10.1007/s10846-012-9709-2
+Article 
+    
+                    Google Scholar 
+                36.Syamlal M, O’Brien TJ, Benyahia S, Gel A, Pannala S (2008) Open-source software in computational research: a case study. Model Simul Eng. doi:10.1155/2008/937542
+37.Oberkampf WL, Trucano TG (2002) Verification and validation in computational fluid dynamics. Sandia Report SAND2002-0529, Sandia National Laboratories, Albuquerque, NM, USA38.Srikanth MB, Dydek ZT, Annaswamy AM, Lavretsky E (2009) A robust environment for simulation and testing of adaptive control for mini-UAVs. In: 2009 American control conference, St. Louis, MO, USA, 10–12 June 200939.JSBSim Contributors. JSBSim open source flight dynamics model [Online]. http://jsbsim.sourceforge.net/
+40.JSBSim Contributors (2005) Aeromatic: version 0.9 [Online]. http://jsbsim.sourceforge.net/aeromatic2.html
+41.FlightGear Contributors. FlightGear flight simulator: introduction [Online]. http://www.flightgear.org/about/
+42.Berndt JS (2004) JSBSim: An open source flight dynamics model in C ++. In: Collection of technical papers—AIAA modeling and simulation technologies conference, vol 1, pp 261–28743.Berndt JS, De Marco A (2009) Progress on and usage of the open source flight dynamics model software library, JSBSim. In: AIAA modeling and simulation technologies conference, Chicago, Illinois, USA, 10–12 August 200944.Lim SK, Hao CC (2012) Modeling unmanned vehicle system [Online]. https://engineering.purdue.edu/HSL/uploads/papers/UVG_S10.pdf
+45.Berndt JS, the JSBSim Development Team. (2011) JSBSim: an open source, platform-independent, flight dynamics model in C++ [Online]. http://jsbsim.sourceforge.net/JSBSimReferenceManual.pdf
+46.Gidenstam A (2013) Lighter-than-air support for airship and balloon simulation in JSBSim and FlightGear [Online]. http://www.gidenstam.org/FlightGear/Airships/
+47.FlightGear Contributors. FlightGear flight simulator: features [Online]. http://www.flightgear.org/about/features/
+48.Qi J, Liu J, Zhao B, Mei S, Han J, Shang H (2014) Visual simulation system design of soft-wing UAV based on FlightGear. In: IEEE international conference on mechatronics and automation, IEEE ICMA 2014, Tianjin, China, 2–5 August 2014, pp 1188–119249.Basler M, Spott M, Buchanan S, Berndt J et al (2014) The FlightGear manual [Online]. http://mapserver.flightgear.org/getstart.pdf
+50.Zhang J, Geng Q, Fei Q (2012) UAV flight control system modeling and simulation based on flightgear. In: IET conference publications, Xiamen, China, 3–5 March 201251.FlightGear Contributors (2014) FlightGear Wiki—UIUC [Online]. http://wiki.flightgear.org/UIUC
+52.Selig MS, Deters R, Dimock G (2002) Aircraft dynamics models for use with FlightGear: modeling and simulation [Online]. http://m-selig.ae.illinois.edu/apasim/Aircraft-uiuc.html
+53.3DRobotics (2014) HIL quad simulator [Online]. http://copter.ardupilot.com/wiki/hil-quad/
+54.Hodson D (2014) OpenEaagles simulation framework [Online]. http://www.openeaagles.org
+55.Hodson D (2012) OpenEaagles simulation framework: overview [Online]. http://www.openeaagles.org/wiki/doku.php?id=overview:overview
+56.Hodson D, Gehl D, Baldwin R (2006) Building distributed simulations utilizing the EAAGLES framework. In: Interservice/industry training, simulation, and education conference (I/ITSEC), vol 5, no. 257.Hodson D (2008) OPENEAAGLES, an open source simulation framework. In: A publication of the AIAA Modeling and Simulation Technical Committee, vol 1, no 158.Carter P (2014) SOFTWARE [Online]. http://www.esotec.org/sw/swhome.html
+59.Drela M (2014) Index of/drela/Public/web [Online]. http://web.mit.edu/drela/Public/web/
+60.Drela M (2010) TASOPT 2.00: transport aircraft system optimization—technical description [Online]. http://web.mit.edu/drela/Public/web/tasopt/TASOPT_doc.pdf
+61.Turan M (2009) Tools for the conceptual design and engineering analysis of micro air vehicles. Wright-Patterson Air Force Base, Dayton, p 156
+                    Google Scholar 
+                62.Drela M, Youngren H (2014) AVL overview [Online]. http://web.mit.edu/drela/Public/web/avl/
+63.Drela M, Youngren H (2010) AVL 3.30 user primer [Online]. http://web.mit.edu/drela/Public/web/avl/avl_doc.txt
+64.Drela M (2013) XFOIL: subsonic airfoil development system [Online]. http://web.mit.edu/drela/Public/web/xfoil/
+65.Lafountain C, Cohen K, Abdallah S (2012) Use of XFOIL in design of camber-controlled morphing UAVs. Comput Appl Eng Educ 20(4):673–680. doi:10.1002/cae.20437
+Article 
+    
+                    Google Scholar 
+                66.Drela M (2001) XFOIL 6.9 user primer [Online]. http://web.mit.edu/drela/Public/web/xfoil/xfoil_doc.txt
+67.Silva NA (2014) Parametric design, aerodynamic analysis and parametric optimization of a solar UAV. Instituto Superior Técnico, Lisboa, p 10
+                    Google Scholar 
+                68.Wald QR (2006) The aerodynamics of propellers. Prog Aerosp Sci 42(2):85–128MathSciNet 
+    Article 
+    
+                    Google Scholar 
+                69.Drela M (2007) QPROP: propeller/windmill analysis and design [Online]. http://web.mit.edu/drela/Public/web/qprop/
+70.Drela M (2006) QPROP formulation [Online]. http://web.mit.edu/drela/Public/web/qprop/qprop_theory.pdf
+71.Betz A (1919) Airscrews with minimum energy loss. Report, Kaiser Wilhelm Institute for Flow Research72.Goldstein S (1929) On the vortex theory of screw propellers. In: Proceedings of the royal society, vol 123, 192973.Theodorsen T (1948) Theory of propellers. McGraw-Hill, New York
+                    Google Scholar 
+                74.Larrabee EE, French SE (1983) Minimum induced loss windmills and propellers. J Wind Eng Ind Aerodyn 15(1–3):317–327. doi:10.1016/0167-6105(83)90201-5
+Article 
+    
+                    Google Scholar 
+                75.Drela M (2007) QPROP user guide [Online]. http://web.mit.edu/drela/Public/web/qprop/qprop_doc.txt
+76.Drela M (2005) QMIL user guide [Online]. http://web.mit.edu/drela/Public/web/qprop/qmil_doc.txt
+77.Drela M, Youngren H (2011) XROTOR download page [Online]. http://web.mit.edu/drela/Public/web/xrotor/
+78.Drela M, Youngren H (2003) XROTOR user guide [Online]. http://web.mit.edu/drela/Public/web/xrotor/xrotor_doc.txt
+79.Thipyopas C, Kaewsutthi S, Tohwae-A-Yee A (2013) High performance propeller system for a multi-mission micro aerial vehicle. Int J Micro Air Veh 5(3):179–191Article 
+    
+                    Google Scholar 
+                80.Carter P (2014) CROTOR: XROTOR on steroids [Online]. http://www.esotec.org/sw/crotor.html
+81.Carter P (2011) SUBROUTINE CROTOR user guide [Online]. http://www.esotec.org/sw/dl/CRotor_doc.txt
+82.Carter P (2014) ESPROP [Online]. http://www.esotec.org/sw/esprop.html
+83.Carter P (2014) SUBROUTINE ESLOFTX user guide [Online]. http://www.esotec.org/sw/dl/Esloftx_doc.txt
+84.Youngren H, Drela M (2005) DFDC 0.70 user primer [Online]. http://web.mit.edu/drela/Public/web/dfdc/DFDC_v0.70.zip
+85.Youngren H, Drela M, Sanders S (2005) DFDC summary [Online]. http://web.mit.edu/drela/Public/web/dfdc/
+86.Carter P (2014) DFDC: Ducted Fan Design Code—a diamond in the rough [Online]. http://www.esotec.org/sw/DFDC.html
+87.Gao X-Z, Hou Z-X, Guo Z, Fan R-F, Chen X-Q (2014) Analysis and design of guidance-strategy for dynamic soaring with UAVs. Control Eng Pract 32:218–226Article 
+    
+                    Google Scholar 
+                88.Drela M (2008) DSOPT: dynamic soaring simulation and optimization program [Online]. http://web.mit.edu/drela/Public/web/dsopt/summary.txt
+89.Carmichael R (2013) Public Domain Aeronautical Software [Online]. http://www.pdas.com
+90.Carmichael R (2013) Public Domain Aeronautical Software: contents [Online]. http://www.pdas.com/contents15.html
+91.Carmichael R (2014) Properties of The U.S. standard atmosphere 1976 [Online]. http://www.pdas.com/atmos.html
+92.Carmichael R (2013) Real gas properties [Online]. http://www.pdas.com/gasp.html
+93.Carmichael R (2013) Thermodynamic and transport properties of fluids [Online]. http://www.pdas.com/fluid.html
+94.Carmichael R (2013) vuCalc—a compressible flow calculator [Online]. http://www.pdas.com/vucalc.html
+95.Carmichael R (2013) Turbulent skin friction by the reference temperature method of Sommer and Short [Online]. http://www.pdas.com/turbsf.html
+96.Kroo I, Alonso J (2014) Skin friction and roughness drag [Online]. http://adg.stanford.edu/aa241/drag/skinfriction.html. Accessed 16 Dec 201497.Carmichael R (2013) A segmented mission analysis program for low and high speed aircraft (NSEG) [Online]. http://www.pdas.com/nseg.html
+98.Carmichael R (2013) Conical relaxation program for supersonic wing design and analysis (COREL) [Online]. http://www.pdas.com/corel.html
+99.Carmichael R (2013) W12SC3: supersonic wing design and analysis [Online]. http://www.pdas.com/w12sc3.html
+100.Carmichael R (2013) Two-dimensional grids about airfoils and other shapes by the use of Poisson’s equation (GRAPE) [Online]. http://www.pdas.com/grape.html
+101.Carmichael R (2013) NASA-AMES WingBody panel code [Online]. http://www.pdas.com/wingbody.html
+102.Carmichael R (2013) V/STOL aircraft sizing and performance (VASCOMP II) [Online]. http://www.pdas.com/vascomp.html
+103.Carmichael R (2013) PROFILE—the Eppler airfoil code [Online]. http://www.pdas.com/eppler.html
+104.Eppler R, Somers DM (1980) A computer program for the design and analysis of low-speed airfoils. NASA technical memorandum 80210105.Carmichael R (2013) Minimum drag camber surface by vortex lattice [Online]. http://www.pdas.com/vlmd.html
+106.Carmichael R (2013) Induced drag from span load distribution [Online]. http://www.pdas.com/induced.html
+107.Lundry JL (1977) Calculation of lift and induced drag from sparse span loading data. J Aircr 14(3):309–311Article 
+    
+                    Google Scholar 
+                108.Carmichael R (2013) Modified strip analysis method for predicting wing flutter at subsonic to hypersonic speeds [Online]. http://www.pdas.com/flutter.html
+109.Carmichael R (2013) Mean aerodynamic chord of a wing [Online]. http://www.pdas.com/getmac.html
+110.Carmichael R (2010) Example 4—wing similar to B-2—page 1 [Online]. http://www.pdas.com/macex13.html
+111.Carmichael R (2010) Example 4—wing similar to B-2—page 2 [Online]. Available: http://www.pdas.com/macex14.html
+112.Carmichael R (2010) Example 4—wing similar to B-2—page 3 [Online]. http://www.pdas.com/macex15.html
+113.Carmichael R (2013) NACA airfoil coordinates [Online]. http://www.pdas.com/naca456.html
+114.Carmichael RL (2001) Algorithm for calculating coordinates of cambered Naca airfoils at specified chord locations. In: 1st AIAA, aircraft, technology integration, and operations forum115.Carmichael R (2010) Computation of NACA airfoil coordinates [Online]. http://www.pdas.com/naca456pdas.html
+116.Airfoil tools [Online]. http://airfoiltools.com/. Accessed 12 Dec 2014117.Carmichael R (2013) Mass properties of a rigid structure [Online]. http://www.pdas.com/massprop.html
+118.Hull RA, Gilbert JL, Klich PJ (1978) Computer program for determining mass properties of a rigid structure. NASA technical memorandum 78681119.Carmichael R (2013) PANAIR: predicting subsonic or supersonic linear potential flows about arbitrary configurations using a higher order panel method [Online]. http://www.pdas.com/panair.html
+120.Saaris GR (1992) A502I user’s manual-PAN AIR technology program for solving problems of potential flow about arbitrary configurations. Cage Code 81205, Document no. D6-54703, Boing121.Derbyshire T, Sidwell KW (1982) PAN AIR summary document (version 1.0). NASA contractor report 3250122.Carmichael R (2013) Input pre-processor for PanAir [Online]. http://www.pdas.com/panin.html
+123.Carmichael R (2013) Description of digital Datcom [Online]. http://www.pdas.com/datcomDescription.html
+124.DATCOM-GUI contributors (2011) datcom-gui: development of a GUI for the DATCOM program [Online]. http://code.google.com/p/datcom-gui/
+125.Carmichael R (2013) Digital Datcom [Online]. http://www.pdas.com/datcom.html
+126.Williams JE, Vukelich SR (1979) The USAF stability and control digital Datcom: volume I, users manual. USAF technical report AFFDL-TR-79-3032127.Carmichael R (2013) Program modules of digital Datcom [Online]. http://www.pdas.com/datcomc.html
+128.Carmichael R (2013) Addressable configurations in digital Datcom [Online]. http://www.pdas.com/datcomTable1.html
+129.Holy Cows, Inc. (2014) Datcom by Holy Cows, Inc. [Online]. http://www.holycows.net/datcom/. Accessed 24 Nov 2014130.Carmichael R (2013) Aeroelastic analysis for rotorcraft in flight or in a wind tunnel (ROTOR) [Online]. http://www.pdas.com/rotor.html
+131.Carmichael R (2013) MakeWgs [Online]. http://www.pdas.com/makewgs.html
+132.Carmichael R (2013) Three view program [Online]. http://www.pdas.com/3view.html
+133.Gnuplot Contributors (2014) gnuplot homepage [Online]. http://www.gnuplot.info/. Accessed 12 Dec 2014134.Carmichael R (2013) Hidden line program [Online]. http://www.pdas.com/hlp.html
+135.Carmichael R (2013) Conversion to LaWGS [Online]. http://www.pdas.com/2wgs.html
+136.Carmichael R (2013) VRML World [Online]. http://www.pdas.com/wgs2wrl.html
+137.Kuzmin D (2014) Introduction to computational fluid dynamics [Online]. http://www.mathematik.uni-dortmund.de/~kuzmin/cfdintro/lecture1.pdf. Accessed 19 Dec 2014138.Byrne J, Cardiff P, Brabazon A, O’Neill M (2014) Evolving parametric aircraft models for design exploration and optimisation. Neurocomputing 142:39–47Article 
+    
+                    Google Scholar 
+                139.Economon (TD) (2014) SU2: the open-source CFD code [Online]. https://github.com/su2code/SU2/wiki
+140.Palacios F, Colonno MR, Aranake AC, Campos A, Copeland SR, Economon TD, Lonkar AK, Lukaczyk TW, Taylor TWR, Alonso JJ (2013) Stanford University Unstructured (SU2): an open-source integrated computational environment for multi-physics simulation and design. In: 51st AIAA aerospace sciences meeting including the new horizons forum and aerospace exposition, grapevine (Dallas/Ft. Worth Region), Texas, USA, 7–10 January 2013141.Economon TD (2014) Quick start [Online]. https://github.com/su2code/SU2/wiki/Quick-Start
+142.Economon TD (2014) Optimal shape design of a rotating airfoil [Online]. https://github.com/su2code/SU2/wiki/Optimal-Shape-Design-of-a-Rotating-Airfoil
+143.Bijl H (2014) Flow around flapping wings with Open FOAM at aerodynamics. TU Delft [Online]. http://www.tudelft.nl/fileadmin/UD/MenC/Support/Internet/TU_Website/TU_Delft_portal/Onderzoek/Kenniscentra/Delft_Research_Centres/Computational_Science/Events/Seminars/previous/doc/Hester_1.pdf. Accessed 22 Dec 2014144.OpenFOAM Foundation (2014) Features of OpenFOAM [Online]. http://www.openfoam.org/features/
+145.Glabeke G (2011) The influence of wind turbine induced turbulence on ultralight aircraft, a CFD analysis. Katholieke Hogeschool VIVES, Oostende, p 99
+                    Google Scholar 
+                146.OpenFOAM Foundation (2014) Standard solvers [Online]. http://www.openfoam.org/features/standard-solvers.php
+147.OpenFOAM Foundation (2014) ODE system solvers [Online]. http://www.openfoam.org/features/ODE-solvers.php
+148.OpenFOAM Foundation (2014) Numerical method [Online]. http://www.openfoam.org/features/numerical-method.php
+149.OpenFOAM Foundation (2014) Dynamic meshes [Online]. http://www.openfoam.org/features/mesh-motion.php
+150.EDF R&D (2014) Description of Code_Saturne [Online]. http://code-saturne.org/cms/features
+151.EDF R&D (2014) Code Saturne documentation: Code Saturne version 3.3.0 practical user’s guide [Online]. http://code-saturne.org/cms/sites/default/files/docs/3.3/user.pdf
+152.Fournier Y, Bonelle J, Moulinec C, Shang Z, Sunderland AG, Uribe JC (2011) Optimizing Code_Saturne computations on Petascale systems. Comput Fluids 45(1):103–108Article 
+    MATH 
+    
+                    Google Scholar 
+                153.EDF R&D (2014) Numerical method [Online]. http://code-saturne.org/cms/features/numerics
+154.EDF R&D (2014) Mesh flexibility [Online]. http://code-saturne.org/cms/features/mesh
+155.EDF R&D (2014) Code_Saturne coupling [Online]. http://code-saturne.org/cms/features/modules/coupling
+156.HiFiLES Developers (2014) HiFiLES: high fidelity large eddy simulation [Online]. https://hifiles.stanford.edu/
+157.Witherden FD, Farrington AM, Vincent PE (2014) PyFR: an open source framework for solving advection-diffusion type problems on streaming architectures using the flux reconstruction approach. Comput Phys Commun 185(11):3028–3040Article 
+    
+                    Google Scholar 
+                158.López-Morales M, Bull J, Crabill J, Economon TD, Manosalvas DE, Romero J, Sheshadri A, Watkins JE, Williams D, Palacios F, Jameson A (2014) Verification and validation of HiFiLES: A high-order LES unstructured solver on multi-GPU platforms. In: 32nd AIAA applied aerodynamics conference, Atlanta, Georgia, USA, 16–20 June 2014159.Vincent Lab (2015) PyFR: home [Online]. http://www.pyfr.org/
+160.Vincent P (2014) PyFR: a GPU-accelerated next-generation computational fluid dynamics python framework [Online]. http://www.techenablement.com/pyfr-a-gpu-accelerated-next-generation-computational-fluid-dynamics-python-framework/
+161.de Weck O (2005) Computer aided design (CAD) [Online]. http://ocw.mit.edu/courses/aeronautics-and-astronautics/16-810-engineering-design-and-rapid-prototyping-january-iap-2005/lecture-notes/l4.pdf
+162.FreeCAD Contributors (2014) About FreeCAD [Online]. http://www.freecadweb.org/wiki/index.php?title=About_FreeCAD
+163.FreeCAD Contributors (2014) Getting started [Online]. http://www.freecadweb.org/wiki/index.php?title=Getting_started
+164.Kim JW, Kang K-K, Lee JH (2014) Template-based traditional building component modelling. In: International Conference on Advanced Communication Technology, ICACT, Pyeongchang, Korea (South), 16–19 February 2014, pp 653–656165.FreeCAD Contributors (2014) Feature list [Online]. http://www.freecadweb.org/wiki/index.php?title=Feature_list
+166.FreeCAD Contributors (2013) Aeroplane [Online]. http://www.freecadweb.org/wiki/index.php?title=Aeroplane
+167.SALOME Contributors (2015) SALOME [Online]. http://www.salome-platform.org/. Accessed 5 Jan 2015168.SALOME Contributors (2015) About SALOME [Online]. http://www.salome-platform.org/user-section/about. Accessed 5 Jan 2015169.BRL-CAD Contributors (2014) About BRL-CAD [Online]. http://brlcad.org/d/about. Accessed 22 Dec 2014170.BRL-CAD Contributors (2014) Overview [Online]. http://brlcad.org/wiki/Overview. Accessed 22 Dec 2014171.Keyser J, Culver T, Foskey M, Krishnan S, Manocha D (2004) ESOLID—a system for exact boundary evaluation. CAD Comput Aided Des 36(2):175–193Article 
+    
+                    Google Scholar 
+                172.Konokman HE, Kayran A, Kaya M (2014) Analysis of aircraft survivability against fragmenting warhead threat. In: 55th AIAA/ASMe/ASCE/AHS/SC structures, structural dynamics, and materials conference, National Harbor, Maryland, USA, 13–17 January 2014173.QCAD Contributors (2014) QCAD—2D CAD for Windows, Linux and Mac [Online]. http://www.qcad.org/en/
+174.QCAD Contributors (2014) QCAD features [Online]. http://www.qcad.org/en/qcad-documentation/qcad-features
+175.QCAD Contributors (2014) The QCAD 3 scripting interface [Online]. http://www.qcad.org/en/qcad-documentation/qcad-scripting
+176.OpenVSP Contributors (2012) OpenVSP [Online]. https://github.com/nasa/OpenVSP
+177.Böhnke D, Nagel B, Zhang M, Rizzi A (2013) Towards a collaborative and integrated set of open tools for aircraft design. In: 51st AIAA aerospace sciences meeting including the new horizons forum and aerospace exposition, grapevine (Dallas/Ft. Worth Region), Texas, USA, 7–10 January 2013178.Gloudemans JR, McDonald R (2010) Improved geometry modeling for high fidelity parametric design. In: 48th AIAA aerospace sciences meeting including the new horizons forum and aerospace exposition, Orlando, Florida, USA, 4–7 January 2010179.OpenVSP Contributors (2014) OpenVSP [Online]. http://openvsp.org/
+180.OpenVSP Contributors (2014) VSP Hangar [Online]. http://hangar.openvsp.org/
+181.Hepperle M (2007) JavaFoil—analysis of airfoils [Online]. http://www.mh-aerotools.de/airfoils/javafoil.htm
+182.Hepperle M (2006) The boundary layer method [Online]. http://www.mh-aerotools.de/airfoils/jf_analysis_boundarylayer.htm
+183.Hepperle M (2008) Users manual [Online]. http://www.mh-aerotools.de/airfoils/jf_users_manual.htm
+184.Adkins CN, Liebeck RH (1994) Design of optimum propellers. J Propuls Power 10(5):676–682Article 
+    
+                    Google Scholar 
+                185.Hepperle M (2003) JavaProp—design and analysis of propellers [Online]. http://www.mh-aerotools.de/airfoils/javaprop.htm
+186.Hepperle M (2003) Design of a propeller [Online]. http://www.mh-aerotools.de/airfoils/jp_propeller_design.htm
+187.Hepperle M (2006) Analysis of a propeller [Online]. http://www.mh-aerotools.de/airfoils/jp_propeller_analysis.htm
+188.Hepperle M (2008) A validation exercise [Online]. http://www.mh-aerotools.de/airfoils/jp_validation.htm
+189.Hepperle M (2008) Users manual [Online]. http://www.mh-aerotools.de/airfoils/jp_users_manual.htm
+190.Eller D (2015) Larosterna: about [Online]. http://www.larosterna.com/index.html. Accessed 6 Jan 2015191.Eller D (2015) Larosterna: aircraft modeling and mesh generation [Online]. http://www.larosterna.com/sumo.html. Accessed 6 Jan 2015192.Eller D (2015) Larosterna: visualization for aeroelasticity [Online]. http://www.larosterna.com/scope.html. Accessed 6 Jan 2015193.VAMPzero Contributors (2014) VAMPzero—conceptual design for the needs of MDO [Online]. http://code.google.com/p/vampzero/. Accessed 22 Dec 2014194.Böhnke D, Nagel B, Gollnick V (2014) Explicit modeling of technology improvement over time in conceptual aircraft design. In: 29th Congress of the international council of the aeronautical sciences, ICAS 2014, St. Petersburg, Russia, 7–12 September 2014195.Rizzi A, Zhang M, Nagel B, Boehnke D, Saquet P (2012) Towards a unified framework using CPACS for geometry management in aircraft design. In: 50th AIAA aerospace sciences meeting including the new horizons forum and aerospace exposition, Nashville, Tennessee, USA, 9–12 January 2012196.CPACS Contributors (2014) CPACS—a common language for aircraft design [Online]. http://code.google.com/p/cpacs/. Accessed 22 Dec 2014197.TIGL Contributors (2014) TIGL: A library for generating 3D geometries from parametrized CPACS/XML data sets [Online]. http://code.google.com/p/tigl/. Accessed 22 Dec 2014198.Frink NT (2006) TetrUSS: CFD software for complex real-world aerodynamics problems [Online]. http://tetruss.larc.nasa.gov/index.html
+199.Frink NT, Pirzadeh SZ, Parikh PC, Pandya MJ, Bhat MK (2000) NASA tetrahedral unstructed software system (TetrUSS). Aeronaut J 104(1040):491–499
+                    Google Scholar 
+                200.Frink NT (2009) Requesting TetrUSS software [Online]. http://tetruss.larc.nasa.gov/download.html
+201.Redhammer Consulting Ltd (2010) TORNADO [Online]. http://www.redhammer.se/tornado/index.html
+202.Zagórski P, David C (2013) Aerospace blockset for Xcos [Online]. http://forge.scilab.org/index.php/p/aerospace-blockset/
+203.Goppert J (2012) OpenFDM: an open source flight dynamics library for Modelica [Online]. https://github.com/arktools/openfdm
+204.Parslew B (2012) Flapping flight simulation v1.1: user manual [Online]. http://www.flappingwings.co.uk/main/wp-content/uploads/2012/06/FlappingFlightSimulationManualV1.1.pdf
+205.Parslew B (2014) Downloads [Online]. http://www.flappingwings.co.uk/main/downloads. Accessed 27 Dec 2014206.Parslew B (2014) Gallery [Online]. http://www.flappingwings.co.uk/main/gallery. Accessed 27 Dec 2014207.Parslew B (2012) Simulating avian wingbeats and wakes. The University of Manchester, the Faculty of Engineering and Physical Sciences, Manchester208.CEASIOM Contributors (2014) CEASIOM: computerised environment for aircraft synthesis and integrated optimisation methods [Online]. http://www.ceasiom.com/index.php
+209.CEASIOM Contributors (2014) CEASIOM modules [Online]. http://www.ceasiom.com/ceasiom-modules.html
+210.CEASIOM Contributors (2014) CEASIOM NEWSLETTER [Online]. http://www.ceasiom.com/newsletter.html
+211.Chronister N (2014) FlapDesign—how to use [Online]. http://www.ornithopter.org/flapdesign.info.shtml. Accessed 29 Dec 2014212.Räbiger H (2014) Calculation tools for ornithopter models [Online]. http://www.ornithopter.de/english/calculation.htm. Accessed 29 Dec 2014213.Carri J WebOCalc FAQ [Online]. http://flbeagle.rchomepage.com/software/webocalc.html. Accessed 4 Dec 2014214.Carri J (2014) PowerCalc [Online]. http://flbeagle.rchomepage.com/software/powercalc.html. Accessed 4 Dec 2014215.Adam One (2014) Welcome to model aircraft: aerodynamics, beginners’ guide and lots of info about R/C model aircraft [Online]. http://adamone.rchomepage.com/index.html. Accessed 30 Dec 2014216.Adam One (2014) Aircraft center of gravity calculator [Online]. http://adamone.rchomepage.com/cg_calc.htm. Accessed 30 Dec 2014217.Adam One (2014) Canard center of gravity calculator [Online]. http://adamone.rchomepage.com/cg_canard.htm. Accessed 30 Dec 2014218.Adam One (2014) Trainer design [Online]. http://adamone.rchomepage.com/design.htm#calculate. Accessed 30 Dec 2014219.Adam One (2014) Calculate stall speed [Online]. http://adamone.rchomepage.com/calc_stallspeed.htm. Accessed 30 Dec 2014220.Adam One (2014) Calculate level flight speed [Online]. http://adamone.rchomepage.com/calc_speed.htm. Accessed 30 Dec 2014221.Adam One (2014) Calculate motor efficiency [Online]. http://adamone.rchomepage.com/calc_efficiency.htm. Accessed 30 Dec 2014222.Adam One (2014) Estimate propeller’s static thrust [Online]. http://adamone.rchomepage.com/calc_thrust.htm. Accessed 30 Dec 2014223.Adam One (2014) Estimate electric motor and Prop combo [Online]. http://adamone.rchomepage.com/calc_motor.htm. Accessed 30 Dec 2014224.Adam One (2014) Beginners’ guide [Online]. http://adamone.rchomepage.com/guide5.htm. Accessed 30 Dec 2014225.Müller M (2014) eCalc: the most reliable RC calculator on the web [Online]. http://www.ecalc.ch/
+226.Filkovic D (2015) Apame—aircraft 3D panel method [Online]. http://www.3dpanelmethod.com/. Accessed 14 Jan 2015227.Filkovic D (2015) Apame—aircraft 3D panel method: features [Online]. http://www.3dpanelmethod.com/features.html. Accessed 14 Jan 2015228.Goetzendorf-Grabowski T (2014) PANUKL 2012 [Online]. http://www.meil.pw.edu.pl/add/ADD/Teaching/Software/PANUKL
+229.Goetzendorf-Grabowski T (2013) Users manual for PANUKL: version ENGv1 [Online]. http://itlims.meil.pw.edu.pl/zsis/pomoce/PANUKL/2012/PanuklMan_eng.pdf
+230.Goetzendorf-Grabowski T, Mieloszyk J, Mieszalski D (2012) MADO—software package for high order multidisciplinary aircraft design and optimization. In: 28th Congress of the international council of the aeronautical sciences, ICAS 2012, Brisbane, Australia, 23–28 September 2012, pp 481–490231.Goetzendorf-Grabowski T (2012) SDSA—theoretical basics [Online]. http://itlims.meil.pw.edu.pl/zsis/pomoce/SDSA/2015/SDSA_Setup.zip
+232.XFLR5 Contributors (2014) XFLR5 [Online]. http://www.xflr5.com/xflr5.htm. Accessed 31 Dec 2014233.XFLR5 Contributors (2014) XFLR5 [Online]. http://sourceforge.net/projects/xflr5/. Accessed 31 Dec 2014234.XFLR5 Contributors (2013) XFLR5: analysis of foils and wings operating at low Reynolds numbers [Online]. http://heanet.dl.sourceforge.net/project/xflr5/Guidelines.pdf
+235.Morgado J (2014) JBLADE: a propeller design and analysis code [Online]. https://sites.google.com/site/joaomorgado23/Home. Accessed 31 Dec 2014236.Morgado J (2013) JBLADE v17 tutorial [Online]. https://drive.google.com/viewerng/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxqb2FvbW9yZ2FkbzIzfGd4OjFjYzE3ZjhlYmY3YzBlNzE
+237.Mason WH (2012) Software for aerodynamics and aircraft design (W.H. Mason, Virginia Tech) [Online]. http://www.dept.aoe.vt.edu/~mason/Mason_f/MRsoft.html#foilgen
+238.Geuzaine C, Remacle J-F (2014) Gmsh: a three-dimensional finite element mesh generator with built-in pre- and post-processing facilities [Online]. http://geuz.org/gmsh/
+239.enGrid Contributors (2015) enGrid—open-source mesh generation [Online]. http://engits.eu/en/engrid. Accessed 5 Jan 2015240.3DRobotics (2014) Mission planner [Online]. http://planner.ardupilot.com/. Accessed 31 Dec 2014241.Garcia I, Tougeron W (2015) Read group of faces TUI from GUI [Online]. Available: http://www.salome-platform.org/forum/forum_10/83373997. Accessed 6 Jan 2015Download references
+AcknowledgmentsThis work was supported by the Internal Grant Agency of Tomas Bata University in Zlín under the projects No. IGA/FAI/2015/001 and IGA/FAI/2014/006.
+Author informationAffiliationsDepartment of Informatics and Artificial Intelligence, Faculty of Applied Informatics, Tomas Bata University in Zlín, nám. T.G. Masaryka 5555, 760 01, Zlín, Czech RepublicTomáš VogeltanzAuthorsTomáš VogeltanzView author publicationsYou can also search for this author in
+                        PubMed Google ScholarCorresponding authorCorrespondence to
+                Tomáš Vogeltanz.
+Additional informationThis paper is loosely based on [1].
+Rights and permissionsReprints and Permissions
+About this articleCite this articleVogeltanz, T. A Survey of Free Software for the Design, Analysis, Modelling, and Simulation of an Unmanned Aerial Vehicle.
+                    Arch Computat Methods Eng 23, 449–514 (2016). https://doi.org/10.1007/s11831-015-9147-yDownload citationReceived: 23 February 2015Accepted: 10 March 2015Published: 22 March 2015Issue Date: September 2016DOI: https://doi.org/10.1007/s11831-015-9147-yKeywordsGlobal Position SystemComputational Fluid DynamicsMach NumberUnmanned Aerial VehicleConfiguration File

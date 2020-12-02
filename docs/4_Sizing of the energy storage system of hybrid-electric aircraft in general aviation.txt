@@ -1,0 +1,99 @@
+AbstractThe advantages of electric drives and conventional combustion engines can be combined in series hybrid-electric aircraft through appropriate aircraft design. As a consequence, energy-efficient aircraft with sufficient range can be realised in general aviation. The sizing of the energy storage system has a significant impact on the range, the energy consumption, and the related energy cost of the aircraft. In this paper, the boundary conditions for the sizing of the energy storage are analysed. Based upon this, a design for an energy-optimized aircraft will be suggested. The energy consumption of this aircraft will then be compared to modern conventional aircraft.
+Notes1.Aerodrome EDVM, 22.08.2014, Super+: 1,71 €/l; Diesel: 1,49 €/l.2.EnBW, 29.08.2014 Electricity: 0.27 €/kWh.
+Abbreviations
+E
+                    :
+Energy
+
+g
+                    :
+Gravitational acceleration
+
+L/D
+                    :
+Glide ratio
+
+m
+                    :
+Mass
+
+P
+                    :
+Power
+
+p
+                    :
+Gravimetric power density
+MP:
+Mass-to-power ratio
+PEF:
+Primary energy factor
+R:
+Range
+
+V
+                    :
+Cruise speed
+
+W
+                    :
+Gravimetric energy density
+
+\(\xi\)
+                    :
+Mass fraction
+
+η
+                    :
+Efficiency
+
+\({\text{Bat}}\)
+                    :
+Battery system
+
+\({\text{Cool}}\)
+                    :
+Cooling system of the generator system
+
+\({\text{EM}},{\text{p}}\)
+                    :
+Electric machine which drives propeller
+
+\({\text{EM}},{\text{g}}\)
+                    :
+Electric machine of the generator system
+
+\(I\)
+                    :
+Integration (of propeller)
+
+\({\text{ICE}}\)
+                    :
+Internal combustion engine
+
+\({\text{ES}}\)
+                    :
+Energy storage system
+Fuel:
+Fuel
+
+\(Gen\)
+                    :
+Generator system
+
+P
+                    :
+Propeller
+TO:
+Take-off
+
+References1.Voit-Nitschmann, R.: Neuartige Flugzeugkonzepte für die Energie- und Umweltszenarien der Zukunft. Uni Stuttgart Themenheft. Uni Stuttgart, Stuttgart (2013)2.Hepperle, M.: Electric Flight—Potential and Limitations. NATO Science and Technology Organization, Brussels (2011)3.BRP-Rotax GmbH & Co KG: Operators Manual for Rotax Engine Type 912 Series. Gunskirchen (2010)4.Korff Luftfahrt GmbH: Flight Manual Taifun 17 EII. Miltenberg (2006)5.SHARK.AERO s.r.o.: Shark Performance Data Sheet. Hlboké (2012)6.Federal Ministry of Economics and Technology and Federal Ministry for the Environment, Nature Conservation and Nuclear Safety: Energy Concept for an Environmentally Sound, Reliable and Affordable Energy Supply. Berlin (2010)7.Kalt, G.: Primärenergiefaktoren von fossilen und erneuerbaren Energieträgern, Strom und Fernwärme im Zeitraum 2000 bis 2011. Austrian Energy Agency, Wien (2013)8.DIN V 18599-1:2011–12: Energy Efficiency of Buildings—Calculation of the Net, Final and Primary Energy Demand for Heating, Cooling, Ventilation, Domestic Hot Water and Lighting. Beuth (2011)9.Icha, P: Entwicklung der spezifischen Kohlendioxidemissionen des deutschen Strommix. German Federal Environmental Agency, Dessau-Roßlau (2015)10.Blanck, R. et al.: Carbon-Neutral Transport 2050: A Scenario for Increasing Electrification and the Use of Electricity-based Fuels in Transport. Öko-Institut e.V., Berlin (2013)11.van Basshuysen, R.: Internal Combustion Engine Handbook. SAE International, Warrendale, PA (2016)12.Battery Discharge Data Base. http://lygte-info.dk (2016) Retrieved 08 Sept 201613.Roskam, J.: Airplane Design, Part I: Preliminary Sizing of Airplanes. DARcorporation, Lawrence (1985)14.BRP-Rotax GmbH & Co KG: Operator Manual for Rotax Engine Type 912 i Series. Gunskirchen (2012)15.Diamond Aircraft GmbH: Flight Manual HK36 TTC. Wiener Neustadt (1996)16.Unwin, D.: Flight Test Soarer-tourer. Pilot Magazine. Archant Limited, Norwich (2013)Download references
+AcknowledgementsThis research was supported by Pia Becker who helped with drawings and translation.
+Author informationAffiliationsInstitute of Aircraft Design, Pfaffenwaldring 31, 70569, Stuttgart, GermanyI. Geiß & R. Voit-NitschmannAuthorsI. GeißView author publicationsYou can also search for this author in
+                        PubMed Google ScholarR. Voit-NitschmannView author publicationsYou can also search for this author in
+                        PubMed Google ScholarCorresponding authorCorrespondence to
+                I. Geiß.
+Additional informationThis paper is based on a presentation at the German Aerospace Congress, September 16–18, 2014, Augsburg, Germany.
+Rights and permissionsReprints and Permissions
+About this articleCite this articleGeiß, I., Voit-Nitschmann, R. Sizing of the energy storage system of hybrid-electric aircraft in general aviation.
+                    CEAS Aeronaut J 8, 53–65 (2017). https://doi.org/10.1007/s13272-016-0220-5Download citationReceived: 07 February 2016Revised: 14 September 2016Accepted: 10 October 2016Published: 11 November 2016Issue Date: March 2017DOI: https://doi.org/10.1007/s13272-016-0220-5KeywordsElectricHybridAircraftOptimization

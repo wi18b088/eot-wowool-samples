@@ -1,0 +1,143 @@
+AbstractSpurred by the rapid progress in sensor performance increase associated with contemporary miniaturization, many companies, organizations, and governments are interested in using new opportunities in civil remotely piloted aircraft system applications. Coupled with an enhancement in propulsion system performance as well as an optimized and well-matched aerodynamic design, flight envelope limits can be enlarged and new mission profiles arise. Due to these ambitions, resulting hybrid missions become more complex and individual with partially contradicting demands, such as vertical takeoff and landing capabilities, fast climb and cruise combined with a long-endurance loiter capability, and a hover capability up to altitudes of 5000 m. In order to fulfill the diverse mission requirements, several configuration concepts are investigated. The focus is laid on different propulsion system concepts where various technologies and energy storage types are considered, as well as their effects on the aerodynamic shape and the controllability of the configuration. The investigated concepts comprise tilt propeller, tilt ducted propeller, and tilt wing configurations with fixed and variable pitch propeller. Based on these studies, a feasible concept in the weight category of MTOW ≤150 kg was identified which accomplishes both the aerodynamic and performance demands and the controllability in all flight segments.
+AbbreviationsATR (°/s):
+Attained turn rate
+AR:
+Aspect ratio
+
+b (m):
+Wingspan
+
+C
+DO
+                    :
+Parasite drag coefficient
+
+C
+Lα
+
+                    :
+Aircraft lift slope
+
+C
+L,max
+                    :
+Maximum lift coefficient
+
+c
+r (m):
+Wing root chord
+
+c
+t (m):
+Wing tip chord
+
+H (m):
+Altitude
+
+\(\dot{H}\) (m/s):
+Climb speed
+
+M (Nm):
+Pitch moment
+
+N
+                    :
+Propeller blade number
+
+n
+                    :
+g-load factor
+
+k
+                    :
+k-factor
+
+P (W):
+Power
+PL (N/W):
+Power loading
+PM (kg):
+Payload mass
+
+Q (Nm):
+Torque
+
+R (m):
+Radius
+
+S (m2):
+Area
+SEP (m/s):
+Specific excess power
+STR (°/s):
+Sustained turn rate
+
+T (N):
+Thrust
+TOM (kg):
+Takeoff mass
+TOW (N):
+Takeoff weight
+TWR:
+Thrust-to-weight ratio
+
+V (m/s):
+Horizontal flight speed
+
+W (N):
+Weight
+WL (N/m2):
+Wing loading
+
+w (m/s):
+Gust speed
+
+α (°):
+Angle of attack
+
+η
+                    :
+Efficiency
+
+σ (°):
+Thrust installation angle
+
+ρ (kg/m3):
+Air density
+0:
+Static condition @ mean sea level (MSL)
+P:
+Propeller
+ref:
+Reference
+z:
+z-direction
+
+References1.Meiboom, M., Andert, F., Batzendorfer, S., Schulz, H., Inninger, W., Rieser A.: Untersuchungen zum Einsatz von UAVs bei der Lawinenrettung, 62th German Aerospace Congress, Deutsche Gesellschaft für Luft- und Raumfahrt—Lilienthal-Oberth e.V, Bonn (2013)2.Herbst, S., Klöckner, A.: Design-driver of hybrid mission scenarios: effects on unmanned aerial vehicle design and mission management. In: Conference Proceedings 1WCUSEng, vol. 1, pp. 86–100. Oxford (2014)3.Brugger, H.: Medizinische Aspekte zum Lawinenunfall (2003)4.van Blyenburgh, P.: UAV systems: global review, Montreal (2006)5.Storey, T.: Teal Group Predicts Worldwide UAV Market—Teal Group Corporation: Aerospace and Defense Market Intelligence. http://tealgroup.com/index.php/about-teal-group-corporation/press-releases/94-2013-uav-press-release. Accessed 20 August 20146.Advisory Council for European Research: European Aeronautics: A Vision for 2020: Meeting Society’s Needs and Winning Global Leadership. European Commission, Luxembourg (2001)
+                    Google Scholar 
+                7.International Civil Aviation Organization: Manual on remotely piloted aircraft systems (RPAS), Doc, 10019 AN/507, First edition, Montreal (2015)8.Fredericks, W.J.: Conceptual Design of a Vertical Takeoff and Landing Unmanned Aerial Vehicle with 24-h Endurance, NASA (2010)9.Fredericks, W.J., Moore, M.D., Busan, R.C.: Benefits of Hybrid-Electric Propulsion to Achieve 4x Cruise Efficiency for a VTOL UAV, 12th AIAA Aviation Technology, Integration, and Operations (ATIO) Conference and 14th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference, vol. 2, pp. 1050–1073, Indianapolis (2012)10.Armutcuoglu, O., Kavsaoglu, M.S., Tekinalp, O.: Tilt duct vertical takeoff and landing uninhabited aerial vehicle concept design study. J. Aircr. 41(2), 215–223 (2004). doi:10.2514/1.271  
+Article 
+    
+                    Google Scholar 
+                11.Bell Eagle Eye Tiltrotor UAV—Naval Technology. http://www.naval-technology.com/projects/belleagleeyeuav/. Accessed 10 Feb 201412.Flight Global UAV directory, TR918 Eagle Eye—Bell Helicopter. http://www.flightglobal.com/directory/detail.aspx?aircraftCategory=uav&manufacturerType=uav&navigationItemId=372&aircraftId=7560&manufacturer=3039&keyword=&searchMode=Manufacturer. Accessed 7 July 201413.Aurora Flight Sciences, Aurora Flight Sciences—Excalibur, http://www.aurora.aero/Development/Excalibur.aspx. Accessed 12 February 201414.Unmanned.co, Excalibur—Unmanned Vehicle (UAV) Specifications & Data Sheet | UAV, UAS Data, Specifications and Fact Sheets | Unmanned.co.uk. http://www.unmanned.co.uk/autonomous-unmanned-vehicles/uav-data-specifications-fact-sheets/excalibur-unmanned-vehicle-uav-specifications-data-sheet/. Accessed 8 July 201415.Jonathan Hesselbarth, Wingcopter—take off anywhere, http://www.wingcopter.com/. Accessed 8 July 201416.Carlson, S.: A Hybrid Tricopter/Flying-Wing VTOL UAV, 52nd Aerospace Sciences Meeting, AIAA (2014)17.Hanlon, M.: X-50A Dragonfly Canard Rotor/Wing prototype completes hover flight. http://www.gizmag.com/go/4906/. Accessed 8 July 201418.Boeing, Boeing Frontiers Online. http://www.boeing.com/news/frontiers/archive/2002/may/ts_pw.html. Accessed 5 February 201319.Augusta Westland, AgustaWestland Unveils “Project Zero” Tilt Rotor Technology Demonstrator | AgustaWestland. http://www.agustawestland.com/news/agustawestland-unveils-project-zero-tilt-rotor-technology-demonstrator. Accessed 8 July 201420.Muraoka, K., Okada, N., Kubo, D.: Quad Tilt Wing VTOL UAV—Aerodynamics Characteristics and Prototype Flight Test. AIAA, Seattle (2009)
+                    Google Scholar 
+                21.University of Sydney, T-Wing VTOL. http://www.aeromech.usyd.edu.au/uav/twing/. Accessed 5 February 201322.Schiebel Aircraft GmbH (2012), CAMCOPTER S-100: Unmanned Air System, Vienna23.Schiebel CAMCOPTER-S100. Sideview (2011). http://www.uasvision.com/wp-content/uploads/2011/06/Camcopter_L.jpg. Accessed 2 June 201524.Raymer, D.P.: Aircraft Design. A Conceptual Approach. American Institute of Aeronautics and Astronautics, AIAA, Reston (2012)
+                    Google Scholar 
+                25.McCormick, B.W.: Aerodynamics, Aeronautics, and Flight Mechanics, 2nd edn. Wiley, New York (1995)
+                    Google Scholar 
+                26.Leishman, J.G.: Principles of helicopter aerodynamics. Cambridge University Press, Cambridge (2008)
+                    Google Scholar 
+                27.Wortmann, G., Herbst, S., Hornung, M.: Investigating Propeller Design and Power Demand for Parametric Search and Mark Missions for UAVs, 63th German Aerospace Congress, Deutsche Gesellschaft für Luft- und Raumfahrt—Lilienthal-Oberth e.V, Bonn (2014)Download references
+
+Author informationAuthor notesS. HerbstPresent address: Institute of Aircraft Design, Technische Universität München, Boltzmannstraße 15, 85748, Garching, GermanyAffiliationsFakultät für Luft- und Raumfahrt e.V., Munich Aerospace, c/o Bauhaus Luftfahrt e.V., Willy-Messerschmitt-Straße 1, 85521, Ottobrunn, GermanyS. Herbst & G. WortmannInstitute of Aircraft Design, Technische Universität München, Boltzmannstraße 15, 85748, Garching, GermanyM. HornungAuthorsS. HerbstView author publicationsYou can also search for this author in
+                        PubMed Google ScholarG. WortmannView author publicationsYou can also search for this author in
+                        PubMed Google ScholarM. HornungView author publicationsYou can also search for this author in
+                        PubMed Google ScholarCorresponding authorCorrespondence to
+                S. Herbst.
+AppendicesAppendix 1: State-of-the-art VTOL RPASSee Table 3.Table 3 Technical data of current VTOL RPASFull size table
+Appendix 2: Conceptual design study “Janus”See Figs. 23 and 24.Fig. 23Aircraft design chart limitsFull size image
+Fig. 24Aircraft design chart limits (horizontal flight)Full size image
+
+Rights and permissionsReprints and Permissions
+About this articleCite this articleHerbst, S., Wortmann, G. & Hornung, M. Conceptual design studies of vertical takeoff and landing remotely piloted aircraft systems for hybrid missions.
+                    CEAS Aeronaut J 7, 135–148 (2016). https://doi.org/10.1007/s13272-015-0176-xDownload citationReceived: 10 December 2014Revised: 27 August 2015Accepted: 29 October 2015Published: 08 December 2015Issue Date: March 2016DOI: https://doi.org/10.1007/s13272-015-0176-xKeywordsAircraft designRPASVTOLHybrid missionsMorphologic box
