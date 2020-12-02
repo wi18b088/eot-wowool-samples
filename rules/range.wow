@@ -1,0 +1,14 @@
+//rule:
+//{
+//    "([:digit:])+"  ('km' | 'mile')
+//} = range;
+
+
+lexicon: (input="normalized_stem")
+{
+    ([:digit:])+ (km|mile),
+} = Range;
+
+
+rule: {('distance'|'range') .. Range } = DistanceRange;
+

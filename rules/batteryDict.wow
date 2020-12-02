@@ -1,0 +1,20 @@
+lexicon: (input = "normalized_stem")
+	{
+	lithium,
+	density,
+	cell,
+	range,
+	accumulator,
+	cell,
+	power,
+	charging,
+	energy,
+	discharge,
+	discharging,
+	level,
+	capacity,
+	cycle life,
+	life cycle,
+	cycle,
+	li(thium)? - (.)*,
+	} = Battery;

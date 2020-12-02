@@ -1,0 +1,15 @@
+lexicon : (input="normalized_stem")
+{
+plane,
+air,
+hybrid,
+electric,
+fuel,
+flying,
+airplane,
+UFO,
+duck,
+helicopter,
+rocket,
+jet,
+} =flying;

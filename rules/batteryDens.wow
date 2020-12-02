@@ -1,0 +1,7 @@
+
+// It could be done also with lexicons
+lexicon: (input="normalized_stem")
+{
+([:digit:])+ Wh \/ l,
+([:digit:])+ Wh \/ kg,
+} = BatteryDensity;

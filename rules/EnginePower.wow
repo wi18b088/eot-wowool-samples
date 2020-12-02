@@ -1,0 +1,4 @@
+rule:
+{
+	"([:digit:])+" "kW" "\/" 'kg'
+} = EnginePower;

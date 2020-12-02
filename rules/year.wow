@@ -1,0 +1,9 @@
+lexicon:
+{
+    2([:digit:]){3},  1([:digit:]){3}, the ([:digit:]){4}s, the ([:digit:]){2}s, ([:digit:]){2}th century, eighties, nineties,
+} =year;
+
+
+
+
+

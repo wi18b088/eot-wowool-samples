@@ -1,0 +1,14 @@
+// Combustion engine
+// Internal combustion engine
+// conventional combustion
+lexicon: (input = "normalized_stem")
+	{
+	(ICE|Internal combustion engine):Internal combustion engine,
+	hybrid,
+	electric,
+	hydrogen,
+	(HCCI|Homogeneous charge compression engine): HCCI,
+	pneumatic,
+	hydraulic,
+	(jet engine|ramjet(s)?|jet powered):Jet engine
+	} = EngineType;
