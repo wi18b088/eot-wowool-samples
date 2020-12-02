@@ -14,9 +14,21 @@ graph_config = {
           },
           {     "from"      : { "expr" : "EngineType" },
                 "to"        : { "expr" : "Range"},
+                "relation"  : { "label" : "Correlation" }
+          },
+          {     "from"      : { "expr" : "BatteryDensity" },
+                "to"        : { "expr" : "Range"},
                 "relation"  : { "label" : "Efficiency" }
-          },         
-      ] #Links we can still create: battery density -> Range, EngineType -> Manufacturer, EnginePower -> Range,
+          }, 
+          {     "from"      : { "expr" : "EnginePower" },
+                "to"        : { "expr" : "Range"},
+                "relation"  : { "label" : "Efficiency" }
+          },
+          {     "from"      : { "expr" : "EngineType" },
+                "to"        : { "expr" : "Manufacturer"},
+                "relation"  : { "label" : "Invention" }
+          },            
+      ] #Links we can still create: 
 }
 
 try:
@@ -28,7 +40,7 @@ try:
     doc = entities(doc)
     doc = myrule(doc)
     # print(doc)
-    requested_concepts = set(['EngineType','Battery', 'flying','Range'])
+    requested_concepts = set(['EngineType','Battery', 'flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer'])
     concept_filter = lambda concept : concept.uri in requested_concepts
     for concept in Concept.iter(doc)  :
         # print( f"Tagname: {concept.uri}, literal: {concept.literal:<20}, stem={concept.stem}" )
