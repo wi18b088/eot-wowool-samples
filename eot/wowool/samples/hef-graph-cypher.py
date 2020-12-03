@@ -38,7 +38,7 @@ graph_config = {
                 "relation"  : { "label" : "Cost" }
           },
           {     "from"      : { "expr" : "Price" },
-                "to"        : { "expr" : "EngineType"},
+                "to"        : { "expr" : "BatteryDict"},
                 "relation"  : { "label" : "Cost" }
           },
           {     "from"      : { "expr" : "Year" },
@@ -71,6 +71,7 @@ graph_config = {
           #},                 
 
       ] #Links we can still create: Title of article -> words NLP -> sources cited -> year article published (both sources and article) - published by
+        # 
 }
 
 try:
