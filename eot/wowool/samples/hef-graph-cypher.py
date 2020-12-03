@@ -52,13 +52,25 @@ graph_config = {
           {     "from"      : { "expr" : "EnginePower" },
                 "to"        : { "expr" : "EngineType"},
                 "relation"  : { "label" : "Power" }
-          },
-          #{     "from"      : { "expr" : "Website" },
-          #      "to"        : { "expr" : "Person", "attributes" : ["gender"] }, ### Rules we have to make: Grab person from text
+          },                  # All websites linking to a person
+          #{     "from"      : { "expr" : "Website" }, 
+          #      "to"        : { "expr" : "Person" }, ### Rules we have to make: Grab person from text
           #      "relation"  : { "label" : "AffiliatedTo" }
-          #},
+          #},                 # All sources of an article
+          #{     "from"      : { "expr" : "Website" }, ###Author of cited source (potentially a tricky one due to many names in a document, no clue how intelligent wowool is...?)
+          #      "to"        : { "expr" : "ArticleTitle"  }, ### Still has to be created
+          #      "relation"  : { "label" : "Source" }
+          #},                 # Publishing year of an article (linked to the title of an article)
+          #{     "from"      : { "expr" : "Year" }, ### Might not be needed as there is already year -> website 5 above.
+          #      "to"        : { "expr" : "ArticleTitle"  }, ### Still has to be created.
+          #      "relation"  : { "label" : "PublishYear" }
+          #},                 # Authors of an article
+          #{     "from"      : { "expr" : "Person" }, ###Could also be name, depends whether Wowool already has a name grabber.
+          #      "to"        : { "expr" : "ArticleTitle"  }, 
+          #      "relation"  : { "label" : "AuthorOf" }
+          #},                 
 
-      ] #Links we can still create: 
+      ] #Links we can still create: Title of article -> words NLP -> sources cited -> year article published (both sources and article) - published by
 }
 
 try:
