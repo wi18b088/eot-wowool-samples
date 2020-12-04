@@ -26,7 +26,7 @@ graph_config = {
                 "relation"  : { "label" : "Efficiency" }
           },
           {     "from"      : { "expr" : "EngineType" },
-                "to"        : { "expr" : "Manufacturer", "attributes" : ["country"]},
+                "to"        : { "expr" : "Manufacturer"},
                 "relation"  : { "label" : "Invention" }
           }, 
           {     "from"      : { "expr" : "Time" },
@@ -54,7 +54,7 @@ graph_config = {
                 "relation"  : { "label" : "Power" }
           },                  # All websites linking to a person
           {     "from"      : { "expr" : "Website" }, 
-                "to"        : { "expr" : "Reference_name" }, ### Rules we have to make: Grab person from text
+                "to"        : { "expr" : "Reference_Name" }, ### Rules we have to make: Grab person from text
                 "relation"  : { "label" : "AffiliatedTo" }
           },                 # All sources of an article
           {     "from"      : { "expr" : "Website" }, ###Author of cited source (potentially a tricky one due to many names in a document, no clue how intelligent wowool is...?)
@@ -65,7 +65,7 @@ graph_config = {
                 "to"        : { "expr" : "Reference_Title"  }, ### Still has to be created.
                 "relation"  : { "label" : "PublishYear" }
           },                 # Authors of an article
-          {     "from"      : { "expr" : "Reference_name" }, ###Could also be name, depends whether Wowool already has a name grabber.
+          {     "from"      : { "expr" : "Reference_Name" }, ###Could also be name, depends whether Wowool already has a name grabber.
                 "to"        : { "expr" : "Reference_Title"  }, 
                 "relation"  : { "label" : "AuthorOf" }
           },                 
