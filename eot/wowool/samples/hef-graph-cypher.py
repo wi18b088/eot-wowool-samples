@@ -53,32 +53,31 @@ graph_config = {
                 "to"        : { "expr" : "EngineType"},
                 "relation"  : { "label" : "Power" }
           },                  # All websites linking to a person
-          #{     "from"      : { "expr" : "Website" }, 
-          #      "to"        : { "expr" : "Person" }, ### Rules we have to make: Grab person from text
-          #      "relation"  : { "label" : "AffiliatedTo" }
-          #},                 # All sources of an article
-          #{     "from"      : { "expr" : "Website" }, ###Author of cited source (potentially a tricky one due to many names in a document, no clue how intelligent wowool is...?)
-          #      "to"        : { "expr" : "ArticleTitle"  }, ### Still has to be created
-          #      "relation"  : { "label" : "Source" }
-          #},                 # Publishing year of an article (linked to the title of an article)
-          #{     "from"      : { "expr" : "Year" }, ### Might not be needed as there is already year -> website 5 above.
-          #      "to"        : { "expr" : "ArticleTitle"  }, ### Still has to be created.
-          #      "relation"  : { "label" : "PublishYear" }
-          #},                 # Authors of an article
-          #{     "from"      : { "expr" : "Person" }, ###Could also be name, depends whether Wowool already has a name grabber.
-          #      "to"        : { "expr" : "ArticleTitle"  }, 
-          #      "relation"  : { "label" : "AuthorOf" }
-          #},                 
+          {     "from"      : { "expr" : "Website" }, 
+                "to"        : { "expr" : "Reference_name" }, ### Rules we have to make: Grab person from text
+                "relation"  : { "label" : "AffiliatedTo" }
+          },                 # All sources of an article
+          {     "from"      : { "expr" : "Website" }, ###Author of cited source (potentially a tricky one due to many names in a document, no clue how intelligent wowool is...?)
+                "to"        : { "expr" : "Reference_Title"  }, ### Still has to be created
+                "relation"  : { "label" : "Source" }
+          },                 # Publishing year of an article (linked to the title of an article)
+          {     "from"      : { "expr" : "Year" }, ### Might not be needed as there is already year -> website 5 above.
+                "to"        : { "expr" : "Reference_Title"  }, ### Still has to be created.
+                "relation"  : { "label" : "PublishYear" }
+          },                 # Authors of an article
+          {     "from"      : { "expr" : "Reference_name" }, ###Could also be name, depends whether Wowool already has a name grabber.
+                "to"        : { "expr" : "Reference_Title"  }, 
+                "relation"  : { "label" : "AuthorOf" }
+          },                 
 
-      ] #Links we can still create: Title of article -> words NLP -> sources cited -> year article published (both sources and article) - published by
-        # 
+      ] #Links we can still create: 
 }
 
 try:
     english = Analyzer(language="english")
     entities = Domain( "english-entity" )
     # rule = Domain( source = """ rule:{ 'user' '\:' {(<>)+}=USER }; """)
-    myrule = Domain("/share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/flyingrules.dom")
+    myrule = Domain("/share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/HEFrules.dom")
 
     inputText = ""
     for i, ip in enumerate(InputProviders( "/share/neo4jgithub/eot-wowool-samples/docs")):
@@ -89,7 +88,7 @@ try:
     doc = entities(doc)
     doc = myrule(doc)
     # print(doc)
-    requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website'])
+    requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website','Reference_Title', 'Reference_Name'])
     concept_filter = lambda concept : concept.uri in requested_concepts
     for concept in Concept.iter(doc)  :
         # print( f"Tagname: {concept.uri}, literal: {concept.literal:<20}, stem={concept.stem}" )
