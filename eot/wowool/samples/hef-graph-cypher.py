@@ -69,14 +69,14 @@ graph_config = {
                 "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  },
                 "relation"  : { "label" : "PublishYear" }
           },   
-         {     "from"      : { "expr" : "Flying", "label" :"Flying" }, 
-                "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
-                "relation"  : { "label" : "Found_in" }
-          },
-         {     "from"      : { "expr" : "BatteryDict", "label" :"Battery" }, 
-                "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
-                "relation"  : { "label" : "Found_in" }
-          },                              
+         #{     "from"      : { "expr" : "Flying", "label" :"Flying" }, 
+         #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #       "relation"  : { "label" : "Found_in" }
+         # },
+         #{     "from"      : { "expr" : "BatteryDict", "label" :"Battery" }, 
+         #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #       "relation"  : { "label" : "Found_in" }
+         #},                              
 
       ] #Links we can still create: We still have to get the author's of the article it self as well as the title of the article to link those together. 
 }
