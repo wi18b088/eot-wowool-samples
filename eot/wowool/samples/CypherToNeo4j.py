@@ -1,5 +1,5 @@
 import neo4j
-neo4jdb = neo4j.Connector("http://127.0.0.1:7474", ("neo4j", "12345")) # local password of neo4j database
+neo4jdb = neo4j.Connector("http://localhost:7474", ("neo4j", "12345")) # local password of neo4j database
 with open("cypher-out.cypher") as fh:
    lines = fh.readlines()
 for cypher_query in lines:
