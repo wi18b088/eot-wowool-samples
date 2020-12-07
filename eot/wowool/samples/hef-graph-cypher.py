@@ -52,23 +52,31 @@ graph_config = {
           {     "from"      : { "expr" : "EnginePower", "label" :"EnginePower" },
                 "to"        : { "expr" : "EngineType", "label" :"EngineType"},
                 "relation"  : { "label" : "Power" }
-          },                  # All websites linking to a person
-          {     "from"      : { "expr" : "Website", "label" :"Website" }, 
-                "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name" }, 
-                "relation"  : { "label" : "AffiliatedTo" }
-          },                 # All sources of an article
-          {     "from"      : { "expr" : "Website", "label" :"Website" }, 
-                "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  }, 
-                "relation"  : { "label" : "Source" }
-          },                 # Publishing year of an article (linked to the title of an article) (can be removed)
-          {     "from"      : { "expr" : "Year", "label" :"Year" }, 
-                "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  },
-                "relation"  : { "label" : "PublishYear" }
-          },                 # Authors of an article
-          {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name" }, 
-                "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  }, 
-                "relation"  : { "label" : "AuthorOf" }
-          },                 
+          },
+          #{     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name" }, 
+          #      "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  }, 
+          #      "relation"  : { "label" : "AuthorOf" }
+          #}, 
+          #{     "from"      : { "expr" : "Website", "label" :"Website" }, 
+          #      "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name" }, 
+          #      "relation"  : { "label" : "AffiliatedTo" }
+          #},                 
+          #{     "from"      : { "expr" : "Website", "label" :"Website" }, 
+          #      "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  }, 
+          #      "relation"  : { "label" : "Source" }
+          #},                 
+          #{     "from"      : { "expr" : "Year", "label" :"Year" }, 
+          #      "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  },
+          #      "relation"  : { "label" : "PublishYear" }
+          #},   
+         #{     "from"      : { "expr" : "Flying", "label" :"Flying" }, 
+         #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #       "relation"  : { "label" : "Found_in" }
+         # },
+         #{     "from"      : { "expr" : "BatteryDict", "label" :"Battery" }, 
+         #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #       "relation"  : { "label" : "Found_in" }
+         # },                              
 
       ] #Links we can still create: We still have to get the author's of the article it self as well as the title of the article to link those together. 
 }
