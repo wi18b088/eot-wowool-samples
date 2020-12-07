@@ -9,68 +9,68 @@ from eot.io import InputProviders
 
 graph_config = {
   "links" : [
-          {   "from"      : { "expr" : "Flying" },
-              "to"        : { "expr" : "Battery"},
-              "relation"  : { "label" : "transition" }
+          {   "from"      : { "expr" : "Flying", "label" :"Flying" },
+              "to"        : { "expr" : "Battery", "label" :"Battery"},
+              "relation"  : { "label" : "transition"}
           },
-          {     "from"      : { "expr" : "EngineType" },
-                "to"        : { "expr" : "Range"},
+          {     "from"      : { "expr" : "EngineType" , "label" :"EngineType"},
+                "to"        : { "expr" : "Range", "label" :"Range"},
                 "relation"  : { "label" : "Efficiency" }
           },
-          {     "from"      : { "expr" : "BatteryDensity" },
-                "to"        : { "expr" : "Range"},
+          {     "from"      : { "expr" : "BatteryDensity", "label" :"BatteryDensity" },
+                "to"        : { "expr" : "Range", "label" :"Range"},
                 "relation"  : { "label" : "Efficiency" }
           }, 
-          {     "from"      : { "expr" : "EnginePower" },
-                "to"        : { "expr" : "Range"},
+          {     "from"      : { "expr" : "EnginePower" , "label" :"EnginePower"},
+                "to"        : { "expr" : "Range", "label" :"Range"},
                 "relation"  : { "label" : "Efficiency" }
           },
-          {     "from"      : { "expr" : "EngineType" },
-                "to"        : { "expr" : "Manufacturer"},
+          {     "from"      : { "expr" : "EngineType", "label" :"EngineType" },
+                "to"        : { "expr" : "Manufacturer", "label" :"Manufacturer"},
                 "relation"  : { "label" : "Invention" }
           }, 
-          {     "from"      : { "expr" : "Time" },
-                "to"        : { "expr" : "City"},
+          {     "from"      : { "expr" : "Time", "label" :"Time" },
+                "to"        : { "expr" : "City", "label" :"City"},
                 "relation"  : { "label" : "FlightTime" }
           },
-          {     "from"      : { "expr" : "Price" },
-                "to"        : { "expr" : "EngineType"},
+          {     "from"      : { "expr" : "Price", "label" :"Price" },
+                "to"        : { "expr" : "EngineType", "label" :"EngineType"},
                 "relation"  : { "label" : "Cost" }
           },
-          {     "from"      : { "expr" : "Price" },
-                "to"        : { "expr" : "BatteryDict"},
+          {     "from"      : { "expr" : "Price", "label" :"Price" },
+                "to"        : { "expr" : "BatteryDict", "label" :"BatteryDict"},
                 "relation"  : { "label" : "Cost" }
           },
-          {     "from"      : { "expr" : "Year" },
-                "to"        : { "expr" : "Website"},
+          {     "from"      : { "expr" : "Year", "label" :"Year" },
+                "to"        : { "expr" : "Website", "label" :"Website"},
                 "relation"  : { "label" : "YearPublished" }
           },
-          {     "from"      : { "expr" : "BatteryDens" },
-                "to"        : { "expr" : "BatteryDict"},
+          {     "from"      : { "expr" : "BatteryDens", "label" :"BatteryDens" },
+                "to"        : { "expr" : "BatteryDict", "label" :"BatteryDict"},
                 "relation"  : { "label" : "Density" }
           },
-          {     "from"      : { "expr" : "EnginePower" },
-                "to"        : { "expr" : "EngineType"},
+          {     "from"      : { "expr" : "EnginePower", "label" :"EnginePower" },
+                "to"        : { "expr" : "EngineType", "label" :"EngineType"},
                 "relation"  : { "label" : "Power" }
           },                  # All websites linking to a person
-          {     "from"      : { "expr" : "Website" }, 
-                "to"        : { "expr" : "Reference_Name" }, ### Rules we have to make: Grab person from text
+          {     "from"      : { "expr" : "Website", "label" :"Website" }, 
+                "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name" }, ### Rules we have to make: Grab person from text
                 "relation"  : { "label" : "AffiliatedTo" }
           },                 # All sources of an article
-          {     "from"      : { "expr" : "Website" }, ###Author of cited source (potentially a tricky one due to many names in a document, no clue how intelligent wowool is...?)
-                "to"        : { "expr" : "Reference_Title"  }, ### Still has to be created
+          {     "from"      : { "expr" : "Website", "label" :"Website" }, ###Author of cited source (potentially a tricky one due to many names in a document, no clue how intelligent wowool is...?)
+                "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  }, ### Still has to be created
                 "relation"  : { "label" : "Source" }
           },                 # Publishing year of an article (linked to the title of an article)
-          {     "from"      : { "expr" : "Year" }, ### Might not be needed as there is already year -> website 5 above.
-                "to"        : { "expr" : "Reference_Title"  }, ### Still has to be created.
+          {     "from"      : { "expr" : "Year", "label" :"Year" }, ### Might not be needed as there is already year -> website 5 above.
+                "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  }, ### Still has to be created.
                 "relation"  : { "label" : "PublishYear" }
           },                 # Authors of an article
-          {     "from"      : { "expr" : "Reference_Name" }, ###Could also be name, depends whether Wowool already has a name grabber.
-                "to"        : { "expr" : "Reference_Title"  }, 
+          {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name" }, ###Could also be name, depends whether Wowool already has a name grabber.
+                "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  }, 
                 "relation"  : { "label" : "AuthorOf" }
           },                 
 
-      ] #Links we can still create: 
+      ] #Links we can still create: We still have to get the author's of the article it self as well as the title of the article to link those together. 
 }
 
 try:
@@ -82,7 +82,7 @@ try:
     inputText = ""
     for i, ip in enumerate(InputProviders( "/share/neo4jgithub/eot-wowool-samples/docs")):
         inputText = f"{inputText}\n{ip.text()}"
-
+ 
 
     doc = english(inputText)
     doc = entities(doc)
