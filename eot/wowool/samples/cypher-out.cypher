@@ -536,8 +536,10 @@ MERGE ( o:EOT:EngineType { name : 'Tagge , G.E.' }) RETURN id(o)
 MERGE ( o:EOT:Range { name : 'Irish , L.A. , Bailey , A.R. : Systems Study for an Integrated Digital / Electric Aircraft ( IDEA ) .' }) RETURN id(o)
 MATCH (from:EOT:EngineType{name:'Tagge , G.E.'}),(to:EOT:Range {name:'Irish , L.A. , Bailey , A.R. : Systems Study for an Integrated Digital / Electric Aircraft ( IDEA ) .'}) MERGE (from)-[:EFFICIENCY]->(to)
 MERGE ( o:EOT:EngineType { name : 'Giannakakis , P .' }) RETURN id(o)
-MERGE ( o:EOT:Range { name : 'Jet engine' }) RETURN id(o)
-MATCH (from:EOT:EngineType{name:'Giannakakis , P .'}),(to:EOT:Range {name:'Jet engine'}) MERGE (from)-[:EFFICIENCY]->(to)
+MERGE ( o:EOT:Range { name : 'Jet engine
+' }) RETURN id(o)
+MATCH (from:EOT:EngineType{name:'Giannakakis , P .'}),(to:EOT:Range {name:'Jet engine
+'}) MERGE (from)-[:EFFICIENCY]->(to)
 MERGE ( o:EOT:Year { name : '2011' }) RETURN id(o)
 MERGE ( o:EOT:Website { name : 'https://doi.org/10.2514/1.55872' }) RETURN id(o)
 MATCH (from:EOT:Year{name:'2011'}),(to:EOT:Website {name:'https://doi.org/10.2514/1.55872'}) MERGE (from)-[:YEARPUBLISHED]->(to)
