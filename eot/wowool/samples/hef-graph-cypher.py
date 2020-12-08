@@ -68,7 +68,11 @@ graph_config = {
           {     "from"      : { "expr" : "Year", "label" :"Year" }, 
                 "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  },
                 "relation"  : { "label" : "PublishYear" }
-          },   
+          },
+          {     "from"      : { "expr" : "Speed", "label" :"Speed" }, 
+                "to"        : { "expr" : "EngineType", "label" :"EngineType"  },
+                "relation"  : { "label" : "PublishYear" }
+          },  
          #{     "from"      : { "expr" : "Flying", "label" :"Flying" }, 
          #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
          #       "relation"  : { "label" : "Found_in" }
@@ -76,7 +80,19 @@ graph_config = {
          #{     "from"      : { "expr" : "BatteryDict", "label" :"Battery" }, 
          #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
          #       "relation"  : { "label" : "Found_in" }
-         #},                              
+         #},
+         #{     "from"      : { "expr" : "Manufacturer", "label" :"Manufacturer" }, 
+         #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #      "relation"  : { "label" : "Found_in" }
+         #},
+         #{     "from"      : { "expr" : "City", "label" :"City" }, 
+         #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #      "relation"  : { "label" : "Found_in" }
+         #}, 
+         #{     "from"      : { "expr" : "City", "label" :"City" }, 
+         #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #      "relation"  : { "label" : "Found_in" }
+         #},                               
 
       ] #Links we can still create: We still have to get the author's of the article it self as well as the title of the article to link those together. 
 }
@@ -96,7 +112,7 @@ try:
     doc = entities(doc)
     doc = myrule(doc)
     # print(doc)
-    requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website','Reference_Title', 'Reference_Name', 'Year', 'BatteryDict'])
+    requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website','Reference_Title', 'Reference_Name', 'Year', 'BatteryDict', 'Speed'])
     concept_filter = lambda concept : concept.uri in requested_concepts
     for concept in Concept.iter(doc)  :
         # print( f"Tagname: {concept.uri}, literal: {concept.literal:<20}, stem={concept.stem}" )
