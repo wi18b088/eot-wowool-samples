@@ -238,7 +238,8 @@ References1.Feiner, L.J.: Power-by-Wire Aircraft Secondary Power Systems. In: AI
                 8.Seresinhe, R., Lawson, C.: The MEA evolution in commercial aircraft and the consequences for initial aircraft design. STM J. 3, 1–15 (2013) (ISSN 2231-038X)
 
                     Google Scholar 
-                9.Renz, D.D.. Comparison of All-Electric Secondary Power Systems for Civil Subsonic Transport. In: SAE-929493, 199210.Seresinhe, R., Lawson, C.: Electrical load sizing methodology to aid conceptual and preliminary design of large commercial aircraft. Proc. Inst. Mech. Eng. Part G J. Aerosp. Eng. (2014). https://doi.org/10.1177/0954410014534638
+                9.Renz, D.D.. Comparison of All-Electric Secondary Power Systems for Civil Subsonic Transport. In: SAE-929493, 1992 
+                10.Seresinhe, R., Lawson, C.: Electrical load sizing methodology to aid conceptual and preliminary design of large commercial aircraft. Proc. Inst. Mech. Eng. Part G J. Aerosp. Eng. (2014). https://doi.org/10.1177/0954410014534638
 (SAGE (On behalf of IMechE))
 
                     Google Scholar 
