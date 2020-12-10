@@ -104,7 +104,7 @@ try:
     myrule = Domain("HEFrules.dom")
 
     inputText = ""
-    for i, ip in enumerate(InputProviders( "../docs")):
+    for i, ip in enumerate(InputProviders( "../../../docs")):
         inputText = f"{inputText}\n{ip.text()}"
  
 
