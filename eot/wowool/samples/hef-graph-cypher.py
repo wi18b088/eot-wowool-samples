@@ -16,7 +16,7 @@ graph_config = {
          #{     "from"      : { "expr" : "BatteryDict", "label" :"Battery" }, 
          #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
          #       "relation"  : { "label" : "Found_in" }
-         #},
+         #},                                                                              ##These might be impossible to do due to Wowool limitations.
          #{     "from"      : { "expr" : "Manufacturer", "label" :"Manufacturer" }, 
          #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
          #      "relation"  : { "label" : "Found_in" }
@@ -25,13 +25,13 @@ graph_config = {
          #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
          #      "relation"  : { "label" : "Found_in" }
          #}, 
-         #{     "from"      : { "expr" : "City", "label" :"City" }, 
+         #{     "from"      : { "expr" : "Reference_Name", "label" :"Name" }, -- Could this be done by the refname -> reftitle link?
          #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
-         #      "relation"  : { "label" : "Found_in" }
+         #      "relation"  : { "label" : "Author" }
          #}, 
-          {   "from"      : { "expr" : "Flying", "label" :"Flying" },
-              "to"        : { "expr" : "Battery", "label" :"Battery"},
-              "relation"  : { "label" : "transition"}
+          {     "from"      : { "expr" : "Flying", "label" :"Flying" },
+                "to"        : { "expr" : "Battery", "label" :"Battery"},
+                "relation"  : { "label" : "transition"}
           },
           {     "from"      : { "expr" : "EngineType" , "label" :"EngineType"},
                 "to"        : { "expr" : "Range", "label" :"Range"},
@@ -101,10 +101,10 @@ try:
     english = Analyzer(language="english")
     entities = Domain( "english-entity" )
     # rule = Domain( source = """ rule:{ 'user' '\:' {(<>)+}=USER }; """)
-    myrule = Domain("/share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/HEFrules.dom")
+    myrule = Domain("HEFrules.dom")
 
     inputText = ""
-    for i, ip in enumerate(InputProviders( "/share/neo4jgithub/eot-wowool-samples/docs")):
+    for i, ip in enumerate(InputProviders( "../docs")):
         inputText = f"{inputText}\n{ip.text()}"
  
 
