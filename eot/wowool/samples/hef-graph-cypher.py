@@ -9,9 +9,29 @@ from eot.io import InputProviders
 
 graph_config = {
   "links" : [
-          {   "from"      : { "expr" : "Flying", "label" :"Flying" },
-              "to"        : { "expr" : "Battery", "label" :"Battery"},
-              "relation"  : { "label" : "transition"}
+         #{     "from"      : { "expr" : "Flying", "label" :"Flying" }, 
+         #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #       "relation"  : { "label" : "Found_in" }
+         # },
+         #{     "from"      : { "expr" : "BatteryDict", "label" :"Battery" }, 
+         #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #       "relation"  : { "label" : "Found_in" }
+         #},                                                                              ##These might be impossible to do due to Wowool limitations.
+         #{     "from"      : { "expr" : "Manufacturer", "label" :"Manufacturer" }, 
+         #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #      "relation"  : { "label" : "Found_in" }
+         #},
+         #{     "from"      : { "expr" : "City", "label" :"City" }, 
+         #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #      "relation"  : { "label" : "Found_in" }
+         #}, 
+         #{     "from"      : { "expr" : "Reference_Name", "label" :"Name" }, -- Could this be done by the refname -> reftitle link?
+         #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
+         #      "relation"  : { "label" : "Author" }
+         #}, 
+          {     "from"      : { "expr" : "Flying", "label" :"Flying" },
+                "to"        : { "expr" : "Battery", "label" :"Battery"},
+                "relation"  : { "label" : "transition"}
           },
           {     "from"      : { "expr" : "EngineType" , "label" :"EngineType"},
                 "to"        : { "expr" : "Range", "label" :"Range"},
@@ -68,15 +88,11 @@ graph_config = {
           {     "from"      : { "expr" : "Year", "label" :"Year" }, 
                 "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  },
                 "relation"  : { "label" : "PublishYear" }
-          },   
-         #{     "from"      : { "expr" : "Flying", "label" :"Flying" }, 
-         #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
-         #       "relation"  : { "label" : "Found_in" }
-         # },
-         #{     "from"      : { "expr" : "BatteryDict", "label" :"Battery" }, 
-         #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
-         #       "relation"  : { "label" : "Found_in" }
-         #},                              
+          },
+          {     "from"      : { "expr" : "Speed", "label" :"Speed" }, 
+                "to"        : { "expr" : "EngineType", "label" :"EngineType"  },
+                "relation"  : { "label" : "PublishYear" }
+          },                              
 
       ] #Links we can still create: We still have to get the author's of the article it self as well as the title of the article to link those together. 
 }
@@ -85,10 +101,10 @@ try:
     english = Analyzer(language="english")
     entities = Domain( "english-entity" )
     # rule = Domain( source = """ rule:{ 'user' '\:' {(<>)+}=USER }; """)
-    myrule = Domain("/share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/HEFrules.dom")
+    myrule = Domain("HEFrules.dom")
 
     inputText = ""
-    for i, ip in enumerate(InputProviders( "/share/neo4jgithub/eot-wowool-samples/docs")):
+    for i, ip in enumerate(InputProviders( "../../../docs")):
         inputText = f"{inputText}\n{ip.text()}"
  
 
@@ -96,7 +112,7 @@ try:
     doc = entities(doc)
     doc = myrule(doc)
     # print(doc)
-    requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website','Reference_Title', 'Reference_Name', 'Year', 'BatteryDict'])
+    requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website','Reference_Title', 'Reference_Name', 'Year', 'BatteryDict', 'Speed'])
     concept_filter = lambda concept : concept.uri in requested_concepts
     for concept in Concept.iter(doc)  :
         # print( f"Tagname: {concept.uri}, literal: {concept.literal:<20}, stem={concept.stem}" )
@@ -137,4 +153,3 @@ try:
 
 except Error as ex:
    print("Exception:",ex)
-
