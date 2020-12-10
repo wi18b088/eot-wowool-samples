@@ -3,6 +3,7 @@
 lexicon:{
     [:upper:] \. ,
     [:upper:]\.([:upper:]\.)? ,
+    [:upper:]\.([:upper:]\.\.)? ,
  } = MarkerNameInitial;
 // Chan, C.C. , Ehsani, M. , Rubio-De-Hita, C.: The state of the art of electric,
 rule:{
