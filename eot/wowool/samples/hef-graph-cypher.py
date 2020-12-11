@@ -11,7 +11,7 @@ graph_config = {
       "slots" : {
             "Title" : {"expr" : "Reference_Title"}
             },
-  "links" : [
+       "links" : [
           {     "from"      : { "slot" : "Title"},
                 "to"        : { "expr" : "Website"},
                 "relation"  : { "label" : "Reference"}
@@ -20,26 +20,6 @@ graph_config = {
                 "to"        : { "expr" : "Year"},
                 "relation"  : { "label" : "Published_Year"}
           },
-         #{     "from"      : { "expr" : "Flying", "label" :"Flying" }, 
-         #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
-         #       "relation"  : { "label" : "Found_in" }
-         # },
-         #{     "from"      : { "expr" : "BatteryDict", "label" :"Battery" }, 
-         #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
-         #       "relation"  : { "label" : "Found_in" }
-         #},                                                                              ##These might be impossible to do due to Wowool limitations.
-         #{     "from"      : { "expr" : "Manufacturer", "label" :"Manufacturer" }, 
-         #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
-         #      "relation"  : { "label" : "Found_in" }
-         #},
-         #{     "from"      : { "expr" : "City", "label" :"City" }, 
-         #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
-         #      "relation"  : { "label" : "Found_in" }
-         #}, 
-         #{     "from"      : { "expr" : "Reference_Name", "label" :"Name" }, -- Could this be done by the refname -> reftitle link?
-         #      "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
-         #      "relation"  : { "label" : "Author" }
-         #}, 
           {     "from"      : { "expr" : "Flying", "label" :"Flying" },
                 "to"        : { "expr" : "Battery", "label" :"Battery"},
                 "relation"  : { "label" : "transition"}
@@ -105,7 +85,9 @@ graph_config = {
                 "relation"  : { "label" : "PublishYear" }
           },                              
 
-      ] #Links we can still create: We still have to get the author's of the article it self as well as the title of the article to link those together. 
+      ],
+      
+      "global" : { "file" : true , "snippet"   : false , "operator":".." }  
 }
 
 try:
