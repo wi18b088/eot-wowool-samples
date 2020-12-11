@@ -2,12 +2,14 @@
 // C. but also C.C. and C.C..
 lexicon:{
     [:upper:] \. ,
-    [:upper:]\.([:upper:]\.)?,
+    ([:upper:]\.([:upper:]\.)?)+,
     [:upper:]\.([:upper:]\.\.)?,
  } = MarkerNameInitial;
+
 // Chan, C.C. , Ehsani, M. , Rubio-De-Hita, C.: The state of the art of electric,
 // 8.Seresinhe, R., Lawson, C.: The MEA evolution in commercial aircraft and the consequences for initial aircraft design. STM J. 3, 1–15 (2013) (ISSN 2231-038X)
-// 10.Seresinhe, R., Lawson, C.: Electrical load sizing methodology to aid conceptual and preliminary design of large commercial aircraft. Proc. Inst. Mech. Eng. Part G J. Aerosp. Eng. (2014). https://doi.org/10.1177/0954410014534638
+// 10.Seresinhe, R., Lawson, C.: Electrical load sizing methodology to aid conceptual and preliminary design of large commercial aircraft. Proc. Inst. Mech. Eng. Part G J. Aerosp. Eng. (2014). https://doi.org/10.1177/0954410014534638 (possible to exclude sentence endings if the "sentence" is shorter than 10 characters?)
+
 rule:{
     (
         { { Prop (Prop|'-'){0,5} } = FamilyName '\,'? MarkerNameInitial } = Reference_Name
