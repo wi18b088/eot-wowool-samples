@@ -2,13 +2,14 @@
 // C. but also C.C.
 lexicon:{
     [:upper:] \. ,
-    [:upper:]\.([:upper:]\.)? ,
+    [:upper:]\.([:upper:]\.)?,
+    [:upper:]\.([:upper:]\.\.)?,
  } = MarkerNameInitial;
 // Chan, C.C. , Ehsani, M. , Rubio-De-Hita, C.: The state of the art of electric,
 rule:{
     (
-        { { Prop (Prop|'-'){0,5} } = FamilyName '\,' MarkerNameInitial } = Reference_Name
-        ('\,'|'\:')
+        { { Prop (Prop|'-'){0,5} } = FamilyName '\,'? MarkerNameInitial } = Reference_Name
+        ('\,'|'\:'|'\&')
     )+
     { (<>+) }=Reference_Title
 } = Reference_Statement;
