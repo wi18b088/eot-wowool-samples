@@ -8,11 +8,17 @@ from eot.wowool.tool import EntityGraph
 from eot.io import InputProviders
 
 graph_config = {
-      "slots" : {"Title" : {"expr" : "Reference_Title"}},
+      "slots" : {
+            "Title" : {"expr" : "Reference_Title"}
+            },
   "links" : [
           {     "from"      : { "slot" : "Title"},
-                "to"        : { "expr" : "URL"},
+                "to"        : { "expr" : "Website"},
                 "relation"  : { "label" : "Reference"}
+          },
+          {     "from"      : { "slot" : "Title"},
+                "to"        : { "expr" : "Year"},
+                "relation"  : { "label" : "Published_Year"}
           },
          #{     "from"      : { "expr" : "Flying", "label" :"Flying" }, 
          #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
@@ -108,53 +114,53 @@ try:
     # rule = Domain( source = """ rule:{ 'user' '\:' {(<>)+}=USER }; """)
     myrule = Domain("HEFrules.dom")
 
-    inputText = ""
+    f = open("cypher-out.cypher", "w")
+    webpage = open("index.html", "w")
     for i, ip in enumerate(InputProviders( "../../../docs")):
-        inputText = f"{inputText}\n{ip.text()}"
- 
+        print(f"Processing File no {i}: {ip.id()}")
+        doc = english(ip.text())
+        doc = entities(doc)
+        doc = myrule(doc)
+        # print(doc)
+        requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website','Reference_Title', 'Reference_Name', 'Year', 'BatteryDict', 'Speed'])
+        concept_filter = lambda concept : concept.uri in requested_concepts
+        for concept in Concept.iter(doc)  :
+                # print( f"Tagname: {concept.uri}, literal: {concept.literal:<20}, stem={concept.stem}" )
+                # Unpack concept
+                print({**concept})
+        
+        print("-"*10)
+        graphit = EntityGraph( graph_config )
+        # returns a panda dataframe.
+        # graphit.slots['Document'] = {"data":"hello"}
+        results = graphit(doc)
 
-    doc = english(inputText)
-    doc = entities(doc)
-    doc = myrule(doc)
-    # print(doc)
-    requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website','Reference_Title', 'Reference_Name', 'Year', 'BatteryDict', 'Speed'])
-    concept_filter = lambda concept : concept.uri in requested_concepts
-    for concept in Concept.iter(doc)  :
-        # print( f"Tagname: {concept.uri}, literal: {concept.literal:<20}, stem={concept.stem}" )
-        # Unpack concept
-        print({**concept})
-    
-    print("-"*10)
-    graphit = EntityGraph( graph_config )
-    # returns a panda dataframe.
-    # graphit.slots['Document'] = {"data":"hello"}
-    results = graphit(doc)
+        print( results.df_from)
+        print("-"*10)
+        print( results.df_relation)
+        print("-"*10)
+        print( results.df_to)
+        print("-"*10)
 
-    print( results.df_from)
-    print("-"*10)
-    print( results.df_relation)
-    print("-"*10)
-    print( results.df_to)
-    print("-"*10)
+        from eot.wowool.tool.entity_graph.cypher import CypherStream
+        cs = CypherStream("EOT")
 
-    from eot.wowool.tool.entity_graph.cypher import CypherStream
-    cs = CypherStream("EOT")
-
-    with open("cypher-out.cypher", "w") as f:
         for neo4j_query in cs(results):
             f.write(f"{neo4j_query}\n")
 
-    for neo4j_query in cs(results):
-        print(neo4j_query)
+        for neo4j_query in cs(results):
+                print(neo4j_query)
 
-    from eot.wowool.tool.entity_graph.d3js_graph import D3JSGraphStream
+        from eot.wowool.tool.entity_graph.d3js_graph import D3JSGraphStream
 
-    with open( "index.html", "w" ) as fh:
-        fh.write("<html><body>")
-        fh.write("""<div id="graphid"></div>""")
-        out = D3JSGraphStream(fh, filter = lambda c: c.uri != 'NP' )
+        webpage.write("<html><body>")
+        webpage.write("""<div id="graphid"></div>""")
+        out = D3JSGraphStream(webpage, filter = lambda c: c.uri != 'NP' )
         out( None, results, "graphid")
-        fh.write("</body></html>")
+        webpage.write("</body></html>")
+
+    f.close()
+    webpage.close()
 
 except Error as ex:
-   print("Exception:",ex)
+    print("Exception:",ex)
