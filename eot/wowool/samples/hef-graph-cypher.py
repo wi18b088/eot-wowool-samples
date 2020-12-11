@@ -8,7 +8,12 @@ from eot.wowool.tool import EntityGraph
 from eot.io import InputProviders
 
 graph_config = {
+      "slots" : {"Title" : {"expr" : "Reference_Title"}},
   "links" : [
+          {     "from"      : { "slot" : "Title"},
+                "to"        : { "expr" : "URL"},
+                "relation"  : { "label" : "Reference"}
+          },
          #{     "from"      : { "expr" : "Flying", "label" :"Flying" }, 
          #       "to"        : { "expr" : "Article_Title", "label" :"Article_Title"  },
          #       "relation"  : { "label" : "Found_in" }
