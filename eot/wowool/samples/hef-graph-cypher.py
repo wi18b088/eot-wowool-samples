@@ -82,12 +82,11 @@ graph_config = {
           },
           {     "from"      : { "expr" : "Speed", "label" :"Speed" }, 
                 "to"        : { "expr" : "EngineType", "label" :"EngineType"  },
-                "relation"  : { "label" : "PublishYear" }
+                "relation"  : { "label" : "EngineSpeed" }
           },                              
 
       ],
-      
-      "global" : { "file" : true , "snippet"   : false , "operator":".." }  
+       "global" : { "file" : true , "snippet"   : false , "operator":".." }  
 }
 
 try:
