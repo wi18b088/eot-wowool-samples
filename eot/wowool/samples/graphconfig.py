@@ -77,5 +77,5 @@ graph_config = {
           },                              
 
       ],
-       "global" : { "file" : True , "snippet"   : False , "operator":".." } #doesn't seem to be working for now. 
+       "global" : { "file" : true , "snippet"   : false , "operator":".." } #doesn't seem to be working for now. 
 }
