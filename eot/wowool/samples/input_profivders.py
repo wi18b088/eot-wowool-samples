@@ -11,6 +11,5 @@ try:
     for ip in InputProviders( "/Users/phforest/corpus/english/bloomberg"):
         print(ip.id(), ip.text())
 
-
 except Error as ex:
     print("Exception:",ex)

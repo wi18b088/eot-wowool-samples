@@ -4,8 +4,9 @@
 from eot.wowool.native import Analyzer, Domain
 from eot.wowool.annotation import Concept
 from eot.wowool.error import Error
-from eot.wowool.tool import EntityGraph
+from eot.wowool.tool.entity_graph import EntityGraph
 
+# fmt: off
 graph_config = {
   "slots" : { "USER" : { "expr":"USER" } },
   "links" : [
@@ -30,37 +31,38 @@ graph_config = {
       ]
 }
 
+# fmt: on
 try:
     english = Analyzer(language="dutch")
-    entities = Domain( "dutch-entity" )
-    myrule = Domain( source = """ rule:{ 'user' '\:' {(<>)+}=USER }; """)
+    entities = Domain("dutch-entity")
+    myrule = Domain(source=""" rule:{ 'user' '\:' {(<>)+}=USER }; """)
     doc = english("user:John \n\nJan Van Den Berg werkte als hoofdarts bij Omega Pharma.")
     doc = entities(doc)
     doc = myrule(doc)
     print(doc)
-    graphit = EntityGraph( graph_config )
+    graphit = EntityGraph(graph_config)
     # returns a panda dataframe.
-    graphit.slots['Document'] = {"data":"hello"}
+    graphit.slots["Document"] = {"data": "hello"}
     results = graphit(doc)
 
-    print( results.df_from)
-    print( results.df_relation)
-    print( results.df_to)
+    print(results.df_from)
+    print(results.df_relation)
+    print(results.df_to)
 
     from eot.wowool.tool.entity_graph.cypher import CypherStream
+
     cs = CypherStream("EOT")
     for neo4j_query in cs(results):
         print(neo4j_query)
 
     from eot.wowool.tool.entity_graph.d3js_graph import D3JSGraphStream
 
-    with open( "index.html", "w" ) as fh:
+    with open("index.html", "w") as fh:
         fh.write("<html><body>")
         fh.write("""<div id="graphid"></div>""")
-        out = D3JSGraphStream(fh, filter = lambda c: c.uri != 'NP' )
-        out( None, results, "graphid")
+        out = D3JSGraphStream(fh, filter=lambda c: c.uri != "NP")
+        out(None, results, "graphid")
         fh.write("</body></html>")
 
 except Error as ex:
-   print("Exception:",ex)
-
+    print("Exception:", ex)
