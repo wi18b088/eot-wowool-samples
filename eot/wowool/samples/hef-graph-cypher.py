@@ -4,7 +4,7 @@
 from eot.wowool.native import Analyzer, Domain
 from eot.wowool.annotation import Concept
 from eot.wowool.error import Error
-from eot.wowool.tool import EntityGraph
+from eot.wowool.tool.entity_graph import EntityGraph
 from eot.io import InputProviders
 
 from graphconfig import graph_config
