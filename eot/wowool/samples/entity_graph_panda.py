@@ -4,8 +4,9 @@
 from eot.wowool.native import Analyzer, Domain
 from eot.wowool.annotation import Concept
 from eot.wowool.error import Error
-from eot.wowool.tool import EntityGraph
+from eot.wowool.tool.entity_graph import EntityGraph
 
+# fmt: off
 graph_config = {
   "slots" : { "USER" : { "expr":"USER" } },
   "links" : [
@@ -29,29 +30,29 @@ graph_config = {
           }
       ]
 }
+# fmt: on
 
 try:
     english = Analyzer(language="dutch")
-    entities = Domain( "dutch-entity" )
-    myrule = Domain( source = """ rule:{ 'user' '\:' {(<>)+}=USER }; """)
+    entities = Domain("dutch-entity")
+    myrule = Domain(source=""" rule:{ 'user' '\:' {(<>)+}=USER }; """)
     doc = english("user:John \n\nJan Van Den Berg werkte als hoofdarts bij Omega Pharma.")
     doc = entities(doc)
     doc = myrule(doc)
     print(doc)
-    graphit = EntityGraph( graph_config )
+    graphit = EntityGraph(graph_config)
     # returns a panda dataframe.
-    graphit.slots['Document'] = {"data":"file1.txt"}
+    graphit.slots["Document"] = {"data": "file1.txt"}
     results = graphit(doc)
 
     print("--- From: results.df_from ------------------------------")
-    print( results.df_from)
+    print(results.df_from)
     print("--- Relation: results.df_relation ----------------------")
-    print( results.df_relation)
+    print(results.df_relation)
     print("--- To: results.df_to ----------------------------------")
-    print( results.df_to)
+    print(results.df_to)
     print("--- Merged: results ------------------------------------")
-    print( results )
+    print(results)
 
 except Error as ex:
-   print("Exception:",ex)
-
+    print("Exception:", ex)
