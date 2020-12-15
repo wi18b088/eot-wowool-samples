@@ -17,7 +17,7 @@ namespace conjecture {
     {
         'het' { <> }= Info
         'bedrijf'
-    {(Prop)+} = Company@(info=f"{rule.Info.stem().upper()}")
+        {(Prop)+} = Company@(info=f"{rule.Info.stem().upper()}")
     };
 }
     """)

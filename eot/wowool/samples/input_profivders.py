@@ -12,6 +12,5 @@ try:
         print(ip.id())
         # print(ip.text(), ip.id())
 
-
 except Error as ex:
     print("Exception:",ex)
