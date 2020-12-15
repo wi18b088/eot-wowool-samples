@@ -3,14 +3,26 @@ graph_config = {
             "Title" : {"expr" : "Reference_Title"}
             },
        "links" : [
-          {     "from"      : { "slot" : "Title"},
-                "to"        : { "expr" : "Website"},
-                "relation"  : { "label" : "Reference"}
+          {     "from"      : { "slot" : "Title", "label" : "Title"},
+                "to"        : { "expr" : "Website", "label" :"Website"},
+                "relation"  : { "label" : "Reference_link"}
           },
-          {     "from"      : { "slot" : "Title"},
-                "to"        : { "expr" : "Year"},
+          {     "from"      : { "slot" : "Title", "label" : "Title"},
+                "to"        : { "expr" : "Year", "label" :"Year"},
                 "relation"  : { "label" : "Published_Year"}
           },
+          {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name" }, 
+                "to"        : { "slot" : "Title", "label" : "Title"}, 
+                "relation"  : { "label" : "AuthorOf" }
+          }, 
+          {     "from"      : { "expr" : "Year", "label" :"Year" },
+                "to"        : { "expr" : "Website", "label" :"Website"},
+                "relation"  : { "label" : "YearPublished" }
+          },
+          #{     "from"      : { "expr" : "Website", "label" :"Website" }, 
+          #      "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name" }, 
+          #      "relation"  : { "label" : "AffiliatedTo" }
+          #},    
           {     "from"      : { "expr" : "Flying", "label" :"Flying" },
                 "to"        : { "expr" : "Battery", "label" :"Battery"},
                 "relation"  : { "label" : "transition"}
@@ -43,10 +55,6 @@ graph_config = {
                 "to"        : { "expr" : "BatteryDict", "label" :"BatteryDict"},
                 "relation"  : { "label" : "Cost" }
           },
-          {     "from"      : { "expr" : "Year", "label" :"Year" },
-                "to"        : { "expr" : "Website", "label" :"Website"},
-                "relation"  : { "label" : "YearPublished" }
-          },
           {     "from"      : { "expr" : "BatteryDens", "label" :"BatteryDens" },
                 "to"        : { "expr" : "BatteryDict", "label" :"BatteryDict"},
                 "relation"  : { "label" : "Density" }
@@ -54,28 +62,12 @@ graph_config = {
           {     "from"      : { "expr" : "EnginePower", "label" :"EnginePower" },
                 "to"        : { "expr" : "EngineType", "label" :"EngineType"},
                 "relation"  : { "label" : "Power" }
-          },
-          {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name" }, 
-                "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  }, 
-                "relation"  : { "label" : "AuthorOf" }
-          }, 
-          {     "from"      : { "expr" : "Website", "label" :"Website" }, 
-                "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name" }, 
-                "relation"  : { "label" : "AffiliatedTo" }
-          },                 
-          {     "from"      : { "expr" : "Website", "label" :"Website" }, 
-                "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  }, 
-                "relation"  : { "label" : "Source" }
-          },                 
-          {     "from"      : { "expr" : "Year", "label" :"Year" }, 
-                "to"        : { "expr" : "Reference_Title", "label" :"Reference_Title"  },
-                "relation"  : { "label" : "PublishYear" }
-          },
+          },         
           {     "from"      : { "expr" : "Speed", "label" :"Speed" }, 
                 "to"        : { "expr" : "EngineType", "label" :"EngineType"  },
                 "relation"  : { "label" : "EngineSpeed" }
           },                              
 
       ],
-       #"global" : { "file" : true , "snippet"   : false , "operator":".." } #doesn't seem to be working for now. 
+      "global" : { "file" : True , "snippet"   : False , "operator":".." } #doesn't seem to be working for now. 
 }
