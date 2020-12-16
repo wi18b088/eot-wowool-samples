@@ -19,7 +19,7 @@ try:
     webpage = open("index.html", "w")
     for i, ip in enumerate(InputProviders( "../../../docs")):
         print(f"Processing File no {i}: {ip.id()}")
-        doc = english(ip.text())
+        doc = english(ip)
         doc = entities(doc)
         doc = myrule(doc)
         # print(doc)
