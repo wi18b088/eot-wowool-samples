@@ -14,7 +14,7 @@ graph_config = {
           {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"'\,''\&'" }, 
                 "to"        : { "slot" : "Title", "label" : "Title"}, 
                 "relation"  : { "label" : "AuthorOf" },
-                "file"      : True
+                "file"      : True #doesn't seem to do anything???
           }, 
           {     "from"      : { "expr" : "Year", "label" :"Year" },
                 "to"        : { "expr" : "Website", "label" :"Website"},
@@ -70,5 +70,5 @@ graph_config = {
           },                              
 
       ],
-      "global" : { "file" : True , "snippet"   : False , "operator":".." }
+      "global" : { "file" : True , "snippet"   : False , "operator":".." } #seems to work but connects everything to the file and only the file....
 }
