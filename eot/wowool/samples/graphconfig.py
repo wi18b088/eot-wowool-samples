@@ -11,17 +11,17 @@ graph_config = {
                 "to"        : { "expr" : "Year", "label" :"Year"},
                 "relation"  : { "label" : "Published_Year"}
           },
-          {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"'\,'""'\&'" }, 
+          {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name"}, 
                 "to"        : { "slot" : "Title", "label" : "Title"}, 
-                "relation"  : { "label" : "AuthorOf" }
-                "file"      : True #doesn't seem to do anything???
+                "relation"  : { "label" : "AuthorOf" },
+                #"file"      : True #doesn't seem to do anything???
           }, 
           {     "from"      : { "expr" : "Year", "label" :"Year" },
                 "to"        : { "expr" : "Website", "label" :"Website"},
                 "relation"  : { "label" : "YearPublished" }
           },
           {     "from"      : { "expr" : "Website", "label" :"Website" }, 
-                "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"'\,'""'\&'" }, 
+                "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name"}, 
                 "relation"  : { "label" : "AffiliatedTo" }
           },    
           {     "from"      : { "expr" : "Flying", "label" :"Flying" },
@@ -70,5 +70,5 @@ graph_config = {
           },                              
 
       ],
-      "global" : { "file" : True , "snippet"   : False , "operator":".." } #seems to work but connects everything to the file and only the file....
+      #"global" : { "file" : True , "snippet"   : False , "operator":".." } #seems to work but connects everything to the file and only the file....
 }
