@@ -5,13 +5,11 @@ graph_config = {
        "links" : [
           {     "from"      : { "slot" : "Title", "label" : "Title"},
                 "to"        : { "expr" : "Website", "label" :"Website"},
-                "relation"  : { "label" : "Reference_link"},
-                "file"      : True
+                "relation"  : { "label" : "Reference_link"}
           },
           {     "from"      : { "slot" : "Title", "label" : "Title"},
                 "to"        : { "expr" : "Year", "label" :"Year"},
-                "relation"  : { "label" : "Published_Year"},
-                "file"      : True
+                "relation"  : { "label" : "Published_Year"}
           },
           {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"'\,''\&'" }, 
                 "to"        : { "slot" : "Title", "label" : "Title"}, 
@@ -21,67 +19,54 @@ graph_config = {
           {     "from"      : { "expr" : "Year", "label" :"Year" },
                 "to"        : { "expr" : "Website", "label" :"Website"},
                 "relation"  : { "label" : "YearPublished" },
-                "file"      : True
           },
           {     "from"      : { "expr" : "Website", "label" :"Website" }, 
                 "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"'\,'" }, 
-                "relation"  : { "label" : "AffiliatedTo" },
-                "file"      : True
+                "relation"  : { "label" : "AffiliatedTo" }
           },    
           {     "from"      : { "expr" : "Flying", "label" :"Flying" },
                 "to"        : { "expr" : "Battery", "label" :"Battery"},
-                "relation"  : { "label" : "transition"},
-                "file"      : True
+                "relation"  : { "label" : "transition"}
           },
           {     "from"      : { "expr" : "EngineType" , "label" :"EngineType"},
                 "to"        : { "expr" : "Range", "label" :"Range"},
-                "relation"  : { "label" : "Efficiency" },
-                "file"      : True
+                "relation"  : { "label" : "Efficiency" }
           },
           {     "from"      : { "expr" : "BatteryDensity", "label" :"BatteryDensity" },
                 "to"        : { "expr" : "Range", "label" :"Range"},
-                "relation"  : { "label" : "Efficiency" },
-                "file"      : True
-          }, 
+                "relation"  : { "label" : "Efficiency" }
+          },
           {     "from"      : { "expr" : "EnginePower" , "label" :"EnginePower"},
                 "to"        : { "expr" : "Range", "label" :"Range"},
-                "relation"  : { "label" : "Efficiency" },
-                "file"      : True
+                "relation"  : { "label" : "Efficiency" }
           },
           {     "from"      : { "expr" : "EngineType", "label" :"EngineType" },
                 "to"        : { "expr" : "Manufacturer", "label" :"Manufacturer"},
-                "relation"  : { "label" : "Invention" },
-                "file"      : True
+                "relation"  : { "label" : "Invention" }
           }, 
           {     "from"      : { "expr" : "Time", "label" :"Time" },
                 "to"        : { "expr" : "City", "label" :"City"},
-                "relation"  : { "label" : "FlightTime" },
-                "file"      : True
+                "relation"  : { "label" : "FlightTime" }
           },
           {     "from"      : { "expr" : "Price", "label" :"Price" },
                 "to"        : { "expr" : "EngineType", "label" :"EngineType"},
-                "relation"  : { "label" : "Cost" },
-                "file"      : True
+                "relation"  : { "label" : "Cost" }
           },
           {     "from"      : { "expr" : "Price", "label" :"Price" },
                 "to"        : { "expr" : "BatteryDict", "label" :"BatteryDict"},
-                "relation"  : { "label" : "Cost" },
-                "file"      : True
+                "relation"  : { "label" : "Cost" }
           },
           {     "from"      : { "expr" : "BatteryDens", "label" :"BatteryDens" },
                 "to"        : { "expr" : "BatteryDict", "label" :"BatteryDict"},
-                "relation"  : { "label" : "Density" },
-                "file"      : True
+                "relation"  : { "label" : "Density" }
           },
           {     "from"      : { "expr" : "EnginePower", "label" :"EnginePower" },
                 "to"        : { "expr" : "EngineType", "label" :"EngineType"},
-                "relation"  : { "label" : "Power" },
-                "file"      : True
+                "relation"  : { "label" : "Power" }
           },         
           {     "from"      : { "expr" : "Speed", "label" :"Speed" }, 
                 "to"        : { "expr" : "EngineType", "label" :"EngineType"  },
-                "relation"  : { "label" : "EngineSpeed" },
-                "file"      : True
+                "relation"  : { "label" : "EngineSpeed" }
           },                              
 
       ],
