@@ -11,17 +11,17 @@ graph_config = {
                 "to"        : { "expr" : "Year", "label" :"Year"},
                 "relation"  : { "label" : "Published_Year"}
           },
-          {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"'\,''\&'" }, 
+          {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"'\,'""'\&'" }, 
                 "to"        : { "slot" : "Title", "label" : "Title"}, 
-                "relation"  : { "label" : "AuthorOf" },
+                "relation"  : { "label" : "AuthorOf" }
                 "file"      : True #doesn't seem to do anything???
           }, 
           {     "from"      : { "expr" : "Year", "label" :"Year" },
                 "to"        : { "expr" : "Website", "label" :"Website"},
-                "relation"  : { "label" : "YearPublished" },
+                "relation"  : { "label" : "YearPublished" }
           },
           {     "from"      : { "expr" : "Website", "label" :"Website" }, 
-                "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"'\,'" }, 
+                "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"'\,'""'\&'" }, 
                 "relation"  : { "label" : "AffiliatedTo" }
           },    
           {     "from"      : { "expr" : "Flying", "label" :"Flying" },
