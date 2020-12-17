@@ -1,27 +1,27 @@
 graph_config = {
-      "slots" : {
-            "Title" : {"expr" : "Reference_Title"}
-            },
+      #"slots" : {
+      #      "Title" : {"expr" : "Reference_Title"}
+      #      },
        "links" : [
-          {     "from"      : { "slot" : "Title", "label" : "Title"},
+          {     "from"      : { "expr" : "Reference_Title", "label" : "Title"},
                 "to"        : { "expr" : "Website", "label" :"Website"},
                 "relation"  : { "label" : "Reference_link"}
           },
-          {     "from"      : { "slot" : "Title", "label" : "Title"},
+          {     "from"      : { "expr" : "Reference_Title", "label" : "Title"},
                 "to"        : { "expr" : "Year", "label" :"Year"},
                 "relation"  : { "label" : "Published_Year"}
           },
-          {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"'\,'"}, 
-                "to"        : { "slot" : "Title", "label" : "Title"}, 
+          {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"Punct"}, 
+                "to"        : { "expr" : "Reference_Title", "label" : "Title"}, 
                 "relation"  : { "label" : "AuthorOf" },
-                #"file"      : True #doesn't seem to do anything???
+                "file"      : True #doesn't seem to do anything???
           }, 
           {     "from"      : { "expr" : "Year", "label" :"Year" },
                 "to"        : { "expr" : "Website", "label" :"Website"},
                 "relation"  : { "label" : "YearPublished" }
           },
           {     "from"      : { "expr" : "Website", "label" :"Website" }, 
-                "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"'\,'"}, 
+                "to"        : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"Punct"}, 
                 "relation"  : { "label" : "AffiliatedTo" }
           },    
           {     "from"      : { "expr" : "Flying", "label" :"Flying" },
