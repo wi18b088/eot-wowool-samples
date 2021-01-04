@@ -33,7 +33,8 @@ try:
         print("-"*10)
         graphit = EntityGraph( graph_config )
         # returns a panda dataframe.
-        # graphit.slots['Document'] = {"data":"hello"}
+        #print(ip.id(1))
+        graphit.slots['Document'] = {"data":ip.id()}
         results = graphit(doc)
 
         print( results.df_from)
