@@ -1,7 +1,8 @@
 graph_config = {
-      #"slots" : {
-      #      "Title" : {"expr" : "Reference_Title"}
-      #      },
+      "slots" : {
+            "Title" : {"expr" : "Reference_Title"},
+            #"Document" : {"data" : "ip.id()"} 
+            },
        "links" : [
           {     "from"      : { "expr" : "Reference_Title", "label" : "Title"},
                 "to"        : { "expr" : "Website", "label" :"Website"},

@@ -33,8 +33,13 @@ try:
         print("-"*10)
         graphit = EntityGraph( graph_config )
         # returns a panda dataframe.
-        #print(ip.id(1))
-        graphit.slots['Document'] = {"data":ip.id()}
+        
+        from pathlib import Path
+        filename = Path(ip.id()).stem.split('/')[-1]
+        # not working, entire filepath still in cypher out
+        graphit.slots = {}
+        graphit.slots['Document'] = {"data": filename}
+        graphit.slots['Title'] = {"expr":"Reference_Title"}
         results = graphit(doc)
 
         print( results.df_from)
