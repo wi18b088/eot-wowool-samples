@@ -35,7 +35,8 @@ try:
         # returns a panda dataframe.
         
         from pathlib import Path
-        filename = Path(ip.id()).stem.split('/')[-1]
+        filename = Path(ip.id()).stem
+        filename = "yolololololololo"
         # not working, entire filepath still in cypher out
         graphit.slots = {}
         graphit.slots['Document'] = {"data": filename}
