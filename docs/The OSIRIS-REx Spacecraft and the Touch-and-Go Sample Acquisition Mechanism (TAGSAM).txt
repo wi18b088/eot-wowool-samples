@@ -1,0 +1,2212 @@
+Space Sci Rev (2018) 214:107
+https://doi.org/10.1007/s11214-018-0521-6
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go
+Sample Acquisition Mechanism (TAGSAM)
+E.B. Bierhaus1 · B.C. Clark1 · J.W. Harris1 · K.S. Payne1 · R.D. Dubisher1 ·
+D.W. Wurts1 · R.A. Hund1 · R.M. Kuhns1 · T.M. Linn1 · J.L. Wood1 · A.J. May1 ·
+J.P. Dworkin2 · E. Beshore3 · D.S. Lauretta3 · the OSIRIS-REx Team
+
+Received: 1 April 2017 / Accepted: 28 June 2018 / Published online: 20 September 2018
+© The Author(s) 2018
+
+Abstract The Origins, Spectral-Interpretation, Resource-Identification, Security and Regolith-Explorer (OSIRIS-REx) spacecraft supports all aspects of the mission science objectives, from extensive remote sensing at the asteroid Bennu, to sample collection and return to
+Earth. In general, the success of planetary missions requires the collection, return, and analysis of data, which in turn depends on the successful operation of instruments and the host
+spacecraft. In the case of OSIRIS-REx, a sample-return mission, the spacecraft must also
+support the acquisition, safe stowage, and return of the sample. The target asteroid is Bennu,
+a B-class near-Earth asteroid roughly 500 m diameter. The Lockheed Martin-designed and
+developed OSIRIS-REx spacecraft draws significant heritage from previous missions and
+features the Touch-and-Go-Sample-Acquisition-Mechanism, or TAGSAM, to collect sample from the surface of Bennu. Lockheed Martin developed TAGSAM as a novel, simple
+way to collect samples on planetary bodies. During short contact with the asteroid surface,
+TAGSAM releases curation-grade nitrogen gas, mobilizing the surface regolith into a collection chamber. The contact surface of TAGSAM includes “contact pads”, which are present
+to collect surface grains that have been subject to space weathering. Extensive 1-g laboratory testing, “reduced-gravity” testing (via parabolic flights on an airplane), and analysis
+demonstrate that TAGSAM will collect asteroid material in nominal conditions, and a variety of off-nominal conditions, such as the presence of large obstacles under the TAGSAM
+sampling head, or failure in the sampling gas firing. TAGSAM, and the spacecraft support
+of the instruments, are central to the success of the mission.
+Keywords OSIRIS-REx · Bennu · Asteroid · TAGSAM · Spacecraft
+OSIRIS-REx
+Edited by Dante Lauretta and Christopher T. Russell
+B.C. Clark, R.A. Hund and E. Beshore are retired.
+
+B E.B. Bierhaus
+
+edward.b.bierhaus@lmco.com
+
+1
+
+Lockheed Martin Space Systems, Littleton, CO, USA
+
+2
+
+NASA Goddard Spaceflight Center, Greenbelt, MD, USA
+
+3
+
+Lunar and Planetary Laboratory, University of Arizona, Tucson, AZ, USA
+
+107
+
+Page 2 of 46
+
+Acronyms
+ACS
+ASC
+EDU
+EGA
+FOV
+GN&C
+HGA
+IRAD
+LM
+LGA
+MAVEN
+MGA
+MLI
+MRO
+NFT
+OCAMS
+OLA
+OSIRIS-REx
+OTES
+OVIRS
+PHS
+PI
+PICA
+REXIS
+RGO
+SARA
+SFD
+SLA
+SRC
+TAG
+TAGSAM
+TCM
+TLS
+T-VAC
+TWTA
+UTTR
+
+E.B. Bierhaus et al.
+
+Attitude Control System
+Advanced Scientific Concepts
+Engineering Development Unit
+Earth-Gravity Assist
+Field of View
+Guidance Navigation and Control
+High Gain Antenna
+Internal Research and Development
+Lockheed Martin
+Low-Gain Antenna
+Mars Atmosphere and Volatile Evolution
+Medium Gain Antenna
+Multi-Layer Insulation
+Mars Reconnaissance Orbiter
+Natural Feature Tracking
+OSIRIS-REx Camera Suite
+OSIRIS-REx Laser Altimeter
+Origins, Spectral Interpretation, Resource Identification, Security-Regolith
+Explorer
+OSIRIS-REx Thermal Emission Spectrometer
+OSIRIS-REx Visible and near-IR Spectrometer
+Plastic Hollow Spheres
+Principal Investigator
+Phenolic Impregnated Carbon Ablator
+Regolith X-Ray Imaging Spectrometer
+Reduced-Gravity Office
+Sample Acquisition and Retention Assembly
+Size-Frequency Distribution
+Super-Light Ablator
+Sample Return Capsule
+Touch And Go
+Touch-And-Go Sample-Acquisition Mechanism
+Trajectory Correction Maneuver
+Tagish Lake Simulant
+Thermal-Vacuum [in reference to Thermal-Vacuum testing]
+Traveling Wave Tube Amplifiers
+Utah Test and Training Range
+
+1 Introduction
+OSIRIS-REx (Origins, Spectral-Interpretation, Resource-Identification, Security and Regolith-Explorer) is NASA’s first asteroid sample return mission, selected as the third mission in the New Frontiers program (after New Horizons to Pluto and Juno to Jupiter). New
+Frontiers is a competitively selected, cost-capped, and Principal Investigator (PI) led program of solar system exploration missions managed by NASA’s Marshall Spaceflight Center. OSIRIS-REx will travel to the approximately 500-meter-diameter (Nolan et al. 2013)
+B-class asteroid Bennu, believed to be carbonaceous rich (Clark et al. 2011), and will return
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 3 of 46
+
+107
+
+at least 150 g of sample from Bennu to Earth (Lauretta et al. 2017). Dante Lauretta (Univ. of
+Arizona) is the PI, and the mission is managed by NASA Goddard Spaceflight Center. Lockheed Martin designed and built the spacecraft, sampling system, and sample return capsule
+(SRC), and will operate the mission from its facilities in Littleton, Colorado.
+The mission incorporates four science payloads, a student experiment, and measurements
+of the asteroid gravity derived from the spacecraft communications system. The instruments
+include the OSIRIS-REx Camera Suite (OCAMS), a visible-light suite of three cameras
+provided by the University of Arizona (Rizk et al. 2017); the OSIRIS-REx Visible and nearIR Spectrometer (OVIRS), a point-spectrometer covering wavelengths from 0.4 to 4.3 µm,
+provided by NASA Goddard (Reuter et al. 2017); the OSIRIS-REx Thermal Emission Spectrometer (OTES), a point thermal spectrometer covering wavelengths from 5 to 50 µm, provided by Arizona State University (Christensen et al. 2017); the OSIRIS-REx Laser Altimeter (OLA), a scanning lidar contributed by the Canadian Space Agency, provided by MacDonald, Dettwiler and Associates and York University (Daly et al. 2017); REXIS (Regolith
+X-Ray Imaging Spectrometer), a student experiment (Masterson et al. 2018), jointly implemented between MIT and Harvard, that conducts coded-aperture imaging for X-ray photons
+in the 0.5–7.5 keV range; and the “radio-science experiment,” which uses the X-band communications system to measure Bennu’s gravitational field (McMahon et al. 2017). In addition to the science instruments, the mission utilizes a Touch-and-Go Sample-Acquisition
+Mechanism (TAGSAM) to collect the asteroid sample.
+On September 8, 2016, the OSIRIS-REx spacecraft was carried into space on an Atlas
+V411 launch vehicle in the first second of the launch window for the day. Cruise to the
+asteroid will last about two years, and includes an Earth gravity assist on September 22,
+2017. Asteroid operations, including the asteroid approach phase, start in late 2018 and
+culminate in sample collection in July 2020. The spacecraft can depart the asteroid as early
+as March 2021 and returns the sample to Earth in September 2023.
+This paper describes the OSIRIS-REx spacecraft and the sampling system. In Sect. 2,
+we summarize the scientific and engineering requirements, which provide the basis to understand the subsequent description of the spacecraft and TAGSAM. In Sect. 3, we provide
+a spacecraft description, including the basic characteristics of the spacecraft, its trajectory,
+mission operations, and instrument accommodation. In Sect. 4, we describe TAGSAM, including results of extensive ground- and reduced-gravity testing, and the contact pads, which
+collect surface material. Section 5 is an overall summary of the content.
+
+2 Mission Requirements
+The spacecraft design derives from mission requirements. The overarching science objectives for OSIRIS-REx are (Lauretta et al. 2017): return and analyze a sample, map Bennu’s
+global properties, document the sample site, study the Yarkovsky Effect, and improve asteroid astronomy. The implementation requirements to meet these science objectives can
+be subdivided into: provide round-trip capability from Earth to Bennu; support the science
+instruments during their data acquisition at Bennu; support the proximity operations and
+achieve sample collection; and provide a means to safely return the sample to Earth. The
+spacecraft is sized and architected to provide the various resources (propulsion, power, data,
+etc.) and capabilities (sample collection, Earth return) necessary to implement these requirements.
+The top Level 1 requirements are a combination of the fundamental science objectives
+of the mission, and programmatic elements from NASA. The Level 1 requirements drove a
+
+107
+
+Page 4 of 46
+
+E.B. Bierhaus et al.
+
+broad set of Level 2 requirements that provide an increased level of specificity and define
+organizational responsibility for meeting the requirements. Generally the Level 2 categories
+include science, at-asteroid operations, and mission requirements. Each of these categories
+has subcategories. For example, science consists of sample science and remote-sensing science, at-asteroid operations consist of the different proximity phases, and mission requirements consist of all the functions necessary for a sample-return mission (e.g., launch vehicle,
+trajectory, sample return, lifetime, redundancy). Each of these categories decomposed into
+a set of Level 3 requirements that define requirements for the instruments and spacecraft.
+The required returned sample mass is 60 g (Lauretta et al. 2017). The spacecraft uses
+a change in moment of inertia to measure the sample mass. The level of accuracy of this
+technique results in a derived requirement for TAGSAM to collect 150 g to ensure at least 60
+g reside within TAGSAM. In addition to the bulk sample, there is a requirement to provide
+26 cm2 of area on the contact surface with properties that select for small surface grains. This
+requirement is driven by the science motivation to understand space weathering, which is a
+process or set of processes that alter(s) material on the surface of an airless body, changing
+the material spectral, and possibly other, properties over time. This evolution of the surface
+material leads to uncertainty in the relationship between the observed spectra and the bulk
+properties of an object. Space weathering is likely a result of exposure to solar flux (solar
+particles and UV wavelengths) over time. Recent observations of Vesta (Blewett et al. 2016)
+suggest that space weathering can be object (i.e., mineral?) dependent. By acquiring material
+at the surface via the contact pads, and bulk material via the gas collection, the combined
+sample returned by TAGSAM will provide important ground-truth that links the properties
+of the surface and bulk samples.
+The returned sample must also be pristine, where pristine is defined in terms of both a
+contamination threshold and a temperature threshold. Dworkin et al. (2017) provides a detailed discussion of the contamination requirements. The temperature requirement is to ensure the sample does not exceed +75°C. Though near-equatorial surface temperatures likely
+exceed this value on Bennu, not all surface and near-surface materials on Bennu experience
+temperatures higher than +75°C. Higher-latitude surface materials do not, nor do subsurface
+materials just a few cm below the surface. The gas-driven mobilization can entrain materials from the near subsurface. Thus it is possible that TAGSAM will collect material that
+has not been heated above +75°C, either due to sampling at a higher latitude, or collecting
+subsurface material, or both, thus motivating the need for this requirement.
+A number of data sets support the presence of sampleable regolith on Bennu, including thermal inertia, radar polarization values, and the shape itself. (See Lauretta et al.
+(2017) for an overview of the science rational for Bennu as a target for sample return.)
+Emery et al. (2014) derive a thermal inertia for Bennu of 310 ± 70 J m−2 K−1 s−1/2 . Recall that thermal inertia correlates with regolith properties: bedrock has thermal inertia values that exceed 2000 J m−2 K−1 s−1/2 , whereas the fine-grained top layer of the lunar regolith has a thermal inertia of about 50 J m−2 K−1 s−1/2 . Itokawa has a thermal inertia of
+700 ± 100 J m−2 K−1 s−1/2 (Mueller 2007). The highest resolution images of the Muses-C
+region on Itokawa show a granular bed with a size-frequency distribution (SFD) with a cumulative power-law index of about −2.5. The resolution limit of those images resolve grain
+sizes around 1–2 cm. In comparison, Emery et al. (2014) estimate Bennu’s average grain
+size to be between a few tenths of a mm to a few mm. Nolan et al. (2013) find a 12.6 cm
+radar circular polarization ratio of 0.18 ± 0.03, and a 3.5 cm radar circular polarization ratio
+(CPR) of 0.19 ± 0.03. The polarization ratio is a metric of surface roughness, a value of
+zero corresponds to a surface that is smooth at the scale of the radar wavelength, whereas
+a value of one corresponds to a surface that randomizes the incident waves. Nolan et al.
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 5 of 46
+
+107
+
+(2013) find that Bennu has one of the lowest 3.5 cm CPRs of small bodies measured, and
+note that the object with the most similar value is Phobos. Spacecraft images of Phobos indicate a generally smooth surface, indicating a fine-grained regolith. For comparison, Nolan
+et al. (2013) report that Itokawa has a 3.5 cm CPR value of 0.47 ± 0.04, over twice that of
+Bennu. Finally, Bennu’s shape, described in Nolan et al. (2013) has two notable features: it
+is more symmetrical than other NEAs, and has an equatorial ridge. The leading explanations
+(Scheeres et al. 2016) for both aspects of its shape invoke behaviors of granular material.
+To reach Bennu, the spacecraft was launched on an Atlas V-411 on September 8, 2016.
+The launch vehicle provided an Earth-escape trajectory. A deep-space maneuver targeted
+an Earth flyby on September 22, 2017, which adjusted the inclination of the spacecraft
+trajectory to match that of Bennu. The spacecraft commences proximity operations at Bennu
+in the fall of 2018, nominally will collect the sample in July of 2020, and will return the
+sample to Earth on September 24, 2023.
+This trajectory corresponds to solar ranges between 0.77 AU and 1.39 AU, Earth ranges
+between 0 AU and 2.29 AU, and Sun-Probe-Earth (SPE) angles between 0 deg and 180 deg.
+The solar ranges define the thermal load on the spacecraft, and in conjunction with the power
+usage of the spacecraft components and instruments, define the needed solar array area. The
+Earth ranges, SPE angles, and data volume define the telecommunications requirements for
+the spacecraft. The total delta-v needed is 1500 m/s, including margin.
+
+3 OSIRIS-REx Spacecraft
+The fundamental purpose of the OSIRIS-REx spacecraft is to provide a platform that
+achieves the mission science objectives. The spacecraft is an intellectual and technical offspring of the Stardust mission, carrying significant heritage in the SRC, appreciation of
+contamination concerns, and mission operations including the critical sample recovery on
+Earth. The spacecraft also benefits from design, development, and deep-space experience of
+Mars Reconnaissance Orbiter (MRO), Juno, Phoenix, and MAVEN (Mars Atmosphere and
+Volatile Evolution).
+
+3.1 The Spacecraft
+Figure 1 is an overview of the Lockheed Martin-designed and built OSIRIS-REx spacecraft,
+derived from several generations of successful deep-space, planetary missions. The notable
+features that define the physical profile of the spacecraft include two, 2-axis articulated solar
+arrays, a high-gain antenna (HGA), engines, and the science deck. In the Cartesian coordinate system centered on the spacecraft, the science deck is the +z side of the spacecraft and
+houses all science instruments, SRC, and the “shoulder” of the TAGSAM arm. The HGA
+points in the +x direction, the solar arrays are mounted on the +y and −y axes, and the
+main engines point in the −z direction.
+The spacecraft is a combination of high heritage plus mission-specific designs to meet
+the OSIRIS-REx mission requirements. The spacecraft design derived from the classical,
+hierarchical approach to requirements definition, and heritage hardware, experience, and
+processes that meet those requirements.
+The spacecraft provides all capabilities necessary to support the science instruments and
+collect and return the sample to Earth: an on-board computer that monitors, manages, and
+controls other spacecraft electronics and subsystems, as well as commanding the science
+
+107
+
+Page 6 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 1 (a) The left-hand figure shows the OSIRIS-REx spacecraft in the launch configuration. The +z deck
+is “up”, and houses all the science instruments and the SRC. (b) The right-hand image shows the spacecraft
+in the sampling configuration during TAG. (This view is “upside down” relative to the left-hand image)
+
+instruments and storing science data prior to transmission to Earth; a propulsion and control subsystem that provides all required trajectory maneuvers after release from the launch
+vehicle, and which manages the spacecraft attitude and pointing; a power subsystem that
+uses a combination of solar arrays and batteries to power the spacecraft and instruments;
+a thermal-control subsystem that maintains all spacecraft components and instruments to allowable temperature ranges; a telecommunications (telecom) subsystem that receives commands from Earth, transmits science data from the spacecraft to Earth, and which supports
+tracking for navigation; and the Sample Acquisition and Retention Assembly (SARA), an
+assembly that integrates the arm, TAGSAM head, and SRC.
+
+3.1.1 Structure
+The spacecraft structure consists of aluminum-honeycomb core with graphite-composite
+facesheets. This design provides (i) a light-weight support for all other spacecraft components, (ii) the strength necessary to survive the launch environment and (iii) the stiffness to meet science-instrument pointing requirements. The structure consists of a ∼1.3-mdiameter core cylinder (Fig. 2) that houses the main propellant tank, a forward deck, an aft
+deck, and gussets. The forward deck is also known as the science deck, as it houses all of
+the science instruments (Fig. 1). The forward and aft decks are ∼2.5 m on a side, and the
+spacecraft (not including the height of components on the science deck) is about 1.3 m tall.
+The structure supports the fully fueled (“wet mass”) launch weight of ∼2100 kg, of which
+∼880 kg is the dry mass of the spacecraft and the remainder is fuel.
+A subset of the spacecraft structure is the Sample Acquisition and Return Assembly,
+or SARA (Fig. 3). SARA consists of a separate plate that houses the SRC and TAGSAM
+arm, and is mounted to the +z deck of the spacecraft. SARA streamlined the analysis and
+testing to ensure proper alignment between the TAGSAM head, the arm, the launch container, and the SRC. The addition of a separate plate also enabled parallel development of
+SARA and the rest of the flight system. SARA includes a launch container for the TAGSAM
+head, which preserves the cleanliness of the head during ground operations and launch, and
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 7 of 46
+
+107
+
+Fig. 2 The OSIRIS-REx structure. (a) The left-hand image is the core cylinder, aft deck, and boat-tail (the
+interface to the launch vehicle). (b) The right-hand image is the complete structure in preparation for the
+static loads test
+
+Fig. 3 (a) The left-hand image is a CAD rendering of SARA, which consists of a common mounting plate
+for the TAGSAM arm and SRC. (b) The right-hand image is a picture of the flight hardware on a crane, in
+preparation for installation on the spacecraft
+
+protects the head from outgassing contamination during initial cruise. The launch container
+received a continuous nitrogen purge from the time the flight head was inserted in the container until launch, maintaining a positive pressure around the TAGSAM head to guard
+against contamination before flight.
+The SRC (Fig. 4) is nearly identical to the SRC for the Stardust mission, a successful
+NASA mission that captured samples from comet Wild 2 and returned them to the Earth
+in 2006 (Brownlee 2014). Simple differences from Stardust include the interface that holds
+the TAGSAM head (vs. the aerogel tray for Stardust) and updates to the avionics, parachute
+
+107
+
+Page 8 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 4 (a) The left-hand image shows the OSIRIS-REx SRC mounted to a spin table (for a spin-balance test).
+The white section on top is the PICA heatshield, this is the leading face during atmospheric entry. (b) The
+right-hand image shows the SRC in the “open” configuration, which is the configuration during TAGSAM
+insertion during flight (the mounting in this image is 90 deg relative to the left-hand image). The top of the
+sample canister is visible in the PICA side, while the TAGSAM capture ring is visible on the backshell side
+
+release system, the spring seal, shock mitigation, and the addition of small witness plates.
+The Stardust experience demonstrated that a homing beacon was unnecessary. The SRC was
+originally developed as part of a Lockheed Martin (LM) Internal Research and Development
+(IRAD) program, and leveraged LM’s long history with entry systems and heatshields. The
+SRC uses a monolithic Phenolic-Impregnated Carbon Ablator (PICA) heatshield, which protects the capsule during the intense heating period of reentry—well over 99% of the kinetic
+energy of the SRC is removed by heating caused by drag as the capsule enters the Earth’s
+atmosphere. The backshell thermal protection material is the Lockheed Martin-developed
+Super-Light Ablator (SLA). The interior of the SRC contains the drogue and main chutes,
+the simple electronics necessary for the autonomous sequencing that occurs during entry,
+and the sample canister that houses the TAGSAM head containing the sample of Bennu.
+Details of TAGSAM will be described in the next section.
+
+3.1.2 Telecommunications (telecom)
+The X-band telecom subsystem includes low-gain, medium-gain, and high-gain antennas—
+LGA, MGA, and HGA, respectively—and 100-W RF traveling-wave tube amplifiers
+(TWTAs). The HGA is ∼2 m diameter (Fig. 5). Table 1 summarizes the downlink data
+rates over the course of the mission, and the mission phases in which the antennas are used.
+In practice, actual data rates will depend on the spacecraft-Earth range and the angle of the
+antenna boresight relative to Earth. Over the course of the mission, the spacecraft will downlink over 165 GBytes of science and optical navigation data, of which about 150 GBytes are
+during asteroid proximity operations. The HGA supports the majority of the science-data
+downlink; the MGA and LGA are used during operations when high data rates are not necessary, or when the HGA cannot maintain Earth point during certain spacecraft maneuvers
+or operations.
+
+3.1.3 Propulsion
+The propulsion subsystem is a pressurized mono-propellant design that uses ultrapure hydrazine, consisting of the main propellant tank (Fig. 6), a helium pressurant tank, four 200 N
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 9 of 46
+
+107
+
+Fig. 5 The ∼2-m HGA during a
+fit check on the spacecraft in the
+Lockheed Martin clean room
+
+Table 1 Downlink data rates by mission phase
+Mission Phase
+
+LGA Rates
+
+HGA Rates
+
+MGA Rates
+
+Launch
+Outbound cruise
+
+2000 bps
+
+N/A
+
+N/A
+
+200 bps
+
+300 kbps
+
+N/A
+
+Science Phase
+
+200 bps, TAG: 40 bps
+
+200 kbps to 916 kbps
+
+TAG: 40 bps
+
+Departure
+
+N/A
+
+10 kbps to 200 kbps
+
+40 bps
+
+Return cruise
+
+40 bps to 10 kbps
+
+10 kbps to 300 kbps
+
+40 bps
+
+SRC release
+
+10 kbps to 200 kbps
+
+Fig. 6 The OSIRIS-REx main fuel tank. (a) The left-hand image shows the main fuel tank in a rotation
+fixture to facilitate ground processing. (b) The right-hand image shows the fuel tank after thermal blanket
+installation
+
+main thrusters, six 22 N Trajectory Correction Maneuver (TCM) thrusters, sixteen ∼4.5 N
+Attitude Control System (ACS) thrusters, and two ∼0.5 N thrusters. Aerojet Rocketdyne
+provided all thrusters for the spacecraft. The main thrusters support the largest maneuvers
+required for the mission, including deep-space maneuvers, asteroid-rendezvous, and asteroid departure. The TCM thrusters are for “cleanup” burns after the main burns; the cleanup
+burns are to correct residual errors from the larger main-engine burns. The ACS thrusters are
+for fine maneuvering, especially during asteroid operations, when small velocity changes are
+essential for maintaining proper orientation and trajectory alignment in the ultralow gravitational environment of Bennu; these thrusters also execute the back-away burn after Touch
+And Go (TAG). The smallest thrusters are for ultraprecise maneuvers that are necessary to
+
+107
+
+Page 10 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 7 A flight solar panel
+
+set up the correct spacecraft state in preparation to depart Bennu orbit for closer reconnaissance, TAG rehearsals, and TAG.
+
+3.1.4 Power
+The power subsystem includes two solar arrays, redundant Yardney Technical Products
+lithium-ion batteries, and avionics to manage the power demands of all the spacecraft components. Each solar array (Fig. 7) is ∼2.25 m on a side, and collectively the solar panels
+generate between roughly 1200 W and 2800 W, depending on solar range. Each solar array
+is attached to the spacecraft with a two-axis gimbal, providing a range of solar array orientations relative to the main spacecraft bus, and thus enabling power generation in variety
+of spacecraft orientations during asteroid proximity operations. The batteries provide spacecraft power when the solar arrays are off sun, which includes several events during asteroid
+operations, including the sampling event.
+
+3.1.5 Thermal
+The OSIRIS-REx thermal subsystem maintains appropriate temperature ranges for all spacecraft components throughout the lifetime of the mission. The thermal subsystem uses a
+combination of temperature sensors, heaters, multi-layer insulation (MLI), and coatings to
+achieve the required temperatures. Figure 8 is the spacecraft in the thermal-vacuum (T-VAC)
+chamber with MLI blanketing installed. Two mission-specific considerations were central to
+thermal analysis: the first was to ensure compliance with the science requirement that the
+TAGSAM head not exceed 75°C after sample collection; the second was the collaboration
+between the thermal engineers and science team to ensure compliance with temperatures
+while at the asteroid.
+Because pre- and post-sample-collection operations place the TAGSAM head in the Sun,
+there was significant work to understand the solar-range threshold that caused the anodized
+aluminum TAGSAM head to exceed that temperature. The analysis predicted that TAGSAM
+temperatures safely remain below +75°C for solar ranges > 1.15 AU for the vast majority
+of head geometries relative to the Sun; thus, a constraint on sampling operations is that they
+take place only when the spacecraft and Bennu ranges meet this criterion.
+The temperature of the spacecraft is insensitive to thermal emission from Bennu until
+the spacecraft approaches the asteroid surface, at which point the solid angle subtended by
+the asteroid has two effects: (i) the view factor filled by the asteroid reduces the view factor
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 11 of 46
+
+107
+
+Fig. 8 (a) In the left-hand image, the spacecraft is lowered into the T-VAC chamber; this view shows the
+launch-vehicle interface side. (b) The right-hand image is the spacecraft inside the T-VAC chamber; this view
+shows the science deck
+
+of radiative cooling to deep space, and (ii) the asteroid itself is a significant additional heat
+source, increasing the thermal flux on the spacecraft. The science team developed an asteroid
+thermal model (Emery et al. 2014) that provided estimated surface temperature distributions
+across the asteroid. These temperatures were an input to the spacecraft thermal analysis.
+The combined asteroid-plus-spacecraft thermal modeling demonstrated that all spacecraft
+components remain within their allowable temperature ranges during all asteroid proximity
+operations, including the sample-collection event for ranges > 1.15 AU.
+
+3.1.6 Guidance, Navigation and Control
+The OSIRIS-REx Guidance Navigation and Control (GN&C) subsystem includes the classical functionality of deep space missions—those that are necessary to control spacecraft
+attitude and maintain knowledge of the spacecraft in three-dimensional space—as well as
+capabilities to support TAG operations when the spacecraft leaves orbit and descends to
+within a few meters of Bennu’s surface.
+The components that support the classical functionality include a set of redundant Honeywell inertial measurement units, Honeywell reaction wheels, redundant SELEX-EX star
+trackers, and redundant Adcole sun sensors. The reaction wheels provide precise spacecraft
+attitude control, as well as a smooth transition between two or more attitudes. The star trackers and sun sensors provide attitude knowledge.
+Controlling a spacecraft in proximity to, or in orbit around, a small body involves several
+unique considerations due to the relative magnitude of forces acting on the spacecraft. Unlike for a planetary orbiter, solar radiation pressure is comparable to the gravitational force of
+the asteroid. In addition, Bennu’s irregular shape introduces a spatial variability to the gravitational field (McMahon et al. 2017). To ensure accurate knowledge of the spacecraft state in
+these conditions, the GN&C system utilizes: a lidar (Fig. 9), provided by Advanced Scientific Concepts (ASC); and a navigation camera (hereafter simply “nav” camera), provided by
+Malin Space Science Systems (Bos et al. 2017), in conjunction with Natural Feature Tracking (NFT), a Lockheed Martin-developed optical navigation capability (Olds et al. 2015;
+Hamilton et al. 2016) [see the next section]. The lidar and NFT provide independent, redundant, and complementary techniques to ensure safe spacecraft operations when approaching
+
+107
+
+Page 12 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 9 A flight ASC lidar, used
+for proximity operations at
+Bennu, just prior to installation
+on the spacecraft. A black plate,
+which was removed before flight,
+covers the send and receive
+optical apertures
+
+and contacting the asteroid surface. For lidar-based navigation, range and range-rate monitoring determine the actual spacecraft position relative to the predicted position (Berry et al.
+2013). If the measured value falls outside a predicted corridor, the spacecraft executes an
+escape burn, eliminating the chance of unexpected contact with the asteroid. For NFT-based
+navigation, the spacecraft monitors location relative to the asteroid via images acquired at a
+regular cadence.
+
+3.2 Natural Feature Tracking
+NFT is an LM-developed image-based navigation system, and OSIRIS-REx is the first
+NASA mission to incorporate autonomous navigation as a means of navigating around a
+small body. NFT provides a method, independent of the GN&C lidar, to determine the spacecraft state relative to the asteroid. Olds et al. (2015) provide a more detailed description of
+the architecture and capabilities; we provide a short overview here. NFT was originally developed under Lockheed Martin IRAD before incorporation to the OSIRIS-REx mission.
+NFT combines two capabilities: image analysis and trajectory analysis. The imageanalysis capability ingests images from the navigation camera and searches those images
+for features. The source library for features comes from ground-based processing of previously collected image data from the science cameras during earlier phases of the mission.
+NFT compares identified features with those in an on-board library of known features to
+determine the location and attitude of the spacecraft relative to the surface. Based on that location assessment, in conjunction with previous observations, the spacecraft predicts where
+it will be in the future by forward propagating the spacecraft orbit.
+NFT provides an autonomous means to navigate during proximity operations. The nav
+camera takes images at a prescribed cadence, which NFT processes via a Kalman filter to
+update the spacecraft position and velocity. NFT monitors the spacecraft state relative to the
+key events that transition the spacecraft from its initial orbit-departure burn to final TAG.
+These events include Checkpoint and Matchpoint (Fig. 13), two range-crossing thresholds,
+and TAG. Checkpoint and Matchpoint mark the spacecraft position where maneuvers are
+executed that set the spacecraft on a true approach trajectory to the surface, and target a
+specific location on the surface, respectively. The range-crossing thresholds trigger additional software state changes in preparation for TAG. For TAG itself, NFT also provides an
+estimate for when and where the spacecraft will touch the asteroid.
+Testing has shown that NFT exceeds all navigation requirements for TAG, including the
+maximum TAG ellipse size (25 m radius), predicting the state of checkpoint to within 2 m
+and 10 mm/s. Together, GN&C lidar-based and NFT-based navigation provide the spacecraft
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 13 of 46
+
+107
+
+Fig. 10 (a) The left-hand figure is a CAD model of the entire OSIRIS-REx spacecraft, with a perspective
+view from above the +z deck, otherwise known as the “science deck” because it houses all of the science
+instruments. (b) The right-hand figure is the layout of the science instruments on that deck, with many of the
+spacecraft components removed to highlight the locations and respective positions of the science instruments
+on the science deck
+
+with redundant, wholly independent means to determine the spacecraft state relative to the
+asteroid, enhancing the reliability of the mission to operate around and near the asteroid
+surface.
+
+3.3 Instrument Accommodation
+The spacecraft provides the necessary mechanical, thermal, and electrical support (power,
+commanding and telemetry, data management) to each instrument to ensure they achieve
+the science data collection necessary to meet all mission science and operation requirements. Figures 10–12 illustrate the location and orientation of the instruments on the spacecraft. PolyCam, MapCam, OTES, OVIRS, OLA, and REXIS all share a common boresight
+(Fig. 16). This is so that all, or some subset, of the instruments can observe the same region
+on the asteroid simultaneously. This is a major advantage for a small-body mission, when
+the target object has an irregular shape. Small changes in viewing angle, distance, or other
+aspect of the observing geometry can have much greater effects on the observed surface relative to a spherical planet. Simultaneous data acquisition between instruments removes this
+challenge—the relative positions between the instruments on the spacecraft are well known,
+so it is straightforward to combine simultaneous data sets from two or more instruments.
+SamCam is the lone exception; its boresight is specifically oriented to include the TAGSAM
+head when in sampling position; this geometry is so SamCam can view the asteroid surface
+during approach and TAG, providing valuable context for the collected sample.
+OCAMS OCAMS consists of three separate imaging systems controlled by a common
+electronics box (Rizk et al. 2017):
+• PolyCam, a 20-cm-diameter Ritchey-Chretien telescope used for optical navigation during approach and high-resolution imaging during asteroid operations. PolyCam has an
+IFOV of ∼0.014 mrad and a FOV of ∼0.8 deg.
+• MapCam, a modified double-Gauss refractor design with an f/3.3, 5.3° field of view
+(FOV) used for wide-angle imaging, as well as satellite surveys and plume searches.
+
+107
+
+Page 14 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 11 A perspective view of
+the science deck illustrating the
+locations of the science
+instruments relative to one
+another. OVIRS resides on the
+side of the spacecraft to provide a
+clear view for the instrument
+radiators
+
+MapCam also includes a four-color filter wheel to obtain color imagery of Bennu’s surface and to obtain wide-band spectrophotometric observations. MapCam has an IFOV of
+0.068 mrad and a FOV of ∼4 deg.
+• SamCam, a wide-angle Cooke triplet refractor design used for recording the touch-and-go
+event with a very wide 22° field of view and a depth of focus that allows in-focus imaging
+at 3 meters. SamCam has an IFOV of 0.354 mrad and a FOV of ∼21 deg.
+The PolyCam and MapCam boresights parallel the spacecraft +z axis, while the SamCam boresight has a 9.4° angle in the −y direction to approximately center the TAGSAM
+head within the FOV at the contact point on the surface of the asteroid. PolyCam is the
+highest-resolution imager on OSIRIS-REx, and its imaging requirements determined the
+spacecraft pointing and stability. All three imagers have solar keep-out zones to protect the
+instruments (i.e., a camera boresight should never be less than a certain angle from the Sun).
+The keep-out zones from the boresights are ±30° for SamCam and MapCam, and ±40° for
+PolyCam. These constraints are built into the flight rules of the spacecraft, and thus prior to
+upload to the spacecraft, each attitude is evaluated to ensure compliance with the keep-out
+zones.
+OVIRS OVIRS is a point spectrometer covering wavelengths from 0.4 µm to 4.3 µm, with
+a 4-mrad FOV (Reuter et al. 2017). OVIRS uses a radiator, oriented in the −y direction,
+to cool the detector to operating temperatures. OVIRS has two major assemblies: the first
+holds the aperture, optics, and detector; the second houses the control electronics. OVIRS
+data will provide information on Bennu’s composition by measuring spectral bands that are
+diagnostic of water and organic materials, and will provide an important bridge between the
+point-observations of asteroids from ground-based observatories to disk-resolved spectra.
+Two features of OVIRS required attention during spacecraft design and operations planning. First, OVIRS carries a two-stage radiator, which achieves focal plane temperatures of
+∼105 K, and optics enclosure temperatures < 160 K (Reuter and Simon 2012). These temperatures provide the low thermal background necessary for the infrared observations. To
+provide the radiators with a clear view of deep space, OVIRS is mounted to the −x side of
+the spacecraft (Figs. 10 and 11). To ensure proper operational temperatures for OVIRS, this
+side of the spacecraft is usually pointed anti-sunward. Second, OVIRS uses a solar calibration aperture that is mounted 90° from the primary instrument aperture. These calibration
+observations will occur periodically throughout the mission.
+OTES OTES is a Fourier-transform interferometer point spectrometer that collects thermal infrared data from ∼5.7 µm to 50 µm (Christensen et al. 2017). OTES is a single
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 15 of 46
+
+107
+
+Fig. 12 Perspective views of the science deck and cones representing the field-of-views (FOVs) of the instruments. Except for SamCam, all instruments are co-boresighted to the +z axis. SamCam is angled to see the
+TAGSAM head when extended in its sampling position. The colors for each FOV are as follows: OLA, dark
+purple; OVIRS, red; OTES, green, PolyCam, yellow; MapCam, light purple; SamCam, light blue; REXIS,
+dark blue
+
+assembly, housing all optics, the detector, and control electronics. OTES data will determine mineralogical and thermal properties of Bennu. Despite measuring thermal/long-IR
+wavelengths, OTES does not require special cooling or other unusual temperature-sensitive
+considerations (Christensen et al. 2017). During instrument integration on the spacecraft,
+initial checkouts carried an unexpected amount of noise. The noise was ultimately traced to
+a nitrogen purge, and thus represented no risk to the instrument in flight.
+Collectively, OCAMS, OVIRS, and OTES will let OSIRIS-REx acquire spatially resolved spectra from visible wavelengths to 50 µm across the asteroid. OVIRS and OTES
+are both point spectrometers; they achieve spatially resolved spectra by acquiring data as
+the spacecraft slews, which sweeps the instrument FOVs across the asteroid surface.
+OLA OLA is a two-axis scanning lidar, the first such instrument to fly on a planetary
+mission (Daly et al. 2017). OLA consists of two major components: the optical unit, which
+houses the lasers, mirrors, and detectors, and the control electronics unit. OLA will provide
+an unprecedented high spatial- and vertical-resolution data set of the entire asteroid’s surface. The instrument mirror scans independently of the spacecraft motion, either in a simple
+1D motion, or in 2D (Daly et al. 2017). This achieves the high spatial resolution relative to
+previous planetary lidars.
+REXIS REXIS is an X-ray spectrometer that observes energies from 0.5 keV to 7 keV
+(Masterson et al. 2018) and is an experiment developed and built as a joint student collaboration between MIT and Harvard. REXIS observes X-ray fluorescence of elements activated
+by solar X-rays. REXIS consists of two components: a detector/electronics assembly that
+includes a coded-aperture mask to support 2D imaging, and a monitor of the stimulating
+solar X-ray flux. The imaging assembly is mounted on the +z science deck with the other
+remote sensing instruments (Figs. 11 and 12), while the solar monitor is mounted to observe
+in the +y direction.
+The common boresight between most of the remote sensing instruments provides other
+advantages. There is a common keep-out zone for spacecraft components and solar illumination, supporting clear fields of view for all the instruments. In addition, the common
+boresight simplifies operations, ensuring common visibility to the asteroid surface for all the
+instruments during the remote sensing campaign.
+
+107
+
+Page 16 of 46
+
+E.B. Bierhaus et al.
+
+The OSIRIS-REx spacecraft provides a stable, thermally compliant platform for the science instruments during operations. The spacecraft supports the remote sensing observations
+during the pre-TAG phases of asteroid operations, which acquire a rich data set to determine
+the optimal TAG site that balances safety, sample collection, and science value. The spacecraft itself, in conjunction with the TAGSAM arm and TAGSAM head, is central to the core
+science goal of the mission: sample collection and return. Section 4 describes the TAGSAM,
+the technology that obtains the sample.
+
+3.4 Contamination Requirements and Implementation
+The pristine character of the returned samples depends on two elements of the OSIRIS-REx
+architecture: contamination control and contamination knowledge. Contamination control
+limits what terrestrial materials are exposed to spacecraft, and therefore the sample. Constraints on contamination control are developed by science requirements and practical constraints of developing and testing a spacecraft. Given that some contamination that will
+occur, contamination knowledge measures the contamination, enabling a more precise evaluation of the returned sample’s composition. Dworkin et al. (2017) provide a comprehensive
+review of the contamination requirements. Here we focus on efforts to establish contamination knowledge.
+Witness plates monitor the environment of the spacecraft and TAGSAM throughout the
+lifecycle of the hardware, including “ground” and “flight” witness plates. “Ground” witness
+plates were present during spacecraft assembly and were routinely monitored and replaced
+to assess the environmental exposure as the spacecraft was built and tested. “Flight” witness
+plates are present on the TAGSAM head, in the TAGSAM wrist, and inside the SRC, to
+monitor accumulation of materials during in-flight operations. Here we briefly describe the
+ground witness plates; Sect. 4.3 describes the flight witness plates.
+Ground witness plates were of two types: active monitoring for contamination control
+(contamination monitoring plates, or CMP), and contamination knowledge plates, which
+were exposed and collected during spacecraft assembly and test to archive the spacecraft
+environment during this development phase. Both types were used to determine particulate
+levels, particle fallout rates, amino acid residue levels, and Non-Volatile Residue (NVR)
+levels. Contamination monitoring plates collected particulates passively during cleanliness
+monitoring procedures and were placed as close as possible to contamination-sensitive areas,
+to obtain the most accurate particulate readings.
+In addition to the witness plates, hardware samples, or coupons, from spacecraft components, which were processed in the same fashion as the flight hardware, were delivered to
+NASA’s Johnson Space Center curatorial facility as part of the long-term library of materials available to identify terrestrial contamination in the samples. The combination of ground
+and flight witness plates, and archived spacecraft materials, support the return and analysis
+of pristine sample from Bennu.
+
+3.5 Operations
+Lauretta et al. (2017) provide a detailed description of the mission plan. Here we provide an
+overview of the mission portions most relevant to TAGSAM operations.
+Outbound Cruise An Atlas V411 carried OSIRIS-REx into space on September 8, 2016,
+with a launch C3 of ∼29.3 km2 /s2 . A deep-space maneuver (DSM) in January 2017 adjusted
+the trajectory to set up an Earth-Gravity Assist (EGA) on September 22, 2017. After the
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 17 of 46
+
+107
+
+Fig. 13 A schematic overview of the TAG rehearsals and final TAG event. The operations team guides the
+spacecraft through two rehearsals, each one decreasing the range to the asteroid, before the actual TAG and
+sample collection event. This enables confirmation of the navigation and spacecraft operations necessary prior
+to committing the spacecraft to surface contact
+
+EGA, no further trajectory modifications occur until the asteroid approach phase, at which
+point a series of thruster firings, two weeks apart, progressively decrease the relative velocity
+between the spacecraft and Bennu. The TAGSAM head remains in the launch container
+during this time.
+Proximity Operations Proximity operations (proxops) begin in November 2018, and end
+after successful sample collection, nominally in July 2020. Proxops includes the following
+subphases: Preliminary Survey, Orbit A, Detailed Survey, Orbit B, Reconnaissance Phase,
+TAG Rehearsals, and finally TAG itself. All of the phases up to the Reconnaissance Phase
+provide increasingly detailed measurements of the asteroid surface and provide the OSIRISREx project with information to decide on the TAG location.
+TAG Rehearsals After final selection of the TAG site, the operation team conducts a
+series of rehearsals over the TAG site as a part of a deliberate and incremental steppingstone approach to ensure a successful sampling event (Berry et al. 2013; May et al. 2014).
+The first rehearsal, known as the “checkpoint” rehearsal (Fig. 13), includes a burn that
+transitions the spacecraft from asteroid orbit to asteroid approach. This rehearsal includes
+acquisition of navigation images and GN&C–lidar ranges, deployment of the TAGSAM
+arm to sampling position, and spacecraft slews necessary to achieve attitudes required for
+navigation. At a range of 125 m, the spacecraft executes a burn to return to orbit rather
+than one intended to proceed to the surface. The spacecraft transmits all navigation data to
+Earth to confirm that range, range rates, attitudes, and events occurred as planned. After
+positive confirmation of a successful checkpoint rehearsal, the spacecraft proceeds to the
+next rehearsal.
+
+107
+
+Page 18 of 46
+
+E.B. Bierhaus et al.
+
+The second rehearsal, known as the “matchpoint” rehearsal (Fig. 13), includes all of the
+steps from the checkpoint rehearsal and several additional events prior to the TAG event.
+After the orbit departure maneuver, the spacecraft executes two additional burns (Fig. 13):
+the checkpoint burn places the spacecraft on a descent trajectory to the asteroid surface, and
+the matchpoint burn matches the asteroid rotation rate and establishes the slow descent to
+the surface. Shortly after successful execution of the matchpoint burn, the spacecraft initiates a departure maneuver and returns to orbit. As with the previous rehearsal, the spacecraft
+downlinks telemetry to assess that all events occurred within acceptable bounds. After positive confirmation of a successful matchpoint rehearsal, the mission can proceed to TAG.
+TAG TAG occurs in July 2020, and it follows the sequence of events of the prior two rehearsals, except that after the matchpoint burn, the spacecraft continues to the surface of the
+asteroid. During that final approach to the surface, the spacecraft uses the GN&C lidars or
+NFT to monitor that the range and velocity are within an acceptable corridor, and to prepare
+for the sampling sequence. After a short duration of confirmed contact with the asteroid
+surface, the high-purity nitrogen gas is released from one of the TAGSAM bottles, mobilizing surface materials under the TAGSAM head where they are captured. Five seconds after
+release of the sample gas, the spacecraft executes a back-away maneuver to move to a safe
+distance from the asteroid.
+Sample Mass Verification Once the spacecraft reaches a safe distance from the asteroid,
+a braking burn halts the relative separation between the spacecraft and Bennu. From this
+station, the spacecraft conducts two investigations to evaluate the collected mass.
+The first investigation is an imaging campaign during which the TAGSAM arm places
+the head in the sun in a small number of attitudes. Thermal modeling of the head, and
+regolith in the head, suggests there is a risk to the 75°C maximum temperature requirement
+for certain head attitudes relative to the Sun at solar ranges < 1.15 AU; there are fewer
+geometric restrictions but some still exist to < 1.25 AU, and beyond that range any head
+attitude relative to the Sun should maintain the sample to < 75°C. TAG nominally occurs in
+July 2020, when the solar range is > 1.15 AU but < 1.25 AU—and at this time Bennu and
+the spacecraft are still moving from perihelion to aphelion (i.e., away from the sun). For solar
+ranges between 1.15 AU and 1.25 AU, the Sun can shine on the TAGSAM “side,” where the
+side is defined as the cylindrical portion housing the screen mesh. Angles that tilt the head
+up to 30° toward the Sun do not violate the max temperature. Thus the post-TAG imaging
+includes orienting the head edge-on to the Sun, as well as a slight tilt toward the Sun. In this
+configuration it is possible to see what material was collected in the contact pads, and assess
+the state of the TAGSAM head that had initial contact with the asteroid. Experiments on the
+ground demonstrate that sample mass inside the collection volume should be visible if the
+Sun has an opportunity to illuminate the collection volume, which these geometries allow.
+If the imaging occurs at solar ranges > 1.25 AU, any head orientation relative to the sun
+preserves the temperature limit. This evaluation is qualitative in terms of sample mass, so
+another technique is necessary to evaluate the collected mass relative to the required amount.
+To determine the mass of collected sample, the spacecraft implements a delta-momentof-inertia technique (May et al. 2014). Prior to sample collection, while in orbit, the spacecraft conducts a series of slow spins with the arm extended. There are two spins, both about
+the z-axis. The first extends the arm along the +z axis, the second extends the arm along the
+−x axis (Fig. 14). These provide a baseline measurement of the spacecraft angular momentum without any sample. After sample collection, the spacecraft repeats the spin sequences.
+The change in moment of inertia is a direct measurement of the sample mass. Specifically,
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 19 of 46
+
+107
+
+Fig. 14 Sample mass measurement configurations. The spacecraft performs a rotation about the +z axis
+before and after sample collection. The change in the moment of inertia is a direct measurement of the
+sample mass
+
+Fig. 15 (a) On the left is a model of the spacecraft, with an inset simulating the StowCam FOV during
+insertion of TAGSAM into the SRC. (b) On the right is an image from StowCam taken after launch; the SRC
+remains closed until the TAGSAM head has collected sample
+
+with known reaction wheel inertias, the wheel speeds to achieve target spin rates enables
+solving for inertia. The change in inertia before and after sample collection is a measurement of sample mass. This technique eliminated the need to add extra instrumentation to
+assess the sample mass.
+SRC Stowage After confirmation of the required sample mass, the arm inserts the
+TAGSAM head into the SRC, and the arm is detached from the TAGSAM head. The righthand image in Fig. 4 shows the TAGSAM capture ring, which is the fixture in the SRC that
+mates to the TAGSAM head. Once inserted into the capture ring, latches hold the TAGSAM
+head in the SRC. An engineering camera, known as “StowCam,” is positioned to view the
+insertion of TAGSAM head into the open SRC. Figure 15 shows (i) a simulated view of the
+StowCam during the stowage event, as well as (ii) a view from the SamCam of the SRC
+taken after launch (the SRC remains closed until the TAGSAM head is ready to be stowed).
+After the SRC is confirmed to be closed, the spacecraft enters a quiescent operational period
+that lasts until the departure burn for the return-to-Earth trajectory.
+Multiple Sampling Attempts The OSIRIS-REx flight system and TAGSAM carry the
+requirement to support up to three sampling attempts. The multiple-attempt capability pro-
+
+107
+
+Page 20 of 46
+
+E.B. Bierhaus et al.
+
+vides resiliency in the event that the first sample collection event fails. There are three independent gas bottles to support the three events. The entire flight system has the resources
+(fuel, schedule margin, operational lifetime, etc.) to support these additional attempts.
+Return Cruise Return cruise starts March 2021, when the spacecraft executes a departure burn from Bennu. The subsequent trajectory returns the spacecraft to near-Earth space,
+with spacecraft closest-approach and a daytime return of the SRC on September 24, 2023.
+Small maneuvers, in the months leading up to Earth return, refine the trajectory to achieve
+the precise targeting necessary to deliver the SRC to the landing site at the Utah Test and
+Training Range (UTTR). Several hours before Earth encounter, the spacecraft releases the
+SRC, then executes a small burn to raise the Earth closest-approach of the spacecraft to 250
+km. At this point, the spacecraft and SRC are on separate trajectories: the spacecraft passes
+by Earth to remain in a heliocentric orbit, while the SRC enters the Earth’s atmosphere to
+land in UTTR.
+The SRC enters the atmosphere at 12.2 km/s. The vast majority of the deceleration occurs
+via atmospheric friction on the SRC heatshield, which protects the sample inside the capsule.
+After peak heating, the SRC will have a gentle parachute landing in the Utah desert.
+The recovery team transports the SRC to a temporary processing facility in UTTR, and
+prepares the sample canister for immediate shipment to the long-term storage facility at
+the Johnson Space Center where it is opened. The Preliminary Examination Team (PET)
+conducts an initial assessment of the returned sample, distributing some material to the
+OSIRIS-REx science team for immediate study and inventory in preparation for proposals
+by scientists around the world for analysis of the material. Seventy-five percent of the sample
+is reserved for study by future generations of scientists using new analysis techniques.
+
+4 TAGSAM
+TAGSAM is the product of LM internal research and development activities that explored
+a wide variety of techniques to sample the surfaces of small bodies. Clark et al. (2016)
+summarize the development effort of TAGSAM through the end of the New Frontiers 3
+Concept Study Report for OSIRIS-REx. Here we focus on the activities and results from
+the start of mission development (Phase B), though first we provide a short summary of the
+TAGSAM design, and the advantages afforded by the gas-driven sample collection.
+
+4.1 Overview
+TAGSAM was one of several approaches Lockheed Martin initially considered for sampling
+planetary regoliths as part of a larger architectural trade to maximize overall simplicity and
+reliability for small body sampling. “Landing” on a small body requires the spacecraft to
+provide functionality that otherwise is inherent when landing in regoliths on planetary bodies with appreciable surface gravity—maintaining contact with the surface and a preferred
+orientation requires thrusters or anchors on a small body, and these techniques are sensitive to the specific properties of the generally poorly constrained mechanical properties of
+the target body. An alternative was a so-called touch-and-go (TAG) design, which involves
+a brief contact between the spacecraft and small body. After the sample is obtained, the
+spacecraft quickly retreats to a safe position away from the body. A TAG architecture minimizes the contact time, reduces sample handling complexity in the proximity of the surface,
+reduces the variability of thermal states when in contact with the object, and avoids the
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 21 of 46
+
+107
+
+Fig. 16 The TAGSAM assembly consists of an arm, gas bottles, and the TAGSAM head, which is stowed
+in a launch container until arrival at Bennu. (a) The left-hand image shows qualification hardware, with
+labels identifying the major components of the arm. (b) The right-hand image shows the qual hardware in
+preparation for a vibration test; the head is inside the launch container
+
+need to ensure long-term communications to Earth while on the surface. Ultimately the gasdriven approach proved superior, resulting in TAGSAM as the reference design. Extensive
+IRAD-supported LM testing, occurring over several years, included ground-based testing
+and two reduced-gravity campaigns on parabolic aircraft flights (Clark et al. 2016). These
+tests evaluated collection performance as a function of material type and grain sizes, demonstrating significant collection capability in a wide variety of materials and surface gravities,
+including 1-g at the Earth’s surface and near zero-g experienced during the parabolic airplane flights. Upon selection of OSIRIS-REx for Phase B, we initiated a test campaign that
+optimized the existing, extensive capability of TAGSAM for sample collection at Bennu.
+These tests included additional ground-testing (e.g., in the laboratory) and two additional
+reduced-gravity campaigns. We describe these tests here.
+The complete TAGSAM design consists of (Figs. 3 and 16): an arm with telescoping
+spring; three pressurized bottles containing curation-grade nitrogen gas with a small amount
+of helium (to check leaks prior to launch); the sample collection “head”; a u-joint between
+the arm and the head that allows the contact plane of the head to comply with any residual angle difference (i.e., tilt) between the head and the local surface; and a container that
+houses the head (the right-hand image of Fig. 16) during launch and cruise to the asteroid
+to maintain cleanliness during final ground processing, launch, and initial spacecraft outgassing. The centerlines of all TAGSAM components, and the SRC, reside in essentially the
+same plane, simplifying alignment between the launch, sampling, and SRC stowage geometries (Fig. 3). There are three “joints” in the arm: a shoulder, which is the attach point to
+the spacecraft; an elbow, located at half the arm length; and a wrist, which is the interface
+between the arm and the sample head (Fig. 16). These joints enable the arm to position the
+head for operational activities, including the sample collection, sample-mass measurement,
+and other post-TAG assessment activities. There are three pressurized gas bottles (N2 bottles
+in Fig. 16), which are independently released, to support up to three sampling attempts. The
+launch container cover (the right-hand image of Fig. 16) is ejected, and the TAGSAM head
+extracted, during the final approach phase to Bennu in October, 2018.
+
+107
+
+Page 22 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 17 (a) The left-hand image is a TAGSAM engineering development unit (EDU). The u-joint allows
+the contact plane of the head to comply with the surface during initial contact with the regolith. The screen
+mesh is on the outside circumference of the sample chamber, allowing the sample gas to escape but trapping
+asteroid material. (b) A schematic of TAGSAM operation. Gas flows from source bottles to the head, which
+creates a directed flow in the regolith. Like wind blowing sand, the gas mobilizes surface material, carrying
+it into the collection volume. Figure after Clark et al. 2016
+
+For the sample collection event, the arm positions the head along the center of mass of
+the spacecraft, at ∼3 m from the plane of the science deck (Fig. 1). At contact, the spring in
+the arm (indicated as “compression section” in Fig. 16) mitigates contact dynamics between
+the spacecraft and asteroid at contact. A series of triggers, including a microswitch in the
+arm and monitoring the accelerations measured in the inertial measurement unit, collaborate
+to define when the spacecraft achieves contact with the surface. Once the triggers declare
+contact with the asteroid, the computer initiates the gas release, which marks the start of the
+collection phase. To support the TAG architecture, the design emphasized maximum collection in minimum time. The majority of the gas release occurs in 5 sec, and ground-based
+testing (Fig. 24) demonstrates TAGSAM collects the required mass (using unconsolidated
+sedimentary materials as listed in Table 6?) in < 1 sec on Earth, providing confidence the
+required sample mass will be collected rapidly at Bennu’s regolith.
+The exterior geometry of TAGSAM head (Fig. 17) is a short, wide cylinder that is cylindrically symmetrical except for two gas tubes (that branch from the single feed line) that
+deliver gas to the TAGSAM contact surface. The configuration is similar to a brimmed hat,
+where the brim comprises the contact surface, and the volume above contains the collection
+region that holds the regolith from the asteroid. This rationale for this geometry is multifold:
+first, it is stable; second, the volume provides significant margin for material in the event of a
+low bulk-density; and third, it fits within the volume of the Stardust heritage SRC, providing
+significant cost savings and development time compared with an entirely new capsule design. The bulk of TAGSAM is made of aluminum alloy, and includes a stainless-steel screen
+mesh (38 micron openings), stainless-steel fasteners, and Mylar flap that assists in retaining
+the regolith after collection (Fig. 17). These materials were selected because of their long
+use in curating lunar samples without introducing contamination.
+Figure 17(b) illustrates the basic sampling process of TAGSAM. When sample gas is
+released from a high-pressure bottle, the gas flows through a feedline to the head and is
+directed into the regolith via an annular aperture. The gas mobilizes material underneath the
+head as the gas expands into the regolith. The flange seal and impedance of the soil bed
+cause the gas naturally to flow from the high-pressure environment underneath the head to
+the vacuum of space via the collection volume around the perimeter of the head. A screen
+around the perimeter of TAGSAM retains asteroid regolith, even as the gas escapes.
+TAGSAM is required to collect 150 g of sample. This value exceeds the 60 g science
+requirement because of the resolution of the measurement technique used to determine the
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 23 of 46
+
+107
+
+Fig. 18 A computer-generated
+image of the TAGSAM head,
+with a call-out box indicating the
+position of a picture showing the
+contact pads around the bottom
+of TAGSAM. The 24 contact
+pads are evenly distributed
+around the entire perimeter
+
+collected mass. By collecting 150 g, TAGSAM ensures that the measured value (via the
+change in spacecraft moment of inertia) will be at least 60 g. Clark et al. (2016) describe a
+broad suite of testing that evaluated collection performance given a variety of regolith types.
+In general, TAGSAM efficiently collects fine-grained material, such as lunar regolith. The
+maximum mass collected in any TAGSAM test is ∼1.9 kg of the Johnson Space Center
+lunar simulant, JSC-1. Testing with coarse-grained gravel demonstrated collected mass well
+in excess of 150 g in reduced-gravity conditions (i.e., the parabolic airplane flights); in addition, the parabolic flights demonstrated that collection performance increases by a factor of
+4–5 between ground-based tests and an equivalent test in reduced-gravity conditions (Clark
+et al. 2016). The early phases of testing included continuous size-frequency distributions
+(SFDs), as well as bimodal SFDs (i.e., sand and gravel-sized particles). The presence of
+appreciable small-diameter material enhanced the collection of larger grains. Subsequent
+testing, described in Sects. 4.4 and 4.5, expanded the types of materials and the conditions
+of collection; TAGSAM exceeds the collection requirement in a variety of material types
+and conditions, including cases with obstacles underneath the head.
+
+4.2 Contact Pads
+In addition to the bulk sample collection, TAGSAM also will collect material in contact
+pads. The goal of the contact pads is to collect the immediate surface material of Bennu, in
+particular the material that is the surface layer that reflects sunlight, and thus is the medium
+that generates the asteroid’s observed reflectance spectrum seen by ground-based telescopes.
+This goal is codified in a Level 1 requirement for the mission that requires the spacecraft
+“contact ≥26 cm2 of surface material from Bennu and return the TAGSAM contact surface
+and archive 75% for future analyses.”
+The TAGSAM head carries circular 24-contact pads, each of which has an exposed diameter of ∼1.75 cm, corresponding to 4.43 cm2 per pad, and 57.42 cm2 total contact-pad
+area (Fig. 18). The contact pads are distributed around the outer perimeter of the contact
+surface. Each contact pad is the “loop” side of a metal Velcro (Fig. 19), which proved to
+be the material that balances the collection of small particles on the one hand, yet resists
+collecting larger particles that might interfere with stowage in the SRC.
+The contact pads went through a two-stage evaluation. The first stage was an assessment
+by the science team based on the criteria listed Table 2. The second stage was an assessment
+by the engineering team to ensure that the proposed contact pad could be manufactured and
+
+107
+
+Page 24 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 19 A flight-like contact pad. The loop side of metal Velcro (dark brown) is spot welded onto a disk,
+which is mounted in the TAGSAM head
+Table 2 The science-team evaluation criteria for contact pad material
+Top-level evaluation criteria that must be met before consideration as a candidate material:
+Pad materials must be able to pass Contamination Control cleaning protocols as determined by the
+contamination control working group.
+The composition of the pad material must not pose a contamination threat to the sample itself (i.e.,
+mineralogical similarities, leaching, shedding, etc.), as determined by the sample working group.
+After admitted for testing, the following criteria were used to compare and rank candidate materials:
+The pad materials must resist collection of particles that are larger than 6 mm.
+Pad materials must not fail under normal or shear stresses induced mechanically or by sample–gas dynamics.
+Total volume of sample collected.
+Grain size range of sample collected.
+Ability to retain sample through g-forces (during sampling phase and atmospheric reentry inside SRC).
+Ability to differentiate between a surface particle and a bulk particle.
+Ease of sample extraction.
+
+incorporated into the TAGSAM head by existing manufacture and processing protocols, and
+that particles collected by the contact pads would not represent a risk to safe stowage of the
+TAGSAM head in the SRC.
+
+4.2.1 Science-Team Evaluation
+The OSIRIS-REx science team’s Regolith Development Working Group (RDWG) led the
+science-team assessment of the contact pads. The RDWG solicited the entire science team
+for candidate contact pad materials. Seventeen candidate materials were received, from simple aluminum foil to alloy microlattices. Of the original candidate materials, six candidates
+“survived” initial screening defined by sample-science considerations (composition, compliance to cleaning protocols) to proceed to testing: reticulated aluminum foam, aluminum
+foil, steel wool, stainless-steel Velcro, indium, and alloy microlattices. Of those six, three
+candidate materials proved to be “high-performing” candidates: steel wool, stainless-steel
+Velcro (loop side), and indium.
+Indium proved to be a versatile candidate because the material is soft enough to allow a
+wide variety of textured patterns—increasing surface texture increases the available surface
+area and thus improves contact with an irregular surface. Several different textured patterns
+were evaluated, including a flat surface, a “waffle” pattern, slots, holes (Fig. 20), and spirals.
+Indium proved to be the most effective material for particle collection, across particle sizes
+from 500 microns to 3 mm. Some configurations collected particle sizes up to 1 cm, which
+represented a risk to safe stowage and were eliminated. Flat surface, and 1-mm-holed indium
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 25 of 46
+
+107
+
+Fig. 20 A prototype indium
+contact pad with 1-mm holes
+
+pads were included in a reduced-gravity flight. These tests demonstrated that these surface
+types collect and retain particles that span the expected surface distribution, but were not as
+efficient in collecting larger particles.
+At the end of the science-team evaluation of contact pad material, the following candidates were passed on to the engineering team: medium-fiber stainless-steel wool, loop-side
+stainless-steel Velcro, 1-mm-holed indium, and flat-surface indium.
+
+4.2.2 Spacecraft-Team Evaluation
+The spacecraft-team testing focused on engineering considerations and mission safety. After
+receiving the recommendations from the science team, and after preliminary analysis, the
+spacecraft team concluded that two candidates should move forward: the indium and metal
+Velcro. The stainless-steel wool presented a number of challenges in cleaning, fabrication,
+and particle shedding. Subsequent assessment of indium demonstrated an ability to collect
+and retain particles larger than the maximum safe size, even in Earth-gravity conditions,
+and indium was eliminated. Stainless-steel Velcro (loop side) thus became the contact-pad
+material that underwent a test program to ensure its viability to meet science, safety, and
+implementation constraints.
+The spacecraft team developed a test plan that included variations in contact velocity,
+regolith sizes and compositions, angle to surface, and horizontal translation speed at the
+time of contact. In addition to variation of those parameters, test execution included 48
+contact pads, each dropped three times, for a total of 144 tests.
+The test was a bench-top fixture consisting of a weighted drop head containing the contact pad and a translating bed of regolith material (Fig. 21). When the weighted head was
+released, it actuated a timer switch and dropped into the regolith bed; the timer switch then
+lifted the head from the regolith bed using pneumatic cylinders after the established incontact dwell time on the regolith. A DC electric actuator with 50.8 cm of travel was used to
+translate the bed up to several cm/s to simulate varying horizontal velocities of the head at
+time of contact. The regolith bed was approximately 7.6 cm deep ×30.5 cm wide ×91.4 cm
+long. The regolith bed holds approximately 19 liters of material when full.
+For each test, a contact pad was installed into the drop head (Fig. 21). The drop head
+included both a ±15° rotation relative to vertical (as a proxy for the u-joint between the
+TAGSAM arm and head), and a mechanism that allowed the head to rotate after contact
+(within the ±15° bounds). This test setup represented a conservative condition for embedding a particle into the contact pad: the surface area of the drop head was significantly
+smaller (∼7%) than the area of the TAGSAM contact area; thus the pressures at contact are
+an average over 14× larger for the contact pads during the tests than they will be for flight.
+
+107
+
+Page 26 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 21 The contact-pad evaluation test setup. The left-hand image shows a contact pad mounted in the drop
+head. The right-hand image shows the test frame that houses the drop fixture (that holds the drop head and
+contact pad) and the regolith bed. Tests included both stationary and translating regolith beds
+Table 3 Summary of collected
+particles, whose sizes approach
+the safety threshold, from contact
+pad testing
+
+Size fraction and material
+
+Number of particles collected
+by the contact pad
+
+1.70 mm–3.35 mm, basalt
+
+5
+
+3.35 mm–6.30 mm, basalt
+
+1
+
+1.70 mm–3.35 mm, TLS
+
+7
+
+3.35 mm–6.30 mm, TLS
+
+0
+
+The regolith material used for the testing was the crushed basalt and Tagish Lake Simulant (TLS) described in Sect. 4.4. We tested two size fractions: 1.70 mm–3.35 mm and
+3.35 mm–6.30 mm. The simulants were sieved with an electric shaker (5 minutes/batch)
+into the size fractions. Recall that the objective of these tests was to ensure the contact-pad
+design was capable of collecting particles yet did not compromise spacecraft safety. Thus
+these tests focused on larger particles. Visual inspection for collected particles focused on
+sizes that could compromise spacecraft safety, and did not examine smaller particles.
+Of the 144 tests, 13 tests collected and retained particles that approached the safety
+threshold (Table 3). Twelve of the collected particles were in the 1.70 mm–3.35 mm size
+fraction, and one of the collected particles was in the 3.35 mm–6.30 mm size fraction. Of
+the twelve in the 1.70 mm–3.35 mm size fraction, five were basalt particles and seven were
+TLS particles. Because of the rarity of the 3.35 mm–6.30 mm size fraction collection (one
+out of 144 tests, or 0.7%), in conjunction with the overtest of dynamics, the metal Velcro
+loop material was deemed an acceptable material from a safety perspective.
+
+4.3 Flight Witness Plates
+Materials and substances present on a returned witness plate could be from the spacecraft,
+from Bennu, or from a source to which the witness plate was exposed but the sample was
+not.
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 27 of 46
+
+107
+
+Fig. 22 The locations of the
+witness plates described in
+Table 4. The top row shows the
+locations of witness plates on the
+sample head; the witness plates
+identified by b) are exposed after
+the TAGSAM head is inserted in
+the SRC and the arm is separated.
+The bottom row shows the
+locations of witness plates inside
+the SRC
+
+Multiple exposures of witness plates assist in isolating the source(s) of contaminant
+species. The comparison of these plates provides the most complete picture of the environment the sample experienced after collection from the surface of the asteroid. Multiple
+witness plates will assist in isolating the source(s) of contaminant species. Analysis of all
+witness plates provides the most comprehensive assessment of contamination; however, the
+presence of multiple plates in multiple locations provides redundancy, and analysis of any
+one plate has value: if a particular plate is compromised, the others still provide valuable
+data.
+The flight witness plates will observe three time periods: (1) before the sample is acquired, (2) the time between sample acquisition and sample stowage, and (3) sample stowage
+through Earth return. Four groups of witness plates cover these time periods, two groups associated with the TAGSAM head and wrist, and two groups inside the SRC. Figure 22 and
+Table 4, respectively, illustrate the position of witness plate groups on the spacecraft and
+their exposure periods. See Dworkin et al. (2017) for more discussion on the selection of
+witness plate materials, which were derived from Stardust experience.
+There are two types of witness plate materials, aluminum and sapphire, enabling independent and complementary analyses on the returned plates. The plates are different thicknesses
+to support post-return identification of location on the flight vehicle, and are scored on one
+side to indicate which side was exposed. All witness plates will be catalogued as part of the
+archived materials available to support future research.
+
+4.4 Simulants Used in Testing TAGSAM
+Clark et al. (2016) summarize the initial test materials used to evaluate TAGSAM collection.
+Prior to the Japanese Hayabusa mission imaging from asteroid Itokawa (Miyamoto et al.
+2007), we tested a number of fine-grained materials, consistent with the regoliths seen on the
+Moon, Mars, and inferred from earlier spacecraft encounters with other small bodies (e.g.,
+Phobos and Deimos, Eros). The very highest-resolution imaging from Hayabusa, however,
+suggests that the “smooth” regions on Itokawa at low resolution may consist of regolith that
+is deficient in fine-grained material (i.e., particles sizes smaller than a few mm). Multiple,
+independent measurements of the particle size-frequency distribution (SFD) on these images
+
+107
+
+Page 28 of 46
+
+E.B. Bierhaus et al.
+
+Table 4 Flight witness plate information
+Name of
+witness plate
+
+Material type
+
+Location & area
+
+Mission exposure time
+
+A
+
+Aluminum & sapphire
+
+TAGSAM (no screen); 10.1 cm2
+of each material type
+
+Open prior to asteroid
+sampling
+
+B
+
+Aluminum & sapphire
+
+TAGSAM—Under wrist joint
+(with screen on 1/2); 26.7 cm2
+total area
+
+Open after capture by
+SRC
+
+C
+
+Aluminum & sapphire
+
+TAGSAM (with screen on 1/2);
+10.1 cm2 of each material type
+
+Always exposed
+
+1
+
+Aluminum & sapphire
+
+SRC—Near hinge line as part of
+mechanism (no screen); 5.2 cm2
+total area
+
+Exposed until SRC
+opens to receive
+TAGSAM head
+
+2
+
+Aluminum & sapphire
+
+SRC—Near hinge line as part of
+mechanism (with screen on
+1/2); 5.2 cm2 total area
+
+Exposed after SRC
+opens to receive
+TAGSAM head
+
+3
+
+Aluminum & sapphire
+
+SRC—(with screen on 1/2); 5.2
+cm2 total area
+
+Always exposed
+
+of Itokawa surface (available on NASA’s PDS Small Bodies Node, curtesy of JAXA) found
+the particle sizes roughly follow a cumulative power law, N = kD −b , where N is the number
+of objects with diameter Dand larger, and k and b are constants found by fitting the data.
+For the Itokawa Muses-C region, b is about 2.5 (Fig. 23). Because there are only a few
+of the highest-resolution images, there is uncertainty in whether these data are localized or
+represent the broader nature of this region on the asteroid.
+Practical considerations in preparing and maintaining soil test beds make it desirable
+to restrict the size range for the most-utilized distribution to be between 3 mm and 25 mm.
+Smaller particles tend to become redistributed to lower horizons in the bed, unless numerous
+precautions are taken in its preparation. To simulate the inferred size distribution of Itokawa
+but provide a practical working medium, we deleted particles below a sieve opening of
+3 mm but increased the proportions of the remaining smaller particles relative to larger ones
+(Table 5).
+We use a number to specify the smallest diameter particle, and a letter to specify the
+largest diameter particle. In this nomenclature, our standard SFD is the “7-series,” so-called
+because the number 7 corresponds to a ∼0.32 cm minimum particle size, consistent with
+the possible absence of fines on Itokawa, and consistent with the predicted presence of mmsized grains on Bennu (Nolan et al. 2013; Emery et al. 2014). We used several different
+maximum particle sizes, corresponding to “7c,” “7d,” and “7e” (Table 5). Because Earth
+gravity limits the mobility of larger particles, with realistic densities, our standard for most
+ground testing is 7c. However, we have performed both ground and reduced-acceleration
+testing with larger sizes.
+A natural process that occurs in any geologic material, when moved or mixed or otherwise energized, is the generation of fines. The process of scooping, sieving, mixing, pouring, and sampling causes particles to grind together, sometimes breaking particles apart in
+weaker materials, and always generating fines even in the stronger material (i.e., basalt).
+Thus in any sampling event, there were particles smaller than the minimum size of the
+source distribution, from mm-sized particles down to dust.
+In addition to the material SFD, the composition and structure of the simulant plays a role
+in the fidelity of the testing. We tested a wide variety of material types to determine the col-
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 29 of 46
+
+107
+
+Fig. 23 The upper-left image is from the Hayabusa mission to asteroid Itokawa, showing two basic textures
+visible at the global scale: one is rough, due to large rocks and boulders resting on the surface; the other
+is smooth at this scale. The upper-right image is from a shape model of Itokawa, from roughly the same
+view as in the upper-left. The arrowed red squares are the location of the images in the lower-left, which
+are high-resolution views of the Muses-C region (the smooth region seen in the upper-left image). At high
+resolution, the Muses-C surface consists of a range of particle sizes with a cumulative power-law exponent
+of −2.5 (see the plot in the lower right). Close examination of the high-resolution images suggests that fines
+may be absent in Muses-C
+
+lection efficiency as a function of shape and particle density. Earlier test materials included
+lunar simulant, mortar mix, vermiculite, sand, popcorn, peanuts, and chopped rubber. For
+realistic particle densities that spanned the range of possible densities on Bennu, we converged on two reference simulant types: a crushed basalt, procured from Hazen Research
+Inc., and Tagish Lake Simulant (TLS), a simulant developed by OSIRIS-REx Co-I Alan
+Hildebrand (Univ. of Calgary) specifically to mimic the mechanical properties of the Tagish Lake meteorite (Hildebrand et al. 2006). The Tagish Lake meteorite is a carbonaceous
+chondrite with properties we suspect will be similar to those we find at Bennu. Table 6 summarizes the average bulk and particle densities of the basalt and TLS simulants. We used
+these two simulants for TAGSAM verification tests and for the majority of the collection
+tests. However, specialized test campaigns did utilize other materials.
+Variation of particles, size, orientations, etc. result in natural scatter of sampling results;
+thus we run multiple collections for each set of test conditions both to ensure repeatability
+and to bound the expected range of collection performance for a given test case. Successful
+collection with the wide range of simulant types, particle sizes, and test conditions provides
+confidence in the face of uncertain conditions on Bennu’s surface.
+
+4.5 Ground Testing
+Clark et al. (2016) summarize the testing done during the early development of TAGSAM.
+In brief, that testing demonstrated the broad capability of gas-driven sampling of planetary
+
+107
+
+Page 30 of 46
+
+Table 5 (a) The size bins, and
+% by mass, that constitute the
+“7-series” SFD, similar to
+observations of the Muses-C
+region on asteroid Itokawa. Sieve
+sizes from standard geologic
+sieves. (b) Alternative
+configuration to Table 5(b): we
+defer to editor’s preference
+whether or not both English and
+SI units are used, or just SI
+
+E.B. Bierhaus et al.
+(a)
+inches
+
+cm
+
+% by mass
+
+min
+
+max
+
+min
+
+max
+
+Mix 7c
+
+Mix 7d
+
+Mix 7e
+
+1/8
+
+1/4
+
+0.318
+
+0.635
+
+43%
+
+38%
+
+31%
+
+1/4
+
+3/8
+
+0.635
+
+0.953
+
+24%
+
+21%
+
+18%
+
+3/8
+
+1/2
+
+0.953
+
+1.270
+
+18%
+
+16%
+
+13%
+
+1/2
+
+5/8
+
+1.270
+
+1.588
+
+15%
+
+13%
+
+11%
+
+5/8
+
+3/4
+
+1.588
+
+1.905
+
+0%
+
+11%
+
+9%
+
+3/4
+
+1
+
+1.905
+
+2.540
+
+0%
+
+0%
+
+18%
+
+(b)
+Particle diameter (cm)
+
+Standard mixture (wt%)
+
+min
+
+max
+
+Mix 7c
+
+Mix 7d
+
+Mix 7e
+
+0.318
+
+0.635
+
+43%
+
+38%
+
+31%
+
+0.635
+
+0.953
+
+24%
+
+21%
+
+18%
+
+0.953
+
+1.270
+
+18%
+
+16%
+
+13%
+
+1.270
+
+1.588
+
+15%
+
+13%
+
+11%
+
+1.588
+
+1.905
+
+0%
+
+11%
+
+9%
+
+1.905
+
+2.540
+
+0%
+
+0%
+
+18%
+
+Table 6 Average particle and bulk densities for the two reference simulants
+Material
+
+Particle density [g/cm3 ]
+
+Bulk density [g/cm3 ]
+
+Crushed basalt
+
+3.0
+
+1.5
+
+Tagish Lake Simulant (TLS)
+
+1.6
+
+1.0
+
+regoliths in a wide variety of materials. Materials included lunar simulant, martian simulant,
+mortar mix, sand, and the basalt and TLS mixes described in Sect. 4.4. Here we describe
+the ground testing, with emphasis on the most recent tests that reflect the TAGSAM final
+design on the spacecraft, including bottle size and pressure. We divide the ground tests into
+two categories: (i) pre-verification tests, which explored different materials and collection
+conditions; and (ii) verification tests, i.e., those tests that formally demonstrated TAGSAM
+meets the requirements defined by the OSIRIS-REx project.
+
+4.5.1 Pre-verification Testing
+The pre-verification testing addressed several parameters that are fundamental to both
+the architecture of the TAG design—namely, collecting sample within a small number of
+seconds—and our ability to approximate testing performance at Bennu while testing in Earth
+gravity and the state of knowledge of the regolith particle sizes.
+Collected Mass as a Function of Collection Time The TAG architecture requires that
+sample collection occur in a short period of time; simulations of the TAG event indicate that
+collection time (the time between the gas fire and departure from the surface) is as short as
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 31 of 46
+
+107
+
+Fig. 24 Collection results for basalt 7c as a function of collection time for the no-obstruction geometry
+(head flat against the surface). The scatter in collected mass for a given time is typical because of natural
+variation of the regolith bed at the time of collection. The nominal collection time is 5 s; a very hard surface
+or other conditions could result in shorter collection times. These data demonstrate TAGSAM exceeds the
+150 g requirement for collections times as short as 0.5 s
+
+∼2 s for a very hard surface, up to ∼8 s for a soft surface. The nominal sample collection
+time at Bennu is about 5 seconds. Because of the uncertainty in the nature of the surface
+and contact dynamics, we explored collected mass as a function of time. Figure 24 plots
+collected mass as a function of collection time, including the nominal five seconds; the tests
+focused on collection times shorter than the nominal collection time. We ran two tests at
+each contact time for 0.5 s, 1 s, 2 s, and 3 s. These tests illustrate that TAGSAM exceeds the
+150 g collection requirement even if off-nominal conditions lead to short collection times.
+The difference in collected mass for a given time illustrates the natural variability inherent
+in the regolith bed between tests—even though the material is the same between tests, the
+number of particles and their size, orientation, and relationship with neighboring particles
+will be different between tests. However, the trend to increased collected mass is clear across
+collection times, and all collected masses exceed the 150 g requirement.
+Simulating Low-Gravity Through Low-Density Simulants Ground-based Earth testing
+has, of course, an ever-present gravitational acceleration of 9.8 m/s2 , which is about 105
+larger than the gravitational environment at Bennu. Thus the weight of particles of realistic
+materials in Earth’s gravity is larger than an equivalent particle’s weight on Bennu’s surface.
+In addition to reduced-gravity airplane flights, we conducted ground-based testing using
+low-density materials. The low-density materials are a means to evaluate weight effects
+for sample collection, allowing us to test collection efficiency when the particle weight is
+closer to the weight of the particles at Bennu. The use of low-density materials creates a
+different mismatch between the test conditions and the actual collection because low-density
+materials do not match the inertia of actual geologic materials. However, our existing data
+demonstrate that the sample gas force dominates particle inertia during the first few seconds
+of gas release. Basalt, which has a higher particle density than expected for Bennu regolith,
+is easily mobilized in Earth’s gravity by the TAGSAM gas. This means the drag force on
+a basalt particle is greater than the weight force of that particle in Earth’s gravity. In other
+words, the sampling gas has sufficient energy to mobilize particles with realistic inertias
+even in 1 g, demonstrating that the initial collection dynamics (the first few seconds of
+gas flow) are not dominated by the inertia of realistic particle densities. Thus the use of
+low-density materials is appropriate to evaluate low-weight collection performance in Earth
+gravity. Perlite is a low-bulk-density, ∼0.1 g/cm3 , readily available natural material that can
+
+107
+
+Page 32 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 25 Low-density materials used to simulate low-weight asteroid regolith. (a) The left-hand image is a
+picture of perlite in one of the test chambers after a collection test; the post-sampling divot is visible. (b) The
+right-hand image is the TAGSAM head resting on a “regolith bed” of exclusively 2.5 cm plastic hollow
+spheres in a deep wire mesh container (housed in a vacuum chamber); this set up was to minimize the gas
+impedance into the regolith and thus represent a challenging collection scenario
+
+be sieved to form different SFDs. We used perlite as a proxy for low-weight asteroid regolith
+(Fig. 25).
+Figure 26 plots the collected volume (rather than collected mass) of basalt, TLS, and
+perlite. The perlite was sieved to approximately match the 7c distribution (Table 5) and
+was under-dense in the largest particles. Several important trends emerge from these data.
+First, reduced weight (which is equivalent to reduced bulk density) corresponds to increased
+collected volume (Fig. 26). This is true for both the “no-gap” cases (in which the head is
+flat against the surface) and the “5-cm obstacle” cases (when there is a 5-cm obstacle under
+one side of the head, causing the head to be tilted with respect to the plane of the regolith
+surface). Second, the obstacle reduces the collected volume for basalt and TLS, but not for
+perlite. It is not clear whether this is a weight effect or inertial effect, or a combination
+of both. The decreased weight makes the material easier to mobilize for longer periods of
+time; this will be true for the material on Bennu. The decreased inertia makes the perlite
+more compliant to the flow fields of the gas, which may not be representative of material
+with higher inertia. Thus if an initial trajectory for a particle sends it through the gap, rather
+than into the head, that particle will not be collected. Nevertheless, the trend for improved
+collection at lower weight supports effective sample collection at Bennu. The data points are
+individual tests; the solid lines connect the averages for each test condition—the thick line
+connects the averages for the no-gap cases, and the thin line connects the averages for the
+5-cm obstacle cases. Collected volume increases by over 60% between the higher-density
+basalt and the low-density perlite for the no-gap cases, and increases ∼570% between the
+basalt and perlite for the 5-cm obstacle cases. Thus the reduced-weight conditions at Bennu
+should correlate with increased collection.
+Collecting Larger Particles As described in Sect. 4.4, there were scientific and practical
+considerations that led to the selection of particle sizes included in the test material. Highresolution images of the Muses-C region on Itokawa (Miyamoto et al. 2008) suggest that
+fines may be under-abundant or absent relative to the SFD observed at sizes above ∼1 cm.
+In Earth’s gravity the natural size sorting (the “Brazil nut effect”) causes larger particles
+to migrate to the top of the regolith bed, creating challenges when seeking a well-mixed
+volume of material that covers a wide size range. Furthermore, earlier testing (Clark et al.
+2016) demonstrated that TAGSAM is very effective collecting fine-grained material. Thus
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 33 of 46
+
+107
+
+Fig. 26 The collected volume of basalt, TLS, and low-density simulants. Some materials have somewhat
+different collection conditions (see text for details). The test data demonstrate that as weight decreases, collected volume increases. The thick black line connects the average collection for the no-gap cases. The thin
+black line connects the average collection for the 5-cm obstacle collection cases
+
+an important parameter that deserved further exploration is collection of larger particle sizes.
+However, this parameter quickly collides with the discrepancy between the gravitational environment on Earth and Bennu. We took a two-pronged approach: (i) test true particle SFDs
+with increasing maximum particle size until Earth’s gravity overcomes the mobilization capability of the collection gas, and (ii) use low-density large particles as a proxy for large
+regolith particles (with the same considerations of weight vs. inertia described earlier).
+Figure 27 plots collection results for basalt 7c, 7d, and 7e (see Table 5 for definitions of
+the SFDs). The 7c data point is an average for multiple collection tests. These tests are in
+Earth’s gravity, and thus the work done by the gas to mobilize and collect the particles is
+much higher than on Bennu. To evaluate collection performance for lower-weight particles,
+we used 2.0 cm and 2.5 cm (both values are diameter) plastic hollow spheres (PHS) (Fig. 27).
+We tested each size separately, i.e. only 2.0 cm diameter, then only 2.5 cm diameter, as well
+as a mixture of the two. The decrease in collection efficiency follows a similar functional
+behavior as the basalt results, but at collected volumes over an order-of-magnitude larger.
+The single-size PHS tests demonstrate the ability of TAGSAM to collect large grain sizes
+without the presence of finer grains that (within cohesion limits) facilitate the mobilization
+of larger particles. Scaling the average collected volume of 2.5 cm diameter spheres to a
+nominally-expected bulk density of 1 g/cm3 for Bennu material, the collected mass would
+be over 160 g, for 2.0 cm diameter spheres the collected mass would be over 400 grams,
+and for the mixture (2.0 cm and 2.5 cm spheres) the collected mass would be 270 g. These
+tests demonstrate the capacity of TAGSAM to mobilize and ingest particle sizes larger than
+the mean sub-cm-sized particles derived from thermal inertia measurements (Emery et al.
+2014).
+Collected vs. Source SFD Preserving the original SFD of the regolith as it natively exists
+on Bennu is not a requirement because of several reasons: the uncertainty associated with
+measuring the source SFD with sufficient accuracy at the relevant particle sizes (i.e., the
+resolution and coverage requirements would be far more resource-intensive); the challenges
+
+107
+
+Page 34 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 27 Collection results that include larger particle sizes than found in 7c. (a) The left-hand plot shows
+collected mass as a function of the maximum particle size in SFDs defined in Table 5. The data point for
+7c is an average value. The average collected mass for both 7d and 7e are above the 150 g requirement.
+The right-hand plot shows the collected volume for single-size bin basalt materials, as well as the collected
+volume for plastic hollow spheres (2 cm diam, 2.5 cm diam, and a mixture of the two diameters). Earth’s
+gravity limits the mobilization of the basalt material; the collected volume of the PHS material demonstrates
+that TAGSAM can collect material even when particle sizes are exclusively ≥2 cm
+
+Fig. 28 A histogram of the percent of total collected mass as a function of size for the averages over several
+tests. Test data shown are for both the head flat against the surface and with a 5-cm obstruction under one side.
+All tests used in the averages are for the basalt simulant. The idealized source 7c distribution is included for
+reference. As described earlier, the reality of geologic materials results in small amounts of material residing
+in size bins slightly larger and slightly smaller than the idealized SFD
+
+associated with preserving the SFD throughout the sample-handling chain (i.e., the unavoidable dynamics associated with atmospheric entry and capsule landing during the return to
+Earth); and the source SFD does not trace directly to any of the Level 1 science requirements. Nevertheless, evaluating the returned sample SFD, and correlating with measured
+mechanical properties (e.g., tensile and shear strengths) can provide important constraints
+on the evolution of regolith on asteroid surfaces. Because we sieve the collected sample after
+each TAGSAM test, we can compare the collected SFD with that of the source material to
+evaluate whether or not the sampling process biases the collection relative to the original
+SFD. As an example, Fig. 28 plots the percentage of collected mass as a function of size bin
+for 7c (Table 5), averaged over several collections for the nominal case (head flat against the
+surface) and the tilted case (5-cm obstacle under one side of the head). Figure 28 includes
+the idealized (“source”) 7c for reference. All tests used the basalt 7c simulant. (The inherent
+variability in natural materials results in small amounts of mass in size bins slightly larger
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 35 of 46
+
+107
+
+Table 7 Parameters that defined the TAGSAM verification collection tests
+Particle SFD
+
+7c (see Table 5)
+
+Simulant materials
+
+Basalt, TLS (see Table 6)
+
+Geometries
+
+Head flat, head tilted by 5-cm obstacle under one side
+
+Temperatures
+
+Hot cases, +70 °C; cold cases −80 °C
+
+Note: SFD is the size-frequency distribution, and TLS is Tagish-Lake simulant
+
+and slightly smaller than the idealized SFD.) The results demonstrate that TAGSAM generally preserves the source SFD. The largest discrepancy is in the largest size bin, which
+is likely a selection effect caused by the larger weight of these particles in Earth’s gravity
+relative to that on Bennu.
+
+4.5.2 Verification Testing
+Although we do not know the typical SFD of regolith on Bennu at diameters less than a few
+cm, there are several lines of indirect evidence that suggest the surface includes loose, collectable material. The overall shape of Bennu (Nolan et al. 2013), which though not spherical
+is compellingly regular for such a small object, suggests that it is a rubble pile; a solid body
+would easily withstand the small but persistent gravitational drive to a spherical shape. In
+addition, the equatorial ridge suggests the presence of mobile material that moves across
+the surface to an energetic minimum (Scheeres et al. 2016). The Bennu radar polarization
+ratio (Nolan et al. 2013) is less than Itokawa and Eros, suggesting it is smoother than those
+asteroids at scales comparable to the wavelengths of the radar (12.6 cm and 3.5 cm). Finally,
+Emery et al. (2014) use Spitzer observations of Bennu at thermal wavelengths to derive a
+thermal inertia that is consistent with a surface comprised of a mean particle size less than a
+cm. When combined with visible imaging of Itokawa’s Muses-C region that resolves sizes to
+near 1 cm, and Bennu’s spectral classification (B-class) and the relationship with the known
+properties of carbonaceous meteorites, the OSIRIS-REx team converged on a reference set
+of materials, SFDs, and test conditions that defined the verification test set for TAGSAM,
+which are summarized in Table 7. The hot and cold temperatures are based on the possible
+range of regolith surface temperatures that OSIRIS-REx may sample (hottest at the equator,
+coldest near the poles). For the test, the entire TAGSAM head and gas delivery system were
+placed into a vacuum chamber with the regolith, and the entire system was driven to hot or
+cold temperatures. Although there was thermal control on the gas delivery system, the hot
+case corresponds to an increased bottle pressure over the cold case, and as a result the hot
+case had higher bottle pressures compared with the cold case. Figure 29 plots the results of
+the verification tests. It is important to note that in flight the temperature of the bottles will
+be well controlled, and will never be as cold as the cold case from these tests. The bottle
+will not be at a low pressure at the time of gas fire, and so the cold case shown in Fig. 29 is
+an end-member in that regard. Most importantly, collection exceeded 150 g in all cases.
+
+4.6 Reduced-Gravity Testing
+Understanding the dynamics of the regolith in response to gas flow, in a reduced-gravity
+environment, is essential to demonstrate the viability of our sample technique. The use of
+vacuum chambers in ground tests enabled us to simulate the absence of an atmosphere.
+However, a fundamental constraint of ground-based laboratory testing, when approximating
+
+107
+
+Page 36 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 29 Plot of the verification
+collection results. The cold TLS,
+5-cm obstruction result is nearly
+identical to the cold basalt, 5-cm
+obstruction result, making the
+data point difficult to distinguish
+on this plot
+
+asteroid conditions, is the presence of Earth’s gravity. On the Earth’s surface, the weight of
+a cm-sized particle is a larger force than the aerodynamic lifting force of flowing gas unless
+the wind speeds are high (fortunately, most windy days on Earth do not loft cm-sized gravel
+into the air). In contrast, the weight of a 1-cm particle on Bennu is roughly 105 less than
+on Earth because Bennu’s surface gravity is 105 less than Earth’s surface gravity, yet the
+gas-driven forces remain the same.
+To test collection performance in a more “flight-like” environment, we completed a total
+of four reduced-gravity flight test campaigns; the first two occurred prior to OSIRIS-REx
+selection, and are summarized in Clark et al. (2016). Briefly, the first two flight campaigns
+demonstrated that: (1) the basic TAGSAM design exceeds the 150 g sample-mass collection
+requirement (collecting up to several hundred grams), (2) the reduced-acceleration conditions during the flights improved collection by 4–5× when compared with the same test in
+the 1-g laboratory environment, and (3) that collection improves as the relative fraction of
+finer-grained material increases.
+Here we describe the third and fourth reduced-gravity flight campaigns, which occurred
+in May and October 2012, after OSIRIS-REx was selected as the third New Frontiers mission. The May flight occurred through a NASA program that shares flights among multiple
+experiments, while the October flight was dedicated to TAGSAM testing and included a special acceleration profile to provide a low, but always-positive acceleration that we derived
+based on the three previous flight campaigns. Table 8 summarizes the objectives of each test
+campaign.
+Reduced-gravity flights are performed by flying an aircraft in a series of parabolic arcs.
+The “reduced-gravity” condition occurs as the plane noses-over the top of the parabola,
+during which everything in the plane is in near free fall. In the reference frame of the aircraft
+there are minimal accelerations, which mimic the conditions in a low-gravity environment.
+But of course, Earth’s gravity is still very present, accelerating the plane rapidly toward the
+ground until pull-up from the parabola. Thus the environment in the plane during the nose
+over is more accurately described as reduced-acceleration.
+Starting with the third flight campaign, in May 2012, we used a new set of five Lockheed
+Martin IRAD-developed test chambers (Fig. 30). The five chambers are housed in three
+discrete assemblies: one large chamber with interior dimensions measuring 76 cm on a side
+(length and width), and two pairs of two smaller chambers measuring 46 cm on a side (length
+and width). Previous testing (Clark et al. 2016) demonstrated that sample collection in the
+smaller chambers is consistent with that of the larger chamber, mitigating concerns over wall
+effects biasing the collection results. The larger chamber enabled us to better evaluate the
+dynamics of material in reduced acceleration conditions, in addition to evaluating collection
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 37 of 46
+
+107
+
+Table 8 Overview of reduced-gravity flight test objectives
+Campaign
+May 2012
+
+Objective
+1. Evaluate collection performance in the presence of increasing maximum particle size
+2. Evaluate collection when the head is not flat against a target surface
+3. Test the collection performance of a candidate contact pad material
+4. Explore regolith dynamics unique to a low-gravity environment
+5. Conduct control experiment
+
+October 2012
+
+1. Improve understanding of collection performance in small but always positive
+acceleration environment
+2. Evaluate collection performance of basalt and TLS 7c
+3. Evaluate collection results without and with an obstacle
+4. Evaluate collection performance as a function of contact time
+
+Fig. 30 (a) The left-hand photograph is the five chamber configuration on the May 2012 flight series. Chamber 100 is the large chamber, chambers 200–500 are the smaller chambers. (b) The right-hand photograph is
+the regolith bed in Chamber 100 (the large chamber, interior dimensions are 76 cm on a side). The material
+is basalt
+
+performance. Each chamber has a mobile cover between the TAGSAM head and the regolith
+surface. This cover provided a barrier between the regolith and the TAGSAM head before
+and after sampling, to ensure material collection only occurred during the collection period
+during each test. Each chamber had its own TAGSAM head, which was extended to the
+surface and then retracted after a defined time.
+The sample collection test sequence is as follows, the sequence represents the events
+that take place to test one TAGSAM head during the reduced-acceleration phase of a single
+parabola: (1) the NASA flight lead called stable entry into reduced-acceleration conditions;
+(2) a test engineer retracted the cover, exposing the TAGSAM head to sample regolith;
+(3) another test engineer initiated the downward travel of the head to the surface; (4) after contact with the surface the sampling gas was discharged via a flight-like microswitch
+triggered by compression of the arm during contact; (5) after a defined period of time the
+head was retracted from the surface, and the cover returned to its starting position, separating the head from the regolith. This was all done in the ∼16–18 s of reduced-acceleration
+conditions available during each parabola. The functions of the test personnel were to mimic
+the functions of the spacecraft and ensure the regolith and head were kept separate except
+during sampling.
+
+107
+
+Page 38 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 31 Collected mass as a
+function of the maximum particle
+size present in the regolith. (The
+minimum particle size was the
+same in all tests.) There were
+three different test types with 7c:
+(i) head flat against surface
+(“7c”); (ii) head tilted relative to
+surface (“7c, tilted head”),
+though see text for actual test
+conditions; and large rocks
+between the TAGSAM head and
+the bulk 7c material (“7c, large
+rocks on surface”). The regolith
+simulant for these tests was basalt
+
+4.6.1 May 2012 Flights
+The May 2012 flight campaign was a part of NASA’s Facilitated Access to the Space Environment for Technology (FAST) opportunity; TAGSAM was one of several experiments
+on the plane. There were four flights, with five sample events each flight. Each sampling
+event used a distinct chamber (Fig. 30) and sample head. The five TAGSAM heads used
+during this test sequence were slightly different than the final flight design, so the results
+presented here cannot be directly compared with results of the final design. Nevertheless,
+the test results were valuable in understanding the overall behavior of the gas-driven sampling capability of TAGSAM. This test sequence had five objectives, summarized in Table 8
+and described in more detail in the following paragraphs.
+Objective 1 Evaluate collection performance in the presence of increasing maximum particle size. Earth gravity inhibits the mobility of larger rocks during the sample gas release.
+Thus a prime goal of the reduced-acceleration testing was to assess the collection when the
+weight of the particles was not dominated by Earth gravity, yet their inertial properties were
+still representative of Bennu material. We used three different variations of our 7-series SFD,
+for which the maximum particle size varied from ∼1.6 cm to ∼2.5 cm (Table 5).
+Figure 31 summarizes the collection results from these tests. We ran four cases of 7c,
+three cases of 7d, and four cases of 7e. The collected mass decreases as the maximum
+particle size increases, although the smallest collection amount, ∼333 g of 7e, is still more
+than twice the minimum sample mass collection requirement of 150 g.
+In addition to varying the maximum diameter in the overall SFD, we also ran two cases
+in which we placed several-cm-sized rocks (larger than the maximum ingestible diameter of
+TAGSAM) on the regolith, in the sampling area of TAGSAM, such that the TAGSAM head
+would have to “sample around” the larger rocks (Fig. 32). These tests were distinct from
+those in Objective 2 because those tests introduced a tilt of the head relative to the collection
+surface. These tests kept the bottom of the head roughly parallel to the plane of the simulated
+regolith, with a gap underneath the entire head due to the presence of multiple large rocks.
+Because of the acceleration conditions of the flights (see subsequent discussion), the large
+rocks in one of the cases shifted prior to sampling, and may have not been true obstructions
+during the sampling event. Nevertheless, in the case in which the rocks definitively remained
+as obstructions, the collected mass was ∼511 g.
+Objective 2 Evaluate collection when the head is not flat against a target surface. Highresolution images of Itokawa’s Muses-C region show that even in the smooth, boulder-free
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 39 of 46
+
+107
+
+Fig. 32 The regolith
+configuration (in the large
+chamber) underneath the
+TAGSAM head during a May
+2012 reduced-acceleration flight.
+There are multiple,
+several-cm-diameter rocks in the
+TAGSAM contact area.
+TAGSAM collected 511 g in this
+test
+
+Fig. 33 (a) A simple schematic of the airplane to illustrate the coordinate system of the accelerometer. Most
+importantly, +z is down, and −z is up. Thus, a −z acceleration corresponds to pushing regolith in chamber
+up towards the top of the sample chamber. (b) The measured vertical acceleration during a sampling run. The
+acceleration is in units of Earth g’s. (The lower-density point region centered around 36.5 min is due to a
+slower sampling frequency of the accelerometer.) The high-frequency change in the data is real, caused by
+aircraft vibrations. The purple curve is the same data after applying a moving average filter (of 20 time steps)
+to smooth over the vibrations to better illustrate the “gross” accelerations. Excursions into both positive and
+negative acceleration are visible
+
+regions, larger rocks are present. In the event a portion of the head were to contact such a
+rock during TAG the head would not be flat against the surface during sampling. To test
+collection performance in this case, we fixed the TAGSAM u-joint at its maximum articulation of 15 degrees. This geometry results in a fixed 15 deg tilt between the bottom of
+the TAGSAM head and the top plane of the surface regolith. Due to the acceleration environment during these parabolas (see Figs. 33 and 34, and the subsequent discussion), the
+regolith bed shifted significantly from its original level state to be biased largely against one
+side of the test chamber. Because the regolith material was “unweighted” and mobile due to
+small negative accelerations, two factors affected the objective of the test: (1) the head did
+not contact the surface with a known tilt relative to the material, and (2) the mobility of the
+regolith allowed the head to “carve” through the material prior to firing, potentially compromising the objective of this test. Nevertheless, an unexpected positive byproduct of these
+tests is understanding the performance of the head when contacting a low-cohesion surface
+in a microgravity environment, which is a possibility at Bennu. In such a case, the regolith
+will flow to conform to the head during initial contact, resulting in successful collection. We
+
+107
+
+Page 40 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 34 This sequence of images demonstrates the regolith mobility during the reduced-acceleration phase of
+the flight. (Fig. 33 plots the vertical acceleration of this parabola.) During periods of negative acceleration, and
+because of airplane vibration and small lateral accelerations, the regolith migrated from its original position.
+The black horizontal band through the images is part of the regolith cover retraction and deployment system
+
+conducted a second set of such “tilt” tests in the October 2012 flights (Objective 3 of the 4th
+campaign), which are discussed later.
+Objective 3 Test the collection performance of a candidate contact pad material. To test
+candidate contact material (reticulated aluminum foam), we deposited colored dust on top
+of the regolith. Due to the dynamics of the regolith in the small yet consequential accelerations during the reduced-acceleration phase, the regolith and dust became mixed prior to
+sample fire, and thus the colored dust was not limited to a surface veneer during the sampling event. The contact pads had some small grains of both the colored dust and ground
+basalt (basalt dust generated naturally by grinding of the larger particles), but because of the
+particle mixing prior to sampling we could not determine whether the colored grains were
+on the surface, or from below the surface. The testing did confirm that contact pads can
+collect small particles.
+Objective 4 Explore regolith dynamics unique to a low-gravity environment. The acceleration profile of a reduced-acceleration parabola targets a mean value of zero-g, with oscillations into positive and negative g during this time. (The contractual requirements for
+each parabola were 0 ± 0.02 g for 10 s and 0 ± 0.05 g for 17 s.) Fig. 33 plots the vertical acceleration profile of one of the May 2012 parabolas. The aircraft vibrations show
+up as high-frequency variations in the raw data (left-hand panel); a moving average window
+screens out the vibrations to reveal the oscillations around the zero-g mean that occur during
+a parabola.
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 41 of 46
+
+107
+
+Figure 34 is a compilation of single frames at different times from a video acquired
+during the reduced-acceleration period, demonstrating the motion of the regolith (during the
+same parabola whose accelerations are shown in Fig. 33). At the initiation of the TAGSAM
+descent toward the regolith surface, the material is in approximately the same position as it
+was when the chamber was prepared for the test. At the time the head contacts the surface,
+the material has shifted toward the back and one side of the chamber, following the net lateral
+accelerations of the plane over this time. After contact, the u-joint in the head complies with
+the orientation of the regolith, and shortly thereafter the arm compression triggers the gas
+fire. Comparing the regolith positions to the small but nonzero accelerations shows that the
+regolith flowed according to the net accelerations present. As the net acceleration vector
+changed, the regolith responded as a viscous fluid, “flowing” as it moved under the new
+acceleration. This behavior is not surprising, given that dry material can exhibit fluid-like
+behavior as debris flows in a variety of mass-wasting processes (e.g., Collins and Melosh
+2003).
+Objective 5 Conduct control experiment. We wanted to confirm that the gas dynamics
+dominate the sample collection. To do so, we ran one experiment that followed the same
+steps as other tests, except that no gas was released at contact. (This also evaluates if
+TAGSAM collects any sample in an off-nominal scenario that involves a surface contact
+but no gas fire.) Post-test evaluation of the TAGSAM head showed a small number of particles, weighing about 1 g, were collected. When compared with the several-hundred-gram
+sample collection for a normal gas-fire collection, the control experiment confirmed sample
+collection is dominated by gas fire, although the possibility remains that the simple transfer
+of kinetic energy at contact will push some material into the TAGSAM head. Simulations
+of contact dynamics in microgravity (Sanchez et al. 2013) demonstrate that simple transfer
+of kinetic energy between the head and the surface will push particles off the surface, and
+those inside the collection area of the head could be captured and retained. The test and
+simulations suggest that TAGSAM may collect a scientifically valuable quantity of material
+even in the very unlikely event that the gas system fails. The contact pads also will collect
+samples any fine-grained material present at the surface.
+
+4.6.2 October 2012 Flights
+The May 2012 flights, and two earlier reduced-acceleration campaigns (Clark et al. 2016)
+provided invaluable data that quantified the dynamics and efficiency of a gas-driven collection system in a low-acceleration environment. However, despite the value of these experiments, the oscillation of the net vertical acceleration between positive and negative values
+resulted in a regolith bed that was “unloaded,” and in some cases actively mobile, at the time
+of sampling (Figs. 33 and 34). Such cases are not representative of the regolith at the time
+of collection at Bennu. As a result, we defined a specialized acceleration profile to achieve
+test conditions more relevant for the environment during sampling at Bennu. We required
+the smallest positive average acceleration that would result in no negative-g excursions. In
+consultation with the NASA pilots of the Reduced-Gravity Office (RGO), we defined an
+acceleration profile that targeted 0.05 g, the minimum value possible without any excursion
+into negative accelerations.
+The RGO spent considerable effort supporting our test campaign. In the week prior to the
+actual tests, the pilots conducted a practice flight to ensure they met the acceleration profile
+requirements. When developing the flight plan for the tests, the team collectively agreed
+to include additional practice parabolas prior to each test, i.e., the pilots conducted one (or
+
+107
+
+Page 42 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 35 The vertical acceleration profile for the October 16 test flight. The acceleration is in units of Earth
+g’s. Test parabolas are outlined and labeled; the others were practice parabolas. See Fig. 31 for a higher-time
+resolution plot of a sampling parabola. Periods of ∼1 g were preparation time for the next chamber; the longer
+duration of nonparabolic flight between roughly 31 min and 34 min corresponds to the plane completing a
+180° turn to conduct the last two parabolas on a return path that retraced the ground track of the outbound
+path
+
+Fig. 36 A plot of the smoothed vertical acceleration profile during the Chamber 100 test of the October
+2012 sampling parabolas. The acceleration is in units of Earth g’s. The reduced-acceleration period oscillated
+around an approximate mean of 0.05 g, with no negative accelerations. This resulted in a small but consistently “positive-g” acceleration environment that—although larger than the surface accelerations at Bennu—was still a more representative acceleration environment than one that included periods of net-negative
+vertical acceleration
+
+two) practice parabolas prior to a sampling parabola. Figure 35 is the summary vertical
+acceleration profile for the entire flight that took place on October 16. The parabolas during
+which we conducted a test are highlighted and labeled with the chamber tested on that
+parabola. Prior to each test, there were one (or two) practice parabolas. Figure 36 plots the
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 43 of 46
+
+107
+
+Fig. 37 The sampling test from the same parabola whose vertical accelerations are plotted in Fig. 31. The
+state of the regolith throughout the parabola is stable, without the mobility seen in earlier flights; compare
+with the behavior of the regolith seen in Fig. 28
+
+vertical acceleration profile from one of the flights, demonstrating that the pilots achieved the
+target 0.05 g mean acceleration; Fig. 37 is the behavior of the regolith during that parabola.
+The NASA pilots performed flawlessly, with no negative g’s in any of the test parabolas
+flown during the test week.
+Objectives for the October flight campaign were similar to previous campaigns, but to
+achieve improved understanding of the collection performance in a more representative acceleration environment—i.e., the primary objective was to conduct collection tests in a carefully controlled acceleration environment defined by our requirement to maintain a ∼0.05 g
+acceleration during sampling. Collection-test objectives included: evaluate collection performance of basalt and TLS 7c; evaluate collection results without and with an obstacle;
+evaluate collection performance as a function of contact time.
+For each flight, we had five test chambers, each with its own regolith and sample head.
+Four of the five chambers contained basalt, one of the five chambers contained TLS. We had
+less TLS material, and because TLS is friable, the regolith disaggregated more quickly and
+required refreshing to maintain the desired particle SFD, hence the single test chamber for
+TLS.
+Figure 38 plots the collection results for different combinations of test parameters: basalt
+and TLS, with and without a 5-cm obstacle (the obstacle introduces a tilt, or gap, between
+the head and the regolith surface), and collection time. Several trends emerge. The basalt
+collections generally have greater mass, though the difference in collected volume is less.
+Increased collection time generally leads to increased collection (also see similar trend in
+
+107
+
+Page 44 of 46
+
+E.B. Bierhaus et al.
+
+Fig. 38 Collection results from the October 2012 reduced-gravity flights. Circles are basalt collections;
+squares are TLS collections. Closed symbols are for collections without a gap; open symbols are for collections with a 5-cm gap. The left-hand plot is collected mass; the right-hand plot is collected volume
+
+ground-based collection testing). This is consistent with the behavior of low-density simulants in ground testing (see Sect. 4.5. and Fig. 26).
+
+5 Summary
+The OSIRIS-REx flight system is designed around a unique new method of sampling airless bodies in the solar system, and supports all remote-sensing investigations during the
+comprehensive asteroid reconnaissance prior to sampling. Measurements by a suite of specially chosen instruments will thoroughly map the surface of Bennu to support sample site
+selection, based on the criteria of sampleability, spacecraft safety, and science value. Regolith material will be transported back to Earth inside the sampling head, after it is inserted
+and secured in the Sample Return Capsule, which is nearly identical to the Stardust mission’s flight-proven reentry capsule. The implementation of stringent spacecraft contamination control measures preserves the pristine character of the collected sample, and an array
+of witness plates document the environment of the sample after collection from the asteroid
+surface.
+The TAGSAM sampling system uses the technique of fluidization of the regolith by
+injecting gas and directing the flow preferentially into a circumferential collection cavity.
+There are no moving parts requiring active articulation during the touch-and-go sampling
+event. Three independent gas reservoirs can support three separate sampling events. Gas
+handling is also passive, operating in the simple blow-down mode. The TAGSAM “touchand-go” collection technique needs less than 5 seconds of contact time to obtain the minimum amount of sample required for study in laboratories on Earth; longer collection times
+result in more sample. Extensive tests in the laboratory and onboard a series of reducedgravity aircraft flights, as well as analysis of the gas dynamics, indicate that we can expect
+a successful sampling event for a wide particle-size range, including those expected on the
+surface of the asteroid Bennu, based on thermal inertia measurements and analysis of other
+high-resolution asteroid images.
+Acknowledgements We thank the many people whose hard work, dedication, and passion for this mission
+transformed an idea into a spacecraft en route to Bennu. This work was supported by National Aeronautics
+and Space Administration contract NNG12FD66C. The October 2012 test campaign was an excellent series
+of tests, as the pilots enabled our fundamental test objective to perform collection tests in a small but always
+positive acceleration environment. We offer thanks to NASA’s RGO and the pilots for meeting our unique
+requirements, and for their incredible support during the week. The data collected during those flights are
+fundamental contributions to our understanding of TAGSAM performance at Bennu.
+
+The OSIRIS-REx Spacecraft and the Touch-and-Go Sample. . .
+
+Page 45 of 46
+
+107
+
+Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution,
+and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons license, and indicate if changes were made.
+
+References
+K. Berry, B. Sutter, A. May, K. Williams, B.W. Barbee, M. Beckman, B. Williams, OSIRIS-REx touch-andgo (TAG) mission design and analysis. Adv. Astronaut. Sci. 149, 667–678 (2013)
+D.T. Blewett, B.W. Denevi, L. Le Corre, V. Reddy, S.E. Schröder, P.M. Pieters, F. Tosi, F. Zambon, M.C.
+De Sanctis, E. Ammannito, T. Roatsch, C. Raymond, C.T. Russel, Optical space weathering on Vesta:
+radiative-transfer models and Dawn observations. Icarus 265, 161–174 (2016)
+B.J. Bos, M.A. Ravine, M. Caplinger, J.A. Schaffner, J.V. Ladewig, R.D. Olds, C.D. Norman, D. Huish, M.
+Hughes, S.K. Anderson, D.A. Lorenz, A. May, C.D. Jackman, D. Nelson, M. Moreau, D. Kubitschek, K.
+Getzandanner, K.E. Gordon, A. Eberhardt, D.S. Lauretta, Touch and Go Camera System (TAGCAMS)
+for the OSIRIS-REx Asteroid Sample Return Mission. Space Sci. Rev. (2017), this issue. https://doi.org/
+10.1007/s11214-017-0465-2
+D. Brownlee, The Stardust Mission: analyzing samples from the edge of the Solar System. Annu. Rev. Earth
+Planet. Sci. 42, 179–205 (2014)
+P.R. Christensen, V.E. Hamilton, G.L. Mehall, D. Pelham, W. O’Donnell, S. Anwar, H. Bowles, S. Chase,
+J. Fahlgren, Z. Farkas, T. Fisher, O. James, I. Kubik, I. Lazbin, M. Miner, M. Rassas, L. Schulze,
+K. Shamordola, T. Tourville, G. West, R. Woodward, D. Lauretta, The OSIRIS-REx thermal emission
+spectrometer (OTES) instrument. Space Sci. Rev. (2017), this issue. https://doi.org/10.1007/s11214018-0513-6
+B.E. Clark, R.P. Binzel, E.S. Howell, E.A. Cloutis, M. Ockert-Bell, P. Christensen, M.A. Barucci, F. DeMeo,
+D.S. Lauretta, H. Connolly Jr., A. Soderberg, C. Hergenrother, L. Lim, J. Emery, M. Mueller, Asteroid
+(101955) 1999 RQ36: spectroscopy from 0.4 to 2.4 µm and meteorite analogues. Icarus 216, 462–475
+(2011)
+B.C. Clark, E.B. Bierhaus, J.W. Harris, K.S. Payne, D.W. Wurts, R.D. Dubisher, S.L. Deden, TAGSAM: a
+gas-driven system for collecting samples from solar system bodies, in IEEE Aerospace Conference, Big
+Sky, MT, March 2016. https://doi.org/10.1109/AERO.2016.7500871
+G.S. Collins, H.J. Melosh, Acoustic fluidization and the extraordinary mobility of sturzstroms. J. Geophys.
+Res. 108 (2003). https://doi.org/10.1029/2003JB002465
+M.G. Daly, O.S. Barnouin, C. Dickinson, J. Seabrook, C.L. Johnson, G. Cunningham, T. Haltigin, D. Gaudreau, C. Brunet, I. Aslam, A. Taylor, E.B. Bierhaus, W. Boynton, M. Nolan, D.S. Lauretta, The OSIRISREx Laser Altimeter (OLA) investigation and instrument. Space Sci. Rev. (2017), this issue. https://
+doi.org/10.1007/s11214-017-0375-3
+J.P. Dworkin et al., OSIRIS-REx contamination control strategy and implementation. Space Sci. Rev. (2017),
+this issue. https://doi.org/10.1007/s11214-017-0439-4
+J.P. Emery, Y.R. Fernandez, M.S.P. Kelley, K.T. Warden, C. Hergenrother, D.S. Lauretta, M.J. Drake, H.
+Campins, J. Ziffer, Thermal infrared observations and thermophysical characterization of OSIRIS-REx
+target asteroid (101955) Bennu. Icarus 234, 17–35 (2014)
+R.W. Hamilton, C. Norman, D. Huish, OSIRIS-REx asteroid sample collection—open-loop testing of opticalbased feature tracking at the Space Operations Simulation Center (SOSC). AAS 16-086 (2016)
+A.R. Hildebrand, P.J.A. McCausland, P.G. Brown, F.J. Longstaffe, S.D.J. Russell, E. Tagliaferri, J.F. Wacker,
+M.J. Mazur, The fall and recovery of the Tagish Lake meteorite. Meteorit. Planet. Sci. 41(3), 407–431
+(2006)
+D.S. Lauretta, S.S. Balram-Knutson, E. Beshore, W.V. Boynton, C. Drouet d’Aubigny, D.N. DellaGiustina,
+H.L. Enos, D.R. Gholish, C.W. Hergenrother, E.S. Howell, C.A. Johnson, E.T. Morton, M.C. Nolan,
+B. Rizk, H.L. Roper, A.E. Bartels, B.J. Bos, J.P. Dworkin, D.E. Highsmith, M.C. Moreau, D.A.
+Lorenz, L.F. Lim, R. Mink, J.A. Nuth, D.C. Reuter, A.A. Simon, E.B. Bierhaus, B.H. Bryan, R. Ballouz, O.S. Barnouin, R.P. Binzel, W.F. Bottke, V.E. Hamilton, K.J. Walsh, S.R. Chesley, P.R. Christensen, B.E. Clark, H.C. Connolly, M.K. Crombie, M.G. Daly, J.P. Emery, T.J. McCoy, J.W. McMahon, D.J. Scheeres, S. Messenger, K. Nakamura-Messenger, K. Righter, S.A. Sandford, OSIRISREx: sample return from asteroid (101955) Bennu. Space Sci. Rev. (2017), this issue. https://doi.org/
+10.1007/s11214-017-0405-1
+R.A. Masterson, M. Chodas, L. Bayley, B. Allen, J. Hong, P. Biswas, C. McMenamin, K. Stout, E.
+Bokhour, H. Bralower, D. Carte, S. Chen, M. Jones, S. Kissel, F. Schmidt, M. Smith, G. Sondecker,
+L.F. Lim, D.S. Lauretta, J.E. Grindlay, R.P. Binzel, Regolith X-Ray Imaging Spectrometer (REXIS)
+
+107
+
+Page 46 of 46
+
+E.B. Bierhaus et al.
+
+aboard the OSIRIS-REx asteroid sample return mission. Space Sci. Rev. (2018). https://doi.org/10.1007/
+s11214-018-0483-8
+A. May, B. Sutter, T. Linn, B. Bierhaus, B. Berry, R. Mink, OSIRIS-REx Touch-and-Go (TAG) mission
+design for asteroid sample collection, in 65th International Astronautical Congress, Toronto, CA (2014)
+J.W. McMahon, D.J. Scheeres, S.G. Hesar, D. Farnocchia, S. Chesley, D. Lauretta, The OSIRIS-REx radio science experiment at Bennu. Space Sci. Rev. (2017), this issue. https://doi.org/10.1007/s11214018-0480-y
+H. Miyamoto, H. Yano, D.J. Scheeres, S. Abe, O. Barnouin-Jha, A.F. Cheng, H. Demura, R.W. Gaskell,
+N. Hirata, M. Ishiguro, T. Michikami, A.M. Nakamura, R. Nakamura, J. Saito, S. Sasaki, Regolith
+migration and sorting on asteroid Itokawa. Science 316, 1011–1014 (2007)
+H. Miyamoto, J.S. Kargel, W. Fink, R. Furfaro, Granular processes on Itokawa, a small near-Earth asteroid:
+implications for resource utilization, in SPIE, vol. 6960 (2008)
+M. Mueller, Surface properties of asteroids from mid-infrared observations and thermophysical modeling.
+PhD Dissertation, Freie Universitaet, Berlin (2007)
+M.C. Nolan, C. Magri, E.S. Howell, L.A.M. Benner, J.D. Giorgini, C.W. Hergenrother, R.S. Hudson,
+D.S. Lauretta, J.-L. Margot, S.J. Ostro, D.J. Scheeres, Shape model and surface properties of the
+OSIRIS_REx target asteroid (101955) from radar and lightcurve observations. Icarus 226, 629–640
+(2013)
+R. Olds, A. May, C. Mario, R. Hamilton, C. Debrunner, K. Anderson, The application of optical based
+feature tracking to OSIRIS-REx asteroid sample collection, in American Astronautical Society Meeting,
+Contribution 15–114 (2015)
+D.C. Reuter, A.A. Simon, The OVIRS visible/IR spectrometer on the OSIRIS-REx mission, in International
+Workshop on Instrumentation for Planetary Missions. LPI Contributions, vol. 1683 (2012), p. 1074
+D.C. Reuter, A.A. Simon, J. Hair, A. Lunsford, S. Manthripragada, V. Bly, B. Bos, C. Brambora, E. Caldwell,
+G. Casto, Z. Dolch, P. Finneran, D. Jennings, M. Jhabvala, E. Matson, M. McLelland, W. Roher, T. Sullivan, E. Weigle, Y. Wen, D. Wilson, D.S. Lauretta, The OSIRIS-REx Visible and InfraRed Spectrometer (OVIRS): spectral maps of the asteroid Bennu. Space Sci. Rev. (2017), this issue. https://doi.org/
+10.1007/s11214-018-0482-9
+B. Rizk, C. d’Aubigny, D. Golish, C. Fellows, C. Merrill, P. Smith, M.S. Walker, J.W. Hendershot, J. Hancock, D. DellaGiustina, R. Tanner, M. Williams, K. Harshman, M. Fitzgibbon, W. Verts, J. Chen, A.
+Dowd, M. Read, D. Hamara, T. Connors, R. Burt, M. Whiteley, M. Watson, B. Crowther, T. McMahon, A. Lowman, L. Harrison, B. Williams, M. Hunten, E. Little, M. Ward, D. Booher, T. Saltzman,
+D. Alfred, S. O’Dougherty, M. Walthall, K. Kenagy, S. Peterson, C. See, S. Selznick, C. Suave, M.
+Beiser, A. Lancaster, W. Black, D. Lauretta, S. Oliver, C. Morgan, C. Oquest, D. Crowley, C. Castle, R.
+Dominguez, M. Sullivan, OCAMS: the OSIRIS-REx camera suite. Space Sci. Rev. (2017), this issue.
+https://doi.org/10.1007/s11214-017-0460-7
+P. Sanchez, D.J. Scheeres, E.B. Bierhaus, B. Clark, Simulations of regolith interactions in microgravity, in
+LPSC, vol. 1719 (2013), p. 2271
+D.J. Scheeres, S.G. Hesar, S. Tardivel, M. Hirabayashi, D. Farnocchia, J.W. McMahon, S.R. Chesley, O.
+Barnouin, R.P. Binzel, W.F. Bottke, M.G. Daly, J.P. Emery, C.W. Hergenrother, D.S. Lauretta, J.R.
+Marshall, P. Michel, M.C. Nolan, K.J. Walsh, The geophysical environment of Bennu. Icarus 276, 116–
+140 (2016)
+
+

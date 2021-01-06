@@ -1,0 +1,1416 @@
+Sustain Sci (2013) 8:87–101
+DOI 10.1007/s11625-012-0187-z
+
+ORIGINAL ARTICLE
+
+Multi-level perspectives with technology readiness measures
+for aviation innovation
+Hiroko Nakamura • Yuya Kajikawa
+Shinji Suzuki
+
+•
+
+Received: 24 May 2011 / Accepted: 23 August 2012 / Published online: 15 September 2012
+ Springer 2012
+
+Abstract Sustainability science requires the development
+of a theoretical framework to understand, analyze, and design
+innovation to solve social, economic, and environmental
+issues. This paper extends the framework of multi-level
+perspectives (MLP) by introducing a technology readiness
+level (TRL), and analyzes the innovation of the advanced
+turboprop (ATP) engine in the aviation industry, also known
+as a propfan or an open rotor engine, which is one of the most
+promising engine innovations expected to mitigate climate
+change. The concept of TRL was introduced to explain the
+mechanisms of ATP failure in the late 1980s as well as the
+transition of the geared turbofan (GTF). In this paper, we
+discuss why ATP and GTF faced different fates although both
+were developed under the same landscape in the aviation
+industry. We also discuss the different roles of the sociotechnical regime, such as uneven and dynamic opportunity
+windows, technological readiness, niche stock, institutional
+
+Handled by Peter Marcotullio, Hunter College, USA.
+H. Nakamura (&)  S. Suzuki
+Center for Aviation Innovation Research,
+The University of Tokyo, 7-3-1 Hongo,
+Bunkyo-ku, Tokyo 113-8656, Japan
+e-mail: techhn@mail.ecc.u-tokyo.ac.jp
+Y. Kajikawa
+Institute of Engineering Innovation,
+Graduate School of Engineering,
+The University of Tokyo, Tokyo, Japan
+Y. Kajikawa
+Graduate School of Innovation Management,
+Tokyo Institute of Technology, Tokyo, Japan
+S. Suzuki
+Department of Aeronautics and Astronautics,
+School of Engineering, The University of Tokyo, Tokyo, Japan
+
+support of export products, and the risk of a ‘launch’ customer, at different TRLs. As illustrated in this paper, MLP
+with TRL is expected to facilitate future interdisciplinary
+collaboration between social scientists and engineers, and
+also transdisciplinary expertise between academia and practitioners by supporting analysis and design of the industry’s
+transition toward a more environmentally friendly regime as
+well as its effective management.
+Keywords Multi-level perspective  Strategic niche
+management  Technology readiness level  Transition path 
+Innovation  Advanced turboprop  Open rotor  Propfan
+
+Introduction
+The term ‘sustainability’ spread widely after the United
+Nations Conference on the Environment and Development
+(UNCED), also known as the Earth Summit, in Rio de Janeiro,
+in June 1992. Innovation for sustainability is a challenging
+issue in both industry and academia. In the academic area,
+researchers from a variety of disciplines have begun to join
+sustainability science and interdisciplinary research with
+transdisciplinary expertise and are expected to offer an
+effective way to explore the root causes of issues relating to
+sustainability and design as well as to offer plausible solutions
+for society to realize sustainability (Kajikawa 2008). However, the movement toward sustainability has not proceeded at
+a quick pace. Many innovative technologies for sustainability
+are being invented or are under active investigation, but most
+are not competitive enough against conventional technologies
+and do not become dominant. Such new and immature technologies are often very expensive, have little compatibility
+with existing regulations, or, find difficulty being accepted
+by conservative societies or markets. Therefore, scientific
+
+123
+
+88
+
+inquiry and a systematic framework to comprehend the evolutionary process of invention, innovation, and diffusion are
+necessary (Jaffe et al. 2002). But factors affecting the process
+are obscure, while a number of techniques to mimic diffusion
+processes with an S-curve are well studied (Geroski 2000).
+Sustainability science requires the development of a theoretical framework to understand, analyze, and design how new
+technological, economic, and social systems interact and
+co-evolve with various factors of socio-technical regimes in
+the context of sustainability.
+To understand the transition process toward sustainability,
+we must understand interactions among stakeholders with
+different normative structures and incentives, which are
+embedded in, influenced by, and exploited in innovation
+systems (Geels 2010). The socio-technical regimes in innovation systems have a dominant role in accelerating but also
+obstructing niche technology in its progress from invention to
+innovation (Kemp et al. 2001; Smith 2006). Transformation
+of the socio-technical regimes can work as a tipping point in
+the evolutionary process of innovation.
+Literature about multi-level perspectives (MLP) has
+emerged and has been developed intensively for two decades, by trying to model innovation based on evolutionary
+transition. MLP is a simple, but flexible, framework to
+comprehend dynamic innovation. The MLP approach has
+attracted enormous academic attention in science, technology and innovation studies fields (Kern 2012). The nature of
+this framework is multi- and inter-disciplinary and requires a
+repertoire of empirical and theoretical approaches both
+application and generalization (Grin et al. 2010). This paper
+analyzes empirically the uncompleted transition path of the
+advanced turboprop (ATP)1 in the aviation industry through
+1
+
+In this paper, ATP is defined as an innovative turbofan engine with
+a fan uncovered by a duct, and propfan, unducted fan (UDF) and open
+rotor are all included in this term. The original engineering concept of
+ATP was an innovation from a turboprop, aimed at bringing the speed
+of a fuel-efficient turboprop to a competitive level with the turbofan
+engine. NASA first developed a single rotation tractor ATP system in
+the ATP project at the Aircraft Energy Efficiency Program (ACEE)
+launched in the late 1970s. When NASA’s investigated passengers’
+acceptance of ATP technology with United Airlines in the late 1970s,
+the term ‘‘propfan’’ was used in order to avoid passengers conjuring
+up images of the old troublesome propeller from the term of turbo‘‘prop’’. In the early 1980s, General Electric (GE) revealed the
+concept of the UDF, i.e., a dual rotation pusher system with neither a
+gearbox nor a duct. The engineering concept of dual rotation systems
+without a duct such as GE’s UDF or DX-578 was rather an innovation
+from a turbofan, aimed at bringing the fuel-efficiency of a turbofan to
+a competitive level with the turboprop engine. (DX-578 was with
+reduction-gear and developed by Pratt, Whitney and Allison, who
+originally developed a single rotation ATP at NASA’s ATP project.)
+NASA’s original ATP and UDF might be different in the strict in
+terms of the engineering concept but are same in the purpose to
+achieve the best features of turboprop and turbofan. A brief
+explanation of turboprop and turbofan will appear in the ‘‘Scope
+and methodology’’ section. A dual rotation system has recently been
+called an open rotor.
+
+123
+
+Sustain Sci (2013) 8:87–101
+
+MLP and then extends the theoretical approach of MLP by
+introducing the concept of a technology readiness level
+(TRL). How socio-technical regimes affect the transition
+process at different TRLs is also discussed in this research.
+This paper is organized as follows: The next section
+reviews the previous literature and discusses the theoretical
+background to this paper. The ‘‘Scope and methodology’’
+section explains the scope and approach used in this paper.
+The ‘‘Analysis’’ section analyzes an innovation path of
+ATP that is expected to appear in the aviation industry in
+the near future within the MLP framework. This section
+also introduces TRL into MLP framework and explores the
+transition process of the geared turbofan (GTF), which was
+derived from a core technology developed in ATP projects,
+to understand the promising innovation path of GTF in
+contrast with other ATP technologies. The ‘‘Discussion’’
+section, discusses the different roles of socio-technical
+regimes at different TRLs. The final section concludes this
+paper with our findings.
+
+Literature review
+Modeling innovation
+In the 1980s, many firms faced the need to manage globalized and increased competition, but these firms showed
+innovation not in R&D strategy, but in the strategy of the
+company (Van Lente 1997). In the same period, many
+innovation researchers criticized past literature for overemphasizing the technological aspects of a system and
+claimed broader views were necessary to see the whole
+picture. For example, in science and technology studies,
+Linstone (1999) claimed that past science and technology
+literature studied ‘‘a system in terms of a very limited
+number of elements (or variables) and the interactions
+among them’’ so that the set of subsystems studied in such
+a manner would not represent the characteristics of the
+entire system. He proposed organizational and individual
+perspectives in addition to traditional technological perspectives used in the technology assessment process.
+In economic studies, evolutionary theories were introduced to model innovation in the disequilibrium dynamics
+observed in the process of economic growth driven by
+technological change (e.g., Nelson and Winter 1977; Dosi
+1982; Freeman 1974). Evolutionary economics developed
+the concept of socio-technological regime that is the sociotechnical mainstream and creates stability, and disseminated the importance for the regime of cognitive rules,
+routines and corporation with a comprehensive perspective
+that is beyond the firm or sectoral level (Weber et al. 1999;
+Kemp et al. 1998; Raven 2006; Geels 2006b; Verbong and
+Geels 2007; Jones and Miller 2007; Grin et al. 2010).
+
+Sustain Sci (2013) 8:87–101
+
+Diffusion of innovation, which is the ‘‘selection’’ stage
+in the evolutionary process, is a vitally important dimension of the transition between different regimes (Metcalfe
+1981), and many researchers were challenged to measure
+the speed of diffusion. However, Brown (1981) criticized
+past diffusion research as overemphasizing demand and
+modeled the diffusion research with adopters having equal
+opportunity. Brown also emphasized the importance of
+considering socio-economic conditions such as the existence and type of infrastructures that support the diffusion
+of innovation. In recent studies of diffusion of innovation,
+user acceptance (Venkatesh et al. 2003), knowledge and
+capability (Attewell 1992), culture (Straub 1994), network
+(Abrahamson and Rosenkopf 1997), demand factors
+and conditions (Popp et al. 2011), market competition
+(Chrysovalantou and Petrakis 2011), international trade
+barriers (Eaton and Kortum 2006), strategic and psychological factors (Abrahamson and Rosenkopf 1993), and
+organizational structure (Abrahamson 1991) are investigated and analyzed as important factors controlling adaptation and the diffusion process of innovation.
+While research on diffusion of innovation focuses on the
+‘‘selection’’ stage in the evolutionary process, research on
+strategic niche management (SNM) studies the development processes of an emerging innovation system (i.e., a
+niche), which is vulnerable in its infancy. Previous research
+of SNM has emphasized the necessity for a protected
+experimental space with strategic factors such as broad and
+deep social networks, robust expectations shared between
+actors of the niche, and learning processes at multiple
+stages where the actors related to the niche learn about the
+design, user needs, cultural and political acceptability, and
+other aspects of the niche (Hoogma et al. 2002). Case
+studies of SNM can be seen in various domains, for
+example, products such as organic food and eco-efficient
+houses, public services such as biogas energy plants and
+wastewater plants, and even policies such as road access
+charges (e.g., Smith 2007; Raven and Geels 2010; Hegger
+et al. 2007; Ieromonachou et al. 2004).
+MLP framework
+MLP has been developed as a model to grasp technical
+change by synthesizing the factors affecting innovation
+process. MLP introduced the idea of a ‘‘landscape’’—the
+macro-level and historical momentum of society as a
+whole—to past studies on socio-technical regimes (Grin
+et al. 2010). MLP emphasizes the importance of interaction
+with externalities for niche development. Specifically,
+MLP explores the innovation process of three levels (and
+interactions among them): niche innovations, the sociotechnical regime, the socio-technical landscape. Here, a
+socio-technical regime illustrates the dynamics of stable
+
+89
+
+dimensions of society in science, technology, industry,
+policy, market-user preference, and culture. The stable
+nature of the regime often causes ‘‘lock-in’’ (Unruh 2000).
+Niche innovations come from internal momentum, but
+destabilization of the regime opens a window of opportunity for niches to come into the regime level. Destabilization of the regimes is often caused by changes in the
+landscape. Transitions are not caused by a change in a
+single aspect and level, but by the interplay of many
+aspects, actors and levels (Schot and Geels 2008; Markard
+and Truffer 2008; Raven 2007). MLP offers a comprehensive perspective for analyzing and understanding the
+process whereby the niche becomes part of the mainstream
+of a regime, which is then affected by the existing regime
+and landscape. The number of papers reinforcing and using
+MLP are increasing rapidly (e.g., Späth and Rohracher
+2010; Lauridsen and Jørgensen 2010; Hodson and Marvin
+2010; Kern 2012). For example, Späth and Rohracher
+(2010) developed the MLP approach by analyzing the
+regional dynamics toward an energy-safe future. Lauridsen
+and Jørgensen (2010) highlighted problems resulting from
+conflicting interpretations between regimes in their study
+on the waste policy of the European Union.
+Regarding the aviation industry, which is the focus of
+this paper, several literature reports (e.g., Haan and de
+Mulder 2002; Geels 2006a) have analyzed the transition to
+the jet age. However, there is little research on innovation
+transition after the jet age. Cohen (2010) and Kivits et al.
+(2010) are two of the few papers to address this issue.
+Kivits et al. (2010) assessed aviation energy alternatives
+and concluded that consensus and perceived needs among
+the aviation industry are important, but very difficult due to
+the long product lifecycle and huge sunken costs (Kivits
+et al. 2010). Innovation in aviation sustainability after the
+mature jet regime is expected through research on plausible
+technologies beyond the jet regime.
+MLP can be utilized to analyze dynamic and interactive
+processes among landscape, regime, and focal niche technology, but MLP is not used for depicting the dynamic
+evolution of technology itself. In MLP, a technology is
+regarded as static, thus MLP cannot explain the different
+status of innovation diffusion among different technologies
+in the same industrial domain governed by the same
+landscape and regime (Fig. 1a).
+Technology readiness level
+One of the ideas used to resolve these issues is to assume
+that each technology has a different influence according to
+the technology development phase even when they occur
+under the same landscape and regime. For any engineering
+project, a measurement is needed to monitor a project for
+control and implementation (Tan et al. 2011). TRL is a
+
+123
+
+90
+
+Sustain Sci (2013) 8:87–101
+
+Fig. 1 Conceptual diagram of
+socio-technical transition.
+a Existing multi-level
+perspective (MLP) framework.
+b MLP with technology
+readiness levels (TRL)
+
+Table 1 Technology readiness level (TRL) (NASA definition)
+TRL
+
+Definition
+
+TRL 9
+
+Actual system ‘‘mission proven’’ through successful mission operations (ground or space)
+
+TRL 8
+
+Actual system completed and ‘‘mission qualified’’ through test and demonstration in an operational environment (ground or space)
+
+TRL 7
+
+System prototyping demonstration in an operational environment (ground or space)
+
+TRL 6
+
+System/subsystem model or prototyping demonstration in a relevant end-to-end environment (ground or space)
+
+TRL 5
+
+System/subsystem/component validation in a relevant environment
+
+TRL 4
+
+Component/subsystem validation in a laboratory environment
+
+TRL 3
+
+Analytical and experimental critical function and/or characteristic proof-of- concept
+
+TRL 2
+
+Technology concept and/or application formulated
+
+TRL 1
+
+Basic principles observed and reported
+
+measurement of technology used globally in the aviation
+and other high technology industries for various purposes
+such as procurements and risk-analysis in system development (Ramirez-Marques and Sauser 2009; Khan et al.
+2011) and has several definitions. Table 1 shows NASA’s
+definition, which is also used in this paper. Mankins (1995)
+provided a descriptive discussion of each TRL as follows,
+which are used widely to understand NASA’s TRL
+(Conrow 2011):
+
+(At) TRL 4 (F)ollowing successful ‘‘proof-of-concept’’ (validation at TRL 3), basic technological
+elements must be integrated to establish that the
+‘‘pieces’’ will work together to achieve conceptenabling levels of performance for a component and/
+or breadboard. This validation must devised to support the concept that was formulated earlier, and
+should also be consistent with the requirements of
+potential system applications.
+
+‘‘TRL 1 […] is the lowest ‘‘level’’ of technology
+maturation. At this level, scientific research begins to
+be translated into applied research and development.
+
+(At) TRL 5, the fidelity of the component and/or
+breadboard being tested has to increase significantly.
+The basic technological elements must be integrated
+with reasonably realistic supporting elements so that
+the total applications (component-level, sub-system
+level, or system-level) can be tested in a ‘simulated’
+or somewhat realistic environment.
+
+TRL 2 […] occurs when basic physical principles are
+observed, then at the next level of maturation, practical applications of those characteristics can be
+‘invented’ or identified. (A)t this level, the application is still speculative.
+TRL 3 […] (A)t this step in the maturation process,
+active research and development (R&D) is initiated.
+This must include both analytical studies to set the
+technology into an appropriate context and laboratory
+based studies to physically validate that the analytical
+predictions are correct.
+
+123
+
+TRL 6, (A) major step in the level of fidelity of the
+technology demonstration follows the completion of
+TRL 5. At TRL 6, a representative model or prototype system or system—which would go well beyond
+ad hoc, ‘patch-cord’ or discrete component level
+breadboarding—would be tested in a relevant
+environment.
+
+Sustain Sci (2013) 8:87–101
+
+TRL 7 is a significant step beyond TRL 6, requiring
+an actual system prototype demonstration in a space
+environment. It has not always been implemented in
+the past. In this case, the prototype should be near or
+at the scale of the planned operational system and the
+demonstration must take place in space.
+By definition, all technologies being applied in actual
+systems go through TRL 8. In almost all cases, this
+level is the end of true ‘system development’ for most
+technological elements.
+And by definition, all technologies being applied in
+actual systems go through TRL 9. In almost all cases,
+TRL9 represents the end of a long line of last ‘bug
+fixing’ aspects of true ‘system development’.
+Figure 1 shows the concept of the introduction of TRL
+to this paper and illuminates the difference of innovations
+in the same technology domain.
+
+Scope and methodology
+This paper extends the empirical work of MLP to the civil
+aviation industry. The civil aviation industry was chosen
+because it is embedded in complex socio-technical system
+where a variety of stakeholders from government, industry,
+and society exist, and collaboration and interaction among
+these stakeholders are imperative for transition toward a
+sustainable society that mitigates climate control. In the
+aviation industry, realizing sustainability2 requires not only
+technological challenges, but also many severe social
+challenges such as large investments from different stakeholders as well a change in their behavior in some cases.
+Research on innovation transitions in the aviation industry
+is also useful for other industries with similar industrial
+characteristics such as transportation, and information and
+communication.
+Design of an innovation pathway for aviation sustainability is not a rudimentary task. There is not much dialogue between researchers of MLP and practitioners in the
+aviation industry. According to recent conversations with
+project managers for environment sustainability in aviation
+research institutes including the National Aeronautics and
+Space Administration (NASA) and the Japan Aerospace
+Exploration Agency (JAXA), such transition research
+approaches appear only rarely in the sustainability discourse in their institutes and governments. On the other
+2
+
+Aviation sustainability depends largely on whether the industry can
+accommodate forecasted strong traffic increase to severe transport
+market competitions and mitigation of noise, local air pollution and
+greenhouse gas (GHG) emissions. Please see Nakamura et al. (2011)
+for further discussion.
+
+91
+
+hand, managers in NASA and JAXA often emphasize that
+the aviation industry needs a theory to support the industry
+transition towards a more environment friendly regime.
+Therefore, further research combined with industry interaction is required not only for conducting reliable academic
+research, but also for designing salient solutions for aviation sustainability3.
+Among environment challenges in the aviation industry,
+the mitigation of climate change is the newest big issue, but
+it has the least accumulated knowledge, while noise and
+local air pollution were recognized as far back as the 1960s
+(Lee et al. 2010). The impact of the aviation industry on the
+effect of greenhouse gases (GHG) was estimated to be
+3.5–4.9 % of current anthropogenic radiative forcing (Lee
+et al. 2010). Both worldwide passenger traffic and cargo
+traffic markets are forecast to grow continuously by more
+than 5 % per year over the next 20 years4 (IATA 2009a;
+Boeing 2010). To mitigate aviation-induced emissions, in
+2010, the International Civil Aviation Organization
+(ICAO) achieved a global consensus to put forth more
+effort in improving fuel efficiency than today, i.e., 2 %
+annual fuel efficiency improvement, and are now trying to
+set more ambitious goals such as carbon neutral growth by
+2020 relative to the baseline of 2005 among its member
+states, including developing countries (ICAO 2010). The
+number of projects and investments with technologies to
+deal with emissions mitigation has been increasing in this
+context. For example, the European joint technology initiatives for aeronautics and air transport CLEAN SKY, and
+the NASA Environmentally Responsible Aviation (ERA)
+project have been working in this direction (Nakamura
+et al. 2011).
+The engine is the source of GHG and fuel consumption
+in aviation operation and therefore technology innovation
+in engines is very important. The thrust power of the first
+jet engines, known as a pure jet, was all gained from the
+exhaust jet gas. Letting the hot, very high-speed, air of
+the exhaust jet into the relatively very low-speed air behind
+3
+
+The idea of using TRL as a measure of niche development came
+from our conversation with engineers in the aviation industry during
+this research. They considered that the analysis shown in this paper
+was not enough to explain failure of ATP in 1980s and current
+promising transition of GTF, while part of the reason might be that
+they are engineers and are not familiar with sociological qualitative
+discourse with socio-technical transition frameworks. They preferred
+to discuss detailed level of the technology’s progress rather than the
+generalized picture of transition.
+4
+Shocks to aviation such as the severe acute respiratory syndrome
+(SARS) epidemic, the September 11 terrorist attacks and the Asian
+financial downturn, which caused the bankruptcy of many airlines and
+accelerated the reorganization of manufacturers, also increased global
+discussions about the security and health problems associated with air
+transport. However, the industrial perspective of a strong increase of
+traffic has not been rewritten because the market has shown resiliency
+by recovering from shocks within a relatively short period.
+
+123
+
+92
+
+the engine and the aircraft causes a critical waste of kinetic
+energy so that pure jet was very fuel inefficient initially. On
+the contrary, turboprop engines used jet power to rotate the
+blades. Rotating propellers push the air behind the engine
+to obtain the thrust power. Turboprop engines are very
+fuel-efficient. However, it is difficult to operate turboprops
+at high speeds. When the tips of the blades reach supersonic velocity, shock waves are formed, increase the drag
+and dramatically reducing thrust and efficiency (Fig. 2b).
+Turbofan engines are a hybrid of ‘pure jet’ and turboprop
+engines. Turbofan engines use jet power partly as the thrust
+power from the exhaust jet and partly as mechanical power
+to rotate the fan. One of the efficient measurements of a
+turbofan is the bypass ratio, which is a ratio of the secondary air flow drawn in by the fan bypassing the engine
+core to the primary air flow passing through the engine core
+(Fig. 2c). Higher bypass ratios generally mean higher fuel
+efficiency. The bypass ratio of the first commercial turbofans in the 1960s was five, while the latest turbofan has a
+7.5–11 bypass ratio.
+The ATP engine, whose uncompleted transition path this
+paper investigates, is an innovative aviation engine that
+achieves a 40 bypass ratio by removing the duct covering
+the fan (Fig. 2a). This engine is a hybrid of the best features of both a turboprop and a turbofan engine, overcoming the tip supersonic velocity problem by using a
+swept blade. On the other hand, GTF, whose promising
+transition path this paper also investigates, has a modest
+bypass ratio such as 12. For a fuel-efficient high bypass
+turbofan engine, not only increasing the fan diameter but
+also increasing the rotation speed of relatively smaller lowpressure compressor (LPC) and low-pressure turbine (LPT)
+are necessary to maintain mechanical efficiency. However,
+
+Fig. 2 Advanced turboprop
+(ATP) engines. Schematic
+images of a an unducted fan
+(UDF) engine, a type of ATP;
+b ATP total propulsive
+efficiency advantage; and
+c bypass ratio
+
+123
+
+Sustain Sci (2013) 8:87–101
+
+the fan, LPC and LPT, are all connected with shafts so that
+increasing the diameter and rotation speed of LPC and LPT
+causes shock waves from the fan tips and therefore noise
+and inefficiency. To optimize the rotational speed of the
+fan, GTF is an innovative way to introduce a reduction gear
+on the low spool of a two-shaft engine between the fan and
+LPC/LPT. The reduction gear technology has its roots in
+NASA’s ATP project. ATP and GTF engines are both
+innovative and promising engines in terms of fuel-efficiency for short- and mid-haul aircraft.
+ATP is now considered a mid-term engine innovation
+for short and mid-haul aircraft that are expected to mitigate
+climate change in the aviation industry (IATA 2009a). For
+example, ATP engine demonstrations are planned in the
+Sustainable and Green Engines (SAGA) research project
+and the Smart Fixed Wing Aircraft (SFWA) research
+project in CLEAN SKY. GE and NASA also tested a new
+generation of ATP concepts for aircraft engines from 2009
+to 2011. ATP was chosen because the failure of NASA’s
+ATP project in the 1980s is still a big concern for those in
+the industry who have just started new ATP projects.
+The aim of this paper is two-fold. One goal is to analyze
+factors affecting the development of the ATP project
+including GTF within an MLP framework. What does MLP
+tell us about NASA’s development? Even though the
+engine concept itself is very attractive in terms of fuelefficiency, mounting an innovative engine to an aircraft is
+not simple and does not guarantee the same level of fuelefficiency as the whole aircraft system due to technical and
+social problems, such as trade-off between noise and fuelefficiency. ATP engines are generally nosier than turbofan
+engines. The MLP analysis will derive useful implications
+to understand and transform social-technical regimes
+
+Sustain Sci (2013) 8:87–101
+
+toward aviation sustainability. The second goal of this
+paper is to elucidate mechanisms that differentiate GTF
+from other ATP technologies in terms of MLP. Does MLP
+help illuminate the fact that ATP did not make it to market
+in the 1980s and was not ready by 2000? What does MLP
+tell us about the development of GTF, which was derived
+from a core technology developed in ATP projects, and
+which will soon be introduced onto the market? To answer
+these questions, we introduce the concept of TRL, and
+discuss the mechanism of GTF development.
+The MLP literature mainly reflects qualitative analysis
+based on historical materials (Bennett and Pearson 2009).
+This paper also consulted historical materials related to
+NASA ATP projects from 1973 to 1992, which include
+materials archived at the library in the History Division of
+NASA Headquarters and from newspapers, books, reports,
+and journals5. The authors also conducted two face-to-face
+1-h interviews in 2010 and 2011 with engineers to check
+the reliability of the archives used in this research and the
+validity of our investigations of ATP history. One engineer
+we spoke with works for Boeing as a noise specialist and
+participated in 7J7 development, which was planned with
+an ATP engine. Another worked for Fokker as an aircraft
+designer and participated in aircraft development with ATP
+until Fokker went bankrupt. The authors also consulted the
+interviewees on their perceptions of the technology readiness of GE’s ATP engine because there were several articles specifically discussing GE. The interviewees reported
+that engine manufacturers were confident about the realization of their ATP engines in 1980s. However, they also
+said that weight problems due to additional insulators
+needed in the integration of engines to aircrafts were
+challenging even at the end of their projects. The Boeing
+engineer added, ‘‘open rotor (ATP) is one of the most
+efficient engines. We still investigate it every time we have
+a project with small aircraft’’.
+
+Analysis
+We analyzed factors affecting development of the ATP
+project including both fuel price and other factors based on
+the existing MLP framework from the perspectives of
+niche development, landscape change, and socio-technical
+regime interaction. The 1973 oil embargo caused some US
+senators and the 94th Congress in 1975 to examine how
+NASA’s aeronautics division could save airlines and related services. Airlines were the national status industry and
+5
+
+These include ‘‘From engineering science to big science’’ (Bowles
+and Dawson 1998), an article by Ziemianski and Whitlow (1988), and
+Flight International, Aviation Week & Space Technology (AW&ST),
+Journal of Aircraft Engineering, and The Journal of Turbomachinery
+Society of Japan.
+
+93
+
+suffered badly from the energy crisis. ‘‘Jet fuel prices
+jumped from twelve cents to over one dollar per gallon’’,
+and ‘‘during the crisis, fuel represented over half of the
+airlines’ operating costs’’ while ‘‘prior to 1972, fuel
+accounted for one-quarter of the commercial airlines’ total
+direct operating costs’’ (Ziemianski and Whitlow 1988).
+Niche development
+The concept of sweeping propeller blades came from
+continuous efforts by engineers to ease the problem of
+supersonic tip velocity and to extend the use of fuel-efficient propellers at the high speeds required in the jet age.
+Unlike five other projects launched at NASA’s Aircraft
+Energy Efficiency Program (ACEE), which ran from to
+1986 with six projects: The Energy Component Improvement, the Energy Efficient Engines and the Advanced
+Turboprop Project at the Lewis Research Center, the
+Energy Efficient Transport, the Composite Primary Aircraft Structure, and the Laminar Flow Control at the
+Langley Research Center (details of those projects can be
+seen in Bowles and Dawson 1998), the ATP with sweeping
+propellers failed to launch officially in 1977. Because many
+people were skeptical about ATP technology feasibility,
+early work of the assigned engineers in NASA was devoted
+to project management jobs. NASA engineers conducted
+surveys such as an investigation of whether civil aircraft
+passengers would accept engines with old-fashion images
+of propellers in the jet age in order to remove negative
+concerns about the ATP project. Working closely with
+external people such as policy makers, the engineers succeeded in an official launch of ATP projects in 1978.
+The ATP project had a number of technical and social
+challenges. Technical concerns included propeller efficiency at the targeted cruise speed, which was around 0.8
+Mach, cabin noise, installation aerodynamics, drive systems such as the gearbox, and maintenance costs. Social
+concerns included the perception of turboprops as oldfashioned, troublesome devices that were unsafe, and the
+risk that airlines and passengers would not accept the
+changes in traffic management because ATP aircraft would
+need to fly slower and lower than a jet.
+To challenge these issues, NASA took over the administrative role and created over 40 industry contracts and 15
+institute grants through the following four stages of the
+NASA ATP project: concept development (1976–1978),
+enabling technology (1978–1980), large-scale integration
+(1981–1987) and flight research (1987) (Bowles and
+Dawson 1998; Ziemianski and Whitlow 1988).
+At the stage of large-scale integration, the competition
+between engine manufacturers and acceptance of the niche
+was recognized. NASA originally developed a single
+rotation tractor ATP system with a reduction gearbox with
+
+123
+
+94
+
+contractors such as Hamilton Standard and Allison Gas
+Turbine at the Division of General Motors. Then, to
+NASA’s surprise, GE released a dual rotation pusher ATP
+system without a gearbox, known as an unducted fan
+(UDF). NASA later tested both GE’s UDF type ATP,
+GE36, and a counter rotation with a reduction gearbox,
+Model 578-DX, that Allison and Pratt & Whitney (P&W)
+developed after GE revealed their UDF engine. Special
+reports appeared in aviation journals about the Paris Air
+Show and the Farnborough Air Show, both of which are
+held biennially on different years. These special reports
+told of the progress of the GE36 and 578-DX every year in
+the mid-1980s.
+The development of ATP technology was not limited to
+NASA and its contract companies and institutes. For
+example, France revealed their plans to build an ATP
+model with sponsorship from the Ministry of Defense in
+1982. Rolls Royce in the UK launched 3 years of ATP
+engine research from 1984–1986. Many aircraft manufacturers initiated studies of a new aircraft model with ATP
+engines in the late 1980s6.
+While ATP projects achieved technological progress
+and spread around the world, many challenges for ATP
+engine aircrafts still remained into the late 1980s. The main
+problem was noise and fatigue caused by the vibration of
+the propellers in engine–airframe integration. The uncertainty of noise and fatigue by the vibration prolonged the
+airworthiness certification process. Furthermore, to keep
+the fuselage and engine free from noise and the risk of
+blade destruction, the weight of the insulator offset the fuel
+efficiency achieved by the engine itself.
+Boeing announced delaying the certification process of
+the 7J7 in 1987 and officially canceled the 7J7 project in
+1993. In 1989, a few months after offering executive customers the experience of an ATP demonstrator to convince
+them of lower noise than expected, McDonnell Douglas
+started to study the V2500 turbofan engine as a possible
+replacement for the planned ATP engines of the MD-90.
+GE froze the development of the UDF type ATP engine in
+1989. Many other projects were cancelled. In the late
+1990s, there were few articles about ATP, and only a few
+aircraft projects with ATP engines existed.
+In the meantime, in the early 1990s, P&W started the
+development of GTF, a turbofan with reduction gear,
+which had its roots in the ATP project. GTF has a modest
+bypass ratio from 10 to 12 and is able to save 8–10 % on
+operating costs. P&W has kept GTF in their technology
+6
+
+For example, McDonnell Douglas’s MD88, MD91 and 92;
+Boeing’s 7J7; the ATRA90 from a joint venture of Boeing,
+Messerschmitt-Bolkow-Blohm (MBB) of Germany, Fokker B.V. of
+Holland and Nusantara Aircraft Co. (IPTN) of Indonesia; the Fokker
+P376, the Russian Tupolev Tu-34 and Antonov An-70 were all
+planned to fly with ATP engines.
+
+123
+
+Sustain Sci (2013) 8:87–101
+
+portfolio for 20 years and has accumulated hours of gearbox tests to respond to the skepticism on high-maintenance
+risks of the gearbox.
+Recently, ATP and GTF have been given another window of opportunity. In the aviation industrial technology
+roadmap, the ATP engine is expected to be in new aircraft
+design before 2020 and to reduce fuel consumption to
+15–20 % (IATA 2009b). On the other hand, Bombardier
+and Mitsubishi selected GTF engines, whose commercial
+product development P&W launched in 1998, in the new
+Canada Regional Jet (CRJ) aircraft project, and the Mitsubishi Regional Jet (MRJ) project in 2007. Lufthansa and
+All Nippon Airlines (ANA) signed as launch customers of
+CRJ and MRJ, respectively, in 2009. These aircrafts will be
+delivered in 2013. The Boeing 737 series and Airbus A320
+are also in the segment of ATP and GTF engines. Airbus
+announced a new generation A320 with a new GTF engine
+in 2010, and Boeing is now considering a new generation
+737 rather than creating a new aircraft.
+Landscape change
+Several landscape changes influenced the aviation regime
+and ATP and GTF. The first (1973–1974) and second
+(1979–1980) oil embargo worked as the window of
+opportunity for ATP technology by changing the priority of
+activities of the US, NASA, and the airlines. Even though
+fuel increases due to the oil shocks ended after several
+years, these experiences implanted the fear that fuel prices
+would once again increase some day. On the other hand,
+the oil shocks experience did not change the regime of the
+airlines in terms of business. At that time, when fuel costs
+were the most dominant costs in the airlines’ overall costs,
+the first priority was to reduce fuel costs, but the overall
+principle of the airline business is to make a profit.
+Another significant landscape change, for example, was
+the end of the Cold War. In the 1970s, the fact that Russia
+was advanced in terms of turboprop speed also put pressure
+on the US to advance the preparation of the NASA ATP
+project. When the Cold War ended, the military budget,
+which was an important source for the US aviation
+industry, decreased gradually so that the number of projects
+for new technology in the aviation industry decreased.
+The increasing world attention on the responsibility of
+the aviation industry to climate change such as the Kyoto
+protocol acted as a new opportunity for ATP and GFT
+technology. However, soaring fuel prices in the early 2000s
+acted as the greatest opportunity. During the oil shocks, for
+example, the average paid price for a gallon was 3.07
+dollars in 2008 and 1.05 dollars in 1981 according to data
+released by the US Energy Information Administration and
+Department of Labor (Fig. 3). Fuel-efficient technology
+was needed in this context, and ATP needed to be
+
+Sustain Sci (2013) 8:87–101
+
+95
+
+manufacturing activities including small specification
+changes in the certificated products or supply chain.
+Therefore any innovative technology will require additional costs and time in the aircraft certification process for
+airworthiness. The long and costly certification process
+was, and is always, a big constraint for manufacturers and
+airlines in adopting an ATP aircraft. Even though GTF is
+not as innovative as ATP technology, GTF is no exception
+and it took GTF technology two decades to clear the barriers of the transition by convincing stakeholders of their
+safety feasibility since the early 1990s through P&W’s
+accumulated knowledge and tests about blades.
+Technologies and infrastructures
+
+Fig. 3 Spot kerosene prices (Source: US EIA and Department of
+Labor, http://www.eia.gov/)
+
+re-introduced and developed because ATP was a strong
+candidate for the next leap in fuel-efficient technology.
+Socio-technical regime interaction
+Next, changes in the socio-technical regime in civil aviation were analyzed. Many changes that have worked as
+supporters and interrupters to the niches exist. A sociotechnical regime has drivers. Smith (2007) summarized
+various important characteristics suggested from previous
+literature such as Geels (2002), Schot (1998), and Rip and
+Kemp (1998) into seven dimensions. The seven dimensions
+include the following, but not necessarily in this order: (1)
+guiding principles, (2) technologies and infrastructures, (3)
+industrial structure, (4) user relations and markets, (5)
+policy and regulations, (6) the knowledge base for the
+regime, and (7) cultural and symbolic meanings underpinning practices. These dimensions are useful for unraveling the complex nature of the aviation regime, and are
+interrelated. For each dimension, we explain its current
+nature and find changes and interactions that have affected
+ATP and GTF transition.
+Guiding principles
+Among the key guiding principles in civil aviation, which
+are to transport passengers and cargo faster, safer, farther,
+and with more comfort than trains, ships, and vehicles,
+safety is paramount. For the safety and security of passengers and governments, there is an array of regulations
+and certifications such as the Chicago Conventions of
+ICAO, the Federal Aviation Administration (FAA) Standard, the European Aviation Safety Agency (EASA)
+Standards, and bilateral agreements that regulate the airline
+business including the flight route as well as aircraft
+
+In the late 1980s, insulation of the fuselage to reduce the
+noise of ATP weighed a lot and offset the fuel efficiency in
+the aircraft configuration. The feasibility of light materials
+such as carbon fiber reinforced plastics (CFRP) has
+advanced greatly over the decades since then. In terms of
+infrastructure, both in the past and today, there are still the
+problems of how to support traffic route changes because
+ATP aircraft must still fly lower and slower than jet
+aircraft.
+Industrial structure
+The four major civil aircraft manufacturers are Boeing,
+Airbus, Bombardier, and Embraer. The three major engine
+manufacturers are Rolls Royce, GE, and P&W. Some jet
+engines are produced under inter-company collaboration.
+The rise of the Airbus drove US support to ATP technology
+and NASA ATP projects when President Reagan tried to
+cancel the NASA budget for ATP technology in the early
+1980s. GE and P&W competition in ATP development also
+accelerated the development of ATP in the 1980s.
+Recently, aircraft and engine development have become
+even more complex and require more human and financial
+resources than before. Manufacturers tend to hedge risks
+and investment and develop projects by contracting with
+other companies. ATP was, and GTF might have been,
+abandoned during such a trend. However, in the 1990s, by
+trying to win the competition among engine manufactures,
+P&W kept GTF-related technologies, including reduction
+gears, in the technology portfolio. In the 2000s, the GTF
+engine became a unique product of P&W. Recently, both
+GE and Rolls Royce have announced ATP projects.
+User relations and markets
+Airlines, which are operators of aircraft and often the
+owners of aircraft, have a strong need to reduce their
+operational costs, such as fuel costs, airport charges and
+
+123
+
+96
+
+maintenance costs, and various financial costs, because of
+the highly competitive business of airlines. Global commercial airlines made a profit only twice in the 2000s, once
+in 2006, and once in 2007 according to IATA world carrier
+financial data. Therefore, when fuel prices calmed down,
+airlines addressed the risk of increased maintenance costs
+by using high-speed propellers. Fuel prices became lower
+compared to the time of the oil shocks. The average paid
+price for a gallon was US $1.05 in 1981, and US $0.56 in
+1986, according to the US Energy Information Administration (EIA; http://www.eia.gov/) (Fig. 3). This highlighted the cost of ownership. A 30 % higher fuel
+efficiency of the new aircraft with ATP engines that aircraft
+manufactures announced should have interested government, NASA, and manufacturers even after considering the
+initial costs in the tens of millions of dollars and the low
+fuel price in the late 1980s. However, the risk of having
+aircraft that were newer, nosier, and slower than conventional aircraft outweighed the interest. This landscape
+change accompanying the oil shocks drove the direction of
+government, NASA, and manufacturers toward the ATP
+project, but airlines did not want to change their basic
+preferences in the selection of a fleet.
+Policy and regulations
+Big regulation changes in the airline business occurred in
+1987, the Airline Deregulation Act. Before the Act, the
+Civil Aeronautics Board (CAB) controlled the fare, routes,
+profits, and market entry of flights over states. Control on
+fare and profit resulted in non-price competitions and
+promoted the airline’s introduction of new equipment for
+service differentiation (Jordan 1978), which might have
+been favorable for a new technology such as ATP. However, non-price competition resulted in excessive equity
+stock, cost increases, and inefficiency of operation
+(Cherington 1958). The Act promoted market entry and
+competition and drove numbers of mergers and acquisitions. In recent severe competition, the risk for buying an
+innovative technology is high and thus, a very difficult
+decision. There were other regulation changes that influenced the transition of ATP. Some airports have their own
+regulations and charges for reducing noise. When aircraft
+manufacturers tried to sell aircraft with ATPs in the late
+1980s and the early 1990s, strengthening of the noise
+standard was forecast; thus, many airlines were unwilling
+to consider the ATP engine, which was noisier than the
+conventional turbofan engine. Noise regulation is currently
+much stricter than in the 1980s and is a disadvantage for
+the ATP. On the other hand, there is a movement within the
+ICAO to set a GHG emission standard that may regulate
+airlines to operate aircraft only with a fuel-efficiency above
+the standard. Such a standard is expected to guide
+
+123
+
+Sustain Sci (2013) 8:87–101
+
+manufacturers and airlines to invest in environmentally
+friendly technology. Europe, under the EU Emission Trade
+System (EU-ETS) is currently proceeding with a positive
+economic measure to promote CO2 reduction. EU-ETS
+reflects the strong driving force of Europe towards sustainability, which includes its ambitions to become a leader
+in sustainability development. However, as airline networks go beyond single governments and become global,
+setting political and economic measures is difficult7.
+However, if collaboration between regulators and industries toward implementation of innovation for sustainability is developed widely without jeopardizing safety, the
+ATP transition path will be a lot smoother8.
+Knowledge base
+An aircraft is a highly complex system, which integrates a
+fuselage, engines, and various equipment such as electric
+flight control. Computer performance is a very important
+part of the infrastructure for the design of each component,
+and for the integration of components and equipment.
+Computer performance in the 1970s enabled the examination of high-speed propellers, which was impossible in
+the 1960s (Ziemianski and Whitlow 1988). Furthermore,
+the performance of computers is much better than in the
+epoch of the NASA ATP project. While high computer
+performance and new materials enabled advanced detailed
+research on ATP and GTF and pushed the ATP and GTF
+project towards realization, the computers and materials
+used in ATP development in the 1980s were so different
+that the current ATP project cannot use much of the
+research accumulated in the 1970s and the 1980s for the
+NASA ATP project in a practical way.
+Cultural, symbolic meanings
+Even though the rise of low cost carriers (LCC) is now
+changing part of the culture of flying, aviation, as a highly
+technological, complex system still has status for both
+employees and for passengers as a service. Safety, security
+and reliability are paramount. Both production and operation are very important for a country’s economic and
+military strategy. Current aviation is heavily locked in to
+using jet fuel. Throughout the NASA ATP project, it was
+7
+
+In 2009, the US Air Transport Association of America (ATA) sued
+the EU-ETS and in 2012, some airlines in China refused to finalize
+orders of aircrafts from the European aircraft manufacture, Airbus.
+8
+For example, regarding the problems of cost and time consumption
+associated with the certification for airworthiness, as discussed in
+‘‘Guiding principles’’, a collective action for accelerating the
+certification process for innovative technology for sustainability was
+recently found in the certification of biofuel produced through the
+Fischer–Tropsch process (ASTM D7566).
+
+Sustain Sci (2013) 8:87–101
+
+97
+
+uncertain whether current flying and national cultures
+would accept going ‘backwards’ to using a propeller
+instead of a modern jet.
+Introduction of TRL to MLP
+In the previous sub-sections, we summarized the situation
+faced by ATP and the aviation industry and analyzed factors affecting the development of ATP projects. While
+general understanding about the ATP failure in the 1980s
+hinges on the end of soaring fuel prices, our analysis using
+MLP shows additional interrelated changes of the different
+levels of promoting the ATP project, such as relationships
+with policy makers, competition among engine manufacturers, improved feasibility of light materials, and progress
+of computer technology. We also discuss factors interrupting the transition of niche ATP, such as the end of the
+Cold War, safety as the guiding principle, the low profitability of airlines, and noise regulation. This means that
+analysis with MLP can extract both supporting and interrupting factors of a niche’s development, depending upon
+the timing of the window of opportunity. However, these
+factors are common to both ATP and GTF, because GTF is
+in the same technology domain as ATP. The fate of the
+ATP project and the current promising transition of GTF
+cannot be explained.
+Figure 4 visualizes the transition of niches described in
+the previous section, based on TRL measurements. Evaluations of TRL at each period are based on engineers’
+inspections. TRL 9 is the stage where a niche system has
+matured enough to be on the market. ATP technology was
+at its early TRL stages when the first opportunity window
+opened. Roche and his colleague filed a US Patent,
+US4171183A, for a ‘‘multi-bladed, high speed prop-fan’’ in
+September 1976. The concept of a multi-bladed high-speed
+propfan, therefore, must have been created before the
+ACEE’s ATP project. Otherwise, the ATP concept would
+not have been a candidate for ACEE when the window of
+opportunity opened.
+The industrial expectation of fuel-efficient technologies,
+industrial competition, and development of computers and
+materials accelerated the development of ATP engines.
+However, ATP did not close the gap between TRL 7 and 8
+while the window was open. After closure of the window,
+ATP was abandoned. The success of the current ATP
+projects in GE and NASA and in CLEEN SKY is not
+assured even when opportunity knocks. TRL lost out when
+the opportunity closed due to the change in design processes and materials, which used to be the driver of ATP.
+On the other hand, P&W kept the GTF project in its
+technology portfolio just after the NASA ATP projects.
+After the opportunity for green technology reopened in the
+early twenty-first century, GTF is now on the way to TRL
+
+Fig. 4 Schematic image of ATP and GTF transition in TRL
+measurement. Gray background Opportunity window, white background closed window
+
+9. Two aircraft manufacturers selected this engine in 2007,
+and airlines selected the aircraft in 2009. Figure 4 shows
+the importance of continuous engineering efforts between
+opportunity windows for GTF transition.
+
+Discussion
+Socio-technical regime and TRLs
+TRL—originally a tool of technology measurement—can
+be controversial when applied to MLP because of the risk
+of focusing too much on the technological aspects of a
+socio-technical transition. However, Fig. 4 highlights the
+interaction of social factors. In ATP, as in most cases in the
+aviation industry nowadays, a niche cannot progress to
+such high stages without both a market and social feasibility due to the large investment required for stepping to a
+next TRL stage. Therefore, interactions between technology and diverse social factors in each TRL are essential in
+developing and implementing technology in society.
+Technological readiness and niche stock
+Discussions about how to manage technology until a niche
+matures enough to be seen in a market are few. Stages of
+TRL 2–6 are now often well managed by institutes such as
+NASA ERA and CLEEN SKY after the rise of aviation
+responsibility toward sustainability. And SNM covers
+mainly TRL 2–3 to TRL 6. The aviation industry seeks
+theoretical support for phases TRL 1–3 and TRL 7 to TRL
+9. The stages from TRL 7–9, which require high costs, used
+to be covered by military applications during the Cold War.
+The stages from TRL 7 to TRL 9 are very important for
+innovative technology to acquire enough safety reliance
+required from the civil aviation regime. Current discourse
+on SNM and MLP assumes the pre-existence of candidates
+
+123
+
+98
+
+of niche technology, but in reality this is not so. The stages
+from TRL 1 to TRL 3 are important for accumulating niche
+stocks as future candidates of niche technology. Technology at these earlier TRLs are usually invented and investigated in academia rather than in industry. Therefore, in
+future SNM research, the principle of academic discovery
+and research development and also academia-industry
+collaboration has become an important research topic for
+the technology classified into these TRLs.
+A dynamic and uneven opportunity window
+MLP and SNM have shown how a niche interacts with
+other factors of socio-technical regimes and landscapes.
+The socio-technical regimes and landscapes can open a
+channel for a niche technology to become a mainstream
+technology. However, as shown in Fig. 4, TRL should be at
+a certain level before the window of opportunity opens, and
+these options must mature before the window closes. The
+window of opportunity is not static and uniform. The
+window opens and closes depending on the landscape and
+regime change at that time. Different organizations face
+different widths of window, which depend on the conditions that each organization faces and the capability of each
+organization to adopt to the change of the landscape and
+regime. MLP and SNM usually downplay technological
+progress itself, rather than downplaying other social,
+institutional, and organizational factors, but how to support
+people in the field to manage the dynamic and uneven
+opportunity window should be discussed.
+Risk of launch customer
+The MLP approach emphasizes that the transition path is
+made of multiple dimensions. However, for the aviation
+industry, the dimension of the market is the most important. While SNM covers the stages from TRL 2 to TRL 6,
+the transition after TRL 7 depends highly on the manufacturers and the airlines. Furthermore, manufacturers will
+stop development at a certain stage if the airline does not
+sign as a launch customer. In the 1980s, no airline took the
+risk of being a launch customer for the Boeing 7J7 and
+MD-90 series so that these new aircraft projects were
+canceled. In 2007, two airlines signed for CRJ and MRJ
+with GTF. For airlines, to be a launch customer of a new
+aircraft has both advantages and risks. One of the advantages is that many demands from the launch customer can
+be integrated into the final specification of the product. The
+effect of advertising on airline brand awareness is large.
+However, there are also many risks, such as, whether the
+manufacturer achieves the committed operational and
+maintenance performance, safety, and schedule. Airlines
+know from their experience that a new engine will be
+
+123
+
+Sustain Sci (2013) 8:87–101
+
+troublesome. How to reduce the perceived risk, which
+delays an airline’s decision to be the launch customer
+should be discussed in future research.
+Institutional supports of export products
+MLP accounts for policy and regulation issues, but focuses
+on these factors from the point of view of adaptation of
+innovation. However, even in the research and development phase, policy and regulation issues are important in
+the aviation industry. When we discussed institutional
+strategic support for the stages from TRL 7–9 in the previous section, we had to be especially careful in considering World Trade Organization (WTO) issues. The WTO
+Subsidies and Countervailing Measures Agreement (SCM
+Agreement) is an international agreement to discipline
+government subsidies. Here, all export subsidies are prohibited because they distort the market. Although the
+ambiguities in the interpretation of ‘‘import subsidy’’ and
+the SCM Agreement are crucial problems, many types of
+government assistance provided to the civil aircraft
+industry are likely to fall under the SCM Agreement definition of subsidies (Cunningham and Lichtenbaum 2005).
+Europe, the US, Canada, and Brazil were all accused of
+supporting the export of Airbus, Boeing, the Bombardier,
+and the Embraer, respectively, by the government of the
+competing company. According to several people in the
+public relations department of CLEEN SKY, CLEEN SKY
+does not go above a TRL 6 to avoid the WTO dispute.
+Perhaps this problem may be overcome by promoting
+collaboration among industries rather than governments. If
+so, then problems regarding expectations arise again.
+Interaction of niches
+Both ATP and GTF are being developed in 2012. However,
+the success of GTF will delay the transition of ATP to the
+market. Many specialists are worried that ATP cannot be
+on the market before 2020. ATP engines are suitable for
+short- and mid-haul aircraft, but are not yet ready yet to be
+mounted in a real aircraft project. On the other hand, GTF
+engines, which are also suitable for short- and mid-haul
+aircraft, and whose commercial product development P&W
+launched in 1998, were selected by Bombardier and
+Mitsubishi in the new Canada Regional Jet (CRJ) aircraft
+project, and the Mitsubishi Regional Jet (MRJ) project in
+2007. Lufthansa and All Nippon Airlines (ANA) signed as
+the launch customer of CRJ and MRJ, respectively, in
+2009. These aircraft will be delivered in 2013. The Boeing
+737 series and the Airbus A320 are also in the segment
+of ATP and GTF engines and both companies have
+announced a new generation 737 and A320 with a new
+high bypass turbofan engine (and GTF engine for A320)
+
+Sustain Sci (2013) 8:87–101
+
+99
+
+Fig. 5 The long product life
+cycle of an aircraft
+
+rather than creating a new aircraft with ATP. Considering
+the long product life cycle of an aircraft (Fig. 5), it is very
+unlikely that a new aircraft project in this segment with the
+ATP engine will be launched before 2020 due to the spread
+of GTF. Visualization of such niche interaction is important in understanding innovation transition and is part of
+our future research.
+
+Concluding remarks
+This paper analyzed innovation in the aviation industry,
+which is locked stiffly into the current regime and faces
+sustainability issues. The paper also extends the framework
+of MLP to TRL. The authors believe that a scientific theory
+created by a generalized process of individual phenomena
+should be tested by repetitive application of theory to a
+certain domain, in this case, the aviation industry, which
+will contribute to the sophistication and improvement of
+the theory.
+The aviation industry has started renewed ATP development as one of its most promising sustainability innovations. ATP failure in the late 1980s was generally
+considered the end of an opportunity window first opened
+during the 1973–1974 and 1979–1980 oil embargos. MLP
+analysis on ATP’s unfinished transition illuminated the
+factors in a multi-level perspective that have supported and
+interrupted ATP transition from the early 1970s until now.
+MLP illuminated interrelated changes of factors promoting
+the ATP project including relations with policy makers,
+competition among engine manufactures, improved feasibility of lighter materials, and progress of computer technology. MLP also extracted factors interrupting the
+transition of niche ATP, such as the end of Cold War,
+safety as the guiding principle, low profitability of airlines,
+and noise regulation.
+Stiff market preference, and safety certification, which
+were recognized as factors interrupting the 1980s ATP
+transition, and a change in knowledge infrastructure, which
+was recognized as a support factor of the 1980s ATP
+transition, are now hindering the current ATP transition.
+
+The authors observed that the same type of changes in a
+dimension of the socio-technical regime could both support
+and interrupt a niche, depending on the timing of the
+window of opportunity.
+The difficulty in investigating details of the transition of
+two niches in the same technology domain was undertaken
+with a new measurement of niche development. As discussed in this paper, while MLP offers a comprehensive
+perspective for analyzing and understanding an innovation
+transition process, we believe that MLP analysis cannot
+explain the detailed transition of several innovations in the
+same technology domain. GTF is a niche in the same
+technology domain as ATP, and therefore, concluding that
+GTF and ATP should have different transition paths under
+the influence of the socio-technical regime and landscape
+within the existing MLP framework is difficult. In this
+paper, ATP and GTF analysis in MLP frameworks were
+facilitated by introducing TRL, a globally used measure of
+technology readiness in the aviation and other high technology industries. MLP with TRL should now provide
+greater information to study the deeper mechanisms of the
+innovation process. In addition, even though TRL is a
+technology measurement, TRL when combined with MLP
+analysis highlighted the interaction of social factors. This is
+because a niche cannot progress to higher stages without a
+market and social feasibility due to the large investment
+required in going to the next step. Therefore, interactions
+between technology and diverse social factors in each TRL
+are essential for the development and implementation of
+technology in society. We discussed the different roles of
+socio-technical regime at different TRLs. The introduction
+of TRL into MLP enables us to discuss functions of regime
+and landscape in transition paths such as technology
+readiness and niche stock, dynamic and uneven opportunity
+windows, institutional support of export products, and the
+risk of a ‘launch’ customer. The introduction of TRL to
+the framework of MLP can be beneficial for showing the
+complex structure of transitions, and to comprehend factors
+affecting technology and R&D projects in each TRL.
+TRL not only supports academic research and theoretical development, but also collaboration among scholars of
+
+123
+
+100
+
+these theories, as well as practitioners and engineers, by
+elucidating the tacit knowledge of experts. Therefore, the
+application of TRL measurements to cases will appear soon
+in other industrial sectors with similar characteristics such
+as transportation, and information and communication
+technologies.
+Acknowledgments We appreciate the critical and helpful comments by the editors and anonymous reviewers. We would like to
+express our gratitude to those who helped with useful information
+about ATP.
+
+References
+Abrahamson E (1991) Managerial fads and fashions—the diffusion
+and rejection of innovations. Acad Manag Rev 16:586–612
+Abrahamson E, Rosenkopf L (1993) Institutional and competitive
+bandwagons—using mathematical-modeling as a tool to explore
+innovation diffusion. Acad Manag Rev 18:487–517
+Abrahamson E, Rosenkopf L (1997) Social network effects on the
+extent of innovation diffusion: a computer simulation. Organ Sci
+8:289–309
+Attewell P (1992) Technology diffusion and organizational learning—the case of business computing. Organ Sci 3:1–19
+Bennett S, Pearson JGP (2009) From petrochemical complexes to
+biorefineries? The past and prospective co-evolution of liquid
+fuels and chemicals production in the UK. Chem Eng Res Des
+87:1120–1139
+Boeing (2010) Current Market Outlook 2010–2019. Retrieved 28
+August 2010. http://www.boeing.com/commercial/cmo/
+Bowles MD, Dawson VP (1998) The advanced turboprop project:
+radical innovation in a conservative environment. In: Mack PE
+(ed) From engineering science to big science—The NACA and
+NASA Collier Trophy Research Project Winners, chap 14.
+National Aeronautics and Space Administration, NASA History
+Office, Washington, DC
+Brown LA (1981) Innovation diffusion: a new perspective. Methuen,
+London
+Cherington PW (1958) Airline price policy: a study of domestic
+airline pares. Harvard University Press, Cambridge (cited In:
+Shiomi E (2006) Research of US aviation policy, Bunshindo
+Press, Tokyo)
+Chrysovalantou M, Petrakis P (2011) Timing of technology adoption
+and product market competition. Int J Ind Organ 29:513–523
+Cohen MJ (2010) Destination unknown: pursuing sustainable mobility in the face of rival societal aspirations. Res Policy
+39:459–470
+Conrow EH (2011) Estimating technology readiness level coefficients. J Spacecr Rockets 48(1):146–152
+Cunningham OR, Lichtenbaum P (2005) The agreement on trade in
+civil aircraft and other issues relating to civil aircraft in the
+GATT/WTO system. In: Macrory EJP, Appleton EA, Plummer
+GM (eds) The World Trade Organization: legal, economic and
+political analysis, vol 1. Springer, Berlin
+Dosi G (1982) Technological paradigms and technological trajectories—a suggested interpretation of the determinants and directions of technical change. Res Policy 11:147–162
+Eaton J, Kortum S (2006) Innovation, diffusion, and trade, Cambridge, National Bureau of Economic Research Working Paper
+Series, No. 123585
+Freeman C (1974) The economics of industrial innovation. Penguin,
+Harmondsworth
+
+123
+
+Sustain Sci (2013) 8:87–101
+Geels FW (2002) Technological transitions as evolutionary reconfiguration processes: a multi-level perspective and a case-study.
+Res Policy 31(8–9):1257–1274
+Geels FW (2006a) Co-evolutionary and multi-level dynamics in
+transitions: the transformation of aviation systems and the shift
+from propeller to turbojet (1930–1970). Technovation 26:999–1016
+Geels FW (2006b) The hygienic transition from cesspools to sewer
+systems (1840–1930): the dynamics of regime transformation.
+Res Policy 35:1069–1082
+Geels FW (2010) Ontologies, socio-technical transitions (to sustainability), and the multi-level perspective. Res Policy 39:495–510
+Geroski PA (2000) Models of technology diffusion. Res Policy
+29:603–625
+Grin J, Rotmans J, Schot J, Geels FW, Loorbach D (2010) Transitions
+to sustainable development: new directions in the study of long
+term transformative change. Routledge, New York
+Haan A, de Mulder K (2002) Sustainable air transport: identifying
+possibilities for technological regime shifts in aircraft construction. Int J Innov Manag 6:301–318
+Hegger DLT, Villet J, Villet BJM (2007) Niche management and its
+contribution to regime change: the case of innovation in
+sanitation. Technol Anal Strateg Manag 9:729–746
+Hodson M, Marvin S (2010) Can cities shape socio-technical
+transitions and how would we know if they were? Res Policy
+39(4):477–485
+Hoogma R, Kemp R, Schot J, Truffer B (2002) Experimenting for
+sustainable transport: the approach of strategic niche management. Spon, London
+IATA (2009a) The IATA Technology Roadmap Report, 3rd edn.
+IATA
+IATA (2009b) Carbon-neutral growth by 2020, Press releases.
+http://www.iata.org/pressroom/pr/2009-06-08-03.htm (last accessed
+March 2010)
+ICAO (2010) Agenda Item 17: Environmental protection ‘‘A more
+ambitious, collective approach to international aviation greenhouse gas emissions’’, ICAO Working Paper, A37-WP/186
+Ieromonachou P, Potter S, Enoch M (2004) Adapting strategic niche
+management for evaluating radical transport policies: the case of
+the Durham road access charging scheme. Int J Transport Manag
+2:75–87
+Jaffe AB, Newell RG, Stavins RN (2002) Environmental policy and
+technological change. Environ Resour Econ 22:41–69
+Jones B, Miller B (2007) Innovation diffusion in the new economy:
+the tacit component. Routledge, New York
+Jordan WA (1978) Airline performance under regulation: Canada vs
+the US. Logist Transp Rev 14(3):297–337 [cited in Shiomi E
+(2006) Research of US aviation policy, Bunshindo Press, Tokyo]
+Kajikawa Y (2008) Research core and framework of sustainability
+science. Sustain Sci 3:215–239
+Kemp R, Schot J, Hoogma R (1998) Regime shifts to sustainability
+through processes of niche formation: the approach of strategic
+niche management. Technol Anal Strateg Manag 10:175–195
+Kemp R, Rip A, Schot AJ (2001) Constructing transition paths
+through the management of niches. In: Graud R, Karnoe P (eds)
+Path dependence and creation. Erlbaum, Mahwah
+Kern F (2012) Using the multi-level perspective on socio-technical
+transitions to assess innovation policy. Technol Forecast Soc
+Chang 79:298–310
+Khan RSR, Lagana MC, Ogaji SOT, Pillidis P, Bennett I (2011) Risk
+analysis of gas turbines for natural gas liquefaction. J Eng Gas
+Turbines Power 133:071704. doi:10.1115/1.4002673
+Kivits R, Charlesa MB, Ryanb N (2010) A post-carbon aviation
+future: airports and the transition to a cleaner aviation sector.
+Future 42:199–211
+Lauridsen EH, Jørgensen U (2010) Sustainable transition of electronic
+products through waste policy. Res Policy 39(4):486–494
+
+Sustain Sci (2013) 8:87–101
+Lee DS, Pitari G, Grewe V, Gierens K, Penner JE et al (2010)
+Transport impacts on atmosphere and climate: aviation. Atmos
+Environ 44(37):4678–4734
+Linstone HA (1999) Decision making for technology executives:
+using multiple perspectives to improve performance. Artech
+House, Boston
+Mankins JC (1995) Technology readiness levels. NASA Office of
+Space Access and Technology White Paper
+Markard J, Truffer B (2008) Technological innovation systems and
+the multi-level perspective: towards an integrated framework.
+Res Policy 37:596–615
+Metcalfe JS (1981) Impulse and diffusion in the study of technical
+change. Futures 13:347–359
+Nakamura H, Kajikawa Y, Suzuki S (2011) Innovation for sustainability in aviation: world challenges and visions. In: Nobre F,
+Walker D, Harris R (eds) Technological, managerial and
+organizational core competencies: dynamic innovation and
+sustainable advantage. IGI Global, USA, pp 55–72
+Nelson RR, Winter SG (1977) In search of useful theory of
+innovation. Res Policy 6:36–76
+Popp D, Hascic I, Medhi N (2011) Technology and the diffusion of
+renewable energy. Energy Econ 33:648–662
+Ramirez-Marques JE, Sauser BJ (2009) System development planning via system maturity optimization. IEEE Trans Eng Manage
+56(3):533–548
+Raven RPJM (2006) Towards alternative trajectories? Reconfigurations in the Dutch electricity regime. Res Policy 35:581–595
+Raven RPJM (2007) Co-evolution of waste and electricity regimes:
+multi-regime dynamics in the Netherlands (1969–2003). Energy
+Policy 35:2197–2208
+Raven RPJM, Geels FW (2010) Socio-cognitive evolution in niche
+development: comparative analysis of biogas development in
+Denmark and the Netherlands (1973–2004). Technovation
+30:87–99
+Rip A, Kemp R (1998) Technological change. In: Rayner S, Malone
+EL (eds) Human choices and climate change. Resources and
+technology, vol 2. Battelle, Columbus
+Schot JW (1998) The usefulness of evolutionary models for
+explaining innovation: the case of the Netherlands in the 19th
+century. History Technol 14:173–200
+
+101
+Schot JW, Geels FW (2008) Strategic niche management and
+sustainable innovation journeys: theory, findings, research
+agenda, and policy. Technol Anal Strateg Manag 20(5):537–554
+Smith A (2006) Niche-based approaches to sustainable development:
+radical activists versus strategic managers. In: Bauknecht D,
+Kemp R, Voss J (eds) Sustainability and reflexive governance.
+Elgar, Camberley
+Smith A (2007) Translating sustainabilities between green niches and
+socio-technical regimes. Technol Anal Strateg Manag 19(4):427–
+450
+Späth P, Rohracher H (2010) ‘Energy regions’: the transformative
+power of regional discourses on socio-technical futures. Res
+Policy 39(4):449–458
+Straub DW (1994) The effect of culture on it diffusion—e-mail and
+fax in Japan and the United-States. Inf Syst Res 5:23–47
+Tan W, Ramirez-Marquez J, Sauser B (2011) A probabilistic
+approach to system maturity assessment. Syst Eng 14:279–293
+Unruh GC (2000) Understanding carbon lock-in. Energy Policy
+28(12):817–830
+Van Lente H (1997) Towards an integrated conceptual framework:
+modern biotechnology and the greening of industry, Prepared for
+the European Commission—JRC Institute for Prospective
+Technological Studies, Seville
+Venkatesh V, Morris MG, Davis GB, Davis FD (2003) User
+acceptance of information technology: toward a unified view.
+MIS Q 27:425–478
+Verbong G, Geels F (2007) The ongoing energy transition: lessons
+from a socio-technical, multi-level analysis of the Dutch
+electricity system (1960–2004). Energy Policy 35:1025–1037
+Weber M, Hoogma R, Lane B, Schot J (1999) Experimenting with
+sustainable transport innovations. Workbook for strategic niche
+management. CEC Joint Research Centre, Seville
+Ziemianski JA, Whitlow JB (1988) NASA/Industry Advanced
+Turboprop Technology program, prepared for the 16th congress
+of the International Council of Aeronautical Sciences. Jerusalem,
+Israel
+
+123
+
+

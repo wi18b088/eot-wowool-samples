@@ -1,0 +1,1263 @@
+J. Mod. Power Syst. Clean Energy (2015) 3(2):240–248
+DOI 10.1007/s40565-015-0126-y
+
+Analysis of electric vehicle charging using the traditional
+generation expansion planning analysis tool WASP-IV
+Aoife FOLEY (&), Brian Ó GALLACHÓIR
+
+Abstract Electric vehicles (EV) are proposed as a measure
+to reduce greenhouse gas emissions in transport and support
+increased wind power penetration across modern power
+systems. Optimal benefits can only be achieved, if EVs are
+deployed effectively, so that the exhaust emissions are not
+substituted by additional emissions in the electricity sector,
+which can be implemented using Smart Grid controls. This
+research presents the results of an EV roll-out in the all island
+grid (AIG) in Ireland using the long term generation expansion planning model called the Wien Automatic System
+Planning IV (WASP-IV) tool to measure carbon dioxide
+emissions and changes in total energy. The model incorporates all generators and operational requirements while
+meeting environmental emissions, fuel availability and
+generator operational and maintenance constraints to optimize economic dispatch and unit commitment power dispatch. In the study three distinct scenarios are investigated
+base case, peak and off-peak charging to simulate the impacts of EV’s in the AIG up to 2025.
+Keywords Economic dispatch, Environmental dispatch,
+Plug-in electric vehicle, Generation expansion planning,
+Carbon dioxide emissions, Energy
+
+CrossCheck date: 27 February 2015
+Received: 19 November 2014 / Accepted: 16 April 2015 / Published
+online: 13 May 2015
+ The Author(s) 2015. This article is published with open access at
+Springerlink.com
+A. FOLEY, School of Mechanical and Aerospace Engineering,
+Queen’s University Belfast, Belfast BT9 5AH, UK
+(&) e-mail: a.foley@qub.ac.uk
+B. Ó GALLACHÓIR, School of Engineering, University
+College Cork, College Road, Cork, Ireland
+B. Ó GALLACHÓIR
+e-mail: b.ogallachoir@ucc.ie
+
+123
+
+1 Introduction
+Internationally the drive is on to deploy electric vehicles
+(EV), especially as the new mode of private vehicular
+transport in urban areas. As society is concentrated at urban
+and suburban centers with average weekly travel distances
+of approximately 50 miles or 80 kilometers and daily
+commutes of up to 20 miles or 32 kilometers, this is an
+opportunity to apply a technology with certain limitations
+and constraints [1, 2]. There are a number of economic and
+environmental benefits to introducing EVs, including reduced oil consumption and dependency, new research and
+development and associated job opportunities, a reduction
+in greenhouse gas (GHG) emissions, a reduction in localized noise levels and a reduction in localized air pollution
+from other pollutants such as particulate matter (PM10).
+These pollutants are linked to global warming, localized air
+pollution and deterioration in the quality of human health.
+The International Energy Agency (IEA) studied the effects
+of a strong policy of ‘decarbonisation’ in transport and
+estimated that the introduction of new vehicle technologies
+and fuels including some modal shifting in passenger and
+freight transport has the potential to generate a 40% reduction in carbon (CO2) emissions [3].
+Many articles study potential GHG emissions reductions
+from EVs. Boschert [4] provides a detailed review of over 40
+studies carried out in the USA to examine the effects of EVs
+on well-to-wheel emissions [4]. In [5], future trends of both
+direct and life cycle energy demand and GHG emissions in
+China’s road transport sector are examined, and the effectiveness of possible reduction measures by using alternative
+vehicles/fuels is assessed and plug-in hybrid electric vehicles were found effective at reducing GHG emissions. In [6],
+two planning issues are simultaneously examined by employing a multi-objective collaborative planning method
+(MCPM). It is shown that MCPM can largely improve
+
+Analysis of electric vehicle charging
+
+investment efficiency and the user equilibrium based traffic
+assignment model (UETAM) is seamlessly integrated to
+address the maximal traffic flow capturing problem successfully. In [7], a framework for optimal design of battery
+charging/swap stations in distribution systems (i.e. IEEE
+15-bus and IEEE 43-bus) based on life cycle cost is provided
+and the results show that battery swap stations are more
+appropriate for public transport in distribution systems. As
+detailed by [8], many different methods are being used to
+examine EV battery charging.
+In this paper a model of the all island grid (AIG) of the
+Republic of Ireland and Northern Ireland up to 2025 was
+built employing the dynamic programming (DP) based capacity generation expansion planning tool called Wien Automatic System Planning IV (WASP-IV) created by the
+International Atomic Energy Agency (IAEA) [9] to determine the potential contribution that plug-in hybrid electric
+vehicle (PHEV) charging can make in reducing CO2 emissions and changes total energy. In a comparable study of the
+AIG the impact of PHEV charging is also investigated in
+2020, but using an economic dispatch unit commitment
+model and one of the key findings demonstrated that indicated that peak charging has more negative power system
+impacts than off-peak charging (i.e. the night-time valley)
+[10]. In a further follow-up study by [11] of the AIG in 2025
+it was shown that gas will be the dominant source of electricity generation to charge EVs and that wind power will
+experience a minor reduction in curtailment. This paper is
+divided into six sections. Section 1 introduces and Sect. 2
+provides an overview of EV policy and original equipment
+manufacturers (OEM) targets. Section 3 describes the DP
+based capacity generation expansion planning tool, WASPIV. Section 4 sets-out the methodology used, Sect. 5 presents the results and analysis of the baseline, peak and offpeak scenarios and Sect. 6 summaries and concludes.
+
+2 Overview electric vehicle policy and original
+equipment manufacturer development targets
+
+241
+Table 1 Some international EV target objectives
+Country
+
+Targets
+
+Austria
+
+2020: 100000 EVs deployeda
+
+Australia
+
+2012: First cars on road, 2018: mass deployment,
+2050: up to 65% of car stockb
+
+Canada
+
+2018: 500000 EVs deployedc
+
+China
+
+2011: 500000 annual production of EVsd
+
+Denmark
+
+2020: 200000 EVse
+
+France
+
+2020: 2000000 EVsf
+
+Germany
+Ireland
+
+2020: 1000000 EVs deployedg
+2020: 10% EV market shareh
+
+Israel
+
+2011: 40000 EVs, 2012: 40000 to 100000 EVs
+annuallyi
+
+Japan
+
+2020: 50% market share of next generation vehiclesj
+
+New
+Zealand
+
+2020: 5% market share, 2040: 60% market sharek
+
+Spain
+
+2014: 1000000 EVs deployedl
+
+Sweden
+
+2020: 600000 EVs deployedm
+
+United
+Kingdom
+
+No target figures, but policy to support EVsn
+
+USA
+
+2015: 1000000 PHEV stocko
+
+a
+
+http://www.iea-retd.org/
+
+b
+
+http://australia.betterplace.com/assets/pdf/Better_Place_Australia
+
+c
+
+http://www.evtrm.gc.ca/pdfs/E-design_09_0581_electric_vehicle
+
+d
+
+http://www.nytimes.com/2009/04/02/business/global/02electric.
+html
+
+e
+
+http://www.ens.dk/en-US/Sider/forside.aspx
+
+f
+
+http://www.physorg.com/news173639548.html
+
+g
+
+http://www.evworld.com/news.cfm?newsid=23301
+
+h
+
+http://www.dcenr.gov.ie/Press?Releases/2008/
+
+i
+
+http://www.betterplace.com/
+
+j
+
+http://www.autosavant.com/2008/08/27/japan-charges-ahead-withelectric-cars/
+
+k
+
+http://www.msnbc.msn.com/id/21246592/
+
+l
+
+http://uk.reuters.com/article/idUKARO04096020080730
+
+m
+http://www.powercircle.org/en/display/Projects/swedish-electricmobility-initative.aspx
+n
+
+http://www.dft.gov.uk/pgr/scienceresearch/technology/
+lowcarbonelecvehicles/
+
+o
+
+Table 1 presents some international targets [12, 13].
+European policies on EVs are provided by AVERE (2010)
+[14].
+A number of countries including some EU Member
+States, Japan, South Korea, Canada, China, Israel and the
+USA have established EV targets, policies and plans. For
+example in the EU each Member State is mandated to ensure that 10% of transport energy (excluding aviation and
+marine transport) comes from renewable sources by 2020
+[15]. The Irish Government intends to achieve this target
+with a number of policies including an increase in the use of
+3% biofuels in transport by 2010 and ensuring that 10% of
+all vehicles in the transport fleet are powered by electricity
+
+http://www.businessweek.com/technology/content/jun2010/
+tc2010063_322564.htm
+
+by 2020 [16]. In addition to the benefits of EVs already
+discussed there is also the potential opportunity to use EVs
+to better integrate renewable energy sources (RES). The
+development of EVs involves two sectors, the battery
+manufacturers and the EV manufacturers.
+Table 2 presents the latest data available with regard to
+a number of OEM in terms of a technology roadmap [12,
+17]. Bayerische Motoren Werke AG (BMW) announced in
+early June 2010 that it was ceasing further work on the
+electric mini as it was too expensive to build. BMW’s
+
+123
+
+242
+
+Aoife FOLEY, Brian Ó GALLACHÓIR
+
+Table 2 OEM technology roadmap
+Car manufacturer
+
+Battery manufacturer
+
+Production target
+
+BYD Auto
+
+BYD Group
+
+2015: 100000a
+
+Fiat-Chrysler
+
+A123 Systems
+
+No date, no numbersb
+
+Ford
+
+Johnston Controls-Saft
+
+5000 per annum
+
+GM
+
+LG Chem
+
+2011: 10000 & 2012: 60000c
+
+Hyundai
+
+LG Chem, SK Energy and SB Limotive
+
+2018: 500000
+
+Mercedes-Benz
+
+Continental & Johnston Controls-Saft
+
+No date, no numbersd
+
+Mitsubishi
+
+GS Yuasa Corp.
+
+2010: 5000, 2011: 15000
+
+Nissan
+
+AESC
+
+2010: 50000, 2012: 100000
+
+REVA
+
+Indocel Technologies
+
+No date, no numbers
+
+Renault
+
+AESC
+
+By 2010 150000/annum
+
+Subaru
+Tata
+
+AESC
+Electrovaya
+
+2010: 100e
+No date, no numbers
+
+Toyota
+
+Panasonic
+
+No date, no numbers
+
+Volkswagen
+
+Volkswagen & Toshiba Corp.
+
+2011: 500f
+
+a
+
+http://blogs.edmunds.com/greencaradvisor/2010/03/byd
+
+b
+
+http://www.autoblog.com/2010/03/22/chrysler
+
+c
+
+http://www.greencarreports.com/blog/
+
+d
+
+http://green.autoblog.com/2009/09/10/officially-official-mercedes-benz
+
+e
+
+http://green.autoblog.com/2007/12/26/subaru-ev
+
+f
+
+http://green.autoblog.com/2010/03/01/volkswagen
+
+preference is for a battery swopping programme so drivers
+are not inconvenience at charging points [18].
+
+3 Generation expansion planning model development
+in WASP IV
+The methodology employed is traditional long term
+generation expansion planning (GEP) [19] using WASP-IV
+the IAEA’s commonly used for electricity planning in
+monopoly electricity markets [20]. In a monopoly market
+the primary objective of a utility is to meet electricity demand within a ‘reasonable’ loss of load probability (LOLP)
+or energy not served (energy not served (ENS) or expected
+unserved energy is the expected amount of energy not
+delivered each year because of scarcities in generating
+capacities and or shortage in energy supplies) at a minimum cost, whereas in a liberalized electricity market the
+aim is to meet demand at a reduced ENS and wholesale
+electricity price [21]. However, all things being equal
+supply should always meet demand at the least cost. The
+generation expansion model for the AIG is built in WASPIV, which uses three main optimization techniques to find
+the most optimal portfolio mix for a power system within
+user defined constraints. Probabilistic estimation is applied
+to determine system production costs, ENS costs and reliability. Linear programming finds the optimal portfolio
+
+123
+
+mix, which satisfies exogenous constraints on environmental emissions, fuel availability and electricity generation by some plants. The alternative expansion plans are
+optimized using DP.
+WASP-IV is coded in FORTRAN and consists of seven
+modular programmes with a windows based graphics user
+interface to input and manipulate data, as shown in Fig. 1.
+
+Fig. 1 FIXSYS input screen in WASP-IV
+
+Analysis of electric vehicle charging
+
+243
+
+The seven modular programmes are:
+1)
+2)
+
+3)
+4)
+
+5)
+
+6)
+
+7)
+
+Load system (LOADSY), which predicts peak loads
+and load duration curves (LDC) for the system;
+Fixed system (FIXSYSY), which describes the existing plant, all future firm additions and all firm
+retirements;
+Variable system (VARSYS), which details the candidate plants available to expand the portfolio mix;
+Configuration generator (CONGEN), produces all
+possible year to year alternative combinations of
+expansion configurations;
+Merge and simulate (MERSIM), merges the system
+and calculates the production costs, ENS and system
+reliability denoted by LOLP for each configuration;
+Dynamic programming optimization (DYNPRO),
+establishes the optimal expansion plan based on the
+input data;
+Report writer of WASP-IV in a batched environment
+(REPROBAT), summarizes the input data, results of
+the study and cash flow requirements of the optimal
+expansion plan.
+
+WASP-IV can determine the optimal GEP for a power
+system over a period of 30 years, within the system planning constraints, based on total minimum discounted system costs [22]. Each potential series of generators added to
+the power system, which meets the power system constraints are weighted using a present value cost function.
+The cost (objective) function is based on (1).
+Bj ¼
+
+T 
+X
+
+I j;t  Sj;t þ Lj;t þ F j;t þ M j;t þ Oj;t
+
+ð1 þ at ÞDt;p  PðKt;p Þ  ð1 þ bt ÞDt;p
+
+ð3Þ
+
+In WASP-IV the system reliability is configured using
+LOLP. The LOLP index is calculated for each period of the
+year and each hydro-condition in the same period weighted
+by the hydro-condition probabilities and the average annual
+LOLP. The generation of each plant during each period is
+determined using the optimal dispatch policy in WASP-IV,
+which is based on the availability of plants and units,
+maintenance of plants and units, spinning reserve (spinning
+reserve (SR) is the unused capacity which can be activated
+on decision of the system operator and which is provided
+by devices which are synchronized to the network and able
+to affect the active power) [24] requirements and other
+exogenous constraints such as environmental emissions,
+fuel usage and or availability of certain plants as described
+in (4).
+X
+COEFi;j Gi  LIM
+ð4Þ
+i2Ij
+
+j
+
+where Gi is the generation by plant I; COEFi,j is per unit
+emission or per unit fuel usage and so forth by i plant in the
+group limited by j.
+
+ð1Þ
+
+t¼1
+
+4 Methodology
+
+where Bj is the objective function of the expansion plan j; Ij
+are the capital investment costs of expansion plan j; Sj are the
+salvage value of investment costs of the expansion plan j; Fj
+are the fuel costs of expansion plan j; Lj are the fuel inventory
+costs of the expansion plan j; Mj are the non-fuel operation
+and maintenance costs of the expansion plan j; Oj is the cost
+of ENS of the expansion plan j; during the time, t in years 1,
+2, …, T, where T is the planning period. The horizontal bar
+represents discounted values to a reference year or base year
+at a given discount i. The optimal expansion plan is defined
+by minimizing Bj to all j. As WASP-IV uses DP the analysis
+based on Bellman’s Principle of Optimality requires a start
+point to determine the all the possible alternative expansion
+plans in power system [23]. If Kt is a vector containing all the
+generating units in operation in year t for a given expansion
+plan, then Kt must satisfy (2).
+K t ¼ K t1 þ At  Rt þ U t
+
+in year t and Ut equals a vector of candidate units added to
+the system in year t. The installed capacity must lie
+between the maximum and minimum reserve margins,
+above the peak demand Dt,p in the critical period, p of the
+year and is defined by the following constraint set-out in
+(3).
+
+ð2Þ
+
+where At equals a vector of committed additions of units in
+year t; Rt equals a vector of committed retirements of units
+
+4.1 Test system
+The test system modelled is the AIG in 2010, which had
+an existing installed ‘dispatchable’ capacity of 9742 MW,
+approximately 5842 MW of which was gas fired. There
+was an installed wind power capacity of circa 1533 MW.
+There is a 275 kV double circuit interconnector and two
+standby 110 kV lines between Northern Ireland and the
+Republic of Ireland. The AIG is linked to the Great Britain
+grid via the Moyle 500 MW high voltage direct current
+(HVDC) interconnector and the 500 MW HVDC East West
+interconnector. Thus the AIG can be treated as one synchronous system. The baseline model data was collected
+from information published by the single wholesale electricity market operator (SEMO), the transmission system
+operators (TSO) and the regulators for Northern Ireland
+and in the Republic of Ireland and all island market modelling project and the AIG study [25–31]. This is the base
+case scenario.
+
+123
+
+244
+
+4.2 Scenario approach
+For each year up to 2025 two distinct charging scenarios
+are applied to the base case scenario peak charging when
+PHEV charge during the pm peak (i.e. starting 5.30 pm) and
+off-peak charging (between 10 pm and 6 am) in order to
+simulate the effect of PHEV on the power system. The peak
+time window is assigned assuming that this is the time when
+PHEV owners arrive home from work. This is a practical
+assumption because the deployment of smart metering and
+Smart Grid has not been as rapid as anticipated [32]. The
+off-peak times are chosen as this is the power system nighttime valley with spare capacity. Figure 2 shows the flowchart approach used to examine the impacts of the two
+PHEV load profiles on the power system.
+The number of PHEVs charging per annum is estimated
+using the results of the ‘Car Stock’ model [33]. Figure 3 provides a graph of the growth in PHEVs of the passenger car fleet
+in the Republic of Ireland only, from 2010 to 2025 inclusive as
+estimated by ‘Car Stock’. For the purpose of this model a 10%
+(i.e. 262068) PHEV target is achieved in 2020.
+As the alternating current (AC) from the grid is converted to direct current (DC) in the EV battery pack there
+will be power losses associated with stationary loads in the
+
+Fig. 2 WASP-IV GEP & CO2 flowchart
+
+Fig. 3 PHEV numbers from 2010 to 2025
+
+123
+
+Aoife FOLEY, Brian Ó GALLACHÓIR
+
+charging process e.g. communication controls and the
+battery/engine cooling system [34]. It is assumed 88%
+conversion efficiency from AC to DC [35]. Thus more
+power is actually required to full charge the PHEV. For this
+study it is assumed that charging will take place mostly at
+the PHEV home at level 1 charging using a 3.3 kW
+charger, which includes the conversion efficiency factor
+over 8 hours with ‘trickle’ charging of the battery to reach a
+full state of charge (SOC). This applies the same
+methodology used in the ‘EV Car Stock’ model, where
+plug-to-battery energy losses of 88% conversion efficiency
+were used [36]. In order to determine the additional energy
+used and the amount of CO2 produced by the power system, WASP-IV is ran without the load of the PHEV (i.e.
+base case) and with the load of the PHEV for both the peak
+and off-peak charging regimes.
+In the test system power dispatch is optimized using
+hourly electricity demand curves over an entire year (i.e.
+8760 hours) for each year up to 2025. The baseline year is
+2009. Figure 4 shows the load duration curve for 2009. A
+conservative growth of 1.15% per annum in electricity
+demand is taken up to 2025. This data was inputted into
+WASP-IV using PRELOAD2.
+Peak charging is assumed to occur during peak electricity usage, which is typically between 12 pm and 10 pm
+each day. Off-peak charging is assumed to occur during the
+period of lowest electricity demand, typically between 10
+pm and 6 am. As already discussed a trickle charge approach was applied over the 8 hours. In trickle charging the
+battery draws load quickly for the first 3 hours typically
+and then slowly thereafter, as in a ‘trickle’.
+Wind power generation in this study is established in
+WASP-IV as a ‘fictitous’ run-of-hydro unit. The installed
+wind power capacity for each year was linearly extrapolated starting with 1533 MW of installed wind capacity in 2009 and 6000 MW in 2020. The Republic of
+Ireland has a target of generating 40% electricity from
+RES, which is expected to come predominantly from wind
+power by 2020 [37]. Northern Ireland currently has a re-
+
+Fig. 4 Load duration curve for base year
+
+Analysis of electric vehicle charging
+
+245
+Table 4 Fuel costs
+
+Table 3 Dispatchable plant in AIG
+
+Fuel type
+
+Cost (€/GJ)
+
+Gas OCGT
+
+5.91
+
+Gas CCGT
+
+6.46
+
+Gas
+
+Coal
+
+1.75
+
+432
+
+Gas
+
+Peat
+
+3.71
+
+B1 9 3
+
+170
+
+Gas
+
+Wind
+
+2.78
+
+Ballylumford CCGT
+
+B2 9 3
+
+170
+
+Gas
+
+Hydro
+
+0
+
+Ballylumford GT
+
+B3 9 2
+
+58
+
+Gas
+
+Ballylumford CCGT
+Cahir OCGT
+
+B10 9 1
+CH1 9 1
+
+97
+98
+
+Gas
+Gas
+
+Cuilleann OCGT
+
+CL1 9 1
+
+98
+
+Gas
+
+Coolkeragh
+
+CO1 9 1
+
+53
+
+Oil
+
+Coolkeragh CCGT
+
+CO2 9 1
+
+402
+
+Gas
+
+Plant
+
+ID 9 no
+units
+
+Net capacity
+(MW)
+
+Fuel type
+
+Aghada
+
+AD 9 1
+
+258
+
+Gas
+
+Aghada
+
+AT 9 3
+
+90
+
+Aghada
+
+ADC 9 1
+
+Ballylumford ST
+
+Dublin Bay
+
+DB1 9 1
+
+403
+
+Gas
+
+Dublin Waste Energy
+
+DW1 9 1
+
+72
+
+Waste
+
+East West Interconnector
+
+EWIC
+
+500
+
+–
+
+Edenderry
+
+ED1 9 1
+
+117.6
+
+Peat
+
+Edenderry OCGT
+
+ED2 9 1
+
+111
+
+Gas
+
+Great Island
+
+GIA 9 2
+
+54
+
+Gas
+
+Great Island
+
+GIB 9 1
+
+108
+
+Gas
+
+Huntstown
+
+HNI 9 1
+
+343
+
+Gas
+
+Huntstown
+
+HN2 9 1
+
+401
+
+Gas
+
+Kilroot
+
+KC 9 2
+
+29
+
+Oil
+
+Kilroot
+Kilroot
+
+KO1 9 2
+KO2 9 1
+
+40
+400
+
+Oil
+Gas
+
+Lough Ree Power
+
+LR4 9 1
+
+91
+
+Peat
+
+Marina
+
+MRT 9 1
+
+85
+
+Gas
+
+Meath waste to energy
+
+MW 9 1
+
+17
+
+Waste
+
+Moyle interconnector
+
+MI 9 1
+
+450
+
+–
+
+Moneypoint
+
+MP 9 3
+
+282.5
+
+Coal
+
+Nore Power
+
+NP 9 1
+
+98
+
+Gas
+
+North Wall
+
+NW1 9 1
+
+163
+
+Oil
+
+North Wall
+
+NW2 9 1
+
+104
+
+Gas
+
+Poolbeg
+
+PBC 9 1
+
+463
+
+Gas
+
+Rhode Island
+
+RP1 9 2
+
+52
+
+Gas
+
+Sealrock
+
+SK 9 2
+
+80.5
+
+Gas
+
+Tarbert
+
+TB1 9 2
+
+54
+
+Oil
+
+Tarbert
+
+TB3 9 2
+
+241
+
+Oil
+
+Tawnaghmore
+
+TP 9 2
+
+52
+
+Gas
+
+Tynagh
+West Offaly
+
+TY 9 1
+WO 9 1
+
+384
+137
+
+Gas
+Gas
+
+Whitegate
+
+WG 9 1
+
+445
+
+Gas
+
+Ardnacrusha Hydro
+
+AA 9 4
+
+21.5
+
+Water
+
+Erne Hydro
+
+ER 9 4
+
+16.25
+
+Water
+
+Lee Hydro
+
+LE 9 4
+
+9
+
+Water
+
+Liffey Hydro
+
+LI 9 4
+
+9.5
+
+Water
+
+Turlough Hill
+
+TH 9 4
+
+73
+
+Water
+
+newable target of 12% electricity production from indigenous sources by 2012. In 2010 a revised target of 42%
+power from RES, mostly from off-shore wind power, by
+2020 was under consultation. The Northern Ireland
+Assembly subsequently agreed an increased renewable
+target of 40% electricity production from indigenous
+sources by 2020 [38, 39]. All the dispatchable plants inputted into WASP-IV are listed in Table 3.
+The fuel prices used in the study are given in Table 4 are
+the average of the prices published in the AIG study [40].
+Finally, note that the SR was left at the default value of
+10% in WASP-IV for the test system simulations.
+
+5 Results and analysis
+Figure 5 shows the graph of total energy with and
+without PHEV charging from 2010 to 2025. Both peak and
+off-peak charging modes use in effect approximately the
+same amount of total energy per annum, as expected. As
+can be seen from the graph the total amount of energy
+produced increases as would be expected as the number of
+PHEVs charging increases. PHEV charging accounts for
+approximately 1184 GWh of additional energy in electricity in 2020. 1073 GWh of additional energy in electricity in 2020 or around 93 kilotonne oil equivalent (ktoe)
+(A tonne of oil equivalent (toe) is a unit of energy roughly
+equivalent to the energy content of one tonne of crude oil.
+The definition in energy terms is that 1 toe = 11.63 Mega
+Watt hours (MWh) = 1.163 9 10-2 GWh), of which 42%
+is renewable, which equates to 97.65 ktoe when the 2.5
+weighting is applied in accordance with Directive 2009/28/
+EC. Therefore PHEVs could contribute 1.68% to the 10%
+renewable energy in transport target in the Republic of
+Ireland.
+Figure 6 shows the graph of total CO2 emitted without
+PHEV charging, with PHEV off-peak and with PHEV peak
+charging from 2010 to 2025. As can be seen from the graph
+the amount of CO2 produced without PHEV charging is the
+lowest, as would be expected. The amount of CO2 emis-
+
+123
+
+246
+
+Fig. 5 Total energy with & without PHEV charging
+
+Fig. 6 Total systems CO2 emissions per scenario
+
+sions also decreases year on year due to the increase in
+installed wind. The PHEV peak charging generates more
+CO2 emissions than the off-peak charging as less efficient
+peaking and mid-merit thermal generators are used.
+This model has not taken into account the stochastic
+nature of wind power on the system, which may result in
+increased CO2 emissions due to cycling and part loading of
+thermal generators [41] (cycling is the operation of thermal
+generation units at varying load levels, low load levels or in
+a start/stop manner and has cost implications for operation
+and maintenance of thermal plant). The analysis is also
+limited because the impacts of using surplus wind on the
+AIG system to charge PHEV was not included.
+The difference in CO2 emissions between the baseline
+case, without PHEVs charging and with PHEVs charging
+for both the peak and off-peak scenarios is 598 kilotonne of
+CO2 (ktCO2) and 375 ktCO2, respectively in 2020. If the
+Car Stock model CO2 savings in ICE reductions of 504
+ktCO2 is included, then the overall net reduction in CO2
+emissions is a reduction of 129 ktCO2 for the off-peak
+scenario but an increase of 94 ktCO2 for the peak scenario.
+Thus WASP-IV indicates that peak charging increases CO2
+emissions. Therefore off-peak charging has more overall
+transport and power systems benefits in terms of CO2
+emissions reductions and contributes 0.95% to the
+Republic of Ireland’s 20% reduction in non-emissions
+trading scheme emissions by 2020 relative to 2005 [42].
+
+6 Conclusion
+This paper has presented the results of an examination of
+the impacts of PHEVs charging on the AIG using the
+WASP-IV long term GEP model and two charging scenarios. The analysis indicates that off-peak charging during
+
+123
+
+Aoife FOLEY, Brian Ó GALLACHÓIR
+
+the night-time valley is the most efficient with the lowest
+increase in CO2 emissions. This is because base load plants
+are used. It was found that PHEV charging accounts for
+approximately 1184 GWh of additional energy in electricity in 2020. 1073 GWh of additional energy in electricity in 2020 or around 93 ktoe, of which 42% is
+renewable, which equates to 97.65 ktoe when the 2.5
+weighting is applied in accordance with Directive 2009/28/
+EC. The difference in CO2 emissions between the baseline
+case, without PHEVs charging and with PHEVs charging
+for both the peak and off-peak scenarios is 598 ktCO2 and
+375 ktCO2, respectively in 2020. The model revealed that
+PHEVs have the potential to contribute 1.68% to the 10%
+renewable energy in transport target in the Republic of
+Ireland. The model also shows that off-peak PHEV
+charging has more overall transport and power systems
+benefits in terms of CO2 emissions reductions and contributes 0.95% to the Republic of Ireland’s 20% reduction
+in non-emissions trading scheme emissions by 2020 relative to 2005. The next phase of this research is to develop a
+wind-follow Smart Grid charging scenario.
+Acknowledgments Dr Aoife FOLEY would like to thank UK
+Engineering and Physical Sciences Research Council (EPSRC) under
+grant EP/L001063/1 and the National Natural Science Foundation of
+China under grants 51361130153 and 61273040 and the Shanghai
+Rising Star programme 12QA1401100 for financial supporting this
+research. Dr Aoife FOLEY and Dr Brian Ó GALLACHÓIR would
+also like to thank the Irish Environmental Protection Agency (EPA)
+Climate Change Research Programme under grant CCRP-09-FS-7-2.
+Dr FOLEY also acknowledges Dr Jianhui WANG, Vladimir KORITAROV, Dr Aidun BOTTERUD, Guenter CONZELMANN at Argonne National Energy Laboratory, Illinois, USA.
+Open Access This article is distributed under the terms of the
+Creative Commons Attribution 4.0 International License (http://
+creativecommons.org/licenses/by/4.0/), which permits unrestricted
+use, distribution, and reproduction in any medium, provided you give
+appropriate credit to the original author(s) and the source, provide a
+link to the Creative Commons license, and indicate if changes were
+made.
+
+References
+[1] Morgenroth ELW (2002) Commuting in Ireland: an analysis of
+inter-county commuting flows. WP 144, Economic and Social
+Research Institute (ESRI), Dublin
+[2] National Travel Survey (2012) Statistical release. Department
+for Transport, London, 2013
+[3] International Energy Agency (IEA) (2009) Transport, energy
+and CO2: moving towards sustainability. IEA/Organisation for
+Economic Co-operation and Development (OECD), Paris
+[4] Boschert S (2008) The cleanest cars: well-to-wheels emissions
+comparisons. New Society Publishers, Gabriola Island
+[5] Ou XM, Zhang XL, Chang SY (2010) Scenario analysis on
+alternative fuel/vehicle for China’s future road transport: lifecycle energy demand and GHG emissions. Energy Policy
+38(8):3943–3956
+
+Analysis of electric vehicle charging
+[6] Yao WF, Zhao JH, Wen FS et al (2014) A multi-objective
+collaborative planning strategy for integrated power distribution
+and electric vehicle charging systems. IEEE Trans Power Syst
+29(4):1811–1821
+[7] Zheng Y, Dong ZY, Xu Y et al (2014) Electric vehicle battery
+charging/swap stations in distribution systems: comparison
+study and optimal planning. IEEE Trans Power Syst
+29(1):221–229
+[8] Zhang C, Li K, McLoone S et al (2014) Battery modelling
+methods for electric vehicles—a review. In: Proceedings of the
+2014 European control conference (ECC’14) Strasbourg, 24–27
+June 2014
+[9] Wien Automatic System Planning (WASP-IV), Version 4. International Atomic Energy Agency (IAEA), Vienna
+[10] Foley A, Tyther B, Calnan P et al (2013) Impacts of electric
+vehicle charging under electricity market operations. Appl Energy 101:93–102
+[11] Calnan P, Deane JP, Ó Gallachóir BP (2013) Modelling the
+impact of EVs on electricity generation, costs and CO2 emissions: assessing the impact of different charging regimes and
+future generation profiles for Ireland in 2025. Energy Policy
+61:230–237
+[12] International Energy Agency (IEA) (2009) Technology roadmap: electric and plug-in hybrid electric vehicles. IEA/Organisation for Economic Co-operation and Development
+(OECD), Paris
+[13] Investigation into the scope for the transport sector to switch to
+electric vehicles and plug-in hybrid vehicles. Department for
+Business, Enterprise and Regulatory Reform, Department for
+Transport, London, 2008
+[14] AVERE: The European Association for Battery, Hybrid and Fuel
+Cell Vehicles (2014). http://www.avere.org/www/index.php
+[15] The European Parliament and the Council of the European
+Union (2009) Directive 2009/28/EC of the European parliament
+and the council of 23 April 2009 on the promotion of the use of
+energy from renewable sources and amending and subsequently
+repealing directives 2001/77/EC and 2003/30/EC. Official
+Journal of the European Union, L 140/16
+[16] Minister for Energy (2009) Eamon Ryan and Transport Minister,
+Noel Dempsey, T.D. Ireland, Sustainability Moves to the Centre
+of Transport Policy, Press Release, http://nta.gov.ie/pressRelease.
+aspx?Id=45
+[17] Fleet B, Li JK, Gilbert R (2008) Situation analysis for the current state of electric vehicle technology for the natural resources
+Canada. In: Electric vehicle technology roadmap visioning
+meeting, Ottawa, 26 June 2008
+[18] Byrne D (2010) BMW unplugs the electric mini. The Irish
+Times, 9 June 2010
+[19] Stoll HG (1989) Least-cost electric utility planning. Wiley, New
+York
+[20] Hertzman D (2007) Risk assessment methods for power utility
+planning. Special Report, Energy Management Assistance Programme of the World Bank, Washington, DC
+[21] Foley AM, Ó Gallachóir BP, Hur J et al (2010) A strategic
+review of electricity systems models. Energy 35(12):4522–4530
+[22] Wien automatic system planning (WASP) package (2006) A
+computer code for power generating system expansion planning,
+version WASP-IV with user interface, user’s manual. International Atomic Energy Agency (IAEA), Vienna
+[23] Bellman R (1957) Dynamic programming. Princeton University
+Press, Princeton
+[24] Rebours Y, Kirschen D (2005) What is spinning reserve? Release 1. The University of Manchester, Manchester
+[25] Single Electricity Market Operator (SEMO) (2011) http://
+allislandmarket.com
+
+247
+[26] EirGrid, System data (2014). http://www.eirgrid.com/
+operations/systemperformancedata
+[27] Commission for Energy Regulation (CER) and the Northern
+Ireland Authority for Utility Regulation (NIAUR) (2013) All
+Island project. http://www.allislandproject.org
+[28] Generation adequacy report 2009–2015. EirGrid. Dublin, 2008
+[29] Seven year generation capacity statement 2009–2015. System
+operator for northern Ireland (SONI) Ltd, Belfast, 2008
+[30] All-Island market modelling programme, All island modelling
+assumptions, model version 0.1. Electricity Supply Board (ESB)
+National Grid Co, Dublin, 2005
+[31] All Island grid study. Department of communications. Marine
+and Natural Resources and the Department of Enterprise, Trade
+and Investment, Dublin, 2008
+[32] Connor PM, Baker PE, Xenias D et al (2014) Policy and
+regulation for smart grids in the United Kingdom. Renew Sustain Energy Rev 40:269–286
+[33] Daly HE, Ó Gallachóir BP (2011) Modelling private car energy
+demand using a technological car stock model. Transp Res Part
+D 16(2):93–101
+[34] Evans S (2007) Chargers integral to PHEV success. In: Proceedings of the 23rd international battery, hybrid and fuel cell
+electric vehicle symposium and expo (EVS’07), vol 4, Anaheim,
+2–5 Dec 2007, pp 1942–1947
+[35] Duvall M, Knipping E (2007) Environmental assessment of
+plug-in electric vehicles, Nationwide greenhouse gas emissions.
+vol 1, Electric Power Research Institute (EPRI), Palo Alto
+[36] Foley AM, Daly HE, Ó Gallachóir BP (2010) Quantifying the
+energy and carbon emissions implications of a 10% electric
+vehicles target. In: Proceedings of the 2010 international energy
+workshop (IEW’10), Stockholm, 21–23 June 2010
+[37] Minister for Environment, Heritage and Local Government,
+John Gormley TD. Press Release, 15 Oct 2008
+[38] Strategic energy framework for Northern Ireland (2008) Preconsultation scoping paper. Department of Enterprise, Trade and
+Investment, London
+[39] Draft offshore renewable energy strategic action plan
+2009–2020. Department of Enterprise, Trade and Investment,
+London, 2009
+[40] Tuohy A (2009) Operational and policy issues in carbon constrained power systems. PhD Thesis, University College Dublin,
+Dublin
+[41] Denny E, O’Malley M (2007) Quantifying the total net benefits
+of grid integrated wind. IEEE Trans Power Syst 22(2):605–615
+[42] Communication from the Commission to the European Parliament, the Council, the European Economic and Social Committee and the Committee of the Regions, 2020 by 2020
+Europe’s climate change opportunity. COM (2008) 30 final,
+Commission of the European Communities, Brussels, 2008
+
+Aoife FOLEY is a Lecturer in the School of Mechanical and
+Aerospace Engineering, Queen’s University Belfast. She has a BE
+(Hons) (1996), a PhD (2011) from University College Cork and an
+MSc (Hons) (1999) from Trinity College Dublin. She is a Fellow of
+Engineers Ireland (2011), a Member of the IEEE PES (2009) and was
+Secretary of the IEEE VTS UK and Republic of Ireland Chapter
+(2011). She was awarded an Environmental Protection Agency
+STRIVE Fellowship (2009) to model the impact of electric vehicles
+on greenhouse gas emissions. She has more than 12 year’s industrial
+experience. She has authored and co-authored almost 50 peer
+reviewed technical publications. Her area of research focus is wind
+power integration using Smart Grids, electricity markets and power
+systems operations.
+
+123
+
+248
+
+Brian Ó GALLACHÓIR is a Senior Lecturer in Energy Engineering
+in University College Cork and Principal Investigator of Energy
+Policy and Modelling Research in UCC’s Environmental Research
+Institute. An applied sciences graduate of Dublin Institute of
+Technology, Brian moved to Cork in 1990 to carry out a Doctoral
+research programme in ocean wave energy in the Department of
+
+123
+
+Aoife FOLEY, Brian Ó GALLACHÓIR
+Applied Mathematics. He co-ordinates the UCC’s taught Masters
+Programme (MEngSc) in Sustainable Energy and co-instigator of
+UCC’s BE Degree in Energy Engineering. His research focus is on
+energy systems modeling and optimisation. Brian is Chair of the
+International Energy Agency (IEA)’s Executive Committee on
+Energy Technology Systems Analysis Programme (ETSAP).
+
+

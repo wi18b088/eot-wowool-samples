@@ -1,0 +1,446 @@
+Journal of Mathematics in Industry (2011) 1:10
+DOI 10.1186/2190-5983-1-10
+RESEARCH
+
+Open Access
+
+An industrial view on numerical simulation for aircraft
+aerodynamic design
+Adel Abbas-Bayoumi · Klaus Becker
+
+Accepted: 12 December 2011 / Published online: 12 December 2011
+© 2011 Abbas-Bayoumi, Becker; licensee Springer. This is an Open Access article distributed under the
+terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which
+permits unrestricted use, distribution, and reproduction in any medium, provided the original work is
+properly cited.
+
+Abstract In Airbus view, one major objective for the aircraft industry is the reduction
+of aircraft development lead-time and the provision of robust solutions with highly
+improved quality. In that context it is important to exploit all opportunities provided
+by enhanced or new classes of numerical simulation tools, e.g. high fidelity multidisciplinary Computational Fluid Dynamics (CFD) and powerful High Performance
+Computing (HPC) capabilities.
+To help meet the challenge of superior product development it will finally be essential to numerically ‘flight-test’ a virtual aircraft with all its multi-disciplinary interactions in a computer environment and to compile all of the data required for the
+development and certification with guaranteed accuracy in a reduced time frame. Numerical simulation is foreseen to provide a tremendous increase in aircraft design
+efficiency and quality over the next decades. This concept is considered by Airbus as
+one of the long term main objectives for aircraft development.
+Progress in HPC will essentially contribute to achieve this goal. Considerable
+changes of aircraft design processes and way of working will lead to significant reduction of development times while including more and more disciplines in the early
+phases of design activities in order to find an overall optimum aircraft design.
+Aerodynamic Design deals with the development of outer shapes of an aircraft,
+optimizing for its performance, handling qualities and loads. A major ingredient to
+the design process is the numerical simulation of the external airflow. The capabilities
+to predict the flow not only near the design point but also under other challenging
+conditions in a given flight envelope is a prerequisite for optimization towards market
+requirements.
+A Abbas-Bayoumi ()
+Aerodynamic Strategies, Airbus, Avd. John Lennon, Getafe, Spain
+e-mail: adel.abbas@airbus.com
+K Becker
+Aerodynamic Strategies, Airbus, Airbusallee 1, 28199 Bremen, Germany
+e-mail: klaus.becker@airbus.com
+
+Page 2 of 14
+
+Abbas-Bayoumi, Becker
+
+Since it began about 50 years ago, CFD has made important progress in terms of
+accuracy of the physical models, robustness and efficiency of the nonlinear solution
+algorithms and reliability of the overall prediction approach. This trend will continue
+over the next decades. In our view, along with the increasing capability to model and
+compute all major multi-disciplinary aspects of an aircraft, in the long term it will
+become possible to ‘fly’ and investigate the complete aircraft in the computer.
+Currently numerical simulation provides good means to analyse the flow around
+the aircraft in detail, although the regime of flow separation onset up to maximum
+lift conditions is still not modelled accurately enough, nonlinearities and turbulence
+modelling for separated flows are still a major concern.
+It was not only the increase in HPC power that made more sophisticated NavierStokes solving enter the daily industrial design process. Better understanding and
+mathematical analysis of the system of Navier-Stokes equations led to more powerful
+algorithms, to more capable software and more comprehensive analysis of aircraft
+flows.
+However, a lot work remains to be done. Next decade’s goal will be to better exploit more accurate and efficient numerical formulations, advanced turbulence models and to achieve a fully flexible and automatic CFD capability that works in a fully
+adaptive manner, providing the best quality solution at minimum cost and time. This
+will lead to a complete change in the way future aircraft will be designed.
+
+1 Today’s CFD in aerodynamic design
+Today, the aircraft industry has the experience, best practices and up to date capabilities to conduct a lot of numerical simulation in its daily design and development work
+[1]. At the forefront, Aerodynamics is using a variety of CFD methods and tools,
+which essentially help to analyse global as well as local flow behaviour about simplified and complex aircraft configurations. Reynolds Averaged Navier-Stokes (RANS)
+methods including 2-equation turbulence modeling is the most widespread approach
+to tackle, with reasonable accuracy and best practices, even highly complex 3D takeoff and landing configurations. Aerodynamic design as well as aerodynamic modelling of the aircraft is highly supported by these means.
+In a wider sense, simulation is also approaching multiple interacting disciplines.
+Flexibility effects on aircraft aerodynamics and structural loads are in the direct scope
+of CFD simulations coupled to CSM (Computational Structural Mechanics) models.
+This area also extends to use flight control modules in order to simulate trimmed
+aircraft configurations or even full flight manoeuvres. This approach, however, suffers
+the same simulation drawbacks and requires very high computer resources.
+The requirements on predictive capabilities have reached a level where full aircraft simulation is a must. Any judgement on design progress with respect to aircraft
+performance, handling qualities or loads can no longer be based on geometrical, physical or aerodynamic simplifications. Instead all potential interactions between aircraft
+components have to be taken into account. Previously favoured linear superposition
+principles no longer yield the required accuracy and consistency of aerodynamic data.
+It has become necessary to account for full nonlinear effects, requiring the study of
+
+Journal of Mathematics in Industry (2011) 1:10
+
+Page 3 of 14
+
+Fig. 1 2010 use of CFD at Airbus. CFD moved from an exploratory tool to a full flight physics production
+capability.
+
+the aircraft globally, and not just as a sum of components. High fidelity RANS CFD
+has made a big step forward to help solve this prediction task, although the simulation of nonlinear flows and related turbulence modelling are still a major problem for
+accuracy and cost and considered as the main challenge for the future.
+A further area where numerical simulation has already offered real benefit is design optimization. Although fast strategies to find the optimum for multi-disciplinary
+multipoint design in 3D are still under development, the aircraft industry already uses
+optimization algorithms for detailed design tasks. However, there is a need to further
+explore available optimization techniques since they represent a significant potential
+in enhancing design.
+Figure 1 shows that CFD is used today on a wide variety of tasks in the aircraft development at Airbus. While essential external shape design activities are largely based
+on CFD there is a more moderate use only on topics dealing with increased local geometric complexity, thus requiring considerably more effort in the future. Limited,
+but growing, use of CFD can be found in areas that deal with highly complex geometries or need multi-disciplinary coupling, e.g. aero-thermics and aero-acoustics.
+Some examples may illustrate what has been achieved in the industrial context.
+1.1 Prediction of aerodynamic performance
+The aircraft design process is relying on continuously growing knowledge about the
+final product. Therefore detailed aerodynamic analysis is used to judge on progress
+with respect to aerodynamic and overall aircraft performance. CFD plays an increasing role in this business because it can deliver aerodynamic quantities with acceptable
+
+Page 4 of 14
+
+Abbas-Bayoumi, Becker
+
+accuracy, at least in the cruise speed regime. This finally allows the optimization of
+the aircraft with respect to certain customer or market requirements like the typical
+mission and payload.
+The average flight efficiency is measured as the fuel needed for a certain trip divided by the distance. This ratio can be expressed through some major aircraft parameters:
+TripFuel (SFC · Weight)
+≈ 
+.
+Lift
+Distance
+Mach · Drag
+SFC is the specific fuel consumption of the engine. The cruise Mach number and
+the lift over drag ratio can be identified as aerodynamic contributions. Thus optimizing the fuel consumption aerodynamically means to design the aircraft for the highest
+L/D at a given cruise Mach number. Compared to the first A300 our today’s aircraft
+are about 46% more efficient.
+A typical example of what CFD can deliver is in providing the local air pressure distributions. Near the preferred point of aircraft operation, i.e. the design cruise
+Mach number and related cruise lift, the CFD results are very close to the experiment. Figure 2 shows a comparison of wing sectional pressure distributions between
+wind tunnel results (dotted line) and two different CFD codes (elsA [2] and TAU [3,
+4]). Although both codes use different computational meshes (block-structured vs.
+hybrid-unstructured) there is hardly any difference between the two. Compared to
+the experimental values the pressure peaks, gradients, overall pressure levels, flow
+accelerations and decelerations are very well matched. Only the transonic shock position is not properly captured. However, the picture at the right shows that a major
+reason for this deviation, beside turbulence model effects, is the influence of the wind
+tunnel model support (sting). Including the sting in the simulation reduced the differences between wind tunnel and CFD results all over the wing. This effect was more
+pronounced on the outer wing, as shown on wing section 4 of Figure 2.
+1.2 Wind tunnel test support
+Wind tunnel experiments continue to be a major means to provide aerodynamic information. However, all specific modelling effects like for example, model size and
+simplification of geometrical details, wind tunnel walls and test support must be corrected in order to predict the free flight aircraft data. This correction process was
+formerly based on a number of corrections which were applied in a kind of linear
+summation. This follows the assumption that those effects are mainly independent
+and thus can be superimposed with only minor error. Today this is no longer feasible as nonlinearity has to be taken into account. This means that for a sufficiently
+accurate overall result more detailed local flow field corrections have to be applied.
+Specifically concerning the model support effect via CFD it is now possible to quantify even the influence on local flow (Figures 2 and 3). Figure 3 [5] shows the local
+pressure differences between a CFD calculation for the aircraft mounted on a strut
+and the free aircraft. Obviously the strut has significant influence on the lower wing
+pressure distribution and even on the upper wing near the inboard leading edge.
+
+Journal of Mathematics in Industry (2011) 1:10
+Page 5 of 14
+
+Fig. 2 Aircraft cruise configuration transonic flow. Comparison of sectional wing pressure with experimental data; difference between codes and influence of model support.
+
+Page 6 of 14
+
+Abbas-Bayoumi, Becker
+
+Fig. 3 Mono-strut effect on aircraft flow in wind tunnel. Local strut effects on pressure - results of a CFD
+investigation.
+
+2 Main issues with numerical simulation
+There are a number of recent publications that provide a good overview on what
+numerical simulation has delivered to aircraft design and what challenges we are
+going to face, e.g. [6]. Some aspects are highlighted in the following sections.
+2.1 Aircraft models
+Aircraft Design is based on principal models of flight, telling about the relations
+between basic geometry and configuration parameters used to define the wing, e.g.,
+wing area, span, taper, bending, twist etc., and aerodynamic performance, aircraft manoeuvre and controllability qualities, and loads on the structure due to aerodynamic
+forces and moments. Such an aircraft, pre-defined according to the needs derived
+from target missions, has to be given optimized external shapes. Geometrical modelling is necessary to allow the designer to construct and modify aircraft components
+and shapes. Computer Aided Design (CAD) systems like the commercial CATIA
+software [7] essentially help to perform respective designs work. They provide mathematical descriptions of surfaces and ensure certain quality in terms of smoothness,
+curvature, and joints. All numerical simulation of the flow around the complete aircraft needs a watertight model with fitting components, properly prepared to enter the
+mesh generation process of CFD. The management of shapes during a design process
+and their assembly for a full aircraft are also tough tasks. We still lack automatic assembly due to imperfections of the CAD systems, non-conformal use of those tools
+by the designers and too strict requirements of the follow-on numerical mesh generation process and tools. Figure 4 shows the pylon intersection part of a wing in
+
+Journal of Mathematics in Industry (2011) 1:10
+
+Page 7 of 14
+
+Fig. 4 Surface mesh - pylon/wing intersection. SOLAR mesh for an aircraft in landing configuration.
+
+high lift configuration. Curved surfaces, 90 degree sharp corners, small gaps between
+components, and the complex flow characteristics to be represented make automatic
+grid generation a challenge and one of the subjects identified for further development.
+This is specifically true because we request a certain mesh and cell quality in order
+to diminish the numerical error being produced by the discretization process. It has
+been shown that for a given number of degrees of freedom regular hexahedral cells
+aligned with the principal flow provide the best results [8]. This explains the emphasis
+onto meshing based on these principles. Mesh adaptation based on error estimation
+and Chimera techniques are also considered as a way forward for improved mesh and
+solution quality.
+2.2 Physical models
+Over a wide range of the flight envelope, i.e. the complete range of speed, longitudinal
+and lateral on-flow angles, flight levels and configuration variations, the flow about
+aircraft exhibits a smooth behaviour. It can be predicted pretty well using the Navier
+Stokes equations [9] as basic physical model. However, physically relevant scales
+of the flow range from the order of kilometres (downstream wake effects) down to
+the order of microns (near wall turbulence) or even less. For a computational mesh
+resolving these scales would mean a mesh size of 109 points, which results in a nonlinear system of 1010 equations. Such a system is unrealistic to be solved on today’s
+industrial computers, at least not at acceptable time and cost. This is also true for the
+semi-deterministic computations such as LES (Large Eddy Simulation) which on top
+need quite a big number of time steps to converge to sufficiently accurate statistics of
+turbulence. Therefore the smaller scale physical effects need to be modelled, e.g. by
+so-called turbulence models.
+
+Page 8 of 14
+
+Abbas-Bayoumi, Becker
+
+Fig. 5 Flight envelope challenges on CFD. While CFD is widely developed for the cruise design regime
+it still faces essential challenges towards the borders of the flight envelope.
+
+The Navier-Stokes equations comprise of 5 differential or integral equations, arising from the conservation laws of mass, momentum and energy. The open element in
+these equations is the so-called Reynolds stress tensor, which in 3 dimensions needs
+to correlate 9 entities - the Reynolds stresses - to the flow variables. By assuming an
+isotropic behaviour of the fluid medium we end up with 6 quantities for which we
+seek additional equations. There are however no conservation relations known for a
+direct closure of the resulting system. Therefore these quantities are modelled using
+specific assumptions on the flow.
+The development and calibration of such models depend on the flow phenomena that appear in the aircraft flight envelope. Figure 5 provides an overview of the
+flow conditions and effects that specifically appear at the borders of the envelope.
+Massively separated flows at high-lift low speed conditions, low local Mach number
+flows (low compressibility flow weekly coupled with the mean flow), strong nonlinearity at buffet boundary and shock boundary layer interaction and finally unsteady
+effects in separated flows are all situations where numerical simulation suffers low
+accuracy and very high cost and time.
+The effects of pressure, surface curvature and surface quality, viscosity and even
+temperature on local flow behaviour have to be taken into account. Increasing demands on accuracy have necessitated a move from 2-equation models to more sophisticated Reynolds-Stress models (RSM). The objective is to correctly predict with
+high accuracy all local flow phenomena for a wide range of flow parameters, mainly
+Mach, flow incidence and Reynolds numbers. For the sake of consistency and generality in prediction it is highly important to avoid any hard switch between turbulence
+models, depending on the flow conditions. The RSM model class seems to provide
+the best results for the whole flow regime.
+
+Journal of Mathematics in Industry (2011) 1:10
+
+Page 9 of 14
+
+Fig. 6 Typical successive growth of separation region on aircraft. Starting at the trailing edge of the wing
+separation increases with increasing angle of attack. Specifically the inboard region is prone to develop
+larger areas that finally extend to major parts of the wing surface.
+
+With these considerations at hand, the flow stability is looked at as a separate
+phenomenon. So-called transition models have been developed to predict the location
+of transition from laminar to turbulent flow. These models more or less deal with the
+analysis of amplification factors of relevant modes natural to the flow. Once these
+factors have reached a certain threshold this is marked as transition location and the
+turbulence model can be activated.
+A remaining difficulty is to predict the onset of flow separation. i.e. the location
+where the flow starts to detach from the surface. This physical effect is not fully
+understood up to now, however, designers need this information for reasons of safety,
+comfort, and handling qualities of the aircraft. Unfortunately the onset of separation is
+very sensitive to local properties of the surface (roughness, curvature, kinks, etc.) and
+the general properties of the flow (Reynolds number, energy content of the boundary
+layer, etc.). For the correct prediction of separated flow the turbulence model plays a
+major role and currently best practices on how to predict separation onset using such
+models is the preferred approach.
+Even more important to aircraft design is the appearance of massive flow separation. As long as a flow separation is confined to a small area of the wing or tails
+only, it might be controllable and the pilot can counteract. However, when separation
+starts to cover large areas this normally drives the aircraft into a complete lift loss and
+thus a catastrophic situation. Thus massive separation prediction is directly coupled
+to the prediction of maximum lift properties of the aircraft, which is a limiting factor
+in take-off and landing performance. This prediction depends on the ability of the
+turbulence model to detect the local separation and to describe the extension of the
+separation up to the massive breakdown of the flow. Figure 6 provides a typical pic-
+
+Page 10 of 14
+
+Abbas-Bayoumi, Becker
+
+ture of such extension of separated flow areas on an aircraft model in the wind tunnel.
+For this high lift configuration at low Mach number, the local extension grows with
+increasing angle of attack.
+2.3 Discretization and numerical approaches
+CFD simulation in practical industrial application is mainly confined to maximum
+2nd order approximations on computational meshes that are specifically dense in
+those areas of the flow field where some specific features need to be resolved. However, as we are not sure on the appearance of such phenomena conservative approach
+is employed with a high number of mesh points. But it is clear that this recipe does
+not solve the problem. Future solutions will hopefully provide means to automatically adapt the mesh and even the discretization accuracy to the local error information. Through the formulation of a so-called adjoint problem it is possible to compute
+gradient information by which the sensitivity of a quantity like lift, drag or moment
+against movement or placing of mesh points can be determined [10–13].
+Much progress has been achieved using modern iterative solution techniques. Effective preconditioning schemes are available in context with implicit and multi-grid
+iterative algorithms for the nonlinear equation system. Numerical dissipation is also
+more and more under control, thus minimising the artificial or numerical effects in
+the CFD flow solutions. A next step will deal with mixed meshes, i.e. an integrated
+combination of structured and unstructured mesh discretizations. The essential element of this so-called HyperFlex approach [14] is to preserve the typical structured
+discretization accuracy in most of the flow field while allowing for the flexibility
+provided by unstructured meshes. This will free the need of an overall structured
+multi-block mesh for which there is no chance of full automation.
+Further steps to come will be on higher order and fully mesh/order adaptive methods. However, a robust industrialized production code for complex applications based
+on these new methods is not foreseen before 2020. Many of the above mentioned topics are still open for further development.
+2.4 Flight envelope prediction
+Figure 5 shows a diagram that depicts the speed/load area which is the typical extended area of aircraft operation, i.e., the flight envelope. ‘Flaps up’ stands for the
+so-called cruise configuration, ‘Flaps down’ are for take-off or landing. The success
+of aircraft is based on the fact that air flow behaves in a rather controllable manner throughout a wide range of flight conditions. However, towards the border of the
+envelope some major changes happen, which need careful consideration. Two main
+aspects can be observed: shocks appear if Mach number increases beyond a certain
+geometry-dependent threshold, which makes the flow behaviour non-linear. Heavy
+loading of the aircraft, i.e. large differences between the upper and lower surface
+pressures, has a major effect on the boundary layer, which could separate from the
+aircraft surface and thus radically lower the generated lift. While the transonic nonlinearities (e.g. shock waves) are quite well understood, in their physics and their
+predictability, this is still not the case for flow separation (Figure 6).
+
+Journal of Mathematics in Industry (2011) 1:10
+
+Page 11 of 14
+
+Fig. 7 Slat cove and upper wing surface turbulent flow. Unsteady flow is present in many areas of the flow
+field. For aircraft development it is essential to know the scales of unsteady effects.
+
+Finally, aircraft design and data work requires a large amount of flow simulation
+data. However, this does not just mean a repetition by simulation of what has been
+done with the wind tunnel in the past. On the contrary, it is expected that new ways of
+sorting and organizing simulation processes will save quite a number of those computations. Sophisticated technologies like Design of Experiments, Variable Fidelity
+Methods, Reduced Order Methods and other techniques will be used to provide a
+full map of data at a minimum number of high fidelity simulations. For these techniques, error estimators and error propagation control will enable provision of results
+at guaranteed accuracy.
+2.5 Flow is unsteady
+Looking into nature of flow there is nothing steady. It is only the small scales or high
+frequencies that are not really recognized by an aircraft and its passengers. This is a
+lucky point for aircraft flight overall, however, the more we go into detail with our
+analysis the more we detect that the non-deterministic unsteadiness of flow plays an
+essential role (Figure 7). Small scales are becoming more and more relevant, specifically in context of simulation of turbulence. But also larger scale unsteadiness poses
+a problem on numerical simulation. The numerical effort to solve the unsteady flow
+equations with certain accuracy in space and time is at least one order of magnitude
+higher than for the steady case.
+Seeking for higher accuracy of a flow solution via subsequent mesh refinement
+may lead us into the middle of the problem: Resolution of the flow down to very
+small scales in boundary layers with a steady flow solver probably provokes a nonconverging iterative process, because the flow is inherently unsteady. Therefore new
+approaches have to be taken to allow automatic switching to an unsteady simulation
+if the steady solution does not converge. This is a topic for further investigation.
+
+Page 12 of 14
+
+Abbas-Bayoumi, Becker
+
+Fig. 8 Static deformation on complex aircraft configuration. Demonstration of coupled aero-structures
+simulation capability on an A380 aircraft in high lift configuration. The picture shows the geometrical
+deformation.
+
+2.6 Multi-disciplinary interaction
+Efficiency, reliability etc. of an aircraft is not only the result of a single discipline’s
+work. Multiple interactions determine what the customer finally sees as the product
+performance. With increasing mono-disciplinary simulation accuracy it has become
+necessary now to also model and simulate all relevant interactions. A major link exists, for example, between the aircraft structure and aerodynamics. Structural deformation due to aerodynamic loads influences the aerodynamic efficiency. This circuit
+has to be converged until an equilibrium state is achieved. Numerically speaking we
+have to couple aerodynamic and structural simulation via a local feedback transmission scheme. This type of integrated process is more and more entering the routine
+simulation for static deformation. An example of static deformation on a complex
+configuration is depicted in Figure 8.
+More specific is the simulation of aero-elastic effects, like limit cycle oscillations,
+buffeting or flutter. Here people are interested in the time accurate behaviour of the
+interacting mechanism which finally may lead to exceed the structural load limits
+of the aircraft which could be potentially catastrophic. This technology is still under
+development.
+2.7 Management of uncertainties
+Even if we were able to do an absolutely exact numerical simulation of aircraft flight
+we will have to deal with problems: Weather conditions, air turbulence, payload distribution, fuel distribution, engine performance and other parameters may vary. In
+order to manage these type of uncertainties we need to know about the sensitivity of
+all of the aircraft coefficients to changing input parameters. This is quite a new mathematical challenge. Statistical and heuristic methods are being applied; however, the
+
+Journal of Mathematics in Industry (2011) 1:10
+
+Page 13 of 14
+
+numerical effort can hardly be acceptable. Therefore more efficient approaches have
+to be developed that would allow a judgement on potential risks.
+
+3 Conclusions
+Flow simulation plays a major role in aerodynamic design and its predictive quality is crucially dependent upon both discretization techniques and the capabilities of
+turbulence modelling over a broad range of configurations and flow situations up to
+the borders of the flight envelope. Enhancing these capabilities, especially for critical regimes of unsteady and/or separated flows, is presently considered as one of the
+main objectives in the field. This will directly impact the quality of aircraft design
+and as a consequence in drag and weight reduction, which in turn lead to reduced
+fuel consumption and CO2 emission. These are major objectives of the Green Aircraft Area.
+With the clear tendency of the airframe industry to base their design cycles much
+more upon numerical simulation and to perform experiments with a significantly reduced frequency at a later point in the development cycle, it is of utmost importance
+to increase the reliability and the trust in numerical predictions.
+It obvious that improved simulation capabilities will have a rather large impact
+on improving cost efficiency both with respect to aircraft development cost and aircraft operational cost. With advanced numerical simulation tools becoming less errorprone, this will not only improve the flow simulation alone, but also influence coupled
+computations, like design optimization, simulations of fluid-structure interaction or
+multi-disciplinary optimization. The quality of flow simulation has an even stronger
+impact in these fields where quantitative errors easily multiply. Thus the whole design
+chain will become not only more competitive, but also more productive, contributing
+to the reduction of the time-to-market of the products and to the reduction of aircraft
+development costs, leading in turn to stable or even reduced travel charges.
+Airbus - together with major research partners and companies in the field - is
+working on the FuSim [15] initiative to develop Aerodynamics and Flight Physics
+towards a new paradigm of simulation. This treats all aspects of simulation (physics,
+turbulence modelling, mathematics, algorithms, hardware, software, computer science, information technology, man-machine interface, overall system, data handling,
+applications, etc.) which deliver essential contributions and provide their input and
+support to the superior cooperative effort. Enormous effort is needed to develop the
+simulation capabilities to the level required to be fully deployed for aircraft design.
+Major centres of expertise in numerical simulation in several countries are working
+together on this initiative with emphasis on specific aspects of simulation technology
+and application.
+In this paper we have not tackled the extension to numerical optimization. This is
+another field of mathematical activities where we are looking for fast and comprehensive search algorithms for local and global optima of a variety of cost functions.
+This is a wider topic that will receive our attention in the coming decade.
+
+Page 14 of 14
+
+Abbas-Bayoumi, Becker
+
+Competing interests
+The authors declare that they have no competing interests.
+
+Authors’ contributions
+Adel Abbas is head of aerodynamic research and technology at Airbus.
+Klaus Becker is head of Aerodynamic Strategies Sub-Domain at Airbus.
+They have both worked in the field of numerical simulation methods for many years. They are now
+driving the strategy and future development of Airbus Aerodynamics numerical simulation capability. Both
+authors have participated in the paper preparation and drafted the manuscript.
+Acknowledgements The authors would like to thank all colleagues at Aerodynamics & Flight Physics
+who have helped in the preparation of this article, and a number of people from our major partners in
+the field of CFD development. Specific thanks go to Andreas Grimminger, Julien Delbove, Scott Shaw,
+Bernhard Eisfeld and Stefan Albensoeder.
+
+References
+1. Kroll, N., Becker, K.: Numerical simulation of aircraft aerodynamics. In: Presentation Given at ISC07,
+Dresden, June 2007
+2. Cambier, L., Veuillot, J.-P.: Status of the elsA CFD software for flow simulation and multidisciplinary
+applications. AIAA Paper 2008-664, 46th AIAA Aerospace Science Meeting, Reno, USA (2008)
+3. Schwamborn, D., Gardner, A., von Geyr, H., Krumbein, A., Lüdeke, H., Stürmer, A.: Development
+of the TAU code for aerospace applications. In: 50th NAL International Conference on Aerospace
+Science and Technology. Bangalore, India 2008-06-26-2008-06-28 (2008)
+4. Gerhold, T.: Overview of the hybrid RANS code TAU. In: Kroll, N., Fassbender, J. (eds.) Notes
+on Numerical Fluid Mechanics and Multi-Disciplinary Design, vol. 89, pp. 81–92. Springer, Berlin
+(2005). ISBN 3-540-24383-6
+5. Grimminger, A.: Airbus Internal Presentation PR0806223 - Issue 1, Bremen, April (2008)
+6. Chalot, F., Mallet, M., Roge, G.: Review of recent developments and future challenges for the
+simulation-based design of aircraft. In: 27th Int. Congress of the Aeronautic Sciences (ICAS 2010),
+Nice, France, September 2010
+7. www.3ds.com/catia
+8. Baker, T.: Mesh generation: Art or science? Prog. Aerosp. Sci. 41, 29–63 (2005)
+9. White, F.M.: Viscous Fluid Flow. McGraw-Hill, New York (1991). ISBN 0-07-100995-7
+10. Venditti, D.A.: Grid adaptation for functional outputs of compressible flow simulations. Dissertation,
+MIT, Boston, USA (2002)
+11. Park, M.A.: Anisotropic output based adaptation with tetrahedral cut cells for compressible flows.
+Dissertation, MIT, Boston, USA (2008)
+12. Dwight, R.: Heuristic a posteriori estimation of error due to dissipation in finite volume schemes and
+application to mesh adaptation. J. Comput. Phys. 227, 2845–2863 (2008)
+13. Mani, K., Mavriplis, D.J.: Error estimation and adaptation for functional outputs in time-dependent
+flow problems. AIAA 2009-1496, USA (2009)
+14. Becker, K.: HyperFlex CFD - Airbus approach to more accurate and flexible industrial CFD. Airbus
+internal presentation, Bremen (2009)
+15. Klenner, J., Becker, K., Cross, M., Kroll, N.: Future simulation concept. Paper D07027256, CEAS
+Conference, Berlin (2007)
+
+

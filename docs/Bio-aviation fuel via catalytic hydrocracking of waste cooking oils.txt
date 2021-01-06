@@ -1,0 +1,968 @@
+(2020) 44:177
+El‑Araby et al. Bull Natl Res Cent
+https://doi.org/10.1186/s42269-020-00425-6
+
+Bulletin of the National
+Research Centre
+
+Open Access
+
+RESEARCH
+
+Bio‑aviation fuel via catalytic hydrocracking
+of waste cooking oils
+R. El‑Araby*, E. Abdelkader, G. El Diwani and S. I. Hawash
+
+Abstract
+Background: Biomass fuels (bio-jet fuel) have recently attracted considerable attention as alternatives to conven‑
+tional jet fuel. They have become the focus of aircraft manufacturers, engines, oil companies, governments and
+researchers alike. This study is concerned with the production of biojet fuel using waste cooking oil (WCO). Batch
+reactor is used for running the experimental study. The catalytic cracking products are investigated by GC mass spec‑
+tra. Final products from different reaction conditions are subjected to fractional distillation. The (Bio kerosene) fraction
+was compared with the conventional jet A-1 and showed that it met the basic jet fuel specifications. Optimum
+reaction conditions are obtained at (450 °C), pressure of (120 bars), catalyst dose (2.5% w/v), reaction time (60 min)
+and hydrogen pressure 4 atmosphere. The aim of this study is to produce bio aviation fuel according to specifications
+and with a low freezing point from waste cooking oil in one step using a laboratory prepared catalyst and with a low
+percentage of hydrogen to complete the process of cracking and deoxygenation in one reactor, which is naturally
+reflected positively on the price of the final product of bio aviation fuel.
+Results: The results indicated that the product obtained from WCO shows promising potential bio aviation fuels,
+having a low freezing point (− 55 °C) and that all bio kerosene’s specifications obtained at these conditions follow the
+international standard specifications of aviation turbine fuel.
+Conclusion: Biojet fuel obtained from WCO has fairly acceptable physico-chemical properties compared to those of
+petroleum-based fuel. Adjustment of the hydro catalytic cracking reaction conditions was used to control quantities
+and characteristics of produced bio aviation fuel. Taking into consideration the economic evaluation WCO is prefera‑
+ble as raw material for bio aviation fuel production due to its low cost and its contribution in environmental pollution
+abatement. Blend of 5% bio aviation with jet A-1 (by volume) can be used in the engine without any modifications
+and a successful test of blended aviation fuel with 10% bio aviation has been achieved on Jet-Cat 80/120 engine.
+Keywords: Bio aviation fuel, Hydrocracking, Catalytic, Waste cooking oils
+Background
+Aviation sector is one of the strongest growing transport
+sectors. Global airline operations consumed around 1.5
+billion barrels of Jet A-1 fuel. Jet fuel consumption of 705
+million metric tons (Mt) generates significant greenhouse
+gas emissions, accounting for about 2% of global ­CO2
+emissions each year (www.clima​tesol​ution​s.org/progr​
+ams/aviat​ion-biofu​els-initi​ative​). For Egypt from 1980 to
+*Correspondence: rehamelaraby@hotmail.com
+Chemical Engineering and Pilot Plant Department, National Research
+Center, Cairo, Egypt
+
+2016, the average consumption value during that period
+was 19.32 thousand barrels per day, with a minimum of
+7.29 thousand barrels per day in year 1980 and a maximum of 38.11 thousand barrels per day in 2010 (https​://
+www.thegl​obale​conom​y.com/Egypt​/jet_fuel_consu​mptio​
+n/). Awareness of greenhouse gas emissions and climate
+change push researchers and airlines sector to develop
+renewable jet fuel alternatives.
+Biomass fuels (bio-jet fuel) have recently attracted
+considerable attention as alternatives to conventional
+jet fuel. They have become the focus of aircraft manufacturers, engines, oil companies, governments and
+
+© The Author(s) 2020. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+licence, visit http://creat​iveco​mmons​.org/licen​ses/by/4.0/.
+
+El‑Araby et al. Bull Natl Res Cent
+
+(2020) 44:177
+
+researchers alike. IATA identified biofuels as the most
+promising strategies to reduce carbon dioxide emissions
+from the aviation sector in the foreseeable future (Yang
+et al. 2019).
+The high dependence of the bio-jet production cost
+would be on the following parameters: (1) feedstock’s
+composition and cost, (2) process design, (3) product
+yield or conversion efficiency, (4) co-product’s valorization; and (5) energy conservation. Hence, decreasing the
+production cost of bio-jet fuel depends on significant
+hard work in all areas, including enhancements in the
+areas of feedstock productivity, the extracted yield of
+oil or sugar yield from the crops, process conservation
+energy, and balance between jet fuel product and coproducts added value (Wang and Tao 2016).
+Derived jet fuels from renewable feedstock can reduce
+the dependency of the aviation industry on one single energy source. Also this can decrease the petroleum
+prices, and essentially lowering greenhouse gas (GHG)
+emissions. The use of aviation biofuels could reduce
+greenhouse gas emissions in the life cycle of aviation by
+a range of 68.1% in 2050 (Staplesa et al. 2018; Blakeley
+2012; Tao et al. 2017).
+Investigators from different academia and organizations (the oil-refining industry, the aviation industry, government, bio fuel companies, agricultural organizations),
+tried to develop new commercially practicable and sustainable processes that produce renewable low cost jet
+fuels with low greenhouse gas emissions. Produced jet
+fuels must meet (ASTM) international standards and can
+be a 100% drop-in replacement for the current petroleum
+jet fuel. The emissions after combustion and engine tests
+show up the benefits of running the aero plane with biojet fuels. Technologies for producing renewable jet fuels
+from different pathways containing alcohols-to-jet, oilto-jet, syngas-to-jet, and sugar-to-jet, are studied. The
+main challenges for each technology pathway, including
+feedstock availability, process conceptual design and economics, life-cycle assessment of greenhouse gas emissions, and commercial willingness, are discussed (Wang
+et al. 2016).
+Several types of feed stocks for bio aviation fuel production are listed as (a) oil-based feedstocks, such as
+vegetable oils, waste oils, algal oils, and pyrolysis oils; (b)
+solid-based feedstocks, such as lignocellulosic biomass
+(including wood products, forestry waste, and agricultural residue) and organic portion of municipal waste
+or (c) gas-based feedstocks, such as biogas and syngas
+(ICCT 2019).
+Using Camelina, jatropha and algae, as raw materials
+for Jet fuel production reduce the fuel’s carbon foot print
+by80% relative to jet fuel without competing for food
+sources (Bailis and Bake 2010).
+
+Page 2 of 9
+
+Basically, kerosene is a straight-run distillate of petroleum fraction with boiling temperature ranging from 205
+to 260 °C. Increasing jet fuel production decreases obviously the production of other products (Sun 2012).
+Also safety and security of supply criteria change and
+developed the specifications of aviation kerosene (Pires
+et al. 2018; Corporan et al. 2011; Hileman and Stratton
+2014). Strategy of both environmentally and economically feasibility of bio fuel production is related to the
+development of conversion technologies and feed stock
+resources so that the cost-competitive production of bio
+fuels is compatible with the use of sustainable low cost,
+and diverse feed stocks (Sathaye et al. 2011; Skreiberg
+et al. 2013).
+Most contaminants that result in bio oil yields can
+be traced back to the feedstock, such as residual solids
+(char), alkali metals, and high water content (Zacher et al.
+2014a).
+Common technologies used is catalytic hydride oxygenation at high pressure (Mante et al. 2017) which generates a hydrocarbon liquid suitable for co-processing in
+a petroleum refinery or blending into finished fuel (Talmadge et al. 2014). To achieve IATA goals, higher blending rates may eventually be required. In fact, this product
+may not be available everywhere during the growing
+period. The ability to mix higher ratios in some locations
+can help achieve the establishment objectives, taking into
+account the local availability of the product (Chuck and
+Donnelly 2014). The first task of the High Biofuel Blends
+in Aviation (HBBA) study was to establish the relevant
+range of properties of conventional kerosene properties,
+and to identify sources for the supply of suitable samples
+(Prussi et al. 2019). The target set by the European Union
+Flightpath for the aviation sector focuses on all methods
+of production, but in particular, takes into account artificial paraffin or biologically derived biomass. Aviation
+biofuels must be fully compatible and can be combined
+with standard fossil fuels (such as Jet-A fuel). These fuels
+should also be tested and approved before commercial
+use, and emissions are verified. In addition, production
+and use should not only be developed and verified, but
+also the entire transport and distribution chain (Chairamonti 2019).
+Conventional biofuels cannot be mixed even in very
+few percentages with fossil kerosene, as the fuel standards are too strict for aircraft engines. This also applies
+to distilled fractions of conventional biofuels (Chuck and
+Donnelly 2014).
+The first track relies on vegetable oils and fats, and
+therefore on raw materials such as oilseeds or fat-rich
+algae, residues such as cooking oil used or animal fat, or
+even common products such as tall oil from the papermaking industry (Chuck and Donnelly 2014; Prussi et al.
+
+El‑Araby et al. Bull Natl Res Cent
+
+(2020) 44:177
+
+2019). Esterification is not a vital option for the production of aviation fuel: the so-called "biodiesel", is a mixture of fatty acid methyl esters (FAME) to be used as a
+low component (5–7%) in the land transport mix. On the
+contrary, hydrogen treatment of fats can be applied to the
+production of jet fuel, as has already been done by many
+companies (such as Neste Oil, Petrobras, ENI/UOP, etc.)
+to obtain high-quality biomass-derived fuel, compared
+with FAME (Chairamonti 2019).
+It is clear that if biodiesel is to be used for aviation then
+it will have to contain short-chain esters rather than longchain polyunsaturated. While hydrogen-treated triglycerides are accepted as synthetic aviation fuels, a number
+of studies have shown biodiesel, alkyl esters of fatty acids
+produced by the glyceride transformation process, to be
+a suitable fuel for gas turbine engines. Biodiesel typically
+contains straight-chain fatty acid esters ranging from 16
+to 18 carbon atoms that can contain 3 double bonds. Biodiesel is suitable for aviation if composed solely of short
+chain saturates (Chuck and Donnelly 2014; Wang et al.
+2016). However, the melting points of long-chain saturated and unsaturated esters are too high to be suitable
+for flight. Reducing the length of the chain or increasing
+the level of saturation significantly reduces the freezing point (Wahyudi 2018; Holladay 2015a; Gawron and
+Białecki 2018).
+Numerous literatures have examined the effect of
+hydro treating process on bio-oil characteristics (Zacher
+et al. 2014b; Howe et al. 2015). The produced hydrocarbon via zinc aluminate as catalyst was mainly branched
+alkanes and cycloalkanes with a maximum yield ≈ 89%
+after upgrading and distillation processes (Hawash et al.
+2017). Overall, thermo- chemical conversion is an important route for the production of biojet fuel using vegetable oils (Xu et al. 2016).
+The present investigation is undertaken to study the
+effect of change of operating conditions in the hydro
+thermal catalytic cracking process for converting waste
+cooking oils to bio aviation fuel through the determination of different parameters representing the experimental results based on the rate of depression in freezing
+point of the produced bio kerosene with different reaction conditions and the test proved that the obtained
+thrust of using 10% blend of the produced bio aviation
+fuel is in a good agreement with jet A-1 specifications.
+
+Methods
+
+Page 3 of 9
+
+Raw materials preparation
+Preparation of waste cooking oil
+
+The WCO was filtered to remove any solid impurities
+prior to the analysis.
+Preparation of catalyst (Zn ­Al2O4) nano particles
+
+The used Zinc aluminate as a catalyst was prepared by
+co-precipitation method using 48 g ­
+H2O, zinc nitrate
+Zn(NO3)2·6 ­H2O (96% purity) and 120 g aluminum
+nitrate Al(NO3)3·9H2O (98% purity) (Diwani et al.
+2009; Battiston et al. 2014), LOBA CHEMI company.
+­(ZnAl2O4) nano particles were investigated by using
+transmission electron microscope (TEM) which operates on the same basic principles as the light microscope
+but uses electrons instead of light, small amount of powder was dispersed in ethanol using an ultrasonic bath for
+30 min. Then few drops were placed onto a carbon coated
+cupper grid. Specific surface area was calculated by BET
+method using ­N2 adsorption experiments.
+BET surface area analyzers determine the total surface
+area of a solid by suspending a powdered analyte in an
+inert gaseous bath and measuring the adsorption of gas
+molecules to the surface and its porous structures. This
+can be measured volumetrically or via a continuous flow.
+Preparation of thermal hydro‑catalytic cracking process
+
+The experimental work was carried on floor-stand reactor under pressure (Parr reactor) with 400 ml. volume.
+The reactor includes stainless steel vessel, pressure gauge
+and a heating jacket. The temperature inside the reactor
+was controlled by proportional integral derivative panel
+(PID).
+The reactor vessel was charged with oil (100 ml) and
+(2.5% w/v) of Z
+­ nAl2O4 catalyst. Applied process parameters were varied: the reaction temperature from 400
+to 450 °C, starting hydrogen pressure of 4 atm then the
+pressure increased with heat and time to reach a range of
+(59–130 bass), and the reaction time from 20 to 60 min.
+Operating conditions of different experiments are shown
+in Table 1 and the process flowchart is illustrated in
+Fig. 1. the reaction operating conditions were changed as
+follows:
+• Time from 20 to 60 min.
+• Temperature from 350 to 450 °C.
+• Hydrogen pressure of 4 bars.
+
+Materials
+Preparation of fractional distillation steps
+
+• (WCO) feed stock was collected from local Egyptian
+fast food restaurants.
+• Nano (Zinc Aluminate) catalyst was freshly prepared
+through the present study.
+
+Scaling-up of the thermal catalytic cracking reaction is
+achieved in a reactor of 1 gallon (3.7 L), at the optimum
+operating conditions obtained in the 400 ml batch
+reactor. Product of this run is fractionally distilled at
+
+El‑Araby et al. Bull Natl Res Cent
+
+(2020) 44:177
+
+Page 4 of 9
+
+Table 1 Experimental conditions for batch biojet fuel
+preparation (catalyst: 2.5 vol%)
+Run no.
+
+Temperature (°C)
+
+Time (min)
+
+Final
+pressure
+(bar)
+
+1
+
+435
+
+60
+
+115
+
+2
+
+440
+
+60
+
+143
+
+3
+
+450
+
+60
+
+150
+
+4
+
+450
+
+20
+
+75
+
+temperature range from 82 to 350 °C for separation of
+products which are subjected to further analysis and
+testing, Fig. 2. The fractional distillation was achieved
+for the hydrocracking product to obtain the different
+distilled fractions: 1—bio gasoline (< 120 °C), 2—bio
+kerosene (120–245 °C), 3—biodiesel (245–350 °C), 4—
+heavy product (> 350 °C) as shown in Fig. 3.
+Preparation of GC/mass analytical procedure
+
+Gas chromatography Mass (GC/MS) was performed for
+determination of the product fuel constitution using
+Thermo Scientific, ISQ Single Quadruple MS, TG-5 MS
+fused silica capillary column (30 m, 0.251 mm, 0.1 mm
+film thickness). For GC/MS detection, an electron ionization system with ionization energy of 70 eV (electron volt) was used. Helium is used as a carrier gas at a
+constant flow rate of 1 ml/min. The column oven temperature is initially held at 60 °C and then increased by
+5 °C/min to 200 °C hold 2 min then increased to 280 °C
+(10 °C /min).
+
+Fig. 1 Hydrocatalytic cracking process of WCO bio jet production flowchart
+
+Elemental analysis and high heating value (HHV)
+calculation
+
+Elemental composition of crude oils (C, H, N, O, S) were
+determined using Agilent model elemental analyzer
+(7800 ICP-MS) and HHV was calculated using modified
+Dulong equation (Bousdira et al. 2014):
+
+
+HHV kJ/kg = 4.18 ∗ (78.4 ∗ C + 241.3 ∗ (H − O/8)
+
++22.1 ∗ S)
+Gas chromatography (GC)
+
+The profiles of WCO was determined by GC with capillary column DB-5 (60 m: ID 0.33 mm). Helium was used
+as a carrier gas at flow rate 1 ml/min, column temperature was kept at 240 o143 C for 30 min.
+Preparation of (10%) biojet fuel blend testing
+
+Blend of jet A-1 (kerosene) with 10% of produced biojet
+from WCO was subjected to a jet engine test (Jet-Cat
+80/120) Fig. 4 and the resulted thrust was compared with
+that obtained from jet A-1.
+
+Results and discussion
+Physicochemical properties of waste cooking oil
+
+The chemical composition (wt%) and physical characterization of WCO are given in Table 2 from which it is clear
+that the composition and properties of WCO indicated
+that the fuel produced from the feedstock are regarded as
+environmentally benign green fuels; the acidity of the oils
+is within the acceptable range, insuring that oil does not
+contain any corrosive materials which confirm high quality of oil. The iodine value of WCO was 76 g of ­I2/100 g
+oil, indicating that the oil contained many unsaturated
+C=C bonds as linoleic acid.
+
+El‑Araby et al. Bull Natl Res Cent
+
+(2020) 44:177
+
+Page 5 of 9
+
+Fig. 4 Jet–Cat 80/120 testing engine
+
+Table 2 Physical
+characterization
+composition of WCO feed stock
+
+Fig. 2 Fractional distillation unit. 1—Hot plate disc, 2—round flask
+(1 L), 3—reflux condenser, 4—thermometer, 5—condenser, 6—
+cooling water in, 7—cooling water out, 8—distillate fraction, 9—
+blind connection, 10—quick fit glass connection, 11—heating key,
+12—stirring key, 13—heating device, 14—heating bath (oil), 15—
+crude bio fuel, 16—cooling bath (water)
+
+and
+
+chemical
+
+Parameter
+
+Waste
+cooking oil
+(WCO)
+
+Viscosity at 40 °C ­mm2/s
+
+39
+
+Density g/cm3
+
+0.9
+
+Acidity KOH/goil
+
+0.5
+
+Iodine value ­gI2/100 g
+
+76
+
+Pour point °C
+
+−9
+
+Cloud point °C
+Elemental analysis
+
+−4
+
+C (wt%)
+
+76.8
+
+H (wt%)
+
+11.6
+
+O (wt%)
+
+10.6
+
+N (wt%)
+
+1
+
+S (wt%)
+
+Nil
+
+HHV (MJ/kg)
+
+13.7
+
+< C5 (%)
+
+–
+
+C5–C7 (%)
+
+–
+
+C8–C16 (%)
+
+39.8
+
+C17–C19 (%)
+
+60.1
+
+> C19 (%)
+
+–
+
+Fig. 3 Distillation fractions via %yield of the hydro catalytic cracking
+products
+
+Catalyst characterization
+
+From elemental analysis, oxygen content was small
+and nitrogen was negligible and no presence of sulfur
+was detected. Magnitude of HHV was 13.7 MJ/kg for
+WCO as shown in Table 2 which indicated that it is
+quite good for fuel production.
+
+In thermal catalytic cracking (TCC) process the type
+of catalyst is one of the most important factors that
+affect the composition of the product (Prussi et al.
+2019). Zinc Aluminate (­ ZnAl2O4) is the catalyst in this
+study due its effectiveness in decreasing H/C ratio less
+than other metallic oxide catalyst (Xu et al. 2016). This
+indicates that the product of thermal cracked oil via
+
+El‑Araby et al. Bull Natl Res Cent
+
+(2020) 44:177
+
+Page 6 of 9
+
+Table 3 Physicochemical properties of ­ZnAl2O4 catalyst
+BET surface area ­(m2/g)
+
+Particle size diameter (nm)
+
+Shape
+
+85
+
+7.5
+
+Sphere
+
+­Z nAl2O4 was not only aromatic compound but more
+saturated alkanes (Hanafi et al. 2015).
+BET surface area and particle size of the used
+­Z nAl2O4 freshly prepared is shown in Table 3.
+The particle size and morphology of Z
+­ nAL2O4 nano
+particle were investigated by using transmission electron microscope (TEM). It was noticed that the particle size possess a narrow size distribution and the
+average particle diameter was about 7.6 nm. The
+specific surface area measured by the BET method
+is relatively high (85 m2/g) which is beneficial due to
+its catalytic activity. These data are in good agreement with previous work (Weng et al. 2015) where
+Ni-HZSM-5/SBA-15 catalyst of diameter 8.7 nm was
+effective in converting large molecular biomass (sorbitol) into small molecule hydrocarbons so the co-precipitation method confirms that it is the best method
+for the preparation of Z
+­ nAl2O4 as solid nanoparticles.
+The overall process for the preparation of the
+­Z nAL2O4 from ­AL3+ and Zn 2+ nitrate using ammonium hydroxide is illustrated by the following
+equation:
+
+Table 4 Effect of reaction temperature on product
+freezing points (reaction time: 60 min, catalyst 2.5% wt/
+vol and 120 bar)
+Reaction temperature (°C)
+
+Biofuel product
+freezing point
+(°C)
+
+400
+
+− 48
+
+430
+
+− 49
+
+450
+
+− 52
+
+Effect of reaction time
+
+The results showed a linear relationship between time
+and freezing point Fig. 5, where the freezing point
+reached its lower value after (60 min) reaction time. The
+freezing points of the products was considered as a good
+indication of the reactant conversion to the biojet fuel,
+the reaction can be represented by the Eq. (a) which are
+linear relationships between freezing point (Fp.) and time
+(t) for WCO hydro catalytic cracking.
+
+Fp. = 0.46t + 40.1
+
+(a)
+
+From the previous data, it can be concluded that the
+acceptable freezing points for fuel product are obtained
+within 60 min. This result gave a promising potential in
+the bio aviation manufacture starting from WCO due to
+economic and environmental purposes, being of lower
+cost than vegetable oils and environmentally positive way
+for using oil wastes.
+Results of the distillation steps
+
+Parameters affecting the thermal catalytic cracking Process
+Effect of temperature
+
+Thermal cracking of WCO was investigated at different temperatures from 400 to 450 °C. The products
+were preliminary evaluated by measuring their freezing
+points (Oliveira et al. 2018).
+High reaction temperature (400–450 °C) was the optimum to crack long chain of oils (tri glycerides > C8–
+C16) to give shorter chain (C8–C16) which are the
+main constituents of bio aviation to assure reaching
+properties in a good agreement compared to those of
+petroleum-based jet fuel.
+By measuring freezing point, it was found that
+increasing the reaction temperature improves the
+freezing point of the product Table 4.
+
+Fractions obtained from distillation procedure are shown
+in Fig. 3 which illustrated that the bio gasoline product
+was collected up to 150 °C while biojet fuel range was
+obtained from 150 to 290 °C then finally bio diesel fuel
+was produced from 290 to 350 °C.
+Thermal cracking of WCO under optimum conditions
+gave about 96% crude bio fuel. After the distillation step
+of crude bio fuel, about 49% of bio aviation fraction was
+obtained and the rest (51%) were biodiesel and heavy
+fuel with calorific values suitable as bio fuel to be used in
+other purposes. These results are in good agreement with
+ASTM standards (Dai et al. 2018).
+GC/mass spectra results
+
+The formation of alkanes, cycloalkanes, iso alkanes and
+alkyl benzene during thermal catalytic cracking of WCO
+was investigated by GC/mass to classify hydrocarbons
+present in the product feedstock. The results showed
+that: the hydrocarbon mixture contained n-paraffin, iso
+
+El‑Araby et al. Bull Natl Res Cent
+
+(2020) 44:177
+
+Page 7 of 9
+
+Reaction time (min.)
+-47
+-48
+
+0
+
+10
+
+20
+
+30
+
+40
+
+50
+
+60
+
+70
+
+Freezing point(oC)
+
+-49
+
+y = -0.2427x - 41.027
+R² = 0.9601
+
+-50
+-51
+-52
+-53
+-54
+-55
+-56
+
+Fig. 5 The effect of reaction time on freezing point of bio fuel product from WCO hydro catalytic cracking
+
+Olefines
+
+Iso-Paraffin
+
+13%
+
+n-Paraffin
+
+CyclParaffin
+
+Others
+
+Table 5 Specifications of jetA1 blended with 5% of biojet
+range distillate
+Properties
+
+5%
+10%
+
+15%
+
+57%
+
+Fig. 6 GC Mass % of different hydrocarbons in carbon length ­C8–C16
+of WCO bio aviation fuel
+
+paraffin, cyclo paraffin, olefins and aromatics. It can be
+confirmed that typical ideal carbon length of ­C8–C16 in
+jet fuel is from 70 to 85%. Total yield of paraffin content
+in bio aviation fuel obtained was close to 83% as shown
+from Fig. 6.
+GC–mass spectra data illustrated that most of iso and
+cyclo-paraffins have one /two branched chain of alkanes,
+as methyldecane, alkyl cyclohexane and iso octane
+(2,2,4-trimethylpentane) in the total product. This is in
+agreement with the literature (57.01%) (Holladay 2015b).
+It is interesting to say that the obtained unrequired
+olefins is near about minimum (5% wt%) as in ideal jet
+
+Results Specification limits
+
+Test method
+
+Flash point °C
+
+41.5
+
+38 (min.)
+
+IP 170
+
+Density @15 °C kg/m3
+
+798.4
+
+775 (min.) to 840
+(max.)
+
+ASTM D-4052
+
+Copper corrosion,
+rating
+
+1
+
+1 (max.)
+
+ASTM D-130
+
+Existent gum
+mg/100 ml
+
+1.6
+
+7 (max.)
+
+ASTM-381
+
+Freezing point °C
+
+− 55
+
+− 43 (min.)
+
+ASTM-1655
+
+fuel. Also GC/mass spectra data illustrated that most of
+iso, cyclo-paraffin have one or two branches as methyldecane, and straight chain alkanes or branched chain cycloalkane as iso octane.
+Molecules as methyldecane (iso-paraffin) are much
+more represented in petroleum jet fuel component than
+iso-octane (branched alkane). Jet fuel range iso-paraffin
+is the most expensive and difficult component to obtain,
+was detected in good ratio in the prepared bio aviation
+fuel.
+Pure fuel is highly dependent on the amount of
+branched alkanes because increase in branching suppresses the fuel ignition point (Eldeeb 2007).
+Biojet blend (10%) test
+
+Specifications of 5% blend of biojet from WCO are illustrated in Table 5 and compared with the standards specifications results were within the required limit. The test
+proved that the obtained thrust of using 5% blend is in
+
+El‑Araby et al. Bull Natl Res Cent
+
+(2020) 44:177
+
+Page 8 of 9
+
+1.00E-01
+9.00E-02
+8.00E-02
+7.00E-02
+
+Thrust(N)
+
+6.00E-02
+5.00E-02
+4.00E-02
+3.00E-02
+
+standard
+
+2.00E-02
+
+our sample
+
+1.00E-02
+0.00E+00
+
+0
+
+200
+
+400
+
+600
+
+800
+
+1000
+
+1200
+
+Time (ms)
+Fig. 7 Thrust test results for blend bio jet
+
+a good agreement with jet A-1. Figure 7. Blue points are
+different thrust values of the petroleum jet fuel (kerosene
+jet fuel) where red points are different thrust of the blend
+kerosene jet fuel and 5% biojet obtained in this work at
+different time during the testing experiment and it shows
+the higher thrust values of blend biojet than the pure
+petroleum kerosene.
+The submitting of biofuels into aviation sector must not
+alter the aircraft engine performance and the fuel must
+keep its properties during the wide range of atmospheric
+conditions during flights (ASTM International 2015).
+
+Conclusions
+From the study it is concluded that:
+• Renewable bio aviation fuel can be produced via thermal catalytic cracking of vegetable oils where conversion of WCO to hydrocarbon range alkanes has been
+successfully performed under high temperature and
+pressure.
+• Biojet fuel obtained from WCO has fairly acceptable
+physico-chemical properties compared to those of
+petroleum based fuel.
+• Adjustment of the hydro catalytic cracking reaction
+conditions was used to control quantities and characteristics of produced bio aviation fuel.
+• Results of this study revealed that hydrothermal
+catalytic cracking of WCO gave convenient freezing
+point (− 55 °C) for use as biojet fuel.
+
+• Taking into consideration the economic evaluation
+WCO is preferable as raw material for bio aviation
+fuel production due to its low cost and its contribution in environmental pollution abatement.
+• Bio aviation fuel fraction from (­ C8–C16) was obtained
+by fractional distillation of hydrocracking product
+from temperature from 120 to 250 °C.
+• Blend of 5% bio aviation with jet A-1 (by volume) can
+be used in the engine without any modifications and a
+successful test of blended bio aviation fuel with 10% bio
+aviation has been achieved on Jet-Cat 80/120 engine.
+Abbreviations
+WCO: Waste cooking oil; IATA​: International Air Transport Association; GHG:
+Greenhouse gas; FAME: Fatty acid methyl esters; ASTM: American Society for
+Testing and Materials; HBBA: High biofuel blends in aviation; BET: Brunauer–
+Emmett–Teller; TEM: Transmission electron microscope.
+Acknowledgements
+Not applicable.
+Authors’ contributions
+RE, EA, SI: experimental part and writing the research paper. SI, GE, RE, EA:
+preparing experiments work plan. GE: reviewing and contributing in writing
+the research paper. All authors have read and approved the manuscript.
+Funding
+The authors declare that they have no known competing financial interests
+or personal relationships that could have appeared to influence the work
+reported in this paper.
+Availability of data and materials
+Data sharing is not applicable to this article as no datasets were generated or
+analyzed during the current study.
+
+El‑Araby et al. Bull Natl Res Cent
+
+(2020) 44:177
+
+Ethics approval and consent to participate
+There is no committee of approval.
+Consent for publication
+Not applicable.
+Competing interests
+The authors declare that they have no competing interests.
+Received: 12 August 2020 Accepted: 20 September 2020
+
+References
+ASTM International (2015) ASTM D1655-15de1. Standard specification for avia‑
+tion turbine fuel. https​://doi.org/10.1520/D1655​-15DE0​1
+Bailis RE, Bake JE (2010) Greenhouse gas emissions and land use change
+from Jatropha–curcas based jet fuel in Brazil. Environ Sci Technol
+44(22):8684–8691
+Battiston S, Rigo C, Severo EDC, Mazutti MA, Kuhn RC, Gündel A, Foletto EL
+(2014) Synthesis of zinc aluminate (­ ZnAl2O4) spinel and its application as
+photocatalyst. Mater Res 17(3):734–738
+Blakeley K (2012) DOD alternative fuels: policy, initiatives and legislative activ‑
+ity. Congressional Research Service
+Bousdira K, Nouri L, Legrand J, Bafouloulou Y, Abismail M, Chekhar H, Babahani
+M (2014) A nove rview of the chemical composition of phoenicicol bio‑
+mass fuel in Guerraraoasis. Revue des Energies Renouvel ables SIENR’14
+Ghardaïa, pp 99–108
+Briefing. Long-term aviation fuel de carbonization: progress, roadblocks, and
+policy opportunities. ICCT, 2019
+Chairamonti D (2019) Sustainable aviation fuels: the challenge of decarboniza‑
+tion. Energy Procedia 158:1202–1207
+Chuck CJ, Donnelly J (2014) The compatibility of potential bioderived fuels
+with Jet A-1 aviation kerosene. Appl Energy 118:83–91
+Corporan E, Edwards T, Shafer L, DeWitt MJ, Klingshirn C, Zabarnick S et al
+(2011) Chemical, thermal stability, seals well, and emissions studies of
+alternative jet fuels. Energy Fuels 25(3):955–966
+Dai Q, Zhang Z, Zhan T, Hu Z-T, Chen J (2018) Catalytic ozonation for the
+degradation of 5-sulfosalicylic acid with spinel-type ­ZnAl2O4 prepared
+by hydrothermal, sol–gel, and co precipitation methods: a comparison
+study. ACS Omega 3:6506–6512
+De Oliveira VF, Parente EJS, Cavalcante CL, Luna FMT (2018) Short-chain esters
+enriched biofuel obtained from vegetable oil using molecular distillation.
+Can J Chem Eng 96:1071–1078
+El Diwani G, Hawash SI, Kamal N (2009) Development and evaluation of
+biodiesel fuel and byproducts from Jatropha oil. IJEST Int J Environ Sci
+Technol 6:219–224
+Eldeeb M (2007) Characterization and chemical kinetic analysis of the ignition
+of representative conventional and bio-derived fuels representative
+conventional and bio-derive. In: 45th AIAA, aerospace sciences meeting
+and exhibit, Reno, Nevada
+Gawron B, Białecki T (2018) Impact of a Jet A-1/HEFA blend on the perfor‑
+mance and emission characteristics of a miniature turbojet engine. Int J
+Environ Sci Technol 15(7):1501–1508
+Hanafi SA, Elmelawy MS, El-Syed HA, Shalaby NH (2015) Hydrocracking of
+waste cooking oil as renewable fuel on NiW/SiO2-Al2O3 catalyst. J Adv
+Catal Sci Technol 2:27–37
+Hawash SI, Abdelkader E, Amin A, El-Araby R, El Diwani G (2017) Investigation
+of metallic oxide catalyst role for upgrading biodiesel to bio jet fuel range
+hydrocarbon. ARPN J Eng Appl Sci 12(7):387–388
+Hileman JI, Stratton RW (2014) Alternative jet fuel feasibility. J Transport Policy
+34:52–62
+
+Page 9 of 9
+
+Holladay J (2015a) Jet fuel advances in bio-oil and alcohol upgrading. In:
+Sustainable alternative aviation fuels workshop, 106, 313
+Holladay J (2015b) Sustainable alternative aviation fuels workshop.
+CORE-JetFuel
+Howe D, Westover T, Carpenter D, Santosa D, Emerson R, Deutch S et al (2015)
+Field-to-fuel performance testing of lignocellulosic feedstocks: an inte‑
+grated study of the fast pyrolysis382 hydrotreating pathway. Energy Fuels
+29(5):3188–3197
+Mante OD, Butcher TA, Wei G, Trojanowski R, Sanchez V (2017) Evaluation
+of biomass-derived distillate fuel as renewable heating oil. BNL-114132-JA
+Pires APP, Han Y, Kramlich J, Garcia-Perez M (2018) Chemical composition and
+fuel properties of alternative jet fuels. BioResources 13(2):2632–2657
+Prussi M, O’Connell A, Lonza L (2019) Analysis of current aviation biofuel tech‑
+nical production potential in EU28. Biomass Bioenergy 130:105371
+Sathaye J, Lucon O, Rahman A, Christensen J, Denton F, Fujino J et al (2011)
+Renewable energy in the context of sustainable development. Special
+report on renewable energy sources and climate change mitigation.
+Cambridge University Press, Cambridge
+Skreiberg O, Grønli MG, Antal MJ Jr (2013) The smart biofuels of the future.
+Biofuels 4(2):159–161
+Staplesa MD, Malina R, Suresha P, Hileman JI, Barretta SRH (2018) Aviation C
+­ O2
+emissions reductions from the use of alternative jet fuels. Energy Policy
+114:342–354
+Sun X (2012) Forensic applications of gas chromatography/mass spectrom‑
+etry, high performance liquid chromatography–mass spectrometry
+and desorption electrospray ionization mass spectrometry with chemo
+metric analysis of aviation jet fuel. A dissertation Faculty of the College of
+Arts and Sciences of Ohio University
+Sustainable Aviation Fuels Northwest Project: www.clima​tesol​ution​s.org/progr​
+ams/aviat​ion-biofu​els-initi​ative​
+Talmadge MS, Baldwin RM, Biddy MJ, McCormick RL, Beckham GT, Ferguson
+GA et al (2014) A perspective on oxygenated species in the refinery
+integration of pyrolysis oil. Green Chem 16(2):407–453
+Tao L, Milbrandt A, Zhang Y, Wang WC (2017) Techno-economic and resource
+analysis of hydroprocessed renewable jet fuel. Biotechnol Biofuels 10:261
+Wahyudi ING et al (2018) Improving vegetable oil properties by transforming
+fatty acid chain length in jatropha oil and coconut oil blends. Energies
+11:394
+Wang W-C, Tao L (2016) Bio-jet fuel conversion technologies. Renew Sustain
+Energy Rev 53:801–822
+Wang W-C, Tao L, Markham J, Zhang Y, Tan E, Batan L, Warner E, Biddy M (2016)
+Review of biojet fuel conversion technologies. Technical Report, NREL/
+TP-5100-66291, National Renewable Energy Laboratory, 2016
+Weng Y, Qiu S, Ma L, Liu Q, Ding M, Zhang Q (2015) Biomass-derived sorbitol
+over Ni-HZSM-5/SBA-15 catalyst. Catalyst 5:2147–2160
+Xu J, Jiang J, Zhao J (2016) Thermo chemical conversion of triglycerides for
+production of drop-in liquid fuels. Renew Sustain Energy Rev 58:331–340
+Yang J, Xin Z, He Q, Corscadden K, Niu H (2019) An overview on performance
+characteristics of bio-jet fuels. Fuel 237:916–936
+Zacher AH, Olarte MV, Santosa DM, Elliott DC, Jones SB (2014) A review
+and perspective of recent bio-oil hydrotreating research. Green Chem
+16(2):491–515
+Zacher AH, Elliott DC, Olarte MV, Santosa DM, Preto F, Iisa K (2014) Pyrolysis of
+woody residue feedstocks: hydro thermal cracking of bio-oils from moun‑
+tain-pine-beetle killed trees and hog fuel. Energy Fuels 28(12):7510–7516
+
+Publisher’s Note
+
+Springer Nature remains neutral with regard to jurisdictional claims in pub‑
+lished maps and institutional affiliations.
+
+

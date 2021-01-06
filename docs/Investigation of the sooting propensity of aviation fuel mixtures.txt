@@ -1,0 +1,736 @@
+CEAS Aeronautical Journal
+https://doi.org/10.1007/s13272-020-00482-7
+
+ORIGINAL PAPER
+
+Investigation of the sooting propensity of aviation fuel mixtures
+S. Richter1
+
+· T. Kathrotia1
+
+· C. Naumann1
+
+· S. Scheuermann2 · U. Riedel1
+
+Received: 25 March 2020 / Revised: 15 September 2020 / Accepted: 31 October 2020
+© The Author(s) 2020
+
+Abstract
+Aromatic compounds occurring naturally in jet fuels are precursors for the formation of soot in the exhaust gas of jet engines.
+Directly emitted in cruising altitude, soot particles lead to the formation of contrails and clouds influencing the radiation balance of the atmosphere. Hence, a detailed knowledge on the effect of aromatics on the sooting behavior is of great importance,
+especially for the development of alternative synthetic jet fuels. Investigations on the sooting propensity influenced by the
+molecular structure and concentration of diverse aromatic compounds contained in synthetic and fossil aviation fuels as well
+as blends of synthetic paraffinic kerosene (SPK) with aromatic compounds (SKA) were carried out experimentally. Using a
+predefined SPK fuel, five different blends—each containing a single aromatic compound—were prepared in addition to one
+blend with a typical composition consisting of all these aromatic compounds. In subsequent measurements, the concentration of the aromatics was increased from initially 8.0 vol%, to about 16.5, and 25.0 vol%. The aromatics added were toluene,
+n­-propylbenzene, indane, 1­methylnaphthalene, and biphenyl. The studied jet fuels include fossil-based Jet A-1 as well as
+different synthetic jet fuels (with and without aromatics). Furthermore, the experimental results of the sooting propensity
+are compared with the results of the hydrogen deficiency model being a measure for the amount of cyclic and unsaturated
+molecular structures occurring in a hydrocarbon fuel. This study shows the hydrogen deficiency as a useful tool to make
+predictions about the sooting behavior of different fuels compared to a reference fuel at a specified condition. Additionally,
+it is observed from the measured sooting propensities as well as from the model predictions of hydrogen deficiency that the
+structure of aromatic compounds presents greater influence on the soot formation than the aromatic concentration.
+Keywords Aviation fuel · Alternative fuels · Sooting behavior · Hydrogen deficiency · Aromatics · Emissions
+
+1 Introduction
+The combustion of a fuel in a jet engine of an aircraft in
+cruising altitude is connected with the direct emissions of
+different pollutants such as carbon dioxide ­(CO2), nitrogen
+oxide ­(NOx), sulfur dioxide ­(SO2), and soot particles in the
+upper troposphere and lower stratosphere. Here, the soot
+particles act as nuclei for the condensation of water vapor
+leading to contrails and cloud formation, which eventually
+influences the radiation balance of the earth’s atmosphere
+
+* S. Richter
+Sandra.Richter@dlr.de
+1
+
+German Aerospace Center (DLR), Institute of Combustion
+Technology, Pfaffenwaldring 38‑40, 70569 Stuttgart,
+Germany
+
+2
+
+Bundeswehr Research Institute for Materials, Fuels
+and Lubricants (WIWeB), Institutsweg 1, 85435 Erding,
+Germany
+
+and contributes to an increase in the radiative forcing.
+According to [1–3], the percentage of anthropogenic radiative forcing caused by aviation is estimated between 3.5
+and 5.0% with contrail cirrus as major factor. It is already
+well-known that aromatic components in fuels promote the
+soot formation, but due to safety reasons—aromatics contribute to the swelling of certain elastomers (seals) [4, 5]—a
+minimum content of 8.0 vol% aromatics is required for jet
+fuels containing synthetic components according to ASTM
+standard D7566-19 [6]. Due to this specification aromatics cannot be simply left out from jet fuels to reduce the
+soot emissions when synthetic fuels are developed. Hence,
+a better understanding of the influence not only of aromatics
+themselves but also of structural effects on soot formation is
+to be gained and necessary for the development of alternative synthetic jet fuels.
+Therefore, investigations on the sooting propensity
+depending on the molecular structure and concentration of
+different aromatic compounds contained in synthetic and
+
+13
+
+Vol.:(0123456789)
+
+S. Richter et al.
+
+fossil aviation fuels as well as blends of synthetic paraffinic
+kerosene (SPK) with aromatic compounds (SKA) were
+determined experimentally. In contrast to the commonly
+used threshold sooting index (TSI) [7–9], the sooting propensity was estimated by the definition of a soot threshold
+as a function of the fuel–air equivalence ratio (φ). Here,
+the soot emissions in terms of particle number concentration were measured continuously in the exhaust gas of a
+premixed flat flame varying the φ-value, i.e., increasing the
+fuel fraction in the fuel–air mixture.
+A useful correlation to compare the sooting propensity
+of different known jet fuels arises from the definition of the
+‘Hydrogen Deficiency’ (HD). Indeed, the hydrogen deficiency does not provide data to quantify the soot emission,
+but is beforehand a measure for the amount of cyclic and
+unsaturated molecular structures occurring in a fuel. Though
+cyclic and especially aromatic (cyclic and unsaturated) components in a jet fuel account for most of the soot formation in
+contrast to bulk n-, and iso-alkanes, the hydrogen deficiency
+nevertheless correlates with the sooting propensity of jet
+fuels. The HD-number poses an easy way to assess the sooting behavior of a jet fuel knowing its molecular composition [10]. Therefore, the experimental results of the sooting
+propensity will be compared with the predictions according
+to the hydrogen deficiency correlation.
+
+2 Experimental investigation of the sooting
+propensity
+2.1 Measured fuels and fuel mixtures
+
+(Jet A-1) and four alternative fuels [11]. These fuels comprise two aromatic containing alternative fuels named
+ReadiJet and AtJ-SKA (Alcohol to Jet Synthetic Kerosene with Aromatics) as well as two paraffinic fuels
+named AtJ-SPK (Alcohol to Jet Synthetic Paraffinic
+Kerosene) and farnesane.
+The initial, aromatic free synthetic paraffinic kerosene
+(SPK) consists of 11.72 mol% n-dodecane + 30.02 mol%
+iso-octane + 58.26 mol% n-propylcyclohexane. This
+composition is derived from the GC × GC–MS analysis
+of synthetic jet fuels [12]. With the restriction of lacking
+an affordable and adequate iso-paraffinic species in the
+­C12-range, the mixture is supposed to represents aromatic
+free fuels in general, thus called ‘SPK surrogate’.
+Using this SPK surrogate, five different blends—each
+containing a single aromatic compound (toluene, n-propylbenzene, indane, 1-methylnaphthalene, or biphenyl)—
+were prepared as well as one blend with a typical aromatic
+composition including all aromatic compounds (24.69 mol%
+toluene + 47.78 mol% n­- propylbenzene + 19.55 mol%
+indane + 7.24 mol% 1-methylnaphthalene + 0.73 mol%
+biphenyl). In subsequent measurements, the concentration
+of the aromatics was increased from initially 8.0 vol%, to
+about 16.5 vol%, and to 25.0 vol% finally. An exception had
+to be made for biphenyl being only soluble in the SPK surrogate up to about 17 mol% (15.6 vol%) [13, 14].
+An overview on the structure of the components
+(including aromatics) used for the preparation of the
+surrogate mixtures as well as short information on the
+composition of the studied aviation fuels is given in
+Table 1.
+
+The sooting propensity was determined for different
+mixtures as well as for a crude oil-based aviation fuel
+Table 1  Overview of the used aromatics, SPK surrogate components, and measured aviation fuels
+Aromatics
+
+Toluene
+
+SPK surrogate
+components
+(alkanes)
+
+n-Dodecane
+
+Real fuel
+drop-in
+
+Jet A-1
+15.1 vol%
+aromatics
+
+n-Propylbenzene
+
+Indane
+
+1-Methylnaphthalene
+
+iso-Octane
+
+ReadiJet
+25.1 mas-% n + iso-alkanes
+51.0 mas-% cycloalkanes
+20.9 vol% aromatics
+
+AtJ-SKA
+Predominant
+iso-alkanes
+9.5 mas-% (8.7
+vol%) monoaromatics
+
+n-Propylcyclohexane
+
+AtJ-SPK
+
+AtJ alcohol to jet, SKA synthetic kerosene with aromatics, SPK synthetic paraffinic kerosene
+
+13
+
+Biphenyl
+
+Farnesane
+
+Investigation of the sooting propensity of aviation fuel mixtures﻿	
+
+2.2 Experimental setup
+In present work, the sooting propensity as a threshold in
+equivalence ratio is measured instead of TSI/smoke point
+included in the standard ASTM 1766. The reason for this
+unusual selection has been to extend the use of existing
+burner setup, employed for determining the laminar burning velocities, for sooting propensity measurement using a
+prevaporised premixed fueled burner system, used so far for
+the measurement of the laminar burning velocity, see, e.g.
+[15, 16], providing well known and controllable boundary
+conditions with respect to mixture and flame. Whereas for
+the measurement of the burning velocity, a conical flame is
+used; here, a planar flame is stabilized by a nozzle with an
+outlet diameter of 12 mm containing a fine-pored sinter plate
+and confined by an air co-flow at preheat temperature. The
+scheme in Fig. 1 shows the experimental setup consisting of
+four parts: (I) the preparation of the fuel–air mixture, (II) the
+burner, (III) the sampling probe, and (IV) the soot particle
+detection unit. For the preparation of the fuel–air mixture,
+(I) the vaporized fuel is first mixed with preheated nitrogen ­(N2) and conditioned to the set temperature of 473 K
+before oxygen ­(O2) is added according to the natural ­N2/
+O2-ratio in air. The liquid fuel is carried using a HPLC-pump
+(LC-20AD, Shimadzu); the gas flows are controlled with
+mass flow controllers (mini Cori-Flow, Bronkhorst). During
+
+Fig. 1  Scheme of the experimental setup for the measurement of the
+particle concentration in the exhaust gas of a plane laminar flame;
+CPC condensation particle counter, HPLC high performance liquid
+
+the whole measurement, the gas velocity of the unburned
+fuel–air mixture is kept constant at 35 cm/s. Part (I) preparation of the fuel–air mixture as well as part (II) the burner
+are both basically identical with the burner setup for the
+measurement of the burning velocity. For these details, the
+reader is referred to our previous publications [15, 16].
+To avoid disturbance of the flame, the nozzle is surrounded by a laminar purified air co-flow and shielded by a
+cylinder made from quartz glass reducing the perturbation
+from the environment. The part (III), the sampling unit, consisting of three concentric pipes, is fixed above the burner
+and reaches into the exhaust gas. The outer pipe is also made
+from quartz glass and has a cone with a fine orifice at the
+tip where the exhaust gas from the flame is expanded into
+the inner central pipe. In the middle pipe (made from Pyrex
+glass), ­N2 is added with a volume flow of about 1300 ml/min
+to delay particle coagulation in the exhaust gas by dilution.
+The part (IV) of the setup is the detection unit of soot particles. The sample (= exhaust gas containing soot particles)
+is measured by the particle number counter (CPC 3022A,
+TSI), operating with a total flowrate of 1500 ml/min. This
+leads to a low pressure of about 880 mbar in the sampling
+unit compared to an ambient pressure of about 965 mbar.
+Particles are detected upon a minimum size of 0.007 µm.
+Starting at φ = 1.40, the fuel fraction is increased during the
+measurement. As soon as the particle concentration starts to
+
+chromatography, MFC mass flow controller, TB boiling temperature/
+final boiling point
+
+13
+
+S. Richter et al.
+
+rise, each set φ-value is kept constant for 15 min. The particle
+concentration is measured by the particle counter at a sampling rate of 1 s−1 and recorded with an averaging over 10 s
+by the Aerosol Instrument ­Manager® Software (TSI) during
+the whole experiment. In the evaluation, the particle counts
+from the first 3 min were excluded in order to respect the slight
+time delay between the increase in the fuel volume flow and
+the adjustment of the φ-value.
+
+2.3 Determination of the sooting propensity
+As a measure for the sooting propensity, the φ-value is defined
+as soot threshold (φST) obtained from the maximum gradient of the normalized particle concentration by extrapolation
+to the baseline. For the determination of φST, the φ-value is
+increased during the measurement until an average particle
+number density (N) of minimum 1­ 05 particles/cm3 over 15 min
+is obtained. In the evaluation, the φ-value at 1­ 04 particles/cm3
+(= N0) is determined by an appropriate interpolation. Thereon
+the particle number density N0 is used to normalize the measured particle number densities leading to the value 1 for the
+φ-value at 1­ 04 particles/cm3 determined by interpolation. As
+an example, Fig. 2 shows the comparison of the normalized
+particle concentrations for the neat SPK surrogate and the
+respective surrogates with n-propylbenzene added.
+Taking the first derivative at N/N0 = 1, corresponding to the
+maximum gradient, the soot threshold (𝜑ST) can be calculated
+by extrapolation to the baseline using the equation:
+
+𝜑ST = 𝜑10000 −
+
+Nnorm
+1
+= 𝜑10000 − � ,
+�
+Nnorm
+Nnorm
+
+(1)
+
+with the φ-value at a particle number density of 1­ 04 particles/cm3 (𝜑10000 ), the normalized particle number density
+
+Fig. 2  Normalized particle concentrations for the SPK surrogate and
+the mixtures with n-propylbenzene
+
+13
+
+( Nnorm ), and its first derivative ( Nnorm ). In Fig. 2, the determination of φST is graphically demonstrated for the SPK
+surrogate. The uncertainty of the calculated soot thresholds
+is ± 0.01 determined from repeated measurements of the neat
+fuel components.
+′
+
+2.4 Results
+The results for the soot threshold (φST), depending either
+on the concentration of aromatics or the amount of H­atoms,
+of all the studied surrogates and fuels are summarized in
+Fig. 3. For a better clarity, error bars are only drawn for a
+few data points. In general, the uncertainty of the experiment
+amounts to ± 0.01 in the determined soot threshold. Since
+with an increasing aromatic content, the amount of H-atoms
+in a fuel mixture is reduced and the results are more or less
+mirrored. The different spread of the data points between the
+dependence on aromatic concentration and hydrogen content
+is attributed to the consideration of the SPK surrogate in the
+hydrogen content. Whereas the detail on the volumetric concentration of the aromatics is independent of the SPK surrogate, the amount of hydrogen atoms is calculated for each
+surrogate mixture consisting of SPK surrogate and aromatics.
+Regarding the different concentrations of aromatics in
+the surrogates, it is shown that the addition of 8.0 vol%
+aromatic to the SPK surrogate has a considerably greater
+impact on the sooting propensity than the increase in the aromatic concentration from 8.0 to 16.5 vol% or to 25.0 vol%,
+respectively. Similar results regarding the sooting behavior of aromatic mixtures were also found by Crossley et al.
+[17]. Comparing the influence of the different aromatics,
+it is obvious that the individual molecular structure of the
+aromatics is more important for the soot formation than their
+concentration. In general, the increase in the sooting propensity follows the order mono-aromatics < cyclo-aromatics < bi-aromatics which was also shown by Ladommatos
+et al. [18], who investigated the structural effects of various
+hydrocarbons on the sooting propensity.
+In this study, the mono-aromatics toluene and n-propylbenzene have nearly identical sooting propensities due
+to their similar molecular structure (see Table 1). Even a
+difference between these two mono-aromatics is to discern
+with a constant slightly higher sooting propensity (or lower
+soot threshold (φST)) for n-propylbenzene. Although this difference lies within the experimental uncertainty of ± 0.01,
+it is to suppose that this finding is caused by the longer side
+chain of n-propylbenzene. Whereas Crossley et al. [17] have
+made the same observation; Ladommatos et al. [18] have
+reported a sooting propensity for n-propylbenzene even
+slightly lower than for toluene. But in total ignoring n-propylbenzene, they show also an increasing sooting propensity with growing side chain as well. Similarly, the sooting
+
+Investigation of the sooting propensity of aviation fuel mixtures﻿	
+
+Fig. 3  Soot thresholds as measure for the sooting propensity; composition of the initial SPK surrogate (in mol%): 11.72% n-dodecane + 30.02%
+iso-octane + 58.26% n­
+-propylcyclohexane, composition of the aromatic
+
+mixture (in mol%): 24.69% toluene + 47.78% n-propylbenzene + 19.55%
+indane + 7.24% 1-methylnaphthalene + 0.73% biphenyl; AtJ alcohol to jet,
+SKA synthetic kerosene with aromatics, SPK synthetic paraffinic kerosene
+
+tendencies measured by McEnally and Pfefferle group [19]
+reported higher sooting tendency of propylbenzene compared to toluene.
+As also already shown by Ladommatos et al. [18], the
+sooting propensity of indane, a monocyclo-aromatic with
+nine carbon-atoms, is found between that of the mono- and
+bi-aromatics. Indeed, indane and propylbenzene have the
+same number of carbon atoms, but the entire cyclic structure
+of indane leads to a smaller H/C ratio of 1.11 for indane
+(compared to 1.3 for n-propylbenzene) and therefore to a
+distinct higher sooting propensity.
+Regarding mixtures containing the bi-aromatics, 1-methylnaphthalene or biphenyl soot particles are formed at distinctly lower φ-values being expected due to H/C ratios
+of < 1 for 1-methylnaphthalene (H/C = 0.91) as well as for
+biphenyl (HC = 0.83).
+For the aromatic mixture, the sooting propensity is
+found closer to n­propylbenzene and toluene than to indane
+or the bi-aromatics since the mono-aromatics are the main
+components.
+The height of the soot threshold for the surrogate with
+16.5 vol% aromatic mixture is similar to the studied Jet A-1
+having an aromatic content of 15.1 vol%. Due to the higher
+amount of aromatics, the alternative ReadiJet fuel shows a
+slightly higher sooting propensity than Jet A-1. In contrast,
+AtJ-SKA has only mono-aromatics at a lower concentration,
+but the value of the sooting threshold is nearly identical to
+that of Jet A-1.
+
+To explain this behavior, the complete composition
+of the fuel should be considered. As listed in Table 1,
+AtJ-SKA consists predominantly of iso-alkanes, having
+a branched structure, whereas a conventional jet fuel contains typically a significant amount of straight n-alkanes.
+Since it is already known that the sooting propensity raises
+with the degree of branching in alkanes [17, 18], the similar soot threshold of AtJ-SKA compared to Jet A-1 may be
+attributed to the iso-alkanes. The influence of branching
+arises also from the comparison of farnesane and AtJ-SPK.
+Although farnesane has a higher molecular weight than the
+average in AtJ-SPK its sooting propensity is distinctively
+lower due to the highly branched structure with quaternary C-atoms in molecules contained in AtJ-SPK. Moreover, these branched molecules lead to a soot threshold for
+AtJ-SPK as high as determined for the surrogates with
+8.0 vol% aromatic mixture or 16.5 vol% mono-aromatics. Unfortunately, no sooting propensity data on highly
+branched iso-alkanes are available for comparison. Only
+information on 2,2,4,4,6,8,8-heptamethylnonane (isocetane) showing a sooting tendency more than one order
+of magnitude lower than that of 1­methylnaphthalene was
+found in the literature [20]. So at present, it is not possible
+to explain satisfactorily the sooting tendency of AtJ-SPK
+or other highly branched alkanes.
+
+13
+
+S. Richter et al.
+
+3 The hydrogen deficiency approach
+To understand the above measured sooting propensity
+from the molecular structure point of view, we considered
+employing hydrogen deficiency (HD) as a measure for the
+presence of unsaturation and cyclic structure present in a
+molecule. This is to the extension of our earlier study [10]
+where we showed that the particle emissions measured in
+a ground-based V2527-A5 engine of an Airbus A320 can
+be extrapolated to other fuels using their HD and one reference measurement. This assessment was also observed to be
+extended to the smoke point and sooting tendency measurements from the literature.
+
+3.1 Definition
+A useful correlation to compare the sooting propensity of
+any multicomponent fuel arises from the definition of the
+‘Hydrogen Deficiency’ (HD) [10]. Indeed, the hydrogen
+deficiency does not provide data to quantify the soot emission but is beforehand a measure for the amount of cyclic
+and unsaturated molecular structures being present in a fuel.
+Since the cyclic and especially aromatic (cyclic and unsaturated) components in a jet fuel account for most of the soot
+formation, the hydrogen deficiency therefore correlates with
+the sooting propensity of jet fuels. Thus, the HD-number
+provides an easy way to assess the sooting behavior of a jet
+fuel knowing its molecular composition. The hydrogen deficiency as a measure for the degree of unsaturation (double
+bonds) and cyclization (ring structure) of a fuel has long
+been known in chemistry [21, 22] and is defined as:
+(y)
+.
+HD = (x + 1) −
+(2)
+2
+According to the general fuel formula C
+­ xHy, x and y are
+the number of C- and H-atoms. By this definition, the HD of
+n- and iso-alkanes is zero as in both cases neither unsaturation nor cyclic structures are present. To estimate the HD
+of a real fuel, the molecular formula in the form of C
+­ xH y
+needs to be known. The information on the fuel’s C and H
+number can be estimated by the combined use of different
+analytical and spectroscopic methods such as gas chromatography (GC), mass spectroscopy (MS), 1H-NMR or 13CNMR spectroscopy.
+
+3.2 Calculation of the hydrogen deficiency
+For the calculation of the hydrogen deficiency, a theoretical formula for each fuel and fuel mixture has to be determined. In case of the SPK surrogate and aromatic surrogate
+mixtures, the formula is known from the initial weight of
+
+13
+
+the pure components. The H/C-ratio of Jet A-1, ReadiJet,
+and AtJ-SKA was determined to 1.95, 1.90, and 2.10. Using
+these values, the theoretical formula of the real fuels was
+calculated assuming an average number of C-atoms of 11
+in each of the fuels. Since AtJ-SPK and farnesane contain
+neither cyclic nor unsaturated structures, their hydrogen
+deficiency is zero, so they are excluded from the comparison with experimentally determined sooting propensities.
+Table 2 gives an overview about the calculated hydrogen
+deficiencies including the theoretical formula of each tested
+fuel and fuel mixture. Regarding the HDs for the SPK surrogate and AtJ-SKA, the reader is reminded that more than
+half of the SPK surrogate is n-propylcyclohexane—a cyclic
+component. This leads to a higher HD than for the AtJ-SKA
+fuel containing aromatics.
+
+3.3 Comparison with the experimental sooting
+propensity
+The results of the estimated hydrogen deficiency (HD) are
+presented in Fig. 4 as correlation with the sooth threshold
+(φST) as well as in Fig. 5 together with the results of the
+experimentally determined sooting propensity. Since in
+Fig. 5, the amount of hydrogen atoms is chosen as abscissa
+
+Table 2  Theoretical formula and hydrogen deficiency (HD) of the
+investigated fuels and fuel mixtures
+Fuel
+SPK surrogate
++ Toluene
+
++ n-Propylbenzene
+
++ Indane
+
++ 1-Methylnaphthalene
+
++ Biphenyl
++ Aromatic mixture
+
+Jet A-1
+ReadiJet
+Alcohol to Jet SKA
+
+HD
+8.0 vol%
+16.5 vol%
+25.0 vol%
+8.0 vol%
+16.5 vol%
+25.0 vol%
+8.0 vol%
+16.5 vol%
+25.0 vol%
+8.0 vol%
+16.5 vol%
+25.0 vol%
+8.0 vol%
+16.5 vol%
+8.0 vol%
+16.5 vol%
+25.0 vol%
+
+C9.05H18.94
+C8.80H17.59
+C8.55H16.28
+C8.34H15.15
+C9.05H18.28
+C9.04H17.61
+C9.04H16.94
+C9.05H17.95
+C9.04H17.03
+C9.04H16.13
+C9.24H18.09
+C9.43H17.21
+C9.61H16.37
+C9.31H18.14
+C9.56H17.40
+C9.01H18.07
+C8.97H17.18
+C8.94H16.34
+C11H21.5
+C11H20.9
+C11H23.1
+
+0.58
+1.00
+1.41
+1.77
+0.91
+1.24
+1.57
+1.07
+1.53
+1.97
+1.19
+1.82
+2.43
+1.24
+1.86
+0.98
+1.38
+1.77
+1.25
+1.55
+0.45
+
+SPK synthetic paraffinic kerosene, SKA synthetic kerosene with aromatics
+
+Investigation of the sooting propensity of aviation fuel mixtures﻿	
+
+Fig. 4  Direct correlation between soot threshold and hydrogen deficiency
+
+and the results of the hydrogen deficiency lead to a linear
+correlation: with decreasing hydrogen content the hydrogen deficiency increases. Furthermore, to allow an easier
+comparison with the sooting propensity, the ordinate for the
+hydrogen deficiency is reversed.
+As the threshold for the soot formation is reduced with
+a decreasing amount of hydrogen atoms in the fuel, the
+
+results illustrate that the hydrogen deficiency correlates
+with the sooting propensity: the higher the hydrogen deficiency, the higher the sooting propensity corresponding to
+a lower soot threshold (φST) as shown in Fig. 4. Regarding the consideration of the aromatics, the results lead
+to the same finding as already obtained from the experiment: the structure of the aromatics has a greater influence on the soot formation than its concentration with
+the order of increasing impact on the sooting propensity
+mono-aromatics < cyclo-aromatics < bi-aromatics.
+These results show that the hydrogen deficiency is a simple tool to gain information about the sooting propensity of
+fuels without doing extensive experiments or calculations.
+Furthermore, it was already shown in our recent publication
+in Kathrotia and Riedel [10] that though HD is merely the
+subset of H-content or H/C ratio of hydrocarbon molecule,
+it provides extrapolation of the known soot emissions. Compared to it, H/C ratio of the fuel can be linearly related to the
+emission, but this relationship is non-predictive, i.e., cannot
+be extended to predict soot emissions directly. This is mainly
+because, the bulk of fuel contains n- and iso-alkanes which
+has no major impact on soot emissions (compared to cycloalkanes and aromatics) and which makes also the H-content
+of the fuels similar for fuels. In contrast, the HD considers
+
+Fig. 5  Calculated hydrogen deficiency (HD) and comparison with experimentally determined soot threshold; AtJ alcohol to Jet, SKA synthetic
+kerosene with aromatics, SPK synthetic paraffinic kerosene
+
+13
+
+S. Richter et al.
+
+only the small but important aspect of the fuel components,
+namely, the cyclo-alkanes and aromatics which vary among
+the fuels and makes extrapolation possible. So with the
+use of the HD, the sooting propensity of various fuels can
+be predicted using information about the sooting propensity of only one reference fuel is available. Using the ratio
+­HDfuel/HDreference-fuel, one can extrapolate the values of soot
+parameters like particle mass emission index, yield sooting
+index, and smoke point, each based on the known value of
+a reference fuel. But, whereas the values of different soot
+parameters and to some extent even of the same parameter
+obtained from different experiments are not comparable, the
+HD enables an easy comparison of the sooting behavior of
+different fuels.
+A deviation between the measured sooting propensities and the correlation to the hydrogen deficiency occurs
+only for fuels with a considerable content of branched
+iso-alkanes. According to the hydrogen deficiency, AtJSPK and Farnesane (both with HD = 0) as well as AtJSKA (HD = 0.45) should have a sooting propensity being
+smaller (respectively, a higher φST) than the SPK surrogate
+(HD = 0.58). But actually their sooting behavior is similar compared to fuels containing aromatics between 8 and
+16 vol% as visible from Fig. 4 (see Fig. 3 for aromatic concentration). Since it is not fully understood why the sooting propensity of these fuels is higher than expected, more
+detailed studies on the sooting propensity of highly branched
+alkanes as well as on the kinetics of the formation of the first
+aromatic ring are necessary.
+In general, hydrogen deficiency provides valuable initial
+hint on the sooting tendency of potential fuels compared to a
+reference fuel without a need of experimental investigations.
+This is important for new fuels which are investigated for
+the fuels of future aviation where their potential emission
+tendencies can be estimated beforehand, an important aspect
+when the focus of the fuel design is the emission reduction.
+
+4 Conclusion
+Within this work, the sooting propensity of different surrogates and jet fuels was determined experimentally. The
+various surrogate mixtures were prepared to investigate the
+influence of aromatic structures and concentration on the
+sooting behavior of fuels. This study shows that the structure of the aromatics plays a larger role in soot formation
+than their concentration. In detail, the increase in the sooting
+propensity follows the order mono-aromatics < cyclo-aromatics < bi-aromatics. These conclusions were also obtained
+when the hydrogen deficiency is used as a parameter to correlate the sooting propensity. From these results follow that
+for a reduction in the soot emissions, it is more important
+to reduce the content of cyclo- and bi-aromatics in jet fuels
+
+13
+
+than to minimize the amount of aromatics, e.g., by adding
+alkanes. Alternatively, this can also be achieved by carefully
+selecting aromatic fuel components that have less sooting
+tendency. This is not only important for the blending of a
+conventional jet fuel with simple alternative jet fuels consisting of n- and iso-alkanes but also for the development of
+advanced sustainable aviation fuels (SAF) already containing aromatics.
+The results for the tested jet fuels indicate that fuels consisting only or predominantly of highly branched iso-alkanes
+have an increased sooting propensity as it is the case for
+AtJ-SPK and AtJ-SKA. In detail, compared to the SPK surrogate and the surrogate with 8 vol% of aromatic mixture,
+respectively, both AtJ fuels exhibit a higher sooting propensity than expected. Up to now, it is not fully understood why
+the sooting propensity of these fuels is higher than expected.
+Ultimately, more studies on the sooting propensity of highly
+branched alkanes are necessary. Hence, the correlation of the
+hydrogen deficiency with the sooting propensity failed for
+AtJ-SPK and AtJ-SKA since according to the definition isoalkanes as well as n­alkanes do not contribute to the hydrogen deficiency. Despite such special cases—conventional
+(Jet A-1) as well as alternative jet fuels (e.g., ReadiJet) consist typically of several kinds of components—the hydrogen
+deficiency is a useful tool assessing the sooting propensity
+of various fuels using their chemical composition only, thus
+eliminating the need to perform time intensive experiments
+or model calculations.
+Acknowledgements The authors thank the Bundeswehr Research
+Institute for Materials, Fuels and Lubricants (WIWeB) for financing
+the project SynTreAmR (Synthetische Treibstoffe–Einfluss des Aromatengehaltes auf die Rußbildung), Projekt Nr. E E210 AG002 GF049,
+enabling the experimental work.
+Funding Open Access funding enabled and organized by Projekt
+DEAL. The experimental work was performed within the project SynTreAmR (Synthetische Treibstoffe–Einfluss des Aroma-tengehaltes
+auf die Rußbildung), Projekt Nr. E E210 AG002 GF049, financed by
+Bundeswehr Research Institute for Materials, Fuels and Lubricants
+(WIWeB).
+Availability of data and material All data and information being necessary to understand the study are given in the manuscript.
+Code availability Not applicable.
+
+Compliance with ethical standards
+Conflict of interest Not applicable.
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons licence, and indicate if changes
+were made. The images or other third party material in this article are
+
+Investigation of the sooting propensity of aviation fuel mixtures﻿	
+included in the article’s Creative Commons licence, unless indicated
+otherwise in a credit line to the material. If material is not included in
+the article’s Creative Commons licence and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a
+copy of this licence, visit http://creat​iveco​mmons​.org/licen​ses/by/4.0/.
+
+References
+1. Lee, D.S., Fahey, D.W., Forster, P.M., Newton, P.J., Witt, R.C.N.,
+Lim, L.L., Owen, B., Sausen, R.: Aviation and global climate
+change in the 21st century. Atmos. Environ. 43, 3520–3537 (2009)
+2. Braun-Unkhoff, M., Riedel, U., Wahl, C.: About the emissions of
+alternative fuels. CEAS Aeronaut. J. 8, 167–180 (2017)
+3. Burkhardt, U., Bock, L., Bier, A.: Mitigating the contrail cirrus
+climate impact by reducing aircraft soot number emissions. NPJ
+Clim. Atmos. Sci. 1, 37 (2018). https​://doi.org/10.1038/s4161​
+2-018-0046-4
+4. Braun-Unkhoff, M., Riedel, U.: Alternative fuels in aviation.
+CEAS Aeronaut. J. 6, 83–93 (2015)
+5. Zschocke, A., Scheuermann, S., Ortner, J.: High Biofuel Blends
+in Aviation (HBBA), ENER/C2/2012/420-1, Final Report (2017).
+https​://ec.europ​a.eu/energ​y/en/studi​es/high-biofu​el-blend​s-aviat​
+ion. Accessed 5 Feb 2020
+6. ASTM D7566-19.: Standard specification for aviation turbine
+fuel containing synthesized hydrocarbons. https​://www.astm.org.
+Accessed 18 Aug 2020
+7. Calcote, H.F., Manos, D.M.: Effect of molecular structure on
+incipient soot formation. Combust. Flame 49, 289–304 (1983)
+8. McEnally, C.S., Pfefferle, L.D.: Improved sooting tendency measurements for aromatic hydrocarbons and their implications for
+naphthalene formation pathways. Combust. Flame 148, 210–222
+(2007)
+9. McEnally, C.S., Pfefferle, L.D.: Sooting tendencies of nonvolatile
+aromatic hydrocarbons. Proc. Combust. Inst. 32, 673–679 (2009)
+10. Kathrotia, T., Riedel, U.: Predicting the soot emission tendency of real fuels—a relative assessment based on an empirical formula. Fuel 261, 116482 (2020). https​://doi.org/10.1016/j.
+fuel.2019.11648​2
+11. Richter, S., Kathrotia, T., Naumann, C., Scheuermann, S., Riedel,
+U.: Measurement of the sooting propensity of aviation fuel mixtures. In: 9th Eur. Combust. Meet. Paper_S1_R1_74 (2019); full
+text available at https​://elib.dlr.de
+
+12. Scheuermann, S.S., Forster, S., Eibl, S.: In-depth interpretation
+of mid-infrared spectra of various synthetic fuels for the chemometric prediction of aviation fuel blend properties. Energy Fuel
+31, 2934–2943 (2017)
+13. Acree, W.E., Jr.: Solubility of biphenyl in binary solvent mixtures.
+Int. J. Pharm. 18, 47–52 (1984)
+14. Acree, W.E., Jr., Pontikos, N.M., Judy, C.L.: Solubility in binary
+solvent systems. 6. Predictions of naphthalene and biphenyl solubilities based on the Wilson model. Int. J. Pharm. 31, 225–230
+(1986)
+15. Richter, S., Kathrotia, T., Naumann, C., Kick, T., Slavinskaya, N.,
+Braun-Unkhoff, M., Riedel, U.: Experimental and modeling study
+of farnesane. Fuel 215, 22–29 (2018)
+16. Methling, T., Richter, S., Kathrotia, T., Braun-Unkhoff, M., Naumann, C., Riedel, U.: An investigation of combustion properties
+of butanol and its potential for power generation. J. Eng. Gas
+Turbines Power 140(9), 091505 (2018)
+17. Crossley, S.P., Alvarez, W.E., Resasco, D.E.: Novel micropyrolysis index (MPI) to estimate the sooting tendency of fuels. Energy
+Fuels 22, 2455–2464 (2008)
+18. Ladommatos, N., Rubenstein, P., Bennett, P.: Some effects of
+molecular structure of single hydrocarbons on sooting tendency.
+Fuel 75(2), 114–124 (1996)
+19. Das, D., St John, P.C., McEnally, C.S., Kim, S., Pfefferle, L.D.:
+Measuring and predicting sooting tendencies of oxygenates,
+alkanes, alkenes, cycloalkanes, and aromatics on a unified scale.
+Combust. Flame 190, 349–364 (2018)
+20. Das, D., McEnally, C., Kwan, T., Zimmerman, J., Cannella, W.,
+Mueller, C., Pfefferle, L.: Sooting tendencies of diesel fuels, jet
+fuels, and their surrogates in diffusion flames. Fuel 197, 445–458
+(2017)
+21. Pellegrin, V.: Molecular formulas of organic compounds: the
+nitrogen rule and degree of unsaturation. J. Chem. Educ. 60(8),
+626–633 (1983)
+22. Badertscher, M., Bischofberger, K., Munk, M., Pretsch, E.: A
+novel formalism to characterize the degree of unsaturation of
+organic molecules. J. Chem. Inf. Comput. Sci. 41, 889–893 (2001)
+Publisher’s Note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional affiliations.
+
+13
+
+

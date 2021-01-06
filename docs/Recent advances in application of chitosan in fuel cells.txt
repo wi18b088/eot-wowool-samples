@@ -1,0 +1,1225 @@
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+REVIEW
+
+Open Access
+
+Recent advances in application of chitosan in
+fuel cells
+Hamideh Vaghari1, Hoda Jafarizadeh-Malmiri1*, Aydin Berenjian2 and Navideh Anarjan3
+
+Abstract
+Fuel cells are electrochemical devices which convert chemical energy into electrical energy. Fuel cells have attracted
+attention due to their potential as a promising alternative to traditional power sources. More recently, efficient and
+environmentally benign biopolymer “chitosan” have been extensively investigated as a novel material for its application
+in fuel cells. This biopolymer can be used in both membrane electrolyte and electrode in various fuel cells such as
+alkaline polymer electrolyte fuel cells, direct methanol fuel cells and biofuel cells. This review provides an overview of
+main available fuel cells following by application of chitosan as novel biopolymer in fuel cells technology. Recent
+achievements are included and recommendations are also given for areas of future research.
+Keywords: Fuel cell, Chitosan, Electrolyte membrane, Electrode, Polymer
+
+Introduction
+The extensive use of fossil fuels has resulted to severe
+pollutant emissions, including SOx, NOx, CO, and particulates which pose severe threat to the health of human beings [1]. In addition, a steady depletion of world’s limited
+fossil fuel, reserves calls for efficient, benign and sustainable
+technologies for energy conversion and power generation.
+Fuel cells are among the most efficient and environmental
+friendly devices for energy conversion and power generation due to their zero-emission power source [2]. Fuel
+cells have been identified as one of the most promising
+and potent technologies which meet energy security,
+economic growth, and environmental sustainability requirements [2]. Although fuel cell technology has matured substantially over the past decades, technological barriers, such
+as insufficient durability, cell life time and fuel cell component costs, still delay commercialization in many applications [3]. There are different types of fuel cells that are
+generally characterized by electrolyte material. Among electrolyte material, solid polymer-based electrolyte membranes
+offer advantages such as high efficiency and high energy
+density [4]. However, polymer electrolyte membrane is the
+most expensive component of a polymer electrolyte-based
+fuel cell [5]. Therefore, cost effective and eco-friendly
+* Correspondence: h_jafarizadeh@sut.ac.ir
+1
+Department of Chemical Engineering, Sahand University of Technology,
+Tabriz, Iran
+Full list of author information is available at the end of the article
+
+polymer electrolytes from renewable sources can become a
+promising substitute for synthetic polymers in fuel cells.
+Among natural polymers, polysaccharides are among the
+best candidates due to their abundance in environment [5].
+Chitosan, as a derivative of chitin, is a naturally abundant
+and low-cost biopolymer which has attracted attention in
+various scientific and engineering processes due to its excellent biocompatibility, non-toxicity and chemical and thermal stability [6-8]. The presence of amino groups in the
+glucosamine residue imparts an additional characteristic
+feature to chitosan in comparison to these polysaccharides.
+The positive charge arising due to the highly protonated
+amino functionalities enables chitosan to form polyelectrolyte complexes spontaneously with a wide variety of
+negatively charged polyanions such as lipids, collagen,
+glycosaminoglycans, lignosulfonate, and alginate, as well
+as charged synthetic polymers and DNA through electrostatic interaction [4,7]. The objectives of the present
+review are to investigate the current status of fuel cells
+and advances in utilization of chitosan biopolymer for
+polymer electrolyte membrane technologies.
+Fuel cells
+Fuel cells-relevance and importance
+
+Fuel cells are environmental friendly devices for energy
+conversion, power generation, and one of the most
+promising candidates as zero-emission power sources [2].
+Fuel cells are electrochemical devices which convert the
+
+© 2013 Vaghari et al.; licensee Chemistry Central Ltd. This is an Open Access article distributed under the terms of the Creative
+Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and
+reproduction in any medium, provided the original work is properly cited.
+
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+chemical energy obtained from a redox reaction directly
+into electrical energy [5]. These cells consist of an electrolyte material that is packed between two thin electrodes
+(porous anode and cathode). The input fuel passes over
+the anode and oxygen passes over the cathode where they
+are dissociated catalytically into ions and electrons. The
+electrons pass through an external electrical circuit to
+provide power while the ions move through the electrolyte
+toward the oppositely charged electrode [2,4].
+Fuel cells classification and engineering
+
+Fuel cells are generally characterized by the type of
+electrolyte material. These cells are mainly consisted
+of: Alkaline Fuel Cell (AFC), Molten Carbonate Fuel
+Cell (MCFC), Phosphoric Acid Fuel Cell (PAFC), Proton
+Exchange Membrane Fuel Cell (PEMFC), Solid Oxide Fuel
+Cell (SOFC), and Biofuel Cell [9,10]. Figure 1, compares
+and illustrates the prominent features of these cells [4].
+In the all mentioned fuel cells hydrogen has an important
+role in anode and these fuel cells are known as H2 fuels.
+While, in non-H2 fuel cells including Direct-ethanol fuel
+cells (DEFCs), Direct-methanol fuel cells (DMFCs), Reformed Methanol Fuel Cell (RMFC) and Direct-formic acid
+fuel cells (DFAFCs) other chemical compounds such as
+ethanol, methanol and formic acid act as electron donor in
+anode [11,12]. Fuel cells offer many advantages such as
+high efficiency, high energy density, quiet operation, and
+environmental friendliness [4]. Following parts aim to
+describe some of fuel cell types in more details.
+Alkaline fuel cell (AFC)
+
+AFCs are the first and the only type of cells to have reached
+successful routine applications mainly in space explorations
+such as space shuttle mission in the United States [2].
+As illustrated in Figure 2, AFCs use liquid electrolyte
+solution of potassium hydroxide (KOH) due to its high
+alkaline hydroxide conductibility [9]. The AFCs generate
+
+Figure 1 Comparison of the six types of fuel cells [10].
+
+Page 2 of 12
+
+electricity from hydrogen in which hydroxyl ion (OH−)
+from potassium hydroxide migrates from the cathode
+to the anode. At the anode, hydrogen gas reacts with
+the OH− ions to produce water and release electrons
+[11,12]. The overall reactions are given as below:
+Anode
+Cathode
+
+2H2 þ 4OH− → 4H2 O þ 4e−
+O2 þ 2H2 O þ 4e− → 4OH−
+
+Overall cell reaction:
+2H2 þ O2 → 2H2 O þ electrical energy þ heat
+AFCs offer some advantages over other fuel cells, mainly
+relatively low operating temperature. High-temperature
+AFCs operate at temperatures between 100°C and 250°C.
+However, newer AFC designs operate at much lower temperatures ranging from 23°C to 70°C. Another advantage
+is that higher reaction kinetics at the electrodes results in
+higher cell voltages. This high electrical efficiency permits
+the use of lower quantities of a noble expensive metal
+catalyst like platinum [9]. AFCs produce potable water in
+addition to electricity. Therefore, they have been a logical
+choice for spacecrafts. Most of the AFCs have been
+designed for transport applications [13]. One of the major
+drawbacks of the AFCs is that alkaline cells need very pure
+fuels [9]. It is related to the use of the liquid electrolyte
+[14,15]. The KOH solution is very sensitive to the presence of CO2. When air is used instead of oxygen, the hydroxyl ions may react with CO2 contained in the air and
+an unwanted chemical reaction forms a solid K2CO3
+that interferes with the other chemical reactions inside
+the cell [14,16,17]. Another disadvantage is related to
+the amount of liquid electrolyte. If the liquid is higher
+or below the required level, it can lead to electrode
+flooding or electrode drying [9].
+
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+Page 3 of 12
+
+carbonate ions (CO23 ) from the cathode to the anode [18].
+At the anode, hydrogen oxidation reaction combines with
+carbonate ions producing water and carbon dioxide and
+releasing electrons to the external circuit. At the cathode,
+oxygen is reduced to carbonate ions by combining with
+carbon dioxide and electrons from the external circuit,
+therefore, electrochemical reactions are as below [2]:
+H2 þ CO3 2− → H2 O þ CO2 þ 2e−
+1=
+−
+2−
+2 O2 þ CO2 þ 2e → CO3
+
+Anode
+Cathode
+
+Overall cell reaction:
+H2 þ
+
+Figure 2 Schematic representation of an alkaline fuel cell (AFC) [2].
+
+Molten carbonate fuel cell (MCFC)
+
+As shown in Figure 3, MCFCs are high-temperature fuel
+cells that use an electrolyte composed of a molten carbonate salt mixture (salt of sodium or magnesium carbonate)
+suspended in a porous, chemically inert ceramic lithium
+aluminum oxide (LiAlO2) matrix. In MCFCs the electrolytes are heated to 650°C, and the salts melt and conduct
+
+Figure 3 Schematic representation of a molten carbonate fuel
+cell (MCFC) [2].
+
+1=
+
+2
+
+O2 → H2 O þ electrical energy þ heat
+
+The high operating temperature of these cells limits damage from the carbon monoxide poisoning of the cells and
+waste heat can also be recycled to make additional electricity [19,20]. The primary disadvantage of current MCFC
+technology is durability. High operating temperatures and
+the use of corrosive electrolytes accelerates component
+breakdown and cell life. Scientists are currently exploring
+corrosion-resistant materials for components as well as fuel
+cell designs that can increase cell life without decreasing
+their performance [2].
+Phosphoric acid fuel cell (PAFC)
+
+PAFCs are considered as the first generation of modern
+fuel cells. They are the most mature cell types and the
+first used commercially. Unlike the AFCs which were
+primarily developed for space applications, the PAFCs
+were targeted initially for terrestrial commercial applications with CO2 containing air as the oxidant gas and hydrocarbons (natural gas in particular) as the primary fuel
+for power generation. As the name implies, the PAFCs
+use the phosphoric acid (H3PO4) in highly concentrated
+form (>95%) as its electrolyte and porous carbon electrodes
+containing platinum catalyst which significantly increases
+the cost of the cell [2,21]. Internal parts of PAFCs must be
+able to withstand the corrosive acids [22]. The electrolyte is
+often immobilized in a porous silicon carbid (SiC) matrix
+by capillary action. Pure hydrogen or hydrogen–rich gases
+can be used as fuel and air is almost invariably used as oxidant. PAFCs normally operate at temperatures between
+170°C to 210°C. Because the acid electrolyte is tolerant to
+the presence of CO2 in the reactant gas streams, hydrogen
+produced by steam reforming of organic fuels, such as hydrocarbons (typically natural gas or methane) and alcohols
+(mainly methanol or ethanol) are often used as the anodic
+reactant (Figure 4) [2]. These cells are more efficient (80%)
+when used for the co-generation of electricity and heat
+as compared to generating electricity alone (40–50%)
+[22,23]. Moreover, PAFCs can tolerate a carbon monoxide concentration of about 1.5%, which broadens the
+choice of their use [22].
+
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+Page 4 of 12
+
+In direct methanol fuel cells, the solution of methanol
+and water is fed to the anode where it is internally reformed
+by the catalyst and oxidized to liberate electrons and
+protons. The cathode reaction for DMFC is similar to a
+hydrogen fuel cell [25]. The overall reactions for this
+type of cells are given as below:
+Anode
+Cathode
+Overall
+
+CH3 OH þ H2 O → CO2 þ 6Hþ þ 6e−
+3=2O2 þ 6H þ 6e− → 3H2 O
+CH3 OH þ 3=2 O2 → CO2 þ 2H2 O
+
+Compared to hydrogen fuel cells, DMFC is further
+advantageous for its ease of fuel delivery, storage, operation at low temperature and lack of humidification requirements, as well as its reduced design complexity and
+high power density [26]. Despite these advantages limited
+operating temperatures, susceptibility to osmotic swelling,
+methanol crossover and high costs are among the factors
+hindering the commercialization of DMFC [27].
+Solid oxide fuel cell (SOFC)
+
+Figure 4 Schematic representation of a phosphoric acid fuel
+cell (PAFC) [2].
+
+Proton exchange membrane fuel cell (PEMFC)
+
+Proton exchange membrane fuel cells (PEMFC) also known
+as Polymer electrolyte membrane (PEM) fuel cells are
+consisted of a proton conducting cast in solid polymer
+form. Electrodes are porous carbon containing a platinum
+or ruthenium catalyst. PEMFCs deliver high-power density
+and offer the advantages of low weight and volume, no free
+corrosive liquid and hence longer cell lifetime compared to
+other fuel cells [2]. Schematic representation of a PEMFC is
+shown in Figure 5. There are two types of proton exchange
+membrane fuel cells, namely: hydrogen fuel cells and direct
+methanol fuel cells (DMFC), both of which utilize proton
+exchange membrane to transfer protons [13]. In hydrogen
+fuel cells at the anode, hydrogen is oxidized to liberate two
+electrons and two protons [24]. The protons are conducted
+from the catalyst layer through the proton exchange
+membrane and the electrons travel through the electronic
+circuits. At the cathode, oxygen is reduced to water. The
+overall reactions are given by:
+Anode
+Cathode
+Overall
+
+H2 → 2Hþ þ 2e−
+1=2O2 þ 2Hþ þ 2e− → H2 O
+H2 þ 1=2 O2 → H2 O
+
+Solid oxide fuel cells (SOFCs) are best suited for large-scale
+stationary power generators that are able to provide electricity for factories and towns [11,28]. SOFCs, as shown in
+Figure 6, mainly use a hard ceramic compound of metal,
+such as calcium oxide or zirconium oxide as the electrolyte
+[29]. Hydrogen and carbon monoxide can be used as the
+reactive fuels in SOFCs [30]. SOFCs are expected to be
+around 50%–60% efficient at converting fuel to electricity.
+In applications designed to capture and utilize the system’s
+waste heat (co-generation), overall fuel use efficiencies
+could be up to 80–85%. Solid oxide fuel cells operate at
+very high temperatures of 1000°C. The oxygen is supplied,
+usually from air at the cathode. At these high temperatures,
+oxygen ions (with a negative charge) migrate through the
+crystal lattice. When a fuel gas containing hydrogen passes
+over the anode, a flow of negatively charged oxygen ions
+move across the electrolyte to oxidize the fuel [31]. When
+hydrogen is used as the fuel the reactions c [30]:
+Anode
+H2 þ
+
+1=
+2
+
+H2 þ O2− → H2 O þ 2e−
+O2 → H2 O þ electrical energy þ heat
+
+And when carbon monoxide is the fuel the reactions are:
+Anode
+CO þ O2− → CO2 þ 2e−
+Cathode 1=2 O2 þ 2e− → O2−
+Overall CO þ 1=2 O2 → CO2
+High-temperature operation removes the need for
+precious-metal catalyst, thereby reducing the cost.
+However, the high temperature limits applications of
+SOFCs units and they tend to be rather large, while
+solid electrolytes cannot leak, they can crack [32].
+
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+Page 5 of 12
+
+Figure 5 Schematic representation of a proton exchange membrane fuel cell (PEMFC) [4].
+
+Biofuel cell
+
+Microorganisms are able to convert enormous amounts
+of energy from an incomparable range of chemical substrates [33]. Biofuel cells are a subset of fuel cells that
+employ biocatalysts such as a microbe, enzyme or even
+
+organelle interacting with an electrode surface [34,35]. The
+main types of biofuel cells are defined by the type of biocatalyst. Microbial fuel cells employ living cells to catalyze the
+oxidation of the fuel, whereas enzymatic fuel cells use enzymes for this purpose [36]. These types of catalysts offer
+great benefits in catalytic activity, specificity and cost. However, development and full evaluation of these dynamic and
+often sensitive bioelectrochemical systems require a diverse
+range of expertise [33]. Biofuel cells like other ones require
+porous anode and cathode structures that support fuel
+transport to the catalyst reaction sites [36]. Either a
+polymer electrolyte membrane or a salt bridge can separate the electrodes. The two main application areas
+that are being considered for enzymatic biofuel cells are
+in vivo, implantable power supplies for sensors and
+pacemakers and ex-vivo power supplies for small portable power devices (wireless sensor networks, portable
+electronics, etc.) [33].
+Enzymatic fuel cell (EFC)
+
+Figure 6 Schematic representation of a solid oxide fuel cell
+(SOFC) [2].
+
+Enzymatic fuel cells (EFCs) which replace expensive metal
+catalysts with cheap enzymes are still in an early stage of
+their development [33]. A conventional EFC is shown in
+Figure 7. Enzymes have the advantage of specificity which
+can eliminate the use of a membrane separator. EFCs typically possess orders of magnitude higher power densities
+(although still lower than conventional fuel cells), but have
+limited lifetime (typically 7–10 days) due to the fragile
+nature of the enzyme and have low efficiency as only a
+single type of enzyme is employed and can only partially
+
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+Page 6 of 12
+
+Microbial fuel cell (MFC)
+
+Microbial fuel cells (MFCs) employ living cells [36].
+MFCs are obtained when catalyst layer used into classical
+fuel cells (polymer electrolyte fuel cell) is replaced with
+electrogenic bacteria [43]. Figure 8 represents a schematic
+of MFCs. As clearly observed in this figure, the substances
+(organics represented as chemical oxygen demand) are oxidized to CO2 by microorganisms, which transfer the gained
+electrons to the anode. At the cathode, the electrons are
+used to reduce oxygen abiotically or biotically to produce
+water. To maintain electro neutrality within the system,
+positive charges have to migrate from the anode to the
+cathode through an ion-permeable separator (for example a cation exchange membrane) [44]. The current
+advantages of MFCs are that they have long lifetimes
+(up to five years) and are capable of completely oxidizing simple sugars to carbon dioxide [45-47]. However,
+they deliver low power densities owing to slow transport
+across cellular membranes [48]. MFCs are a promising
+technology for efficient wastewater treatment and generating energy as direct electricity for onsite remote application [43].
+Polymer membranes for fuel cells
+
+Figure 7 Schematic representation of an enzymatic fuel cell
+(EFC) [36].
+
+oxidize the fuel [37,38]. This is in contrast to living cells
+that multistep enzymatic cycles (i.e. Kreb’s cycle) and
+pathways (i.e. glycolysis) can completely oxidize biofuels
+(e.g. ethanol, lactate and glucose) to carbon dioxide and
+water [36]. There are a number of strategies for solving
+these problems. Firstly, in terms of maximizing power
+density biofuel cell, anodes should poss multidimensional
+and multidirectional pore structures [39]. They should be
+able to optimize the need for surface area. Secondly,
+the successful immobilization of multienzyme systems
+that can completely oxidize the fuel to carbon dioxide
+is needed [40,41]. Finally, the anode must support efficient charge transfer mechanisms whether it is direct
+or mediated and balance electron transfer with proton
+transfer [36]. Several enzymes such as glucose oxidase,
+alcohol dehydrogenase, formate dehydrogenase, lactic
+dehydrogenase, glucose dehydrogenase and formaldehyde
+dehydrogenase were successfully immobilized and used in
+EFCs to date [42].
+
+Interest in some kinds of fuel cell technologies dropped
+owing to economic factors, material problems, and certain
+inadequacies in the operation of electrochemical devices
+[49]. One of the main drawbacks of the fuel cells is related
+to the use of the liquid electrolyte. Using a polymer membrane as an electrolyte can solve some limiting requirements of fuel cells. For instance the essentially need for
+using pure fuels in AFCs have been overcome by using
+a polymer membrane as an electrolyte [14,15]. Fuel cell
+membranes must meet several desired properties such
+as high proton conductivity, low electronic conductivity,
+
+Figure 8 Schematic representation of a microbial fuel cell
+(MFC) [44].
+
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+impermeability to fuel gas or liquid, good mechanical
+toughness in both the dry and hydrated states, and
+high oxidative and hydrolytic stability in the actual
+fuel cell environment [4]. These properties are related
+to properties such as ion exchange capacity, morphology and water uptake that must be assessed as
+well when characterizing potential of a new fuel cell
+membrane [9].
+Recent development of proton exchange membranes
+
+The first polymer electrolyte membrane (PEM) used in a
+fuel cell system was sulfonated polystyrene membrane. It
+was developed by General Electric for NASA in the early
+1960s, as on-board power source in the Apollo flight
+space mission [50]. However, this material was found to
+have several major weaknesses such as lack of stability
+and limited power density [51]. Currently, most commercially available membranes for fuel cells are based
+on perfluorosulfonic acid (PFSA) polymer membranes
+(e.g., Nafion, Flemion and Acipex) [4].
+Commercial PEMs have many advantages such as high
+proton conductivities at moderate operating temperatures
+and wide range of relative humidities as well as good
+physical and chemical stabilities. There are, however,
+several drawbacks which have limited PFSA’s application
+including its high cost, high methanol permeability and
+environmental incompatibility with other materials [27].
+To overcome these obstacles, extensive efforts have been
+made to develop alternative low-cost membranes as potential PEMs. Most current development strategies have
+used modified PFSA polymers (partially fluorinated), acid
+functionalized aromatic hydrocarbon-based polymers or a
+number of sulfonated aromatic polymers and composite
+membranes. Composite membrane incorporates inorganic
+materials, acids or other polymers into a polymer matrix
+[4]. The modification efforts of PFSA membrane have been
+focused on minimizing the methanol crossover which is
+particularly serious in the DMFC system. Aromatic fluorinated polymers have been emphasized not only due to the
+high cost of PFSA but also other fuel cell associated characteristics such as high mechanical and thermal stability,
+chemicals, acids and bases, good resistance to oxidation
+and very interesting surface properties [52]. Most alternative polymer membranes are summarized in Table 1.
+
+Page 7 of 12
+
+CO2. The conducting species is now in a fixed solid polymer, therefore, there will be some carbonates due to the
+reaction of the OH– with CO2 but because there are no
+mobile cations (K+), solid crystals of metal carbonate will
+not be formed to block the gas diffusion electrodes. The
+main idea behind employing an anion exchange membrane
+(AEM) in an AFC is to improve the AFC’s efficiency and
+life (slow down performance degradation with time) [9].
+Important challenges for the preparation of an efficient
+AEM are ionic conductivity and mechanical stability.
+Table 2 offers an overview of the various polymeric materials that are or can be used in AFCs.
+Chitosan biopolymer for fuel cell applications
+
+Chitosan, as a natural polymer, is one of the promising
+membrane materials and has been studied widely. As
+shown in Figure 9, it is the N-deacetylated derivative of
+chitin which is naturally abundant polysaccharide and
+the supporting material of crustaceans, insects, etc.
+Chitin is easily obtained from crabs or shrimp shells
+and fungal mycelia. Chitosan is inert, hydrophilic and
+is insoluble in water, alkali and organic solvents. Its
+solubility in dilute organic acids allows for gel formation
+in various configurations. Chitosan has been studied as
+membrane material for ultrafiltration, reverse osmosis,
+pervarporation, and lithium batteries [8]. The removal of
+proteins in chitin by heat treatment causes its deacetylation
+simultaneously. Free amine and hydroxyl functional groups
+on the chitosan’s backbone enable various chemical modification of chitosan to tailor it for specific applications
+such as polymer electrolyte membrane for the separation
+of metal ions, amino acids and protein by adsorption,
+ultrafiltration, electro-ultrafiltration, fuel cell application
+and pervaporation [83]. Utilization of a chitosan biopolymer for fuel cell technologies is novel and challenging
+where biological products are usually considered as waste,
+non-hazardous, low cost and environmentally benign [84].
+Chitosan-based membranes are easily formed and have
+high hydrophilicity, good chemical and thermal stability
+[4]. Chitosan, as a natural abundant biopolymer is receiving great interest as materials for both membrane
+electrolyte and electrode in various fuel cells such as
+polymer electrolyte-based fuel cell including alkaline
+polymer electrolyte fuel cells, direct methanol fuel cells
+and biofuel cells [5].
+
+Recent development of anion exchange membranes
+
+In the solid AFC, the Anion Exchange membrane (AEM)
+is one of the core components. In order to improve fuel
+cell performance, the membrane must possess certain
+properties. The role of the membrane is carrier for ion
+(ionic conductor) and a barrier for gas and electrons
+(electronic insulator). The most important advantage of
+using a solid anion exchange membrane instead of a liquid
+electrolyte in AFCs is to eliminate the negative effects of
+
+Current advances in application of chitosan biopolymer
+as electrolyte membrane in fuel cells
+
+Membrane is the core component of PEMFCs. Considering
+that polymer membrane electrolyte is the most expensive
+component of a polymer electrolyte-based fuel cell, the use
+of low-cost chitosan-based membrane might bring down
+the cost of a fuel cell [5]. Chitosan-based membrane electrolyte is being studied as alternative candidate for polymer
+
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+Page 8 of 12
+
+Table 1 Alternative polymer membranes used in fuel cell
+Alternative polymer membranes
+
+References
+
+Alternative polymer membranes
+
+References
+
+The depositing of thin plasma polymerized barrier
+films on NafionW membrane
+
+[53]
+
+sulfonated poly(ether ether ketone) (SPEEK)
+
+[54]
+
+NafionW/silicon oxide
+
+[55]
+
+Poly methyl methacrylate (MAA)
+
+[4]
+
+NafionW/Pd
+
+[56]
+
+PVA
+
+[4]
+
+Nafion/Pd-Ag alloy
+
+[57]
+
+Poly vinyl sulfonic acid (PVS)
+
+[4]
+
+plasma-etched membrane,
+
+[58]
+
+Sulfonated poly(arylene ether sulfone) (BPSH)
+
+[59]
+
+NafionW with montmorillonite (MMT) and MMT containing
+dodecylamine (m-MMT) membranes
+
+[60]
+
+Poly p-Styrene carboxylic (SCA)
+
+[4]
+
+NafionW/polypyrrole
+
+[61]
+
+Dimethylaminoethyl methacrylate (DMAEMA)
+
+[4]
+
+NafionW/polyvinyl alcohol (PVA)
+
+[62]
+
+Polyphosphazene (PPh)
+
+[63,64]
+
+[65,66]
+
+Polybenzimidazole (PBI)
+
+[67,68]
+
+[69]
+
+Sulfonated poly(phthalazinone ether ketone) (SPPEK)
+
+[70]
+
+Pd-sputtered membrane,
+plasma etched and Pd-sputtered membrane
+
+W
+
+Nafion /phosphotungstic acid-impregnated silicon
+dioxide (SiO2/PWA),
+NafionW/SiO2,
+NafionW/alumina (b-Al2O3)
+NafionW/zirconium phosphate (ZrP)
+α,β,β-trifluorostyrene (TFS)
+
+[71]
+
+PVA/PWA
+
+[72]
+
+TFS/styrene
+
+[73]
+
+PVA/PWA and silica
+
+[74]
+
+TFS/vinyl fluoro monomers
+
+[75]
+
+SPEEK/Synthetic non-spherical silicates
+
+[76]
+
+polytetrafluoroethylene (PTFE)
+
+[77]
+
+SPEEK/Zirconia (ZrO2)
+
+[78]
+
+Poly (ethylene glycol) (PEG)
+
+[4]
+
+PVA/Polystyrene sulfonic acid (PSSA)
+
+[79]
+
+Poly (ethylene-alt tetrafluoroethylene) (ETFE)
+
+[77]
+
+PBI/Sulfonated polysulfone (SPf)
+
+[80]
+
+Sulfonated polyimides (SPI)
+
+[81]
+
+Polysulfone (PSf)/PEG
+
+[82]
+
+electrolyte membrane application to possibly produce
+economical fuel cells [5]. To achieve high efficiency,
+membrane must possess as mentioned before some desirable properties [83]. Modification of chitosan such as
+sulfonation, phosphorylation, quaternization, chemical
+cross-linking makes it cost-effective polymer electrolyte
+membrane with low methanol permeability and suitable
+ion conductivity especially at high temperature [3].
+
+Polystyrene (PS) was introduced to form an interpenetrating
+network with quaternized chitosan. Polystyrene is more
+hydrophobic than quaternized chitosan and has good
+mechanical strength. It was found that introduction of PS
+improves tensile strength, and yet reduces elongation.
+The addition of PS enabled the quaternary ammonia-based
+membranes to have a higher tolerance to bases. However,
+the membranes with a higher PS exhibit lower ionic conductivity due to the PS are a nonionic conductor [91].
+
+Chitosan membrane for AFCs
+
+Recently, derivatives of chitosan were created to serve
+as novel polyelectrolytes for AFCs. N-[(2-Hydroxy-3trimethylammonium) propyl] chitosan chloride was synthesized, followed by cross-linking with glutaraldehyde
+[85]. Crosslinked quaternized-PVA has a low mechanical
+strength; therefore, Xiong et al. blended this polymer with
+chitosan to improve their performance [86]. The obtained
+composite membranes have more compact structure and
+good mechanical strength. Wan et al. examined the ionic
+conductivity of different chitosan membranes, such as pure
+chitosan membranes with different degree of deacetylation
+and molecular weight, di-o-butyrylchitosan, epichlorohydrin or glutaraldehyde cross-linked chitosan and proposed
+that they are suitable for use in alkaline fuel cells [87-90].
+
+Chitosan membrane for DMFC
+
+For application in a DMFC, polymer electrolyte membrane
+needs to have a low methanol crossover. The commonly
+used Nafion membrane has relatively high methanol permeability. Chitosan has been employed as a promising
+polymeric matrix for DMFC application considering its low
+cost, desirable alcohol barrier property and proton conductivity as well as adequate thermal stability after cross-linking
+[26,92]. In its dry state, chitosan has a very low electrical
+conductivity. The addition of salts leads to the formation
+of complex between salts and chitosan matrix, and also
+enhancement of its amorphous nature [93]. Plasticization
+is able to increase the amorphous content and thus improves the conductivity of a solid polymer electrolyte
+
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+Page 9 of 12
+
+Table 2 Anion exchange membranes used in AFCs [9]
+Anion exchange membranes
+PVA/TiO2 cross-linked
+
+Tetra alkyl ammonium Functionalized polyethylene
+
+PVA/KOH
+
+PVA/poly(1,3-diethyl-1 vinyl imidazolium bromide)
+
+PVA/PEO/KOH
+
+Cationic poly (phenylene)
+
+PVA/PECH/KOH
+
+Quaternized/cross-linked PVA-chitosan
+
+PVA/TEAC/KOH
+
+PSU/trimethyl ammonium
+
+PVA/PAA
+
+Carboxylic Nafion 117
+
+PVA-poly(acrylonitrile-co −2-dimethylaminoethylmethacrylate)
+
+Sulfonic Nafion
+
+PBI/KOH
+
+Chitosan
+
+PEO–[Si(OCH3)3 2(+)
+
+N-[(2-hydroxy-3trimethylammonium)propyl] chitosan
+
+PVA–[Si(OCH3)3 2(+)
+
+Poly(methyl methacrylate-co-butyl-acrylate-co-vinyl benzyl
+
+Alkoxysilane/acrylate or epoxy alkoxysilane
+
+Crosslinked ionic liquid
+
+Tetra alkyl ammonium functionalized cyclooctene
+
+Quaternary ammonia polysulfone
+
+Poly(methyl methacrylate-co butyl-acrylate-co-vinyl benzyl
+
+Polyarylene sulfonium membrane
+
+[94]. Cross-linking is proposed to reduce crystallinity
+of chitosan membrane and simultaneously enhance the
+ionic transport [95]. Chitosan is hydrophilic and consequently has a high degree of swelling. An excessively
+high level of water uptake increases the fragility of the
+membrane and makes it less durable in fuel cells.
+To overcome the disadvantage of loss in mechanical
+strength in the wet state, chitosan is blended with tough
+polymers such as polyvinyl pyrrolidone (PVP) [96]. Mat,
+et al. fabricated a polymer electrolyte composite membrane that comprises of chitosan, PVA and calcium
+oxide (CaO). These results indicate that chitosan-PVACaO composite membranes have excellent methanol
+barrier properties which in turn make them feasible for
+DMFC applications [3].
+
+Figure 9 Chemical structure of chitin (a) chitosan (b) [8].
+
+Current advances in application of chitosan biopolymer
+as electrode in fuel cells
+
+An electrode in a polymer electrolyte-based fuel cell
+usually consists of supported or unsupported catalyst
+with or without binder loaded on an electrode substrate or a gas diffusion layer. Polymeric materials are
+often employed as binder to bond catalyst particles and
+also provide ionic conduction [5]. Nafion material is
+also used as electrode binder which facilitates ionic
+conduction that provides mechanical support for catalyst
+particles and enhances dispersion of catalyst particles
+in the catalyst layer. Nafion possesses many desirable
+properties as a polymer electrolyte, and yet it is very
+expensive and loses ionic conductivity if not sufficiently hydrated [5]. The chitosan binder exhibited
+better performance than a Nafion binder especially at
+elevated cell temperatures, ascribed to the hydrophilic
+nature and water retention characteristics of chitosan.
+In addition, the amount of required chitosan binder
+for making electrode is much less than that of Nafion
+binder [97]. Klotzbach et al. modified chitosan with
+butanal, hexanal, octanal or decanal aldehydes to prepare
+a biocompatible and biodegradable hydrophobic chitosan
+membrane that can replace Nafion for electrode coatings in both sensor and fuel cell applications [98,99].
+Functionalization of carbon nanotube by chitosan introduces positively charged functional groups on the surface
+of carbon nanotube which serves as a medium to stabilize
+and anchor metal nanoparticles through electrostatic
+self-assembly and also provides proton path for methanol
+electrooxidation reactions [100]. Wang et al. reported that
+chitosan/tungstophosphoric acid modified Pt/C catalyst
+demonstrated higher utilization efficiency as compared to
+pristine Pt/C catalyst [101].
+
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+Chitosan for biofuel cells
+
+To develop a stable enzymatic biofuel cell, a matrix for
+enzyme immobilization is critical to retain the activity of
+enzyme in a long period [102]. Carboxyl and amine side
+groups of chitosan can serve as protein-binding ligands
+for enzyme immobilization [103-105]. Three-dimensional
+electrodes possessing multidimensional and multidirectional pore structures are possible solution to improve
+performance of a biofuel cell. Chitosan scaffold was used
+to fabricate enzymatic electrode that oxidizes glucose and
+produce electrical current more effectively than the same
+electrode made of a chitosan film [106]. The large pore
+size of chitosan scaffold enables it to support bacterial
+colonization of internal pores without increasing flow
+resistance [107]. It was reported that carbon nanotube/
+chitosan nanocomposite bioelectrode enhanced the
+electricity generation of microbial fuel cells [108-110].
+Conclusion and perspective
+
+Fuel cells are often regarded as one of the advanced energy
+technologies for the future. However, commercialization of
+fuel cells is still a subject of the ongoing research. The
+development of PEMFC power system has been accelerated for vehicular and home-use applications. Pure
+hydrogen fuel appears likely to be the appropriate
+choice for vehicle applications. Although fuel cell technology has matured substantially over the past decades,
+special attention has to be given to composite techniques
+in developing electrolyte membrane since these techniques have proven their effectiveness. It is necessary
+to develop alternative membranes that have high ionic
+conductivity and have sufficient mechanical strength
+and chemical stability to be made as thin as possible.
+Recently, many efforts have been made in utilization of
+chitosan with improved properties for being used as a
+polymer electrolyte membrane and electrode in fuel
+cells. These chitosan based membranes generally do
+not offer significant advantages over traditional Nafion
+membrane as far as proton conductivity is concerned
+and as a result the corresponding power density of related
+fuel cells is also lower than Nafion-based ones. The intrinsic
+ionic conductivity of chitosan-based membrane, therefore,
+needs to be further improved for fuel cell application.
+The mechanical strength and shelf life of chitosan also
+need further enhancements which have not been given
+extensive attention to date. Efforts have been made to
+improve properties of chitosan membrane, including
+chemical modification such as sulfonation, phosphorylation,
+quaternization and formation of chitosan composite. These
+methods improve some properties of chitosan with or
+without sacrificing the others. Application of chitosan
+composite membranes has been proved to be effective
+approach in reducing their cost as well as improving
+their operating reliability.
+
+Page 10 of 12
+
+Competing interests
+The authors declare that they have no competing interests.
+Authors’ contributions
+HV, HJM, AB and NA have contributed mainly to the study of application of
+chitosan in fuel cells, participated in the sequence alignment and drafted the
+manuscript. All authors read and approved the final manuscript.
+Author details
+1
+Department of Chemical Engineering, Sahand University of Technology,
+Tabriz, Iran. 2School of Chemical and Biomolecular Engineering, The
+University of Sydney, Sydney, Australia. 3Department of Engineering, Science
+and Research Branch, Islamic Azad University, Tabriz, Iran.
+Received: 25 March 2013 Accepted: 7 August 2013
+Published: 11 September 2013
+References
+1. Berenjian A, Chan N, Jafarizadeh Malmiri H: Volatile organic compounds
+removal methods: A review. Am J Biochem Biotechnol 2012, 8:220–229.
+2. Xianguo L: Principles of Fuel Cells. New York London: Taylor and Francis
+group; 1962.
+3. Mat NC, Liong A: Chitosan-poly (vinyl alcohol) and calcium oxide
+composite membrane for direct methanol fuel cell applications.
+Eng Letters 2009, 17:301–304.
+4. Ye YS, Rick J, Hwang BJ: Water soluble polymers as proton exchange
+membranes for fuel cells. Polymers 2012, 4:913–963.
+5. Ma J, Sahai Y: Chitosan biopolymer for fuel cell applications.
+Carbohydr Polym 2013, 92:955–975.
+6. Varshney P, Gupta S: Natural polymer-based electrolytes for
+electrochemical devices: a review. Ionics 2011, 17:479–483.
+7. Dash M, Chiellini F, Ottenbrite RM, Chiellini E: Chitosan-A versatile semi-synthetic
+polymer in biomedical applications. Prog Polym Sci 2011, 36:981–1014.
+8. Jafarizadeh Malmiri H, Jahanian MA, Berenjian A: Potential applications of
+chitosan nanoparticles as novel support in enzyme immobilization.
+Am J Biochem Biotechnol 2012, 8:203–219.
+9. Merle G, Wessling M, Nijmeijer K: Anion exchange membranes for alkaline
+fuel cells: A review. J Membr Sci 2011, 377:1–35.
+10. Winter M, Brodd RJ: What are batteries, fuel cells, and supercapacitors?
+Chem Rev 2004, 104:4245–4270.
+11. Cooper HW: A future in fuel cells. Chem Eng Progress 2007, 103:34–43.
+12. Sopian K, Wan Daud RW: Challenges and future developments in proton
+exchange membrane fuel cells. Renew Energy 2006, 35:719–727.
+13. Odeh AO, Osifo P, Noemagus H: Chitosan: a low cost material for the
+production of membrane for use in PEMFC-A review. Energ Sources Part A
+2013, 35:152–163.
+14. Gülzow E, Schulze M: Long-term operation of AFC electrodes with CO2
+containing gases. J Power Sources 2004, 127:243–251.
+15. Gouérec P, Poletto L, Denizot J, Sanchez-Cortezon E, Miners JH: The
+evolution of the performance of alkaline fuel cells with circulating
+electrolyte. J Power Sources 2004, 129:193–204.
+16. Schulze M, Gülzow E: Degradation of nickel anodes in alkaline fuel cells.
+J Power Sources 2004, 127:252–263.
+17. Chakrabarty B, Ghoshal AK, Purkait MK: SEM analysis and gas permeability
+test to characterize polysulfone membrane prepared with polyethylene
+glycol as additive. J Coll Interface Sci 2008, 320:245–253.
+18. Bischoff M: A high temperature fuel cell on the edge to
+commercialization. J Power Sources 2006, 160:842–845.
+19. Amorelli A, Wilkinson MB, Bedont P, Capobianco P, Marcenaro B, Parodi F,
+Torazza A: An experimental investigation into the use of molten
+carbonate fuel cells to capture CO2 from gas turbine exhaust gases.
+Energy 2004, 29:1279–1284.
+20. Kim YJ, Chang IG, Lee TW, Chung MK: Effects of relative gas flow direction
+in the anode and cathode on the performance characteristics of a
+molten carbonate fuel cell. J Membr Sci 2010, 89:1019–1028.
+21. Cheddie DF, Munroe NDH: A two-phase model of an intermediate
+temperature PEM fuel cell. Int J Hydrogen Energy 2007, 32:832–841.
+22. Sammes N, Bove R, Stahl K: Phosphoric acid fuel cell: Fundamentals and
+applications. Curr Opin Solid State Mater Sci 2004, 8:372–378.
+23. Acres GJK: Recent advances in fuel cells technology and its applications.
+J Power Sources 2001, 100:60–66.
+
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+24. Hoogers G: Fuel cell technology handbook. In Edited by Hoogers G. Boca
+Raton: FL: CRC Press; 2003:8–39.
+25. Kreuer KD: On the development of proton conducting polymer
+membranes for hydrogen and methanol fuel cells. J Membr Sci 2001,
+185:29–39.
+26. Ramirez-Salgado J: Study of basic biopolymers as proton membrane for
+fuel cell systems. Electrochim Acta 2007, 52:3766–3778.
+27. Othman MHD, Ismail AF, Mustafa A: Recent development of polymer
+electrolyte membranes for direct methanol fuel cell application – A review.
+Malaysian Polym J 2010, 5:1–36.
+28. Matelli JA, Bazzo E: A methodology for thermodynamic simulation of
+high temperature internal reforming fuel cell systems. J Power Sources
+2005, 142:160–168.
+29. Song SJ, Moon JH, Lee TH, Dorris SE, Balachandran U: Thickness dependence
+of hydrogen permeability for Ni-BaCe0.8Y0.2O3-δ. Solid State Ion 2008,
+179:1854–1857.
+30. Bagotsky VS: Fuel cells: problems and solutions. In Edited by Bagotsky VS.
+Hobken, New Jersy: John Wiley & Sons Inc; 2009:45–70.
+31. Xie Y, Xue X: Transient modeling of anode-supported solid oxide fuel
+cells. Int J Hydrogen Energy 2009, 34:6882–6891.
+32. Offer GJ, Brandon NP: The effect of current density and temperature on
+the degradation of nickel cermet electrodes by carbon monoxide in
+solid oxide fuel cells. Chem Eng Sci 2009, 64:2291–2300.
+33. Moehlenbrock MJ, Arechederra RL, Sjoholm KH, Minteer SD: Analytical
+techniques for characterizing enzymatic biofuel cells. Anal chem 2009,
+81:9538–9545.
+34. Arechederra RL, Minteer SD: Organelle-based biofuel cells: Immobilized
+mitochondria at carbon paper electrodes. Electrochim Acta 2008, 53:6698–6703.
+35. Palmore GTR: Bioelectric power generation. Trends Biotechnol 2004, 22:99–100.
+36. Minteer SD, Liaw BY, Cooney MJ: Enzyme-based biofuel cells. Curr Opin
+Biotechnol 2007, 18:228–234.
+37. Barton SC, Gallaway J, Atanassov P: Enzymatic biofuel cells for implantable
+and microscale devices. Chem Rev 2004, 104:4867–4886.
+38. Kim J, Jia H, Wang P: Challenges in biocatalysis for enzymebased biofuel
+cells. Biotechnol Adv 2006, 24:296–308.
+39. Katz E, Lioubashevski O, Willner I: Magnetic field effects on bioelectrocatalytic
+reactions of surface-confined enzyme systems: enhanced performance of
+biofuel cells. J Am Chem Soc 2005, 127:3979–3988.
+40. Arning MD, Treu BL, Minteer SD: Citric acid cycle biomimic in an
+ammonium salt modified nafion membrane for fuel cell applications.
+Polym Mater Sci Eng 2004, 90:566–569.
+41. Beilke MC, Minteer SD: Immobilization of glycolysis enzymes in
+hydrophobically modified Nafion. Polym Mater Sci Eng 2006, 94:556–557.
+42. Aranaz I, Harris R, Heras A: Chitosan amphiphilic derivatives, chemistry
+and applications. Curr Org Chem 2010, 14:308–330.
+43. Scott K, Yu EH, Ghangrekar MM, Erable B, Duteanu NM: Biological and
+microbial fuel cells. Compr Renew Energy 2012, 4:277–300.
+44. Virdis B, Freguia S, Rozendal RA, Rabaey K, Yuan Z, Keller J: Microbial fuel
+cells. Treatise Water Sci 2011, 4:641–665.
+45. Moon H, Chang IS, Kim BH: Continuous electricity production from
+artificial wastewater using a mediator-less microbial fuel cell. Bioresource
+Tech 2005, 97:621–627.
+46. Kim BH, Chang IS, Gil GC, Park HS, Kim HJ: Novel BOD sensor using
+mediator-less microbial fuel cell. Biotechnol Lett 2003, 25:541–545.
+47. Bond DR, Lovely DR: Evidence for involvement of an electron shuttle in
+electricity generation by Geothrix fermentans. Appl Environ Microbiol 2005,
+71:2186–2189.
+48. Davis F, Higso SPJ: Biofuel cells-Recent advances and applications. Biosens
+Bioelectron 2007, 22:1224–1235.
+49. Gülzow E: Alkaline fuel cells: a critical view. J Power Sources 1996, 61:99–104.
+50. Zaidi SMJ: Development of proton conducting composite membranes for fuel
+cell applications, PhD Thesis. Laval University; 2000.
+51. Souzy R, Ameduri B: Functional fluoropolymers for fuel cell membranes.
+Prog Polym Sci 2005, 30:644–687.
+52. Souzy R, Ameduri B, Boutevin B: Functional fluoropolymers for fuel cell
+membranes. Prog Polym Sci 2004, 29:75–106.
+53. Feichtinger J, Galm R, Walker M, Baumgartner KM, Schulz A, Rauchle E,
+Schumacher U: Plasma polymerized barrier films on membranes for
+direct methanol fuel cells. Surf Coat Technol 2001, 142–144:181–186.
+54. Li L, Zhang J, Wang Y: Sulfonated poly (ether ether ketone) membranes
+for direct methanol fuel cell. J Membr Sci 2003, 226:159–167.
+
+Page 11 of 12
+
+55. Jung DH, Cho SY, Peck DH, Shin DR, Kim JS: Performance evaluation of a
+Nafion/silicon oxide hybrid membrane for direct methanol fuel cell.
+J Power Sources 2002, 106:173–177.
+56. Yoon SR, Hwang GH, Cho WI, Oh IH, Hong SA, Ha HY: Modification of
+polymer electrolyte membranes for DMFCs using Pd films formed by
+sputtering. J Power Sources 2001, 106:215–223.
+57. Ma ZQ, Cheng P, Zhao TS: A palladium-alloy deposited Nafion membrane
+for direct methanol fuel cells. J Membr Sci 2003, 215:327–336.
+58. Choi WC, Kim JD, Woo SI: Modification of proton conducting membrane
+for reducing methanol crossover in a direct-methanol fuel cell.
+J Power Sources 2001, 96:411–414.
+59. Kim YS, Hickner MA, Dong L, Pivovar BS, McGrath JE: Sulfonated poly
+(arylene ether sulfone) copolymer proton exchange membranes:
+Composition and morphology effects on the methanol permeability.
+J Membr Sci 2004, 243:317–326.
+60. Jung DH, Cho SY, Peck DH, Shin DR, Kim JS: Preparation and performance
+of a NafionW/montmorillonite nanocomposite membrane for direct
+methanol fuel cell. J Power Sources 2003, 118:205–211.
+61. Smit EA, Ocampo AL, Espinosa-Medina MA, Sebastian PJ: A modified
+Nafion membrane with in situ polymerized polypyrrole for the direct
+methanol fuel cell. J Power Sources 2003, 124:59–64.
+62. Shao ZG, Wang X, Hsing IM: Composite Nafion/polyvinyl alcohol membranes
+for the direct methanol fuel cell. J Membr Sci 2002, 210:147–153.
+63. Zhou X, Weston J, Chalkova E, Hofmann MA, Ambler CM, Allcock HR, Lvov SN:
+High temperature transport properties of polyphosphazene membranes
+for direct methanol fuel cells. Electrochim Acta 2003, 48:2173–2180.
+64. Guo Q, Pintauro PN, Tang H, O’Connor S: Sulfonated and crosslinked
+polyphosphazene-based proton-exchange membranes. J Membr Sci 1999,
+154:175–181.
+65. Arico AS, Baglio V, Blasi AD, Creti P, Antonucci PL, Antonucci V: Influence of
+the acid–base characteristics of inorganic fillers on the high temperature
+performance of composite membranes in direct methanol fuel cells.
+Solid State Ion 2003, 161:251–265.
+66. Antonucci PL, Arico AS, Creti P, Ramunni E, Antonucci V: Investigation of a
+direct methanol fuel cell based on a composite Nafion-silica electrolyte
+for high temperature operation. Solid State Ion 1999, 125:431–437.
+67. Pivovar BS, Wang Y, Cussler EL: Pervaporation membranes in direct
+methanol fuel cells. J Membr Sci 1999, 154:155–162.
+68. Jones DJ, Rozière J, Marrony M: High temperature DMFC stack operating
+with non-fluorinated membranes. Fuel Cells Bulletin 2005.
+69. Bauer F, Porada MW: Microstructural characterization of Zr-phosphate-NafionW
+membranes for direct methanol fuel cell (DMFC) applications. J Membr Sci
+2004, 233:141–149.
+70. Nunes SP, Ruffmann B, Rikowski E, Vetter S, Richau K: Inorganic
+modification of proton conductive polymer membranes for direct
+methanol fuel cells. J Membr Sci 2002, 203:215–225.
+71. Cohen SG, Wolosinski HT, Scheuer PJ: α, β, β-trifluorostyrene and α-chloro
+-β, β-difluorostyrene. J Am Chem Soc 1949, 71:3439–3440.
+72. Lin CW, Thangamuthu R, Yang CJ: Proton-conducting membranes with
+high selectivity from phosphotungstic acid-doped poly(vinyl alcohol) for
+DMFC applications. J Membr Sci 2005, 253:23–31.
+73. Prober M: The synthesis and polymerization of some fluorinated
+styrenes. J Am Chem Soc 1953, 75:968–973.
+74. Xu W, Liu C, Xue X, Su Y, Lv Y, Xing W, Lu T: New proton exchange
+membranes based on poly (vinyl alcohol) for DMFCs. Solid State Ion
+2004, 171:121–127.
+75. Tevlina AS, Ivankin AN, Korshak VV, Baranova NP, Nikitina TS, Rokhlin EM:
+Copolymerization of a, b, b-trifluorostyrene with some vinyl monomers.
+Viniti 1981, 12:127–181.
+76. Karthikeyan CS, Nunes SP, Prado LASA, Ponce ML, Silva H, Ruffmann B,
+Schulte K: Polymer nanocomposite membranes for DMFC application.
+J Membr Sci 2005, 254:139–146.
+77. Połtarzewski Z, Wieczorek W, Przyłuski J, Antonucci V: Novel proton
+conducting composite electrolytes for application in methanol fuel cells.
+Solid State Ion 1999, 119:301–304.
+78. Silva VS, Ruffmann B, Silva H, Gallego YA, Mendes A, Madeira LM, Nunes SP: Proton
+electrolyte membrane properties and direct methanol fuel cell performance: I.
+Characterization of hybrid sulfonated poly(ether ether ketone)/zirconium oxide
+membranes. J Power Sources 2005, 140:34–40.
+79. Wu H, Wang Y, Wang S: A methanol barrier polymer electrolyte membrane
+in direct methanol fuel cells. J New Mat Electr Sys 2002, 5:251–254.
+
+Vaghari et al. Sustainable Chemical Processes 2013, 1:16
+http://www.sustainablechemicalprocesses.com/content/1/1/16
+
+80. Manea C, Mulder M: New polymeric electrolyte membranes based on
+proton donorproton acceptor properties for direct methanol fuel cells.
+Desalination 2002, 147:179–l 82.
+81. Woo Y, Oh SY, Kang YS, Jung B: Synthesis and characterization of
+sulfonated polyimide membranes for direct methanol fuel cell. J Membr
+Sci 2003, 220:31–45.
+82. Zhang X, Filho LP, Torras C, Valls RG: Experimental and computational
+study of proton and methanol permeabilities through composite
+membranes. J Power Sources 2005, 145:223–230.
+83. Chakrabarty T, Kumar M, Shahi VK: Chitosan based membranes for separation,
+pervaporation and fuel cell applications Recent developments. In biopolymers.
+Edited by Elnashar MM. India: Sciyo; 2010:201–226.
+84. Yamada M, Honma I: Anhydrous proton conductive membrane consisting
+of chitosan. Electrochim Acta 2005, 50:2837–2841.
+85. Lewandowski A, Skorupska K, Malinska J: Novel poly(vinyl alcohol)– KOH–H2O
+alkaline polymer electrolyte. Solid State Ion 2000, 133:265–271.
+86. Xiong Y, Liu QL, Zhang QG, Zhu AM: Synthesis and characterization of
+cross-linked quaternized poly(vinyl alcohol)/chitosan composite anion
+exchange membranes for fuel cells. J Power Sources 2008, 183:447–453.
+87. Wan Y, Creber KAM, Peppley B, Tam Bui V: Ionic conductivity of chitosan
+membranes. Polymer 2003, 44:1057–1065.
+88. Wan Y, Creber KAM, Peppley B, Tam Bui V: Structure and ionic conductivity of a
+series of di-o-butyrylchitosan membranes. J Appl Polym Sci 2004, 94:2309–2323.
+89. Wan Y, Creber KAM, Peppley B, Tam Bui V: Ionic conductivity and related
+properties of cross-linked chitosan membranes. J Appl Polym Sci 2003,
+89:306–317.
+90. Wan Y, Creber KAM, Peppley B, Tam Bui V: Synthesis, characterization and
+ionic conductive properties of phosphorylated chitosan membranes.
+Macromol Chem Phys 2003, 204:850–858.
+91. Wang J, He R, Che Q: Anion exchange membranes based on semi
+interpenetrating polymer network of quaternized chitosan and
+polystyrene. J Colloid Interface Sci 2011, 361:219–225.
+92. Mukoma P, Jooste BR, Vosloo HCM: Synthesis and characterization of
+cross-linked chitosan membranes for application as alternative
+proton exchange membrane materials in fuel cells. J Power Sources
+2004, 136:16–23.
+93. Du J, Bai Y, Chu W, Qiao L: The structure and electric characters of proton
+conducting chitosan membranes with various ammonium salts as
+complexant. J Polym Sci Part B: Polym Phys 2010, 48:880–885.
+94. Ng LS, Mohamad AA: Protonic battery based on a plasticized
+chitosan–NH4NO3 solid polymer electrolyte. J Power Sources 2006,
+163:382–385.
+95. López-Chávez E, Oviedo-Roa R, Contreras-Pérez G, Martínez-Magadán JM,
+Castillo-Alvarado FL: Theoretical studies of ionic conductivity of cross-linked
+chitosan membranes. Int J Hydrogen Energy 2010, 35:12141–12146.
+96. Smitha B, Sridhar S, Khan AA: Chitosan–poly (vinyl pyrrolidone) blends as
+membranes for direct methanol fuel cell applications. J Power Sources
+2006, 159:846–854.
+97. Choudhury NA, Ma J, Sahai Y, Buchheit RG: High performance polymer
+chemical hydrogel-based electrode binder materials for direct
+borohydride fuel cells. J Power Sources 2011, 196:5817–5822.
+98. Klotzbach T, Watt M, Ansari Y, Minteer SD: Effects of hydrophobic modification
+of chitosan and Nafion on transport properties, ion-exchange capacities, and
+enzyme immobilization. J Membr Sci 2006, 282:276–283.
+99. Klotzbach TL, Watt M, Ansari Y, Minteer SD: Improving the microenvironment
+for enzyme immobilization at electrodes by hydrophobically modifying
+chitosan and NafionW polymers. J Membr Sci 2008, 311:81–88.
+100. Wu B, Zhang Y, Kuang Y, Yu Y, Zhang X, Chen J: Chitosanfunctionalized
+carbon nanotubes as support for the high dispersion of PtRu
+nanoparticles and their electrocatalytic oxidation of methanol.
+Chem Asian J 2012, 7:190–195.
+101. Wang D, Lu S, Xiang Y, Jiang SP: Self-assembly of HPW on Pt/C
+nanoparticles with enhanced electrocatalysis activity for fuel cell
+applications. Appl Catal B-Environ 2011, 103:311–317.
+102. Deng L, Shang L, Wen D, Zhai J, Dong S: A membraneless biofuel cell powered
+by ethanol and alcoholic beverage. Biosens Bioelectron 2010, 26:70–73.
+103. Falk B, Garramone S, Shivkumar S: Diffusion coefficient of paracetamol in a
+chitosan hydrogel. Mater Lett 2004, 58:3261–3265.
+104. Liu Y, Wang M, Zhao F, Xu Z, Dong S: The direct electron transfer of
+glucose oxidase and glucose biosensor based on carbon nanotubes/
+chitosan matrix. Biosens Bioelectron 2005, 21:984–988.
+
+Page 12 of 12
+
+105. Wei X, Cruz J, Gorski W: Integration of enzymes and electrodes:
+Spectroscopic and electrochemical studies of chitosan enzyme films.
+Anal Chem 2002, 74:5039–5046.
+106. Cooney MJ, Lau C, Windmeisser M, Liaw BY, Klotzbach T, Minteer SD:
+Design of chitosan gel pore structure: Towards enzyme catalyzed
+flowthrough electrodes. J Mater Chem 2008, 18:667–674.
+107. Higgins SR, Foerster D, Cheung A, Lau C, Bretschger O, Minteer SD:
+Fabrication of macroporous chitosan scaffolds doped with carbon
+nanotubes and their characterization in microbial fuel cell operation.
+Enzyme Microb Tech 2011, 48:458–465.
+108. Higgins SR, Lau C, Atanassov P, Minteer SD, Cooney MJ: Hybrid biofuel cell:
+Microbial fuel cell with an enzymatic air-breathing cathode. ACS Catal
+2011, 1:994–997.
+109. Katuri K, Luisa Ferrer M, Gutierrez MC, Jimenez R, Monte F, Leech D:
+Three-dimensional microchanelled electrodes in flow-through
+configuration for bioanode formation and current generation.
+Energy Environ Sci 2011, 4:4201–4210.
+110. Liu X, Sun X, Huang Y, Sheng G, Wang S, Yu H: Carbon nanotube/ chitosan
+nanocomposite as a biocompatible biocathode material to enhance the
+electricity generation of a microbial fuel cell. Energy Environ Sci 2011,
+4:1422–1427.
+doi:10.1186/2043-7129-1-16
+Cite this article as: Vaghari et al.: Recent advances in application of
+chitosan in fuel cells. Sustainable Chemical Processes 2013 1:16.
+
+Publish with ChemistryCentral and every
+scientist can read your work free of charge
+Open access provides opportunities to our
+colleagues in other parts of the globe, by allowing
+anyone to view the content free of charge.
+W. Jeffery Hurst, The Hershey Company.
+available free of charge to the entire scientific community
+peer reviewed and published immediately upon acceptance
+cited in PubMed and archived on PubMed Central
+yours you keep the copyright
+Submit your manuscript here:
+http://www.chemistrycentral.com/manuscript/
+
+

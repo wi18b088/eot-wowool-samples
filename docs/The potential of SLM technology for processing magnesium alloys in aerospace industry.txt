@@ -1,0 +1,1374 @@
+Archives of Civil and Mechanical Engineering (2020) 20:23
+https://doi.org/10.1007/s43452-020-00033-1
+
+REVIEW ARTICLE
+
+The potential of SLM technology for processing magnesium alloys
+in aerospace industry
+T. Kurzynowski1
+
+· A. Pawlak1
+
+· I. Smolina1
+
+Received: 27 January 2020 / Revised: 27 January 2020 / Accepted: 11 February 2020 / Published online: 24 February 2020
+© The Author(s) 2020
+
+Abstract
+Selective Laser Melting (SLM) of magnesium alloys is the technology undergoing dynamic development in many research
+centres. The results are promising and make it possible to manufacture defect-free material with better properties than those
+offered by the manufacturing technologies used to date. This review aims to evaluate present state as well as main challenges
+of using Laser Powder Bed Fusion (L-PBF) for processing magnesium alloys as an alternative way to conventional technologies to manufacture parts in the aerospace industry. This literature review is the first one to outline information concerning
+the potential to use magnesium alloys in the aerospace industry as well as to summarise the results of magnesium alloy processing using AM technologies, in particular L-PBF. The available literature was reviewed to gather information about: the
+use of magnesium alloys in the aerospace industry—the benefits and limitations of using magnesium and its alloys, examples
+of applications using new processing methods to manufacture aerospace parts, the benefits and potential of using L-PBF to
+process metallic materials, examples of the use of L-PBF to manufacture aerospace parts, and state-of-the-art research into
+L-PBF processing of magnesium and magnesium alloys.
+Keywords Magnesium alloys · Additive manufacturing · Laser Powder Bed Fusion (L-PBF) · Aerospace
+
+1 Introduction
+Over 80% of all innovations in the aerospace industry owe
+their existence to the use of new materials and new technologies [1]. Additive manufacturing (AM) technologies that are
+used to manufacture parts of both plastics and metals are
+one example of the technologies that have been developed
+since the 1980s. Presently, AM technologies are increasingly applied for the manufacture of ready-made parts both
+as indirect [2] and direct [3] technologies. Despite the significant progress that has been made in the field and a wide
+
+* A. Pawlak
+andrzej.p.pawlak@pwr.edu.pl
+T. Kurzynowski
+tomasz.kurzynowski@pwr.edu.pl
+I. Smolina
+iryna.smolina@pwr.edu.pl
+1
+
+Faculty of Mechanical Engineering/Centre of Advanced
+Manufacturing Technologies ‑ Fraunhofer Project
+Center (CAMT‑FPC), Wrocław University of Science
+and Technology, Wroclaw, Poland
+
+range of potential applications, they are not commonly used
+in the industry.
+Aviation is a substantial industry and one of the key
+transport modes these days. It is then of crucial importance
+to reduce fuel consumption for reasons of economy and to
+decrease combustion product emission due to environmental concerns. New alternative fuels, as well as improved
+engines and aerodynamic components, are one way to
+achieve these goals. However, weight reduction is the easiest and most cost-effective option that necessities the search
+for new, lighter, and high-strength construction materials
+and new manufacturing technologies [4]. Plastics, composites, and light metallic alloys are materials that meet these
+requirements.
+Magnesium and magnesium alloys are one of the lightest metallic materials. Their low density of 1.73 g/cm3 and
+the resulting high specific strength make them a perfect
+alternative to slightly heavier aluminium alloys. The use of
+light alloys in aviation will result in reduced aircraft weight,
+which in turn means reduced fuel consumption as well as
+combustion product emission to the atmosphere. As early
+as in the 1940s and 1950s, researchers saw the advantages
+of using magnesium alloys in aviation and identified new
+
+13
+
+Vol.:(0123456789)
+
+23 Page 2 of 13
+
+application fields [5, 6]. Certain limitations and differences
+between the use of magnesium materials and the then commonly used aluminium alloys were also considered at that
+time [7]. One of the recent findings in this field is that compared to aluminium alloy 2017A, the AZ31 magnesium alloy
+is more resistant to low-cycle fatigue as well as high-cycle
+fatigue at stresses lower than 150 MPa [8]. Since the densities of magnesium alloys and plastics are similar, Mg alloys
+also take the place of plastics to ensure higher stiffness [9].
+Magnesium alloys are not developing dynamically,
+mainly due to the processing difficulties which result from
+magnesium being highly oxidisable and hardly susceptible
+to plastic cold forming due to its compact hexagonal crystallographic structure. Alloys doped with rare earth elements
+are a promising group of magnesium alloys as they offer
+better mechanical properties, also at elevated temperatures,
+and better corrosion resistance [10]. Similar to other materials, the properties of magnesium alloys can be modified by
+heat treatment, grain size reduction, production of composites, or surface layer modification [9, 11]. Purging a molten
+metal with inert gases (Ar, SF6) in the casting process alone
+reduces the number of contaminants in the material and
+increases material elongation from 4 to 7% [12]. An additional problem in the processing of magnesium alloys is the
+risk of ignition and difficult extinguishing both at elevated
+temperature and when the material is loose; for example, it
+has the form of powder or chips [13]. Due to safety reasons
+caused by the risk of ignition, the use of magnesium alloys
+in cabin structure was prohibited [14]. That is why a more
+extensive use of magnesium alloys in the aerospace industry is hindered, in contrast to the automotive or electronic
+industry.
+The purpose of this review was to map the current state
+of research aimed at implementing L-PBF in the aerospace
+industry to manufacture parts from magnesium alloys. Such
+review is necessary considering aerospace industry’s growing interest in light alloys, including magnesium alloys, the
+use of new technologies to improve magnesium alloy performance, considerable progress in the development of AM
+technologies, and studies that confirmed the suitability of
+magnesium alloys to be processed by L-PBF.
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+
+allow the use of magnesium alloys in components of the
+passenger cabin interior [15] (Fig. 1). Flammability tests
+conducted in line with the FAA guidelines [16] for a seat
+assembly consisting of five components made of magnesium
+alloys showed that the alloys used did not reduce passenger
+safety [17]. In their latest AS8049C performance standard
+published in 2015, SAE International changed the provision that banned the use of magnesium alloys in aircraft seat
+components and now allows the use of magnesium allows
+provided that FAA standards are met [18].
+Several alloying elements and their effect on magnesium
+ignition were analysed to evaluate the ignition and flammability risks of magnesium alloys [19]. The studies showed
+that commercial magnesium alloys modified with rare earth
+elements Mg-x-RE have a higher ignition temperature
+(780–940 °C).
+Wojtas et al. [20] reported fatigue testing results of
+AZ31B lever forging designed for the ILX-27 helicopter
+designed by the Institute of Aviation (Poland). They successfully substituted the element designed to eventually be made
+of an aluminium alloy with a lighter magnesium alloy and
+maintained sufficient strength properties in a 100-h simulated flight test. Despite the inferior mechanical properties
+of magnesium alloy in comparison with the eventual aluminium alloy, magnesium alloy is a good substitute for PA7
+aluminium alloy to aid in the helicopter weight reduction.
+Many flat and ribbed aerospace parts are manufactured
+from magnesium alloys by casting and machining [21, 22].
+Public units also financially support research programs
+into the use of magnesium alloys in aerospace. The Sixth
+Framework Programme (FP6) of the European Commission
+made it possible to complete two large projects with such
+major players as EADS Deutschland GmbH (Germany),
+
+2 The use of magnesium alloys
+in the aerospace industry
+Significant progress in the use of magnesium alloys in the
+developing aerospace industry was observed as early as in
+the 1940s [5]. Over the last decade, i.e. since the Society of
+Automotive Engineers (SAE International) imposed a ban
+on magnesium alloy used in aircraft seat construction, Federal Aviation Administration (FAA) and SAE International
+have been working to develop safety standards that would
+
+13
+
+Fig. 1  Schematic of major structural seat components, Reprinted
+from The Application of Magnesium Alloys in Aircraft Interiors—
+Changing the Rules, by Davis [15]. Reprinted with permission
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+
+Airbus (HQ in the Netherlands), Eurocopter (now—Airbus
+Helicopters SAS, HQ in France), Israel Aviation Industry
+(Israel), Liebherr-Aerospace SAS (France), and Alenia
+(Italy).
+New and modified magnesium products with material
+properties higher than those of the existing aluminium alloys
+were developed as a result of these projects [23]. It was possible due to the advances in the magnesium materials forging
+technology and surface modification that improved corrosion
+resistance up to 60 times. The new forging processes reduced
+the costs of manufacturing secondary fuselage components
+(e.g. window frames, panels of internal inspection doors),
+and the mechanical requirements for aluminium products
+were met [24] (Figs. 2 and 3).
+
+3 New achievements in the processing
+of magnesium alloys
+New technological processes are being developed to promote
+the use of magnesium alloys in the industry, take advantage
+of their indisputable potential, and improve characteristics
+that remain unsatisfactory. Low-strength properties of magnesium alloys when compared to Al and Ti alloys (especially
+at elevated temperatures) and low corrosion resistance are
+the main factors limiting the use of these materials in the
+industry. One of the ways to improve the strength properties
+is microstructure refinement which results in superplasticity
+in certain alloys (Mg–Al–Zn, Mg–Zn–Zr, and Mg–Li). The
+superplastic effect allows freedom to create complex shapes
+and makes it possible to produce near net shape structures. It
+
+Fig. 2  “Comparison between success pad forming of ZE10A-F (up)
+and original Al part (down)”, Reprinted from MAGFORMING
+Development of new Magnesium Forming Technologies for the Aeronautics Industry, by Henn and Fein [24], Copyright 2010 by MagForming Consortium. Reprinted with permission
+
+Page 3 of 13 23
+
+Fig. 3  “Compressor scroll. The final shape produced by PALBAMAMTS”, Reprinted from MAGFORMING Development of new
+Magnesium Forming Technologies for the Aeronautics Industry, by
+Henn and Fein [24], Copyright 2010 by MagForming Consortium.
+Reprinted with permission
+
+also improves mechanical properties [25]. Therefore, several
+authors have reported using various methods to obtain a finegrained microstructure.
+Fine-grained magnesium alloy microstructure can be
+achieved using traditional thermo-mechanical treatment
+(rolling, extrusion) [26] and equal-channel angular pressing
+(ECAP) [27]. The three-slide forging press process made it
+possible to manufacture rib elements with complex geometries, save on material costs, and improve the mechanical
+properties of the products [21, 28, 29].
+Another process which significantly reduced the grain
+size was machining with simultaneous cooling of the treated
+surface with liquid nitrogen [30]. However, there is a risk
+that fine chips that are formed during machining may ignite
+[13]. Grain refinement in magnesium alloy after ECAP
+process resulted in better mechanical strength, whereas
+machining improved the hardness of the near-to-surface
+layer almost two times. A similar surface effect is observed
+when laser surface treatment is used [11, 31, 32]. Grains
+can also be refined during the casting process itself, using
+15 Hz frequency ultrasounds to generate vibrations in the
+solidifying metal [33].
+High current pulsed electron beam (HCPEB) surface
+treatment [34] may increase wear resistance up to sevenfold. A similar effect is observed upon applying a coating
+by atmospheric plasma spraying (APS) [35].
+Alloying and formation of composites are the evident
+methods that can be used to improve the properties of materials. A small addition of beryllium (a few parts per million) improved AZ91 alloy’s corrosion resistance at elevated
+temperature [36] (Fig. 4). The addition of zinc-containing
+icosahedral quasicrystalline phase increased hardness by up
+to 500% after additional heat treatment [37] at the cost of
+higher brittleness of the material. Wang et al. [38] avoided
+the formation of the quasicrystalline phase by introducing
+
+13
+
+23 Page 4 of 13
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+
+Fig. 4  Macroscopic images of AZ91 and the AZ91Be magnesium alloys after 144-h oxidation at 400 °C, Reprinted from Oxidation resistance of
+Mg–9Al–1Zn alloys micro-alloyed with Be, by Tan et al. [36], Copyright by 2015 Elsevier B.V. Reprinted with permission
+
+zinc and yttrium into AM50 alloy, which maintained the
+original properties of the material.
+Strengthening of AZ31 alloy with SiC nanoparticles and
+carbon nanotubes in the friction stir welding process helped
+to refine its microstructure and increase the yield strength
+at the cost of tensile and elongation strength [39]. Better
+results, which increase the tensile strength, may be achieved
+when the alloy is reinforced by carbon fibre [40]. The addition of boron carbides to AZ91D alloy increases hardness
+and wear resistance [41]. It was also found that the addition of 50% graphite flakes to pure magnesium increases the
+thermal conductivity of the material so that it is four times
+higher than the conductivity of copper [42].
+A detailed list of technological processes used to modify
+the microstructure and properties of magnesium alloys is
+shown in Table 1.
+
+4 L‑PBF technology
+Laser Powder Bed Fusion (L-PBF or SLM/DMLS—Selective Laser Melting/Direct Metal Laser Sintering) is one of
+many additive manufacturing technologies. It represents
+the powder bed fusion (PBF) group that encompasses many
+other technologies. Apart from L-PBF, it includes SLS/
+SHS (Selective Laser Sintering/Selective Heat Sintering)
+and EBM (Electron Beam Melting). All of the technologies
+mentioned above share the principle of operation, that is,
+the powder bed is melted as a result of interaction with the
+source of energy: either a laser beam (L-PBF/SLM/DMLS,
+SLS) or an electron beam (EBM) [43] (Fig. 5). The significant difference between the technologies that employ laser is
+
+13
+
+its power which determines the results of the technological
+process, i.e. either sintering (SLS) or complete melting of
+the powder material (L-PBF).
+Additive manufacturing using powder offers several
+advantages over other technologies (e.g. wire feed) which
+include better tolerances, better surface finish quality, and
+a possibility to create geometrically complex shapes [44].
+The process of manufacturing parts using Selective
+Laser Melting consists of heating and melting the powder
+with a laser beam, followed by rapid cooling and solidification of the melted metal. High-temperature gradient
+and high cooling rate generate textured microstructures
+of metal alloys, the majority of which are characterised
+by columnar grains built of oriented packages of dendrite cells, very fine grains, cellular and interdendritic
+microsegregation, and occurrence of non-equilibrium
+phases as well as solution strengthening resulting from
+supersaturation [45]. However, the solidification conditions of a liquid metal cause negative phenomena, inducing residual stresses [46] and defects taking the form of
+pores and various cracks. Laser type and the selection of
+variable parameters have a decisive impact on the quality
+of the manufactured parts [47]. Over 100 process parameters control L-PBF technology process. Many of them
+are fixed depending on machine type, used powder, or is
+set for the entire process, like these concerning process
+atmospheres, or energy source, but there are also adjustable parameters, in which proper value selections could
+tune the process to obtain demanded results. For example,
+the widely used high-power continuous-wave (CW) lasers
+and parallel long-pulsed lasers (nanosecond to millisecond pulse) are characterised, as opposed to femtosecond
+
+Page 5 of 13 23
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+Table 1  A list of technological processes used to improve the properties of magnesium alloys
+Process
+
+Material
+
+Result
+
+Change of properties
+
+Adding graphite in spark plasma sintering [42]
+
+Mg, AZ61,
+AZ31, Mg–
+0.9Ca
+AZ31
+
+Graphite flakes (50 vol.%) uniformly
+distributed in alloy base
+
+Increased thermal conductivity
+Near-to-surface layer hardness increased
+by 87%
+Increase in near-to surface layer hardness
+to 1500 HV0.1 and 800 HV0.1
+Increased yield strength, decreased tensile, and elongation strength
+
+Tensile and yield strength increased by
+20%, hardness increased by 30%
+Microhardness increased by 125% and
+wear rate reduced by 85%
+Improved oxidation resistance
+
+Machining with liquid nitrogen cooling
+[30]
+Coating [35]
+Adding SiC nanoparticles and carbon
+nanotubes in friction stir welding [39]
+
+AZ31
+
+Equal-channel angular pressing (ECAP)
+[27]
+Casting with ultrasonic vibration [33]
+
+AZ61
+
+Grains refined from the original 12 µm
+to 31 nm
+Adding a composite coating: ­Al2O3-13%
+wt. TiO-2 and ­Al2O3-40% wt. ­TiO2
+Microstructure refinement, homogenisation of microstructure, and lower
+microhardness dispersion
+Grains refined by 85%
+
+AZ91
+
+Grains refined by 50%
+
+AZ91
+
+Evaporation of Mg and dissolution of
+­Mg17Al12 phase in the surface layer
+Delayed oxygen diffusion and Mg ions
+evaporation
+Dissolution of β phase
+Dispersed ­B4C and graphite particles
+uniformly distributed in alloy base
+Continuous graphite fibres (Ø7 µm)
+uniformly distributed in alloy base
+Introduction of icosahedral quasicrystalline phase (I-phase)
+Grains refined from the original 10.7 µm
+to 0.9 µm
+Microstructure refinement of the near-tosurface layer enriched with Al and Si
+Microstructure refinement without the
+formation of I-icosahedral quasicrystalline phase (­ Mg3Zn6Y). Higher
+content of β phase
+
+High current pulsed electron beam
+(HCPEB) [34]
+Micro-alloying with beryllium [36]
+
+AZ31
+
+AZ91
+
+Laser surface treatment [31]
+Adding ­B4C and graphite in stir casting
+[41]
+Adding carbon fibre in liquid–solid
+extrusion [40]
+Alloying with zinc [37]
+
+AZ91D
+AZ91D
+
+Extrusion using KOBO method [26]
+
+WE43
+
+Laser surface alloying [11]
+
+Mg + AlSi20
+
+Alloying with zinc and yttrium [38]
+
+AM50
+
+AZ91D
+WE43
+
+fibre lasers, by lower precision in the manufacture of parts
+and use of limited groups of metal alloys—due to a wide
+heat-affected zone in the case of metals with high or low
+melting point and/or high conductivity [48]. Another factor which also affects the results of manufactured parts is
+build strategy, which includes not only the built orientation and position inside the process chamber but also the
+scanning strategy for each deposited powder layer [49].
+Rashid et al. [50] combined the observations as mentioned
+above and proposed the new term—“energy per layer”,
+which includes the total area of melted powder on each
+layer, that affects the resulted microstructure and porosity
+and could describe and control process results.
+There are several physical phenomena during the
+L-PBF process that are the key factors determining the
+quality of the manufactured parts. These include metal
+powder absorptivity concerning the laser radiation, balling effect causing discontinuities in the melted metal, and
+thermal fluctuations that frequently result in cracking and
+
+Mechanical strength increased by 24%
+
+β Phase hardness increased by 15%
+Increased material hardness, tensile
+strength, and wear
+Tensile strength increased by 81%
+Hardness increased by 50% and 500%
+after ageing
+Hardness increased by 30%
+Sevenfold increase in hardness
+Increased Rm (206.63 MPa), Rp0.2
+(92.5 MPa) and elongation (up to
+10.04%)
+
+hence in the destruction of the component being manufactured [51, 52].
+L-PBF is the most frequently used powder bed technique within additive manufacturing for processing aerospace components. In terms of manufacturing organisation
+and costs, using additive manufacturing, and in particular
+L-PBF, has two main advantages [53]: (1) small batch production does not increase production costs in contrast to
+casting technologies, and (2) complex product shape also
+does not increase production costs in contrast to conventional (subtractive) technologies.
+The most important disadvantages of the parts manufactured using powder bed fusion processes include a potential
+lack of melting between the layers and porosity [54]. Some
+authors [54, 55] stated that the porosity of over 6% significantly affects the mechanical properties of the metallic materials being manufactured.
+The AM technologies outlined above offer the possibility to efficiently use alloying elements and hence obtain
+
+13
+
+23 Page 6 of 13
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+
+1. It is possible to develop and manufacture a new geometry of the external and internal part, e.g. internal cooling
+ducts [44], which is impossible in the case of conventional technologies;
+2. Energy efficiency and considerable reduction in time,
+material, waste, and other costs associated with the
+manufacture of a new part;
+3. Less negative environmental impact;
+4. Shorter time to market.
+
+Fig. 5  Diagram of an SLM machine, Reprinted from An overview
+of Direct Laser Deposition for additive manufacturing; Part I: Transport phenomena, modelling and diagnostics, by Thompson et al. [43],
+Copyright by 2015 Elsevier B.V.Reprinted with permission
+
+new alloys with better mechanical and thermal properties,
+and/or with increased resistance to abrasive and corrosive
+wear [56]. Moreover, the features of the process such as
+layer by layer and selective melting of the powder material enable manufacturing of parts with complex shapes
+and any designed (solid or having the designed porosity)
+internal geometry [57]. These advantages of AM technologies, and in particular of L-PBF, make them increasingly
+popular in the industry. They have gained immense recognition and are most widely used in medical and aerospace
+industries which are marked by high demand for custommade products whose final properties can be tailored to the
+specific requirements.
+
+5 The use of L‑PBF technology
+in the aerospace industry
+Examples of aerospace parts manufactured by L-PBF are
+shown in Fig. 6. They include a fuel nozzle made of cobalt
+alloy [58], borescope made of nickel-based alloy—Inconel
+718 [59] and various latches and supports made of titanium alloys. Titanium alloys, e.g. Ti6Al4 V, are well recognised and frequently substitute steel as their use reduces
+the buy-to-fly ratio from 15 to 1 [54].
+The benefits of using L-PBF in the aerospace industry
+are as follows [60]:
+
+13
+
+Topological optimisation is used to take advantage of the
+main benefits of L-PBF in the aerospace industry, which
+include reduced weight and amount of material needed to
+manufacture a specific part. Bamberg et al. [59] reported an
+example of such optimisation carried out for an aerospace
+part made of aluminium alloy which is subject to three-point
+bending (Fig. 6.3–6.5) [59, 61]. However, limitations of
+L-PBF technology should be taken into account, especially
+brittle fracture behaviour for material without any heat treatment [62].
+To conclude, AM technologies are currently used in
+the aerospace industry to produce non-critical parts with
+complex geometries or for which lighter alloys of satisfactory strength can be used to significantly reduce weight
+and ensure topological optimisation of their inner shape.
+Examples of parts produced by L-PBF or EBM that were
+implemented or partially implemented are listed in Table 2.
+However, there are still many challenges to address before
+AM technologies, in particular L-PBF, can be fully implemented in the aerospace industry.
+1. The main challenge is to ensure stability and repeatability of the process to eliminate internal defects, surface
+roughness, and achieve high geometry tolerance [44].
+2. Post-processing requirement. It was assumed that each
+part produced with the AM technology requires postprocessing to reduce (a) porosity with the use of hot
+isostatic pressing (HIP) and/or (b) surface roughness
+[71] by surface machining.
+3. Certification and standardisation [65, 72]. Lack of methods for verifying the parts produced with AM technologies or standards regarding the terminology, file format,
+or processing procedures for various alloys significantly
+hinders the implementation of AM technologies.
+
+6 The use of L‑PBF technology
+for magnesium processing
+The first attempts to melt magnesium-based materials and
+produce spatial specimens by L-PBF were reported in
+2012 [73]. It was the first report that discussed difficulties
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+
+Page 7 of 13 23
+
+Fig. 6  Examples of aerospace parts manufactured by SLM technology. (1) “A 3D printed fuel nozzle made by General Electric Company”, Reprinted from Additive manufacturing at GE Aviation,
+2014, GE Reports, Copyright by 2014 General Electric. (2) “Additive
+manufactured boroscope boss”, Reprinted from In-Process Control
+of Selective Laser Melting by Quantitative Optical Tomography by
+J. Bamberg, et al., 2016, 19th World Conference on Non-Destructive
+Testing 2016, Copyright by 2016 Creative Commons. (3) ”Original
+
+component”, (4) ”Topological optimised (TO) solution (left) and
+optimised component final design (right)”, (5) “Optimised component
+manufactured”, Reprinted from Selective Laser Melting (SLM) and
+topology optimisation for lighter aerospace components by M. Seabra
+et al., 2016, Procedia Structural Integrity, PROSTR (Procedia Structural Integrity) Hosting by Elsevier Ltd. Copyright by 2016 Elsevier
+B.V. Reprinted with permission
+
+in processing Mg–9%Al alloy with a laser beam and
+observed evaporation of magnesium during the process.
+A year later, L-PBF was used to produce spatial specimens from AZ91 alloy with almost zero porosity [74].
+Gieseke et al. [75] reported similar results for pure magnesium and MgCa0.8 alloy. In this paper, the authors
+described the evaporation of magnesium (Fig. 7) and
+pointed out that scanning direction affects the resulting
+specimen surface quality. They suggested that the scanning
+direction is changed for successive layers considering the
+good quality of the side surface of specimens, perpendicular to the scanning direction.
+The main aim of the study [74] discussed above was
+to explore the potential of magnesium alloys as a bioresorbable implant material. Other authors discussed the
+problem of low corrosion resistance of magnesium alloys
+and reported successful attempts to increase it [76]. In
+2015, the options to manufacture scaffolds from WE43
+and AZ91 alloys by L-PBF were presented [77] (Fig. 8).
+
+Additionally, Gieseke’s team collaborated with Magnesium Elektron (England) to determine the optimum L-PBF
+technology parameters for processing ­Elektron® 43 alloy
+[78–80]. The authors reported a considerably reduced porosity in the produced specimens as a result of double scanning of a layer and simultaneous addition of the material
+between successive scanning passes of the layer. According
+to the authors, residual porosity was the result of a disturbed
+flow of the shielding gas that transferred contaminants from
+magnesium vapour onto the melted layers. Other authors
+[81] established that such contaminants deposited on the
+powder surface in the form of oxide layers might result in
+weak interlayer bonding.
+Due to the oxidation and balling phenomena that accompany L-PBF, Scanning Time Interval (STI) parameter was
+analysed, which denotes time delay in the process that
+occurs between the completion of a layer scanning and further application and melting of the next layer [82]. When the
+time delay between scanning the next layers is of appropriate
+
+13
+
+23 Page 8 of 13
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+
+Table 2  A list of aerospace parts produced using additive manufacturing technologies [44, 58, 59, 63–70]
+Part
+
+Material/technology
+
+Company
+
+Engine chamber for the SuperDraco
+launch escape system
+Satellite propellant tank
+
+Inconel/L-PBF
+
+SpaceX
+
+Waveguide brackets on Juno spacecraft
+Leap engine nozzle
+
+Titanium/EBM
+
+3 months from concept to the first hot
+fire
+Lockheed Martin Space Systems Product cost reduced by 55%; TTM
+reduced by 80% using EBAM
+Lockheed Martin
+Reduced lead time and cost
+
+CoCr/L-PBF
+
+General Electric (GE)
+
+Turbine blades
+
+Inconel 718/L-PBF or EBM
+
+General Electric (GE)
+
+Borescope bosses for A320neo
+Geared Turbofan™
+Cabin bracket for the A350 XWB
+
+Inconel 718/L-PBF
+
+MTU Aero Engines
+
+Titanium/EBM
+
+Airbus
+
+Nacelle hinge bracket on Airbus
+A320
+Buckle
+
+Titanium/L-PBF
+
+EOS
+
+Titanium/metal 3D printing
+
+Airbus
+
+Eurostar E3000 satellite
+
+Aluminium/metal 3D printing Airbus
+
+Titanium/EBAM®
+
+Characteristics/comments
+
+One piece instead of an assembly of
+20 parts;
+Reduced weight
+Multimaterial blades optimised for
+(a) strength and (b) heat resistance
+Tool-free manufacturing and lower
+material consumption
+The bionic component weighs 30%
+less than the traditionally milled
+piece
+Saves 10 kg per shipset
+Ti was used instead of steel
+Ti was used instead of steel
+The new ergonomic optimised design
+55% reduction in weight for one
+buckle
+Less weight (up to 35%) and better
+stiffness (up to 40%) compared to
+traditional manufacturing;
+A single piece replaced an assembly of
+several aluminium components and
+up to 44 rivets
+
+Fig. 7  Evaporation products
+formed during SLM processing
+of magnesium alloys. “Selective
+Laser Melting of magnesium”,
+Reprinted from Selective Laser
+Melting of Magnesium Alloys
+for Manufacturing Individual
+Implants by Gieseke et al. [75],
+Copyright by 2014 DDMC,
+Reprinted with permission
+
+length, the produced specimen cools down partially, which
+results in better wettability and oxidation resistance of the
+material. This also improves the surface quality of the produced specimens by reducing the number of partially melted
+powder particles attached to the specimen’s surface.
+Pawlak et al. [83, 84] suggested that the design of
+experiments methods is used to facilitate the optimisation of the L-PBF process for AZ31 alloy. The high relative densities and high hardness of the alloy that exceed the
+values obtained for wrought material further confirm that
+
+13
+
+magnesium alloys are suitable for the L-PBF processing.
+In another study of this researcher on magnesium alloys in
+L-PBF, a relation between process parameters and obtained
+results was presented [85]. Authors reported that significant
+influence on obtained material hardness has Laser Power
+(LP), which was common observation for L-PBF processing,
+while for porosity in defined processing window scanning
+speed has a slightly higher influence than laser power.
+Salehi et al. [86] report that magnesium powders
+strongly react with even residual content of oxygen present
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+
+Page 9 of 13 23
+
+Fig. 8  SEM image of WE43 structure as- processed (left) and after sandblasting (right), Reprinted from Selective Laser Melting of magnesium
+alloys by Jauer et al. [77], Copyright by 2015 Open Access, Reprinted with permission
+
+in impurities of a protective gas atmosphere. This research
+is essential for the L-PBF process and points at one more
+source of difficulties in manufacturing high-quality parts
+from magnesium in powder bed fusion processes.
+A list of different analysed materials and obtained microstructures and mechanical properties is listed in Table 3.
+The research focused on microstructure, and chemical composition of magnesium-based powders processed
+in L-PBF technology reports hard to omit vaporisation,
+mainly magnesium element [77, 85, 87, 88]. Because of
+rapid cooling rate and high energy input, characteristic
+microstructure for magnesium alloys processed in L-PBF
+reveals scan track formation with ultrafine microstructure on track centre and coarser grains but still fine on the
+boundaries of the formed scan track [85, 89, 90]. Another
+parameter influence was evaluated by Savalani et al. [91],
+which points that preheating allows to obtain a flatter and
+more regular scan track.
+The papers discussed above show growing interest in the
+production of parts from magnesium alloy by L-PBF. Positive results of studies carried to date as well as promising
+properties of such alloys encourage researchers and manufacturers to explore the new application field and new possibilities it brings. Additive manufacturing of light metallic
+materials (Mg and Al alloys) that pose processing difficulties
+will be studied extensively in the near future.
+
+7 Summary
+Magnesium alloys can be used to manufacture parts for the
+aerospace industry. The resulting parts are characterised by
+good specific strength (due to low weight) and fatigue resistance. Modern technologies, e.g. additive manufacturing,
+
+may help overcome difficulties encountered when processing magnesium alloys.
+The methods of shaping magnesium alloy products used
+to date such as forging, casting, or equal-channel angular
+pressing (ECAP) have many limitations, e.g. no freedom
+in shaping a complex geometry of the product, risk of chip
+ignition during machining, and ageing process which significantly worsens mechanical properties.
+The use of AM technologies, in particular Laser Powder
+Bed Fusion (L-PBF), to process magnesium alloys will enable the production of parts of the specific shape in a single
+technological process. First, results of studies into L-PBF
+processing of magnesium alloys reported by several research
+centres are promising. The specimens manufactured have
+three-dimensional geometries without porosity or delamination, which had been the primary challenge of additive
+processes. However, there remain a few issues to be solved
+to ensure successful implementation. The researchers need
+to (a) ensure repeatability, (b) eliminate porosity, and (c)
+ensure scalability (capability to expand from the production
+of small to large parts).
+Joint Technology Initiative (JTI) set up by the Advisory
+Council for Aeronautics Research in Europe (ACARE,
+HQ in Belgium) in the European Union also confirms the
+strong interest of aerospace industry in AM technologies
+and magnesium-based light alloys [97]. Seven framework
+programmes were established as part of this initiative whose
+aim was to reduce C
+­ O2 and NOx emissions and reduce the
+levels of noise produced by aircraft. As a result of the Clean
+Sky programme, a few demonstrators were manufactured,
+e.g. using Electron Beam Melting, which decreased the
+weight of door hinges by 52%. The “Shelf Removal Assembly” demonstrator made of WE43 magnesium alloy, which
+decreased the weight by 20% compared to the component
+made of 2024 aluminium alloy, is another example.
+
+13
+
+23 Page 10 of 13
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+
+Table 3  Summary of microstructures and mechanical properties for various magnesium powders processed by SLM
+References
+
+Material
+
+Ng et al. and Savalani et al.
+[91–93]
+
+Mg
+
+Hu et al. [82]
+Pawlak et al. [84, 85, 94]
+
+Liu et al. [95]
+
+Wei et al. [96]
+Taltavul et al. [31]
+Gieseke et al. [78, 79]
+Li et al. [90]
+
+Wei et al. [87].
+
+Shuai et al. [88]
+
+Zhang et al. [73]
+
+Proaño et al. [89]
+
+Microstructure
+
+Fine α-Mg microstructure,
+increasing grain size with
+an increase in laser energy
+density
+Mg
+Fine grained
+AZ31B
+Non-uniform fine α-Mg
+structure (equiaxed and
+elongated grains) with
+γ-Mg17Al12 eutectic
+AZ61
+Equiaxed α-Mg grains and
+fully divorced eutectic
+Mg17Al12 distributed
+along the grain boundaries
+AZ91D
+Equiaxed α-Mg grains and
+fully divorced eutectic
+β-Mg17Al12
+AZ91D
+α-Mg matrix with large
+grains of β-Mg17Al12
+WE43
+Fine-grained microstructure
+WE43
+Equiaxed fine grains with
+ultrafine elongated grains
+on the melt pool boundaries.
+ZK60
+Fine dendritic (refinement
+thanks to increased Zr
+content) with ­Mg7Zn3/
+MgZn precipitates on grain
+boundaries.
+ZK60
+Fine dendritic to columnar
+structure with an increase
+in volume energy density of
+α-Mg with precipitations of
+β-Mg7Zn3
+Mg–9Al
+Equiaxed grains of α-Mg
+with precipitations of
+­Mg17Al12, MgO, and A
+­ l2O3
+on grain boundaries.
+Mg–9Al–2Ca Fine-grained scan track
+centre and coarser grains at
+scan track boundaries.
+
+Acknowledgements This work is supported by the Polish National
+Centre for Research and Development within the project “Magnesiumbased alloys processed with Selective Laser Melting technology for
+aeronautical applications” (No. LIDER/8/0109/L-7/15/NCBR/2016).
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source,
+provide a link to the Creative Commons licence, and indicate if changes
+were made. The images or other third party material in this article are
+included in the article’s Creative Commons licence, unless indicated
+otherwise in a credit line to the material. If material is not included in
+the article’s Creative Commons licence and your intended use is not
+permitted by statutory regulation or exceeds the permitted use, you will
+need to obtain permission directly from the copyright holder. To view a
+copy of this licence, visit http://creat​iveco​mmons​.org/licen​ses/by/4.0/.
+
+13
+
+Hardness
+
+UTS/YS (MPa)
+
+Elongation (%)
+
+0.59–0.95 GPa
+
+n.a.
+
+n.a.
+
+44.75–52.43 HV0.05 n.a.
+64–71 HV0.5
+207–212/183–187
+
+n.a.
+7.7–7.9%
+
+n.a.
+
+239.3–287.1/216.8–233.4 2.14–3.28%
+
+85–100 0.2HV
+
+274–296/237-254
+
+1.24–3%
+
+123–174 HV
+
+n.a.
+
+n.a.
+
+n.a.
+n.a.
+
+312/194
+n.a.
+
+14%
+n.a.
+
+78 ± 10 HV0.2
+
+n.a.
+
+n.a.
+
+70.1–89.2 HV
+
+n.a.
+
+n.a.
+
+66-85 HV0.025
+
+n.a.
+
+n.a.
+
+n.a.
+
+332/253
+
+3,2%
+
+References
+1. Kablov EN. Without new materials - there is no future. Metallurgist. 2014;57:1057–1061. https ​ : //doi.org/10.1007/s1101​
+5-014-9844-z.
+2. Rokicki P, Budzik G, Kubiak K, Bernaczek J, Dziubek T, Magniszewski M, Nowotnik A, Sieniawski J, Matysiak H, Cygan R,
+Trojan A. Rapid prototyping in manufacturing of core models of
+aircraft engine blades. Aircr Eng Aerosp Technol. 2014;86:323–7.
+https​://doi.org/10.1108/AEAT-10-2012-0192.
+3. Rokicki P, Kozik B, Budzik G, Dziubek T, Bernaczek J,
+Przeszlowski L, Markowska O, Sobolewski B, Rzucidlo A. Manufacturing of aircraft engine transmission gear with SLS (DMLS)
+method. Aircr Eng Aerosp Technol. 2016;88:397–403. https:​ //doi.
+org/10.1108/AEAT-05-2015-0137.
+4. Aghion E, Bronfin B, Eliezer D. The role of the magnesium
+industry in protecting the environment. J Mater Process Technol.
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+
+5.
+6.
+
+7.
+8.
+9.
+10.
+
+11.
+12.
+
+13.
+
+14.
+15.
+
+16.
+17.
+
+18.
+19.
+20.
+
+21.
+22.
+
+2001;117:381–5. https​://doi.org/10.1016/S0924​-0136(01)00779​
+-8.
+Mathes JC. Magnesium alloys in the aircraft industry. Aircr Eng
+Aerosp Technol. 1941;13:323–6. https​://doi.org/10.1108/eb030​
+844.
+Perry WH. American experience with magnesium alloys: some
+details of recent work on aircraft primary structures in magnesium. Aircr Eng Aerosp Technol. 1955;27:416–8. https​://doi.
+org/10.1108/eb032​639.
+Grant LB. Magnesium alloys in the U.S.A.: the development of
+the production of aircraft parts in this material. Aircr Eng Aerosp
+Technol. 1940;12:279–82. https​://doi.org/10.1108/eb030​689.
+Cieśla M, Junak G, Marek A. Fatigue characteristics of selected
+light metal alloys. Arch Metall Mater. 2016;61:271–4. https​://
+doi.org/10.1515/amm-2016-0051.
+Fleming S. An overview of magnesium based alloys for aerospace and automotive applications. Troy: Rensselaer Polytechnic; 2012.
+S. Woo Nam, Mg-RE계 고온용 합금의 특성과 최근 연구 동
+향 High Temperature Properties and Recent Research Trend
+of Mg-RE Alloys, Rev. Pap. 대한금속.재료학회지 (Korean
+J. Met. Mater.). 55 (2017) 1–9. https ​ : //doi.org/10.3365/
+kjmm.2017.55.4.
+Dziadoń A, Mola R. Magnesium—trends of development of
+mechanical properties. Inżynieria Mater. w Obróbce Plast.
+2013;XXIV:253–77.
+Lu YQ, Zhu XJ, Hu XD, Yao Y, Cai H. Effects of blowing ar
+on inclusion and properties of AZ61 magnesium alloy. Key Eng
+Mater. 2017;725:416–20. https​://doi.org/10.4028/www.scien​
+tific​.net/KEM.725.416.
+Kuczmaszewski J, Zagórski I, Dziubinska A. Investigation of
+ignition temperature, time to ignition and chip morphology
+after the high-speed dry milling of magnesium alloys. Aircr
+Eng Aerosp Technol. 2016;88:389–96. https​://doi.org/10.1108/
+AEAT-02-2015-0040.
+AS8049B: Performance standard for seats in civil rotorcraft,
+Transport Aircraft, and General Aviation Aircraft, 2005.
+Davis B. The application of magnesium alloys in aircraft interiors—changing the rules. In: Magnesium technology 2015—
+TMS 2015 144th annual meeting & exhibition, Orlando, 2015:
+p. 5.
+Horner A. DOT/FAA/AR-00/12 Aircraft materials fire test handbook. Virginia: National Technical Information Service (NTIS)
+Springfield; 2000.
+Marker TM. DOT/FAA/AR-11/3 Evaluating the flammability of
+various magnesium alloys during laboratory- and full-scale aircraft fire tests. Virginia: NationalTechnical Information Service
+(NTIS) Springfield; 2013.
+AS8049C: Performance standard for seats in civil rotorcraft, transport aircraft, and general aviation aircraft, 2015.
+Tekumalla S, Gupta M. An insight into ignition factors and
+mechanisms of magnesium based materials: a review. Mater Des.
+2017;113:84–98. https​://doi.org/10.1016/j.matde​s.2016.09.103.
+Wojtas M, Sobieszek A, Czajkowski Ł, Żurawski R. Modern
+materials in aerospace industry—fatigue tests of magnesium alloy
+control system lever of the unmanned Ilx—27. In: 30th Congress
+of the International Council of the Aeronautical Sciences, Daejeon, Korea, 25-30.09.2016; 2016. pp. 1–7.
+Dziubinska A, Gontarz A. A new method for producing magnesium alloy twin-rib aircraft brackets. Aircr Eng Aerosp Technol.
+2015;87:180–8. https​://doi.org/10.1108/AEAT-10-2013-0184.
+Śliwa RE, Balawender T, Hadasik E, Kuc D, Gontarz A, Korbel
+A, Bochniak W. Metal forming of lightweight magnesium alloys
+for aviation applications. Arch Metall Mater. 2017;62:1559–66.
+https​://doi.org/10.1515/amm-2017-0239.
+
+Page 11 of 13 23
+23. Hombergsmeier E. Magnesium for aerospace applications. In:
+2nd international conference and exhibition “Magnesium—Broad
+Horizons”; 2007. p. 1–13.
+24. Henn Y, Fein A. Project MagForming—Development of new
+magnesium forming technologies for the aeronautics industry.
+Publ Final Act Rep 2010, pp. 16–35.
+25. Shim J-D, Byun J-Y. Superplasticity of magnesium alloys and SPF
+applications. Korean J Mater Res. 2017;21:53–61.
+26. Bednarczyk I, Mrugała A, Tomaszewska A. Influence of plastic deformation process on the structure and properties of
+alloy WE43. Arch Metall Mater. 2016;61:389–92. https​://doi.
+org/10.1515/amm-2016-0071.
+27. Avvari M, Able NSM. Microstructure evolution in AZ61 alloy
+processed by equal channel angular pressing. Adv Mech Eng.
+2016;8:168781401665182. https​://doi.org/10.1177/16878​14016​
+65182​0.
+28. Gontarz A, Dziubińska A. Forming of flat parts with ribs from
+magnesium alloy. Aircr Eng Aerosp Technol. 2014;86:356–60.
+https​://doi.org/10.1108/AEAT-10-2012-0188.
+29. Mrugała A, Kuc D. Forming construction elements for aviation from light alloys with the use of cold extrusion in complex
+state of strain. Solid State Phenom. 2016;246:240–3. https​://doi.
+org/10.4028/www.scien​tific​.net/SSP.246.240.
+30. Pu Z, Outeiro JC, Batista AC, Dillon OW, Puleo DA, Jawahir
+IS. Enhanced surface integrity of AZ31B Mg alloy by cryogenic
+machining towards improved functional performance of machined
+components. Int J Mach Tools Manuf. 2012;56:17–27. https:​ //doi.
+org/10.1016/j.ijmac​htool​s.2011.12.006.
+31. Taltavull C, Torres B, Lopez AJ, Rodrigo P, Otero E, Rams J.
+Selective laser surface melting of a magnesium–aluminium alloy.
+2012;85:98–101. https​://doi.org/10.1016/j.matle​t.2012.07.004.
+32. Labisz K, Tański T, Kremzer M, Janicki D. Effect of laser alloying
+on heat-treated light alloys. Int J Mater Res. 2017;108:126–32.
+https​://doi.org/10.3139/146.11145​6.
+33. Chaturvedi V, Sharma A, Pandel U. Effect of mechanical vibrations on grain refinement of AZ91 Mg alloy. Mater Res Express.
+2017;2017:1–11.
+34. Hao S, Li M, Chen J. Surface microstructure and improved
+wear resistance of AZ91 magnesium alloy after high current
+pulsed electron beam treatment. Appl Surf Sci. 2016. https​://doi.
+org/10.1016/j.apsus​c.2016.05.137.
+35. Çelik İ. Structure and surface properties of ­Al2O3—TiO2 ceramic
+coated AZ31 magnesium alloy. Ceram Int. 2016;31:3–7. https​://
+doi.org/10.1016/j.ceram​int.2016.05.162.
+36. Tan Q, Mo N, Jiang B, Pan F, Atrens A, Zhang MX. Oxidation
+resistance of Mg–9Al–1Zn alloys micro-alloyed with Be. Scr
+Mater. 2016;115:38–41. https​://doi.org/10.1016/j.scrip ​t amat​
+.2015.12.022.
+37. Vlček M, Čižek J, Lukáč F, Melikhova O, Hruška P, Procházka I,
+Vlach M, Stuliková I, Smola B, Jager A. Effects in Mg–Zn-based
+alloys strengthened by quasicrystalline phase. J Phys Conf Ser.
+2016. https​://doi.org/10.1088/1742-6596/674/1/01200​5.
+38. Wang F, Ma D, Wang Z, Mao P, Liu Z. Microstructure, mechanical properties and solidification behavior of AM50-x(Zn, Y) magnesium alloys. Jinshu Xuebao Acta Metall Sin. 2016;52:1115–22.
+https​://doi.org/10.11900​/0412.1961.2016.00048​.
+39. Nia AA, Nourbakhsh SH. Microstructure and mechanical properties of AZ31/SiC and AZ31/CNT composites produced by friction
+stir processing. Trans Indian Inst Met. 2016;69:1435–42. https​://
+doi.org/10.1007/s1266​6-015-0702-x.
+40. Qi LH, Wei XL, Zhang T, Liu J, Hou XH, Li HJ. Effect of fabrication parameters on carbon fibre reinforced magnesium matrix
+composite components. Mater Sci Technol. 2016;0836:1–7. https​
+://doi.org/10.1179/17432​84715​Y.00000​00147​.
+41. Aatthisugan I, Rose AR, Jebadurai DS. Mechanical and wear
+behaviour of AZ91D magnesium matrix hybrid composite
+
+13
+
+23 Page 12 of 13
+
+42.
+
+43.
+
+44.
+
+45.
+
+46.
+
+47.
+
+48.
+49.
+
+50.
+
+51.
+
+52.
+
+53.
+
+54.
+
+55.
+
+reinforced with boron carbide and graphite. J Magnes Alloy.
+2016;5:20–5. https​://doi.org/10.1016/j.jma.2016.12.004.
+Oddone V, Boerner B, Reich S. Composites of aluminum alloy and
+magnesium alloy with graphite showing low thermal expansion
+and high specific thermal conductivity. Sci Technol Adv Mater.
+2017;18:1–7. https​://doi.org/10.1080/14686​996.2017.12862​22.
+Thompson SM, Bian L, Shamsaei N, Yadollahi A. An overview of
+direct laser deposition for additive manufacturing; part I: transport
+phenomena, modeling and diagnostics. Addit Manuf. 2015;8:36–
+62. https​://doi.org/10.1016/j.addma​.2015.07.001.
+Dordlofva C, Lindwall A, Törlind P. Opportunities and challenges
+for additive manufacturing in space applications. DS 85-1 Proceedings of NordDesign 2016, Volume 1, Trondheim, Norway,
+­10th–12th August 2016. (2016). https​://www.desig​nsoci​ety.org/
+publi​catio​n/39317​/oppor​tunit​ies_and_chall​enges​_for_addit​ive_
+manufa​ cturi​ ng_in_space_​ applic​ ation​ s. Accessed August 29, 2017.
+Chlebus E, Gruber K, Kuźnicka B, Kurzac J, Kurzynowski T.
+Effect of heat treatment on the microstructure and mechanical
+properties of Inconel 718 processed by selective laser melting.
+Mater Sci Eng A. 2015;639:647–55. https​://doi.org/10.1016/j.
+msea.2015.05.035.
+Sames WJ, List FA, Pannala S, Dehoff RR, Babu SS. The
+metallurgy and processing science of metal additive manufacturing. Int Mater Rev. 2016. https​://doi.org/10.1080/09506​
+608.2015.11166​49.
+Kurzynowski T, Chlebus E, Kuźnicka B, Reiner J. Parameters
+in selective laser melting for processing metallic powders. In:
+Beyer E, Morris T, editors. Proceedings of SPIE 8239 High
+Power Laser Materials Processing: Lasers, Beam Delivery.
+Diagnostics, 2012. https​://doi.org/10.1117/12.90729​2.
+Bai S, Yang L, Liu J. Manipulation of microstructure in laser
+additive manufacturing. Appl Phys A. 2016;122:495. https​://
+doi.org/10.1007/s0033​9-016-0023-x.
+Chlebus E, Kuznicka B, Kurzynowski T, Dybala B. Microstructure and mechanical behaviour of Ti-6Al-7Nb alloy produced by
+selective laser melting. Mater Charact. 2011;62:488–95. https​
+://doi.org/10.1016/j.match​ar.2011.03.006.
+Rashid R, Masood SH, Ruan D, Palanisamy S, Rahman Rashid
+RA, Elambasseril J, Brandt M. Effect of energy per layer on the
+anisotropy of selective laser melted AlSi12 aluminium alloy.
+Addit Manuf. 2018;22:426–39. https​://doi.org/10.1016/j.addma​
+.2018.05.040.
+Yap CY, Chua CK, Dong ZL, Liu ZH, Zhang DQ, Loh LE,
+Sing SL. Review of selective laser melting: materials and
+applications. Appl Phys Rev. 2015;2:041101. https ​: //doi.
+org/10.1063/1.49359​26.
+Ziółkowski G, Chlebus E, Szymczyk P, Kurzac J. Application
+of X-ray CT method for discontinuity and porosity detection
+in 316L stainless steel parts produced with SLM technology.
+Arch Civ Mech Eng. 2014;14:608–14. https​://doi.org/10.1016/j.
+acme.2014.02.003.
+Poprawe R, Hinke C, Meiners W, Schrage J, Bremen S, Risse J,
+Merkt S. Disruptive innovation through 3D printing. In: Supply
+chain integration challenges in commercial aerospace, Cham:
+Springer; 2017. p. 73–87. https​://doi.org/10.1007/978-3-31946155​-7_6.
+Fera M, Fruggiero F, Lambiase A, Macchiaroli R. State of the
+art of additive manufacturing: review for tolerances, mechanical
+resistance and production costs. Cogent Eng. 2016. https​://doi.
+org/10.1080/23311​916.2016.12615​03.
+Baufeld B, Brandl E, van der Biest O. Wire based additive layer
+manufacturing: comparison of microstructure and mechanical
+properties of Ti–6Al–4V components fabricated by laser-beam
+deposition and shaped metal deposition. J Mater Process Technol. 2011;211:1146–58. https​: //doi.org/10.1016/j.jmatp​rotec​
+.2011.01.018.
+
+13
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+56. Chlebus E, Kuznicka B, Dziedzic R, Kurzynowski T. Titanium alloyed with rhenium by selective laser melting. Mater
+Sci Eng A. 2014;620:155–63. https ​ : //doi.org/10.1016/j.
+msea.2014.10.021.
+57. Pawlak A, Szymczyk P, Ziolkowski G, Chlebus E, Dybala B.
+Fabrication of microscaffolds from Ti–6Al–7Nb alloy by SLM.
+Rapid Prototyp J. 2015;21:393–401. https​://doi.org/10.1108/
+RPJ-10-2013-0101.
+58. Rockstroh T, Abbott D, Hix K, Mook J. Additive manufacturing
+at GE aviation—industrial laser solutions, (2013). http://www.
+indus​trial​-laser​s.com/artic​les/print​/volum​e-28/issue​-6/featu​res/
+addit​ive-manuf​actur ​ing-at-ge-aviat​ion.html. Accessed June 1,
+2017.
+59. Bamberg J, Zenzinger G, Ladewig A. In-process control of selective laser melting by quantitativa optical tomography. In: 19th
+World Conference on Non Destructive Testing 2016, NDT.net,
+Munich, 2016. http://www.ndt.net/articl​ e/wcndt2​ 016/papers​ /th1b1​
+.pdf. Accessed 16 Jan 2019.
+60. Brandt M, Sun SJ, Leary M, Feih S, Elambasseril J, Liu QC. Highvalue SLM aerospace components: from design to manufacture.
+Adv Mater Res. 2013;633:135–47. https​://doi.org/10.4028/www.
+scien​tific​.net/AMR.633.135.
+61. Seabra M, Azevedo J, Araújo A, Reis L, Pinto E, Alves N, Santos R, Mortágua JP. Selective laser melting (SLM) and topology optimization for lighter aerospace componentes. Procedia
+Struct Integr. 2016;1:289–96. https​://doi.org/10.1016/j.prost​
+r.2016.02.039.
+62. Rashid R, Masooda SH, Ruan D, Palanisamy S, Huang X, Rashid
+RAR. Topology optimisation of additively manufactured lattice
+beams for three-point bending test. In: Solid freeform fabrication
+2018: Proceedings of the 29th annual international solid freeform
+fabrication symposium – an additive manufacturing conference,
+Austin, Texas, pp. 635–645.
+63. Kellner T. World’s first plant to print jet engine nozzles in mass
+production, 2014. http://www.ge.com/repor​ts/post/91763​81509​
+5/world​s-first​-plant​-topri​nt-jet-engin​e-nozzl​es-in/. Accessed 30
+Aug 2017.
+64. Nimbalkar S, Cox D, Visconti K, Cresko J. Life cycle energy
+assessment methodology, tool and case studies for additive manufacturing, 2014. http://ammo.ncms.org/docum​ents/Resou​rces/
+Proje​ctCal​ls/LifeC​ycleE​nergy​Asses​sment​Metho​dolog​y%2CToo​
+l%2Cand​CaseS​tudie​sforA​dditi​veMan​ufact​uring​.pdf. Accessed
+August 30, 2017.
+65. Joshi SC, Sheikh AA. 3D printing in aerospace and its long-term
+sustainability. Virtual Phys Prototyp. 2015;10:175–85. https:​ //doi.
+org/10.1080/17452​759.2015.11115​19.
+66. Additive manufacturing. A game changer for the manufacturing
+industry? (2013). https​://www.rolan​dberg​er.com/en/Publi​catio​ns/
+pub_addit​ive_manuf​actur​ing_2013.html. Accessed August 30,
+2017.
+67. U.S. Department of Energy, Chapter 6: Innovating clean energy
+technologies in advanced manufacturing | additive manufacturing
+technology assessment, 2015. https​://energ​y.gov/sites​/prod/files​
+/2015/11/f27/QTR201​ 5-6A-Additi​ veMan​ ufact​ uring​ .pdf. Accessed
+August 30, 2017.
+68. Schiller GJ. Additive manufacturing for aerospace. In: 2015
+IEEE Aerospace Conference. IEEE 2015. p. 1–8. https​://doi.
+org/10.1109/AERO.2015.71189​58.
+69. Aumund-Kopp C, Riou A. Introduction to additive manufacturing
+technology. A guide for designers and engineers, (2015) 43. www.
+epma.com. Accessed August 31, 2017.
+70. Rawal S, Brantley J, Karabudak N. Additive manufacturing of
+Ti–6Al–4V alloy components for spacecraft applications. In:
+2013 6th International conference on recent advances in space
+technologies. IEEE, 2013. p. 5–11. https​: //doi.org/10.1109/
+RAST.2013.65812​60.
+
+Page 13 of 13 23
+
+Archives of Civil and Mechanical Engineering (2020) 20:23
+71. Shapiro AA, Borgonia JP, Chen QN, Dillon RP, McEnerney B,
+Polit-Casillas R, Soloway L. Additive manufacturing for aerospace flight applications. J Spacecr Rockets. 2016;53:952–9. https​
+://doi.org/10.2514/1.A3354​4.
+72. Uriondo A, Esperon-Miguez M, Perinpanayagam S. The present
+and future of additive manufacturing in the aerospace sector: a
+review of important aspects. Proc Inst Mech Eng Part G J Aerosp
+Eng. 2015;229:2132–47. https​://doi.org/10.1177/09544​10014​
+56879​7.
+73. Zhang B, Liao H, Coddet C. Effects of processing parameters
+on properties of selective laser melting Mg–9%Al powder mixture. Mater Des. 2012;34:753–8. https​://doi.org/10.1016/j.matde​
+s.2011.06.061.
+74. Jauer L, Meiners W, Poprawe R. Selective laser melting of biodegradable metals. Eur Cells Mater. 2013;26:21.
+75. Gieseke M, Nölke C, Kaierle S, Maier HJ, Haferkamp H. Selective
+laser melting of magnesium alloys for manufacturing individual
+implants. In: Fraunhofer Direct Digital Manufacturing Conference
+2014, 2014. p. 1–6.
+76. Matena J, Petersen S, Gieseke M, Teske M, Beyerbach M,
+Kampmann A, Escobar H, Gellrich N-C, Haferkamp H, Nolte I.
+Comparison of selective laser melted titanium and magnesium
+implants coated with PCL. Int J Mol Sci. 2015;16:13287–301.
+https​://doi.org/10.3390/ijms1​60613​287.
+77. Jauer L, Jülich B, Voshage M, Meiners W. Selective laser melting
+of magnesium alloys. Eur Cell Mater. 2015;vol 30(Suppl 3).
+78. Gieseke M, Tandon R, Kiesow T, Wessarges Y. Selective laser
+melting of e­ lektron® MAP 43 magnesium powder matthias. In:
+Rapid technology—international trade show & conference for
+Additive Manufacturing. Proc. 13th Rapid.Tech Conf. 14–16 June
+2016, Erfurt, 2016: p. 244–252.
+79. Tandon R, Wilks T, Gieseke M, Noelke C, Kaierle S, Palmer T.
+Additive manufacturing of e­ lektron® 43 alloy using laser powder
+bed and directed energy deposition. In: Euro PM2015, 2015.
+80. Tandon R, Palmer T, Gieseke M, Noelke C, Kaierle S. Additive
+manufacturing of magnesium alloy powders: investigations into
+process development using ­elektron®MAP + 43 via laser powder
+bed fusion and directed energy deposition. In: Euro PM2016,
+Reims, 2016. p. 4–9.
+81. Manakari V, Parande G, Gupta M, Lopez HF. Selective laser melting of magnesium and magnesium alloy powders: a review. Metals. 2017. https​://doi.org/10.3390/met70​10002​.
+82. Hu D, Wang Y, Zhang D, Hao L, Jiang J, Li Z, Chen Y. Experimental investigation on selective laser melting of bulk netshape pure magnesium. Mater Manuf Process. 2015. https​://doi.
+org/10.1080/10426​914.2015.10259​63.
+83. Pawlak A, Chlebus E. Process parameter optimization of
+laser micrometallurgy of aZ31 alloy. Interdiscip J Eng Sci.
+2015;3:10–5.
+84. Pawlak A, Rosienkiewicz M, Chlebus E. Design of experiments approach in AZ31 powder selective laser melting process
+optimization. Arch Civ Mech Eng. 2017;17:9–18. https​://doi.
+org/10.1016/j.acme.2016.07.007.
+85. Pawlak A, Szymczyk P, Kurzynowski T, Chlebus E. Selective
+laser melting of magnesium AZ31B alloy powder. Rapid Prototyp
+J. 2019. https​://doi.org/10.1108/rpj-05-2019-0137.
+86. Salehi M, Maleksaeedi S, Farnoush H, Nai MLS, Meenashisundaram GK, Gupta M. An investigation into interaction between
+
+87.
+
+88.
+
+89.
+
+90.
+
+91.
+92.
+
+93.
+94.
+95.
+
+96.
+
+97.
+
+magnesium powder and Ar gas: implications for selective laser
+melting of magnesium. Powder Technol. 2018;333:252–61. https​
+://doi.org/10.1016/j.powte​c.2018.04.026.
+Wei K, Wang Z, Zeng X. Influence of element vaporization on
+formability, composition, microstructure, and mechanical performance of the selective laser melted Mg–Zn–Zr components.
+Mater Lett. 2015;156:187–90. https​://doi.org/10.1016/j.matle​
+t.2015.05.074.
+Shuai C, Yang Y, Wu P, Lin X, Liu Y, Zhou Y, Feng P, Liu X,
+Peng S. Laser rapid solidification improves corrosion behavior of
+Mg–Zn–Zr alloy. J Alloys Compd. 2017;691:961–9. https​://doi.
+org/10.1016/j.jallc​om.2016.09.019.
+Proaño B, Miyahara H, Matsumoto T, Hamada S, Sakai H, Ogawa
+K, Suyalatu, Noguchi H. Weakest region analysis of non-combustible Mg products fabricated by selective laser melting. Theor
+Appl Fract Mech. 2019;103:102291. https​://doi.org/10.1016/j.
+tafme​c.2019.10229​1.
+Li Y, Jahr H, Zhang XY, Leeflang MA, Li W, Pouran B, Tichelaar
+FD, Weinans H, Zhou J, Zadpoor AA. Biodegradation-affected
+fatigue behavior of additively manufactured porous magnesium.
+Addit Manuf. 2019;28:299–311. https​://doi.org/10.1016/j.addma​
+.2019.05.013.
+Savalani MM, Pizarro JM. Effect of preheat and layer thickness
+on selective laser melting (SLM) of magnesium. Rapid Prototyp
+J. 2016;22:115–22. https​://doi.org/10.1108/RPJ-07-2013-0076.
+Ng CC, Savalani MM, Lau ML, Man HC. Microstructure and
+mechanical properties of selective laser melted magnesium. Appl
+Surf Sci. 2011;257:7447–54. https​://doi.org/10.1016/j.apsus​
+c.2011.03.004.
+Ng CC, Savalani MM, Man HC. Fabrication of magnesium using
+selective laser melting technique. Rapid Prototyp J. 2011;17:479–
+90. https​://doi.org/10.1108/13552​54111​11842​06.
+Chlebus E, Pawlak A, Kurzynowski T, Dybała B. Raporty
+Wydziału Mechanicznego Politechniki Wrocławskiej. Instruction
+for working with powder materials. Ser. SPR nr 192, 2016.
+Liu S, Yang W, Shi X, Li B, Duan S, Guo H, Guo J. Influence
+of laser process parameters on the densification, microstructure,
+and mechanical properties of a selective laser melted AZ61 magnesium alloy. J Alloys Compd. 2019;808:151160. https​://doi.
+org/10.1016/j.jallc​om.2019.06.261.
+Wei K, Gao M, Wang Z, Zeng X. Effect of energy input on
+formability, microstructure and mechanical properties of selective laser melted AZ91D magnesium alloy. Mater Sci Eng A.
+2014;611:212–22. https​://doi.org/10.1016/j.msea.2014.05.092.
+Mirovsky Y, Bendov A, Leibovich H, Gurman A, Yurovich Y,
+Diskin Y, Steckelman Y, Ramati S, Idel S, Kalman Y, Gerhard
+M, Rubinstein D. Clean sky: the future of the aviation industry—
+developments at israel aerospace industries. In: 54th israel annual
+conference on aerospace sciences 2014, technion israel institute
+of technology, Tel-Aviv, 2014. p. 1715–1723.
+
+Publisher’s Note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional affiliations.
+
+13
+
+

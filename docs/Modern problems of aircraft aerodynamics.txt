@@ -1,0 +1,610 @@
+Chernyshev et al. Advances in Aerodynamics
+https://doi.org/10.1186/s42774-019-0007-6
+
+(2019) 1:7
+
+REVIEW
+
+Advances in Aerodynamics
+
+Open Access
+
+Modern problems of aircraft aerodynamics
+Sergey L. Chernyshev, Sergey V. Lyapunov and Andrey V. Wolkov*
+* Correspondence:
+andrey.wolkov@tsagi.ru
+Department of Aerodynamics,
+Central Aerohydrodynamic Institute
+named after Prof. N.E, Zhukovsky
+(TsAGI), 140180, Zhukovsky str. 1,
+Zhukovsky, Russia
+
+Abstract
+The article represents the discussion of several separate directions of investigations,
+which are performed by TsAGI flight vehicles aerodynamics specialists at the time.
+There are some major trends of classical layout of route aircraft and also peculiarities
+of some prospective flight vehicles. Also there are some hypersonic vehicles
+aerodynamics questions examined along with problems of creation of civil
+supersonic transport aircraft. There is a description given for well-known and some
+newer methods of flow control for drag reduction.
+Keywords: Aircraft aerodynamics, Hypersonic vehicles aerodynamics, Civil supersonic
+transport aircraft, Sonic boom
+
+1 Background
+The latest successes of aviation science and technology in fuel efficiency increase
+could be observed in Fig. 1. There is a significant reduction of fuel consumption for
+passenger per kilometer. But not only has the fuel consumption indicated aviation
+science development. The flight safety and ecological impact (decrease of noise and
+environment pollution level) of aviation transport became the prime tasks of
+development.
+At 2014 there was document prepared by representatives of Russia leading scientific
+organizations (TsAGI, CIAM, VIAM, GosNIIAS etc...) named “Foresight of aviation
+science and technology development”, which defines the long-term forecast of scientific and technological development of Russian Federation in area of aviation industry.
+This document specifies the ambitious task indicators (see Table 1) of creating of backlog in the area of civil aviation development, which couldn’t be achieved without reconsideration of existing technologies of aviation science.
+The tasks of aerodynamic science are defined by the necessity of improving of these
+indicators. The Breguet flight range formula
+L
+
+K  M G1
+ln
+CE
+G0
+
+allows to define the key aerodynamic parameters, which need to be improved. First of all
+it is an increase of cruise lift-to-drag level (K), cruise Mach number (M) and decrease of
+specific fuel consumption and minimization of structural weight (G1,G0 - masses of aircraft at the beginning and at the end of flight).
+In turn, the maximal lift-to-drag ratio could be achieved as follows:
+© The Author(s). 2019 Open Access This article is distributed under the terms of the Creative Commons Attribution 4.0 International
+License (http://creativecommons.org/licenses/by/4.0/), which permits unrestricted use, distribution, and reproduction in any medium,
+provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and
+indicate if changes were made.
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+Page 2 of 15
+
+Fig. 1 Change of route aircraft fuel efficiency with time
+
+K max
+
+1
+¼
+2
+
+sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+π λ
+C f S wetted
+
+where λ – the effective wing aspect ratio, Cf – skin friction coefficient, S wetted – the wetted surface area of aircraft divided by wing area. Thus, there are another three directions
+of flying vehicle economical characteristics improvement, related to aerodynamics: aspect
+ratio increase, friction drag reduction and aircraft relative wetted area decrease.
+The main components of full cruise drag of modern aircraft are friction drag, drag
+due-to-lift and wave drag. The impact of the first two in transonic speeds region
+reaches up to 50 and 40% of full drag correspondingly. This shows that friction drag
+reduction is the major source of aircraft lift-to-drag increase. It should be noticed that
+lift-to-drag increase is not only about drag reduction, but also about increase of lifting
+capabilities by shape improvement and search for newer layout solutions.
+In the near future the development of aerodynamic layout of router aircrafts will be
+carried out in frames of classical layout, basing on progress in area of aerodynamics
+of high–speed wings, new materials, electronic and electromechanical devices and
+super high bypass ratio engines. The article also examines peculiarities of aircrafts of
+integral layouts (flying wing, elliptic fuselage) and aircraft with distributed powerplant
+and powerplant integrated into the wing.
+Table 1 Prognosis on changes in main aircraft aimed perfection indicators
+Indicator
+
+Year 2020
+
+2025
+
+2030
+
+Flight safety, air incidents reduction
+
+by 5 times
+
+by 7 times
+
+by 8.5 times
+
+Noise level reduction rel. to. Ch.4 ICAO by, EPNdB
+
+20
+
+25
+
+30
+
+NOx emission level rel to. ICAO 2008 by, %
+
+45
+
+65
+
+80
+
+Fuel consumption and CO2 emission reduction by, %
+
+25
+
+45
+
+60
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+One of the main ways of development of any kind of transport is the increase of
+passenger transportation speed. One of the results of such development was creation
+of first generation of supersonic civil aircrafts (SST-1) in Soviet Union (Tu-144) and
+Europe (“Concorde”) in the second half of twenty century. In order to improve the
+aerodynamic layout of supersonic civil aircraft TsAGI creates specially designed test
+facilities and develops methodology of sonic boom characteristics estimation.
+At higher supersonic and hypersonic speeds, the process of aerodynamic design
+is additionally complicated by necessity of solving problem of intensive aerodynamic heating of surface elements of flight vehicles, and by ensuring of their stability and controllability and also by need of implementing of higher volume tanks
+for hydrogen fuel.
+For the successfully solving of the enlisted tasks and for ensuring of prospective technical backlog the leading-in-time mono and multidisciplinary scientific investigations
+are indispensable.
+
+2 The main directions of aircraft classical layout development
+It should be admitted, that aerodynamic potential of modern supercritical wings is on
+the edge of limit, that’s why it is needed to investigate and implement some new prospective technologies in order to move forward. Among them the following should be
+outlined:
+ Adaptive wings for transonic speeds;
+ New types of wingtips;
+ Organization of laminar flow around empennage, engine nacelles, and later around
+
+wings (NLF, HLFC);
+ Reduction of turbulent friction drag;
+ Improved types of efficient high-lift devices;
+ Active and passive flow control systems (mini and macro devices, synthetic jets,
+
+actuators etc);
+ Active thrust vectoring control;
+ Transition to layouts with moderate stability margin and slightly instable layouts.
+
+The problem of increasing of cruise speed (Mach number) is connected with overcoming of intensive drag rise occurring due to existence of intensive shock, closing
+local area of supersonic flow. Using of supercritical airfoils and wings allowed moving
+to higher Mach number for preset sweep angle and relative thickness of the wing. At
+the time, the modern methods of aerodynamic design allow move the mentioned drag
+rise to higher speeds using global numerical optimization of aerodynamic shape of
+the wing for given relative thickness and plan form. Further increase of flight Mach
+number is most likely possible only by using flow control methods and through affecting the shock. These could be, for example, some special actuators or vortex generators [1] provoking additional vortex producing or the tangential jet blowing on
+wing surface [2, 3].
+Most frequently the higher speed possibilities of supercritical wings are “traded” for increase of relative thickness of the wing in order to reduce structural weight or to increase
+aspect ratio, which, as it is well known, leads to reduction of drag due to lift. Tu-204 and
+
+Page 3 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+Il-96 aircraft with aspect ratio λ = 9.2 ÷ 10 demonstrate such approach of aerodynamic design, exceeding their predecessors Tu-154 and Il-86 in maximal lift-to-drag by more than
+2 units. It should be noticed that supercritical wings implementation is the reason of increased nose-down pitching moment, that leads to higher trim drag. However, these losses
+could be lowered by some reduction of aircraft longitudinal stability and by use of modern
+flight control systems, ensuring flight safety.
+Using of composites in wing structure opens new possibilities for aerodynamic design. On one hand the airframe weight could be reduced, on the other hand, wing aspect ratio could be increased for the same structural weight. The prediction of
+aircraft flight performance shows that aspect ratio increase. That’s why for the new
+generation Russian passenger aircraft MS-21 record aspect ratio wing with λ = 11.45
+was implemented.
+Aspect ratio increase consequently leads to increase of lift coefficient corresponding
+to maximal lift-to-drag.
+Wing aspect ratio increase leads to increase of wingbox weight due to lesser chords and
+thicknesses. One of the possible ways of weight reduction could be use of additional supporting elements-wing braces (see Fig. 2). This configuration has recently been intensively
+investigated [4–7]. Preliminary estimations performed by TsAGI’s specialists have shown
+that with using of such elements in router aircraft design there could be achieved optimal
+wing aspect ratio up to 14–15, however, approving such estimations require deeper
+investigations.
+It should be noticed, that further increase of aspect ratio, and, consequently, wingspan values is limited by size of existing taxiways and hangars. One of possible solutions of this problem is the using of vertical or folding wingtips, which allows
+increasing effective aspect ratio of the wing at wingspan limitations.
+
+Fig. 2 Layout of aircraft with wing braces
+
+Page 4 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+The important reserve for aerodynamic layout lift-to-drag level increase is the optimal positioning of engine nacelles, which is quite actual due to tendency of increase
+of bypass ratio and sizes of prospective engines. It should be noticed, that high bypass
+ratio engines have smaller fuel consumption and lower noise levels, but have a negative effect on flow around airframe, including takeoff and landing phases due to limitations on span and extension distance of root section of slat. Besides that, large-sized
+engine nacelles located under the wing require longer undercarriage struts, that leads
+to structural weight growth. Application of optimization procedures allows to significantly decrease negative interference of nacelles. The loss of maximal lift, while using
+insufficiently effective high-lift devices, could be compensated, for example, by application of jet blowing in wing-pylon connection area. Experiments on investigation of
+efficiency of this conception have already started at TsAGI on large-scaled (span,
+chord) wing segment at large (full) scale T-101 wind tunnel (Fig. 3).
+TsAGI has developed technical conception of router aircraft of integral layout with
+powerplant distributed within wing structure (Fig. 4). The idea of a distributed power plant
+is fully discussed in the thesis report of Khajehzadeh [8]. Experimental investigations of developed model have shown that such way of powerplant integration into airframe ensures
+approximately 15% increase of lift-to-drag ratio, comparing to classical layout.
+
+3 “Flying wing” aircraft concept
+The integral layout “flying wing” (FW), or “blended wing body” (BWB) is considered
+to be the most aerodynamically perfect layout for long-range aircraft [9]. Flying wing
+concept is targeted on full elimination of fuselage as a main part of drag. Besides that,
+for classical flying wing, tail empennage is also absent. Theoretically, the lift-to-drag
+ratio for flying wing could be 40% higher than that of classical layout for the same
+wing aspect ratio. Besides that, the aircraft empty weight for flying wing layout should
+be less due to possibility of more uniform distribution of payload inside wing. However, more complex problems of balancing and controllability of flying wing inevitably
+lead to losses.
+Passenger comfort requires significant structural height of the wing, which, in its turn
+for standard small relative thickness will lead to significant growth of absolute aircraft
+
+Fig. 3 Model of nacelle+wing segment with high-lift devices inside T-101 wind tunnel (AFLONEXT
+project: www.aflonext.eu)
+
+Page 5 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+Fig. 4 Aircraft with powerplant distributed within wing structure
+
+sizing. Application of these huge flying wing aircrafts could be justified only for super
+high capacity (1000 passengers) transportation. Such aircrafts are not examined seriously yet due to both safety reasons and difficulties of integration of such aircrafts into
+existing transportation flows.
+Potentially, passenger aircrafts of flying wing layout possess three advantages: higher
+lift-to-drag ratio due to smaller relative wetted area, favorable distribution of mass load
+along wingspan and relatively small ground noise level for configurations with engines
+located above airframe.
+However, taking a closer look, these advantages do not look that obvious. First of
+all, latest aircrafts of classical layout utilize wings of increased aspect ratio due to
+composites implementation. Distribution of payload along wingspan could be realized significantly comparing to classical layout due to uncomfortable g-loads conditions for passengers of outer wing sections during roll maneuvers, and finally only
+third advantage, concerning noise shielding by flying wing central wing is yet conclusive, and that’s why lately there were investigations started on aeroacoustics of
+low-noise flying wing layouts of relatively small passenger capacity of 200–300
+passengers (for example SAX-40 Fig. 5).
+Calculation and experiments show that flying wing layout could ensure significant
+noise shielding for sources located above upper surface due to longer chord lengths
+(Fig. 5, see http://silentaircraft.org).
+
+4 Possible ways of drag reduction
+It is known that, the development of aircrafts, ships and high speed ground transport
+stimulates investigations directed on finding possibilities of lowering of drag for moving
+objects. Lately, the actuality of such kind of investigations is increasingly growing, due
+
+Fig. 5 Low noise BWB layout (SAX-40, see http://silentaircraft.org/)
+
+Page 6 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+to the fact that possibilities of standard approaches to flight vehicles design are almost
+ideologically depleted. Aerodynamic perfection of modern passenger aircrafts is gradually
+going to the “limit”, and the struggle is for the decimals of lift-to-drag. To achieve a significant breakthrough in this area, the new conceptions are needed, which are based on
+ideas of active or passive flow control. Today, it is not enough to just understand or have
+ability to explain phenomena, but the real challenge is to learn how to purposefully control them. From written above it is clear that, flow control in order to reduce drag of moving objects is one of the most important tasks of applied aerodynamics. Even small
+decrease of friction drag would allow reducing fuel costs significantly.
+The analysis of passenger aircraft drag components shows possible ways of its
+reduction:
+ wing aspect ratio increase
+ decrease of friction drag by reducing wetted area of flying vehicle, flow
+
+laminarization or application of some innovative ways of turbulent friction
+reduction (riblets, surface active substances, vortex destruction devices, different
+kinds of actuators, movable surface elements and so on).
+ wave drag reduction
+Problems, related to possibilities of wing aspect ratio increase are described at chapter 2 of this article. Concerning the problem of friction drag decrease, the main question about it is if the flow around most part of wetted area of flying vehicle laminar or
+turbulent. At Reynolds number range from 106 to 107 or higher on significant part of
+surface there could be a transition mode of flow, and it is obvious that it is expedient
+to use some actions for delaying of process of laminar turbulent transition. Among
+these actions are following:
+ suction of boundary layer through surface
+ creation of negative pressure gradient
+ surface cooling
+
+Such methods of laminar flow control could be successful up to Re = 25 · 106 or
+even higher. Still, there are a lot of questions, related to practical realization, cost
+and reliability of these methods. It is also should be noted, that the situation is additionally complicated by existence of numerous factors that could create disturbances, leading to flow turbulization. This could be different unfairness (roughness
+elements) of surface, acoustic factors, vibrations, different particles (rain, dust, insects’ pollution) etc.
+At very high Reynolds number, the flow is usually turbulent across all the length of
+flying vehicle surface, and in this case the task is about lowering turbulent friction drag.
+Among the most well-known approaches are:
+ creation of positive pressure gradient
+ blowing (with small pulse) through the slot tangentially to surface
+ distributed blowing normally to surface
+ devices for large eddies destruction
+
+Page 7 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+ ribbed surfaces (small longitudinal flutes). As far as the flutes are oriented along the
+
+flow direction, the additional drag is minimal, but the wetted area is increased.
+Nevertheless, the investigations show that drag reduction is possible if the deepness
+and pitch of the flutes are of the same order as the size of near wall turbulent
+formations.
+In TsAGI there were first experimental investigations performed of effect of geometry
+of surfaces with chaotic microstructure, having special fractal hierarchy of granularity,
+on turbulent boundary layer characteristics. It was found that, the distinctive peculiarity
+of “fractal” surface is non-gauss statistics of distribution of roughness height and it is
+observed some good matching between fractal surface shape spectra and turbulent
+boundary layer.
+This result allows to make an assumption about existence of frequency-space mechanism of selective effect of stochastic model relief on turbulent boundary layer properties. TsAGI experiments clearly registered the effect of conditions of surface of
+models used on spectra and structures of turbulent boundary layer. In the lower frequencies area, the spectra amplitude lowers by 1.5–2 times, while at high frequencies
+range the spectra amplitude rises, what speaks of destruction of low-frequency (large)
+coherent structures by the surface with fractal microstructure.
+During tests at wide range of Re number there were observed a reduction of drag coefficient Cx for the model with fractal surface comparing to the corresponding value of
+Cx of abrasive surface with the same mean roughness (Fig. 6) [10].
+As it was already noted, in frames of existing approaches of aerodynamic design,
+modern aircrafts already have nearly optimal shape, and in order to significantly improve aerodynamic characteristics it is needed to use of active or passive flow control
+systems [1, 3]. The following are examined: jet blowing on flap surface, tangential jet
+blowing right after the shockwave, and different kinds of actuators (plasma, dielectric
+barrier and corona discharge and also a thermal pulse devices).
+In order to learn about different aspects of wing laminarization, such as natural laminar flow, combined laminar flow, low-noise layout with position of super high bypass
+engines on upper wing surface, and also to learn about peculiarities of application of jet
+system of active flow control, it is proposed to build a specialized prospective technologies demonstrator aircraft.
+
+Fig. 6 Drag coefficient dependency on Re number
+
+Page 8 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+5 The modern problems of civil supersonic transport aircrafts
+Today, one of the main factors to hold the development of civil supersonic transport in
+Russia and abroad is the absence of conventional rules and requirements on sonic boom
+for civil supersonic transport (CSST). A transition from “overpressure” terminology to
+“loudness” terminology allows to evaluate the level of sonic boom more adequate and
+uniquely, and to formulate the CSST layout with low sonic boom level. At the time the
+process of formulating rules on sonic boom came into active stage. The specialists of
+TsAGI, GosNIIGA and FRI are involved into the process, including the frames of “RUMBLE” European project. Main task of this project is the formulating of proposals for prospective rules on sonic boom, regulating acceptable levels on sonic boom (threshold
+levels), measurements metrics, and methods of determining the compliance of CSST to
+these rules. The analysis of the metrics and threshold levels discussed by world scientific
+society [11–13] allowed Russian specialists to formulate preliminary requirements on
+sonic boom for prospective SST. The preliminary list of proposals on requirements for
+metrics and threshold levels is already developed. With consideration to existing Russian regulatory legal base there are formed the preliminary set of measurement equipment, the methodology of measurement of outdoor and indoor sonic boom level. The
+results of this work are the base for performing a flight tests with sonic boom level
+measurements at 2014–2018. Basing on preliminary requirements TsAGI, along with
+Russian research institutes and enterprises, began forming a scientific-technical backlog for creation of passenger supersonic aircrafts of new generation. The base of the
+conception is the ability to perform a cruise supersonic flight above populated surface
+with loudness L ≤ 72 dBA.
+At the time, the works are performed on perfection of numerical methods of sonic
+boom estimation for CSST at acceleration stage, accounting for real atmosphere
+properties, and also a secondary boom. The estimations of sonic boom for acceleration stage are needed for definition of flight modes with focusing occurrence,
+when sonic boom loudness could significantly increase, and definition of possible
+safety exclusion area [14].
+The engines of prospective layout, capable of solving a transportation task with limitations on noise levels at airport area at take-off and landing and atmosphere pollution
+levels are observed as a component of CSST powerplant. CIAM, “Aviadvigatel” “Lulca
+design bureau” are actively involved into formulating of prospective layouts of engines
+for CSST powerplants. Basing on results of preliminary investigations, the PD-14C engine project developed by “Aviadvgatel” could be called “near future” prospect. One
+stage low pressure compressor, equipped with adjustable entrance stator is designed
+with m = 2.5 bypass ratio. The appearance of testbench sample of such engine is possible in 5–7 years.
+The noise-reduction system of prospective CSST includes shielding of engine and jet
+noise by airframe elements, noise absorbing covering at air intakes channels and cold
+ducts of engines, ejector nozzles. The special test bench investigations, maximally approximated to natural conditions are needed for noise-reduction system elements
+development.
+Solving of tasks of sonic boom and noise reduction is connected with some technical
+actions, which are not improving aerodynamic and structural weight perfection of layouts. Among them there are fuselage and the wing of special complicated shape,
+
+Page 9 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+powerplant shielded by airframe elements, with engine positioning above fuselage and
+wing etc. Besides that, the requirements for transportation task became harder, for example, for supersonic business aviation the basic requirements creating of supersonic
+expansion is needed on runways with length less than 2000 m. For all CSST the transatlantic flight range (at least 7000 km) is considered to be minimal. For that case, even
+fixing high load ratio of fuel GT ≈ 50%, the aircraft should ensure cruise lift-to-drag ratio 15–20% higher than SST of first generation.
+Requirements of ensuring flight safety increase dictate the need of lowering landing
+approach speed, and as a consequence, increase of CSST wing aspect ratio by 30–35%
+comparing to CSST-1. Thus, the tasks of aerodynamics, structural strength, stability
+and control for CSST seem to be pretty complex.
+At the time, the estimations are made on possibility of creating supersonic business jet
+(SBJ) with cruise speed of M = 1.8 with 8 passenger capacity for business class compartment and flight range of around 7400 km, maximal takeoff weight of 55 tones and
+two-engine powerplant. Also the possibility is examined of creation of SBJ with transformable cabin (SBJ/CSST with cruise speed M = 1.8) with transatlantic flight range and maximal takeoff weight up to 130 tones. For “business jet” cabin option CSST/SBJ is capable
+of transporting 20 passengers in 1-st class cabin, including 1 VIP (with separate compartment, toilet, shower cabin and sleeping bed) on flight distance of up to 8200 km. For “passenger” cabin option, keeping takeoff mass the same, SBJ/CSST is capable of transporting
+up to 80 passengers at economy plus class cabin for 7400 km. The preliminary estimations
+are made of possibility of creating of SST with transatlantic range for 140 and 200 passengers, with takeoff weight of 170 and 256 tones correspondingly.
+The works are also in progress on formulating the layout of demonstrator of supersonic
+transport aircraft (DSTA) with maximal takeoff weight less than 30 tones. The list of the
+main technologies, which could be tested on such flying vehicle includes aerodynamic
+and layout solutions, ensuring low sonic boom level, reasonable structural scheme and application of the newest materials and flight safety and control solutions (Fig. 7).
+On preliminary estimations, for the examined range of weights and sizes of SST
+of different roles, there exist potential of fulfilling the requirements on threshold
+noise loudness level of L ≤ 72 dBA at cruise Mach number (for example) M = 1.8
+(see also [15]) (Fig. 8).
+
+Fig. 7 The layout of supersonic business jet and hypersonic civil aircraft
+
+Page 10 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+Fig. 8 The dependency of sonic boom loudness at the beginning of cruise supersonic flight at M = 1.8 on
+flight weight of prospective CSST
+
+The loudness level of sonic boom of L ≤ 65 dBA would, by preliminary estimations,
+allow exploitation of CSST all-day long without limitations. However, reaching such
+level would require significant efforts.
+
+6 The peculiarities of hypersonic aircrafts
+The aerodynamic design of hypersonic aircrafts is connected with a lot of peculiarities,
+complicating the process. First of all, the intensive aerodynamic heating of elements of flying vehicle surface should be noted. For example, at M = 6 the stagnation temperature of
+incoming flow would approach 1900 K, and for M = 8 would exceed 3000 K, that would
+require taking special actions on ensuring heat resistance of surface elements of the vehicle, especially of the nose part of the fuselage, leading edges of the wings, control surfaces and air intakes. A compromise should be found, allowing to ensure the thermal
+structural strength with acceptable lift-to-drag loss.
+The second problem is connected with the fact that hypersonic ramjet with hydrogen
+fuel is considered as the most suitable type of engine for civil hypersonic aircraft. Such engine could provide high efficiency on hypersonic flight speeds, but requires large volume
+fuel tanks, equipped with thermal regulation systems. For hydrogen fuel, that inevitably
+leads to decrease of aircraft lift-to-drag.
+The over problems are defined by the peculiarities of stability and control assurance
+for hypersonic flight vehicles. These peculiarities are determined by movement of pressure center and aerodynamic focus forward, comparing to flight vehicles, at lower
+speed range non-linearity dependencies. This happens due to significant non-linearity
+of dependencies of aerodynamic characteristics of flight vehicles surface elements on
+their incidence angle. For that reason, the most part of aerodynamic force, acting on
+vehicle is concentrated on its forward part, and traditional control surfaces, located at
+the tail are found to be less effective. This leads to necessity to perform the corresponding optimization both airframe elements and control surfaces. It is possible also to use
+combined control systems, including both aerodynamic surfaces and gas jets.
+
+Page 11 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+At high supersonic and hypersonic flight speeds it is especially important to use
+possibilities of aerodynamic integration of elements of aerodynamic layout and engine. While locating the engine air inlet in the flow areas previously decelerated by
+vehicle airframe elements the own characteristics of air inlet: the mass flow coefficient
+and pressure recovery ratio are improved. This leads to reducing of necessary sizing
+of air inlet devices, and, consequently, to their weight decrease along with decrease of
+powerplant in whole and increase of powerplant fuel efficiency. The results of investigation of problems of reasonable integration of airframe and powerplant are presented, for example, in publications [16, 17].
+At high supersonic and hypersonic speeds there occurs new opportunities of application of non-traditional aerodynamic shapes, based on waverider and Busemann biplane conceptions (Figs. 9, 10) [18]. The results of calculation and experimental
+investigations show that such aerodynamic configurations, thanks to positive effects
+of airframe-powerplant integration, allow achieving high lift-to-drag level with relatively large inner volumes.
+Interest in the possibilities of using unconventional aerodynamic shapes such as
+waveriders and biplanes in the design of high-speed aircraft currently remains, as evidenced by, for example, recent developments [19–22]. The important aspect of creation and exploitation of high speed aerial transport is the care about ecology. As for
+the sonic boom level, the researches show that with flight Mach number increase, the
+sonic boom intensity lowers.
+Figure 11 presents examples of the calculations of an aircraft weighing 150 tons
+with the M = 1.5 at an altitude of 15 km, with the M = 2.5 and an altitude of 20 km,
+and finally with M = 5 at an altitude of 30 km. Increasing the altitude of the flight is
+selected in order to preserve the magnitude of the lift with increasing speed of the aircraft. The calculations show an almost two-fold decrease in the intensity of the sonic
+boom, which is mainly due to an increase in flight altitude. So, the hypersonic flight
+usually takes place at high altitudes and sonic boom level decrease near the surface.
+The ecological aspect also includes ozone layer protection problem. The representative
+distribution of ozone concentration with altitude is shown at Fig. 12. The most part of
+ozone layer is located 12–50 km altitude range, where the highest ozone concentration is
+observed at 15–25 km at polar latitudes, at 20–25 km at middle latitudes and from 25 to
+30 km at tropical latitudes.
+
+Fig. 9 Configuration of vehicle based on waverider concept
+
+Page 12 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+Fig. 10 Configuration of vehicle based on Busemann biplane concept
+
+It is obvious, that for decreasing of negative ozone layer effect, the cruise flight of
+hypersonic aircraft should be performed as high as possible, and acceleration to cruise
+flight should be done as fast as possible. These factors increase requirements for aircraft thrust/weight ratio. To solve all these complicated tasks the efforts of many
+TsAGI specialists are needed along with the specialists of other research institutes.
+
+7 Summary
+Modern problems and perspectives of development of flight vehicles aerodynamics are
+described. The prospective technologies, which are to be implemented for aerodynamic
+layout perfection of passenger aircrafts are emphasized.
+The advantages and disadvantages are noted of the most aerodynamically perfect
+integral configuration – the “flying wing” concept. The conclusion is made, that the
+application of huge sized flying wing aircraft could be justified only for extra high
+passenger capacity, around 1000 people. A brief description is made of known
+methods of friction drag reduction, and also of new method, connected with creating of special microstructure, having special fractal granularity, on the streamlined
+surface. During tests at wide range of Re number there were observed the reduction
+of turbulent drag coefficient for the model with fractal surface comparing to the
+abrasive surface with same mean roughness.
+The main problems of creation of civil supersonic passenger aircrafts are described. It is noted that one of the main factors, slowing down the development
+
+Fig. 11 Sonic boom intensity at different flight Mach numbers
+
+Page 13 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+Fig. 12 The dependency of ozone partial pressure on altitude
+
+of supersonic aerial transport is the absence of commonly accepted rules and requirements on sonic boom level. The concept is examined of new generation civil
+supersonic transport aircraft. The base of concept is the ability of aircraft to perform supersonic cruise above the populated surface with sonic boom loudness not
+exceeding 72 dBA. Based on preliminary estimation, such opportunity exists.
+The description is given of aerodynamics peculiarities for hypersonic aircrafts. These
+peculiarities are connected mostly with the necessity of taking into account the intensive heating of elements of flight vehicles surface. The conclusion is made that the most
+suitable option of engine for civil hypersonic aircraft is the hypersonic ramjet with
+hydrogen fuel. The new possibilities are noted for implementation of non-traditional
+configurations, based on wave rider and Busemann biplane concepts.
+Abbreviations
+CIAM: Central Institute of Aviation Motors; GosNIIAS: State research institute of civil aviation; TsAGI: Central
+aerodynamic institute; VIAM: All-Russian scientific research institute of aviation materials
+Acknowledgements
+Authors are grateful to the experts of TsAGI for the assistance in preparing the article, in particular: M.A. Brutyan, A.L.
+Bolsunovsky, Yu. N.Chernavsky, V.G. Yudin, A. A.Gubanov and others.
+Funding
+Works are performed at financing of the ministry of industry and trade.
+Availability of data and materials
+All data generated or analyzed during this study are included in this published article.
+Authors’ contributions
+The contribution of the authors to the work is equivalent and is approximately 1/3. All authors read and approved the
+final manuscript.
+Authors’ information
+Sergey L. Chernyshev, MIPT, academician, TsAGI, author of over 130 scientific publications. Area of scientific
+interests – flight vehicles aerodynamics, hypersonic vehicles aerodynamics, sonic boom.
+
+Page 14 of 15
+
+Chernyshev et al. Advances in Aerodynamics
+
+(2019) 1:7
+
+Sergey V. Lyapunov, MIPT, Doctor of science, professor, TsAGI, author of over 70 scientific publications. Area of
+scientific interests – flight vehicles aerodynamics, CFD methods.
+Andrey V. Wolkov, MIPT, Doctor of science, TsAGI, author of over 70 scientific publications. Area of scientific
+interests – flight vehicles aerodynamics, CFD methods. E-mail: andrey.wolkov@tsagi.ru
+Competing interests
+The authors declare that they have no competing interests.
+
+Publisher’s Note
+Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.
+Received: 17 January 2019 Accepted: 22 January 2019
+
+References
+1. Brutyan MA (2015) Problems of gas and fluid flow control. Nauka, Moscow
+2. Abramova KA, Brutyan MA, Lyapunov SV et al (2015) Investigation of buffet control on transonic airfoil by tangential jet
+blowing, 6th edn. European Conference for Aeronautics and space sciences (EUCASS), Krakov, pp 1–9
+3. Petrov AV (2011) Powered lift wing systems. Moscow, Fizmatlit
+4. Carrier G, Atinault O, Dequand S, Hantrais-Gervois J-L, Liauzun C, Paluch B, Rodde A-M, & Toussaint C (2012)
+Investigation of a strut-braced wing configuration for future commercial transport. In ICAS 2012–597
+5. Ko A, Mason WH, & Grossman B (2003) Transonic aerodynamics of a wing pylon strut juncture. In AIAA-2003-4062
+6. Gern F, KO A, Grossman B, Haftka R, Kapania RK, & Mason WH, (2005) Transport weight reduction through mdo: The
+strut-braced wing transonic transport. In AIAA-2005–4667
+7. Seber G, Ran H, Schetz JA, & Mavris DN (2011) Multidisciplinary design optimization of a truss braced wing aircraft with
+upgraded aerodynamic analyses. In AIAA-2011–3179
+8. Khajehzadeh A (2018) Analysis of an over the wing based distributed propulsion system. Thesis report. In: Delft
+University of technology
+9. Carter MB, Vicroy DD, & PATEL D (2009) Blanded-wing-body transonic aerodynamics: Summary of ground tests and
+sample results (invited). AIAA 2009–935
+10. Brutyan MA, Budaev VP, Wolkov AV (2016) Influence of surface fractal microstructure on the characteristics of a
+turbulent boundary layer. Proceedings of ICAS, Daejeon
+11. Leatherwood JD, Sullivan BM (1992) Laboratory study of effects of sonic boom shaping on subjective loudness and
+acceptability. NASA TP 3269
+12. Stevens SS (1972) Perceived level of noise by mark vii and decibels (e). J. Acoust. Soc. Am. 51, 575–601.
+13. Coulouvrat, F. (2009) The challenges of defining an acceptable sonic boom overland. AIAA paper 2009–3384
+14. Chernyshev SL (2011) Sonic boom. Nauka, Moscow
+15. Chernyshev SL, Kiselev APH, Vorotnikov PP (2008) Sonic boom minimization and atmospheric effects. AIAA paper:2008–2058
+16. Gubanov AA, Pritulo MF, Ruch’yev VM (1994) Theoretical investigation of airframe/inlet interference and integration for
+hypersonic vehicles. Zeitschrift fur Flugwissenschaften und Weltraumforschung 18:379–382
+17. Gubanov AA (2013) Fundamental relations on airframe/propulsion aerodynamic integration for supersonic aircraft. In
+5th European Conference for Aeronautics and Space Sciences (EUCASS)
+18. Gubanov AA, & Gusev D, Yu (2014) Potential use of waverider and Busemann biplane in aerodynamic design of high
+speed vehicle swith air-breathing engines. In ICAS 2014–0453
+19. Steelant J, & Langener T (2014) Potential use of waverider and Busemann biplane in aerodynamic design of high speed
+vehicle swith air-breathing engines. In ICAS 2014–0428. St.-Petersburg, Russia
+20. Xianhong X, Yuan L, Qian Z (2017) Investigation of a wide range adaptable hypersonic dual-waverider integrative
+design method based on two different types of 3d inward-turning inlets. In 21st AIAA international space Planes,
+hypersonic systems and technologies conference, Xiamen, China, March 6–9
+21. Li YQ, Zheng X, Teng J, You Y (2017) Dual waverider concept for inlet-airframe integration with controllable wall
+pressure distribution. In 21st AIAA international space Planes, hypersonic systems and technologies conference, Xiamen,
+China, March 6–9
+22. Cui K, Xiao Y, Xu Y, Li G (2018) Hypersonic i-shaped aerodynamic configurations. Sci China Physics, Mechanics
+Astronomy 61
+
+Page 15 of 15
+
+

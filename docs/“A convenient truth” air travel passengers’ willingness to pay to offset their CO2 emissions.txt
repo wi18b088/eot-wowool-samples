@@ -1,0 +1,889 @@
+Climatic Change (2008) 90:299–313
+DOI 10.1007/s10584-008-9414-0
+
+“A convenient truth”: air travel passengers’ willingness
+to pay to offset their CO2 emissions
+R. Brouwer & L. Brander & P. Van Beukering
+
+Received: 7 February 2007 / Accepted: 20 February 2008 / Published online: 22 April 2008
+# The Author(s) 2008
+
+Abstract Several economic reviews demonstrate the substantial costs related to climate
+change and consequently call for early action. These reviews, however, have been limited
+to measuring ‘objective’ risks and expected material damage related to climate change. The
+‘subjective’ perceived risk of climate change and society’s willingness to pay (WTP) to
+avoid these risks are expected to provide an important additional motivation for direct
+action. We investigate whether and why air travel passengers—an increasingly important
+source of greenhouse gas emissions—are supportive of measures that increase the cost of
+their travel based on the polluter pays principle and compensate the damage caused by their
+flight. Compared to the results of the few previous studies that have elicited WTP estimates
+for climate policy more generally, our results appear to be at the lower end of the scale,
+while a comparison to estimates of the social cost of carbon shows that the average WTP
+estimate in this study is close to the estimated marginal damage cost. Although significant
+differences are found between travellers from Europe, North America, Asia and the rest of
+the world, we show that there exists a substantial demand for climate change mitigation
+action. The positive risk premium over and above the expected property damage cost
+assessments should be accounted for more explicitly in economic reviews as it will add to
+the burden of proof of direct action. Measurements of passenger WTP will help policy
+makers to design effective financial instruments aimed at discouraging climate-unfriendly
+travel activities as well as to generate funds for the measures directed at climate change
+mitigation and adaptation. Based on stated WTP by travellers to offset their greenhouse gas
+emissions, funds in the order of magnitude of €23 billion could be generated annually to
+finance climate change mitigation activities.
+
+R. Brouwer (*) : L. Brander : P. Van Beukering
+Institute for Environmental Studies (IVM), Vrije Universiteit Amsterdam, De Boelelaan 1087,
+1081 HV Amsterdam, The Netherlands
+e-mail: roy.brouwer@ivm.vu.nl
+
+DO9414; No of Pages
+
+300
+
+Climatic Change (2008) 90:299–313
+
+1 Introduction
+Climate change has evolved from an “inconvenient hypothesis” to an “inconvenient truth”.
+The scientific evidence for anthropogenic global warming is overwhelming (Gore 2006).
+Also further down the cause–effect chain, on the impact-side of climate change, evidence is
+accumulating rapidly. Although estimates of the social costs of greenhouse gas (GHG)
+emissions are highly sensitive to the assumptions made (e.g. the choice of discount rate,
+equity weighting, corrections for risk aversion and adaptive behaviour), various reviews
+demonstrate the substantial expected economic costs related to climate change (e.g. Tol
+1999; Pearce 2003; Stern 2006). All reviews point in the same direction: ‘the benefits of
+strong and early action far outweigh the economic cost of not acting’ (Stern 2006)1.
+These reviews raise two important issues. First, there is the question as to whether the
+estimated costs of climate change are accurate. It can be argued that the estimates are in fact
+incomplete in that they are based on expected property damage costs determined through
+‘objective’ measurements of the risks involved, not the theoretically correct ‘subjective’
+expected utility values. The benefit-cost ratios based on property damage costs alone may
+substantially underestimate the total benefits since it does not account for public risk
+aversion. Tol (1999) presents estimates of marginal damage costs that are adjusted to reflect
+risk aversion, which are around three times higher than the unadjusted costs. These latter
+well-being effects, measured in economics through the concept of society’s willingness to
+pay (WTP) to avoid a specific risk when people are not entitled to risk protection, should be
+added to the expected damage costs (e.g. Jones-Lee 1989; Pearce and Smale 2005). Since
+the 1970s it has become generally accepted that effective risk and natural hazard
+management should not be informed by objective measures only, but should also include
+subjective risk assessments that reflect people’s social cognition of risk (Slovic 1987;
+Cvetkovich and Earle 1992; Beck 1992).
+Second, despite consensus within the academic community on the need to act now, it
+remains to be seen whether policy makers and polluters are truly willing to take the
+necessary steps to avoid further climate change and related economic costs. There is
+currently very limited evidence whether or not people perceive climate change as a threat
+worth avoiding (e.g. Cameron 2001, 2005; Layton and Brown 2000; Layton and Levine
+2002).
+The main objective of this study is to investigate whether there is a demand for climate
+change mitigation action and examine what motivations underlie this demand. More
+specifically, we aim to reveal whether air travel passengers as polluters are supportive of
+measures that increase the cost of their travel and compensate the damage caused by their
+flights, and to quantify the benefits they obtain from mitigating their emissions. This
+provides an indication of the before mentioned economic welfare measure currently missing
+in economic reviews in support of direct action to avoid the future risks of climate change.
+We compare this with the existing cost and benefit estimates. Moreover, such measurements
+of passenger WTP helps policy makers to design effective financial instruments aimed at
+discouraging climate-unfriendly travel activities as well as to generate funds for the
+measures directed at climate change mitigation and adaptation.
+To meet these objectives, we conducted a survey of air travel passengers at Amsterdam
+Schiphol airport, one of the largest airports in Europe. By focusing specifically on air travel
+1
+
+The Stern Review has been criticised for its choice of assumptions and the resulting high estimate of
+damage costs. Adjusting these assumptions towards more generally acceptable values, however, still results
+in estimates of damage costs that warrant extensive greenhouse gas mitigation (Arrow 2007).
+
+Climatic Change (2008) 90:299–313
+
+301
+
+passengers we also aim to contribute to current policy developments regarding the control
+of GHG emissions from aviation. Driven by the polluter-pays-principle, governments are
+currently considering the implementation of various policy instruments to extract funds for
+climate change mitigation from the aviation industry and its passengers. For example, in
+early December 2006 UK chancellor Gordon Brown announced a doubling of air passenger
+duty on flights. Two weeks later, the European Commission announced that internal EU
+flights would be included within the EU emissions trading scheme from 2011.
+The remainder of this paper is organized as follows. Section 2 introduces the relationship
+between aviation and climate change, and touches upon the issue of carbon offsetting
+initiatives. Section 3 presents the research methodology, including the introduction of a
+carbon travel tax for air travellers to offset their contribution to climate change. The main
+results are presented in Section 4 and Section 5 concludes.
+
+2 Aviation growth and greenhouse gas emissions
+Aviation traffic has increased dramatically over the past 40 years, with passenger traffic
+growing at approximately 9% per year since the 1960s (IPCC 1999). Although this level of
+growth is anticipated to slow down to some extent as markets in North America and Europe
+mature, the number of passenger kilometres flown is projected to continue to grow at 5%
+per year globally. In 2002, global civil aviation clocked up roughly 33 billion kilometres,
+and this is set to double over the next 20 years (Eyers et al. 2004). This level of aviation
+activity and the associated increase in emissions of GHG has raised concerns over the
+impact of aviation on the global climate, and the compatibility of aviation expansion with
+policies to address climate change.
+Aviation uses fossil fuels and consequentially emits carbon dioxide (CO2) and other
+GHG including methane and nitrous oxide. Fuel use in aviation is projected to increase at
+3% per year—this is lower than the projected growth in passenger kilometres due to
+continuing improvements in aircraft efficiency. In comparison to terrestrial sources of
+emissions, however, aviation is recognized as having an enhanced global warming effect
+due to the altitude at which aircraft fly (IPCC 1999). This enhanced effect is estimated to be
+between two and four times the global warming potential of the CO2 emissions from
+aviation. The best estimate of the contribution of aircraft emissions to human induced
+global warming is that aviation accounted for 3.5% of the total radiative forcing by all
+anthropogenic activities in 1992. This is not a high figure, but due to the projected growth
+in aviation, this could rise to 15% by 2050 (IPCC 1999).
+Given the anticipated rise in GHG emissions from aviation there is a recognized need to
+control and compensate for these emissions. An international agreement on the control of
+emissions from aviation has, however, been impeded by the international nature of the
+industry and the lack of agreement on how emissions should be allocated (Oberthur 2003).
+GHG from aviation are currently only included in national emissions inventories under the
+UN Framework Convention on Climate Change for informational purposes and are not
+restricted by the emissions targets agreed under the Kyoto Protocol. Article 2.2 of the
+Kyoto Protocol merely asks industrialized countries to pursue the reduction of GHG from
+aviation through the International Civil Aviation Organisation (ICAO), which is still
+considering a range of technical, air traffic management, and market based instruments. The
+European Commission has recommended that intra-EU and international aviation should be
+included within the EU emissions trading scheme (ETS), but this proposal faces difficulties
+in terms of international legality and compatibility with the Kyoto Protocol (Cairns and
+
+302
+
+Climatic Change (2008) 90:299–313
+
+Newson 2006). It should be noted that the U.S. Government does levy a tax on aviation fuel
+used for domestic flights by U.S. commercial aircraft. This tax is not applied to fuel
+purchased by non-U.S. airlines or to fuel used for international flights (Cairns and Newson
+2006). There is some doubt, however, over whether policy instruments such as tax and
+emissions trading that simply raise the cost of aviation would result in any significant
+decrease in fuel use and GHG emissions. Boon et al. (2007) find that around 100% of the
+costs of the EU ETS would be passed directly on to customers. Olsthoorn (2001) finds
+evidence that the price elasticity of demand for fuel is low, which suggests that a tax set at
+around the level of marginal external costs of CO2 emissions would only result in
+negligible reductions in emissions.
+An alternative policy option for controlling the climate change impact of aviation, which
+conforms to the polluter pays principle, is a hypothecated tax on aviation, with the revenue
+being spent on carbon offsets. Carbon or GHG offsets are certified emissions reductions or
+sequestration that can be purchased by an individual, business or government to offset the
+emissions resulting from their activities. Offsetting essentially involves balancing GHG
+emissions from one activity with purposeful GHG reductions or sequestration from another
+activity in order to maintain “carbon neutrality”. For example, as hosts of the 31st G8
+summit in July 2005 in Scotland, the UK government purchased offsets for the GHG
+emitted from air travel to the summit.
+Carbon offsetting activities may include reforestation, renewable energy, and energy
+efficiency projects. Uncertainties regarding the measurement and permanence of GHG
+emission reductions, particularly with respect to carbon sequestration, have resulted in concerns
+over the credibility of offsets. There are now many commercial and non-profit providers of
+carbon offsets. A survey of 16 offset providers, covering the gamut of project types, locations,
+and commercial status, indicates a range of offset prices from €3.30 to €23 per ton (t) CO2equivalent (eq), with an average of €11.80 tCO2-eq (prices are for December 2nd 2006—
+www.ecobusinesslinks.com 04/12/2006). Given the fact that most of these schemes depend
+on voluntary compliance, the main question is whether, in the current situation of high airport
+taxes and fuel surcharges, airline passengers are willing to pay for their CO2 emissions.
+
+3 Valuation methodology
+The economic valuation method applied in this study is called contingent valuation (CV). CV
+is a social survey method where individuals are presented with information about specific
+environmental changes, the values of which are not accounted for in economic markets or
+fully captured through market-based instruments. In the survey, individual perception,
+attitudes and preferences regarding these changes and their non-market values are elicited. In
+order to measure the effect of the suggested changes on people's welfare, respondents are
+typically asked for either their willingness to pay (WTP) or their willingness to accept (WTA)
+compensation for the gains or losses involved (Mitchell and Carson 1989; Bateman et al.
+2002). Of these options the WTP approach has become the most frequently applied and has
+been given peer review endorsement through a variety of studies (e.g. Arrow et al. 1993).
+Aggregated across those who benefit from the services provided by ecosystems and
+natural resources, the aggregated WTP or WTA amount provides an indicator of the total
+economic value (TEV) of any change in their provision, including their quality level.
+Environmental economists have introduced a taxonomy of this TEV, distinguishing
+between use and non-use values, in order to account for the various reasons and motives
+people may have to value environmental change. Stated preference methods like CV are the
+
+Climatic Change (2008) 90:299–313
+
+303
+
+only economic methods that are able to account for possible non-use motivations underlying people's value statements. Whereas use values refer to the values associated with the
+actual use of the various goods and services provided by ecosystems and natural resources,
+non-use values are unrelated to any actual or potential use, and may refer for example to the
+value people attach to preserving ecosystems or species (existence values) or the value they
+attach to leaving a healthy environment behind for future generations (bequest value).
+In a two-day CV survey, carried out in the beginning of November 2006 at Amsterdam
+Schiphol airport, the fourth largest airport in Europe after London Heathrow, Paris Charles
+de Gaulle and Frankfurt with over 44 million passengers and more than 420 thousand
+flights in 2005 (Schiphol Group 2006), more than 400 air travel passengers from around the
+world were interviewed face-to-face about their travel behaviour, awareness of the
+environmental impacts of their travel behaviour and their WTP for a carbon travel tax to
+offset their contribution to the emission of GHG. Together these passengers travelled 1.6
+million kilometres, emitting 375 tCO2-eq (one-way). Passengers either arriving or departing
+on 8 or 9 November from Schiphol airport were interviewed for about 10 to 15 min using a
+thoroughly pre-tested questionnaire consisting of 35 questions. Passengers were selected
+randomly at a next-to-pass basis2. Three quarters of the questions are closed-ended in order
+to minimize the necessary interview time. The WTP questions are reproduced in the
+Appendix to this paper.
+
+4 Results
+4.1 Passenger characteristics and awareness of the impacts of flying
+Most interviewed passengers are male (60%), ranging in age between 18 and 83 years, with an
+average age of 38 years. Forty percent of the passengers interviewed travel by plane for business,
+the rest for pleasure or a combination of business and pleasure. Almost 80% flies alone, 20% with
+one or more family members. The variety of passenger nationalities is presented in Fig. 1. The
+sample population is close to the inter-regional passenger movements from Schiphol airport. A
+high share of the interviewed passengers has the Dutch nationality (27%), followed by the
+United Kingdom (18%) and other Europeans (20%) (including Belgium, France, Germany,
+Norway, Sweden, Finland, Spain, Italy, Greece, Hungary, Romania, Slovenia). Almost 20% of
+the interviewed passengers come from Asia (China, Japan, India, Philippines, Thailand,
+Malaysia, Indonesia), and 12% from the United States and Canada. A small number of
+passengers (<5%) come from Australia, Africa (Tanzania, Mozambique, South-Africa) or
+South-America (Ecuador, Colombia, Uruguay, Brazil).
+Besides income, significant differences are found between these nationalities in terms of
+(continental and intercontinental) travel frequency and the price paid for airplane tickets.
+Europeans and North Americans travel most frequently: about ten times per year.
+Passengers from the rest of the world travel half as much. North Americans paid most
+for their plane ticket (€950 including taxes and other services), followed by the rest of the
+world (€780) and Asians (€735).
+2
+
+An important selection criterion was that travellers speak and understand English. Three questionnaire
+versions were used: a Dutch version for Dutch passengers (WTP questions in euros), an English version for
+other European passengers (WTP questions in euros), and an English version for the rest of the world with
+WTP questions in both euros and US dollars. Where necessary interviewers were instructed to help
+respondents to convert the money amounts in the questionnaire into their own currency.
+
+Share of population/sample (in %)
+
+304
+
+Climatic Change (2008) 90:299–313
+
+80
+
+60
+
+40
+
+20
+
+0
+Europe
+
+NorthAmerica
+
+Latin
+America
+
+Interregional passenger movements Schiphol
+
+Africa
+
+Asia
+
+Passengers in sample
+
+Fig. 1 Share of interregional passenger movements at Schiphol airport compared with the nationalities
+included in the sample
+
+Interesting differences are found when investigating passenger knowledge and
+awareness of the impacts of flying on the environment and the link with climate change.
+UK and Dutch travellers are significantly more aware of the relationship between flying and
+climate change than other nationalities. The awareness level is lowest for passengers living
+in Asia. Significant differences are also found when investigating the level of concern
+regarding climate change, with UK passengers again being significantly more concerned
+than other passengers. No significant differences can be detected between North Americans
+and other (non-UK) Europeans, but concern is significantly lower in Asia, Latin America
+and Africa. UK residents also attach significantly more importance to the environment
+compared to other important public issues like employment, health and safety or economic
+growth. On the same scale, US citizens value the environment significantly less than any
+other group of passengers. Europeans and Asians also feel more responsible for climate
+change than North-Americans.
+When asked how much passengers know about the Kyoto protocol, we find that
+Europeans are more knowledgeable than other nationalities. Half of all European
+passengers know the protocol’s objectives. This is the case for 44% of the North-American
+passengers and 35% of the Asian travellers. Forty-one percent of the latter never heard of
+the Kyoto protocol. These percentages are lower for European (24%) and North-American
+(30%) passengers. About a quarter of all passengers has heard of the protocol, but has no
+idea what it aims to achieve. North-Americans and Europeans are more convinced than
+Asians that the introduction of a carbon travel tax will be effective in tackling climate
+change.
+4.2 Testing the passenger pays principle
+After introducing the idea of a carbon travel tax to passengers, they are asked if they would
+be willing to pay in principle for such a tax over and above the plane ticket for their current
+flight (see the Appendix to this paper). Three quarters of all travellers are willing to pay a
+
+Climatic Change (2008) 90:299–313
+
+305
+
+carbon travel tax in addition to the price of their current airplane ticket3. Differences are
+found between continents, however, with slightly more Europeans (80%) than NorthAmericans (75%) willing to pay in principle, and Asian travellers (59%) being least willing
+to pay for a carbon travel tax. Protest against the imposition of a new carbon travel tax is
+limited to 14%, which is considered acceptable in this study. The most important reason for
+travellers to protest against paying is passenger disbelief that the carbon travel tax and the
+proposed (trees for travel) program will have any real impact.
+Passengers who are willing to pay are primarily motivated by a sense of moral obligation
+and responsibility to pay for their contribution to climate change, concern about the
+environment in general and future generations (Fig. 2). Hence, ‘existence values’ and
+‘bequest values’ seem to dominate the stated WTP responses. We find little to no evidence
+of what has been labelled ‘warm glow’ in the valuation literature (e.g. Nunes and
+Schokkaert 2003), meaning that travellers agree to pay because they like to give to good
+causes or charity. A considerable share of travellers wants to avoid future natural and
+economic disasters, which is interpreted as evidence of a positive risk premium. As said,
+these types of values are usually not included in any of the existing economic reviews
+related to global warming.
+Respondents who are willing to pay in principle are subsequently asked whether they are
+willing to pay a specific amount of money. A start bid is varied across respondents, ranging
+between 5 and 100 euros per flight, and depending on their reply (yes or no), they are asked
+for their WTP for a second follow-up bid to which they can again answer either yes or no.
+If respondents answer ‘no’ (‘yes’) to the start bid, the follow-up bid is a lower (higher)
+amount. This is referred to as a double bounded (DB) dichotomous choice CV question
+(Hanemann and Kanninen 1999). This procedure yields an interval WTP value for each
+individual respondent in which respondents’ maximum WTP value lies. The DB CV results
+are analyzed using the Turnbull estimation method (Haab and McConnell 1997), and
+presented in Table 1. The Turnbull estimator is based on a grouping of binary responses in
+bid intervals. To guarantee non-negative outcomes for WTP, the probability of WTP
+responses is constrained to be positive and sum to unity across bid intervals. The Turnbull
+estimator provides a lower bound for average WTP. Standard errors of the Turnbull WTP
+values are calculated based on bootstrap procedures (Efron and Tibshirani 1993).
+Based on the t-test, no significant differences can be found between Europeans and
+North-Americans or North Americans and Asians. Europeans are, however, willing to pay
+significantly more than air travellers from Asia (t-value=2.059; p<0.040). Given the
+relatively low number of observations for North-Americans and Asians, these results have
+to be interpreted with the necessary care. The estimated average WTP results per flight
+presented in Table 1 are also related to the calculated average one-way travel distance and
+the emission of GHG per flight expressed in CO2-eq. Travel distance and corresponding
+emission of CO2 and total GHG are computed based on travellers’ travel itinerary with the
+help of the calculator at www.greenseat.nl. Relating the estimated mean WTP values to the
+mean values found for travel distance and corresponding GHG emissions, average WTP
+ranges between 20 eurocents per 100 km for air travellers from Asia and 1 euro per 100 km
+
+3
+
+This finding is supported by the results of a recent survey of 22,182 individuals in 20 countries conducted
+for the BBC on attitudes to climate change policies and taxes (BBC 2007). This survey found that 77% of the
+respondents were supportive of raising taxes on energy sources that contribute to climate change if the tax
+revenues were devoted only to increasing energy efficiency and developing energy sources that do not
+contribute to climate change.
+
+306
+
+Climatic Change (2008) 90:299–313
+Traveller responsibility
+4%
+Environmental concern
+
+3%
+
+2%
+
+24%
+
+6%
+
+Avoid disasters
+Reduce damage costs
+Future generations
+
+22%
+Protect wildlife
+Warm glow
+24%
+
+3%
+12%
+
+Protect environment
+irrespective of cost
+Other reason
+
+Fig. 2 Motivations for air traveller WTP for a carbon travel tax
+
+for air travellers from Europe. In the whole sample, passengers are willing to pay on
+average 60 eurocents per 100 km they fly. This corresponds with an average WTP of about
+25 euros per tonne tCO2-eq.
+Compared to the results of other studies that have elicited WTP estimates for climate
+policy based on stated preference methods (converted into 2006 prices), our results appear
+to be at the lower end of the scale, although it is noted that the literature in this field is still
+very limited. Li et al. (2004) analyze the WTP of American citizens for climate policy and
+find that half of the sample are willing to pay about 3 euros per tCO2-eq. Hersch and
+Viscusi (2006) report that Europeans are willing to pay up to 3.7% more for petrol to
+combat climate change, which translates to around 156 euros per tCO2-eq. Viscusi and
+Zeckhauser (2006) find that Harvard students are willing to pay an extra $0.50 per gallon of
+petrol (a 25% increase) for GHG emission reduction (263 euros per tCO2-eq). In
+comparison to estimates of the social cost of carbon as reviewed by Tol (1999), which
+vary between 8 and 35 euros per tCO2-eq at 2006 prices, we find that our WTP estimate
+is close to the estimated marginal damage cost, if somewhat at the higher end of the
+scale.
+Following the DB WTP question, respondents are asked in an open-ended (OE) followup question what the maximum amount of money is they are willing to pay over and above
+their current airplane ticket to compensate for their contribution to the emission of CO2 of
+their specific travel distance that day. Although the OE WTP values are significantly higher
+than the DB WTP values, again no significant differences can be found between Europeans
+and North-Americans and North-Americans and Asians. A significant difference exists
+between Europeans and Asians4. In order to avoid overestimation, we only present the
+lower bound Turnbull results in Table 1.
+When linking these individual OE WTP values to individual travel distances and GHG
+emissions, significant differences are found between all groups. Europeans are in this case
+
+4
+
+Test results are available from the authors on request.
+
+Climatic Change (2008) 90:299–313
+
+307
+
+Table 1 Average WTP results
+Europe
+
+Mean WTP (€) per flight
+26.6
+95% conf. interval
+21.7–31.5
+0.010
+Mean WTP (€) per km travelledb
+41.0
+Mean WTP (€) per emitted ton GHG in CO2-equivalents
+Maximum WTP per ton GHG expressed as income share (%)c 6.5 (0.7)
+N
+233
+
+NorthAsia
+America
+20.2
+9.1–31.2
+0.004
+17.1
+2.9 (0.6)
+42
+
+All
+passengersa
+
+16.1
+23.1
+10.4–21.7 19.4–26.9
+0.002
+0.006
+10.0
+25.0
+2.3 (0.7) 5.5 (0.5)
+59
+349
+
+Explanatory notes:
+a
+
+Including respondents from other regions in the world.
+
+b
+
+One-way travel distance.
+
+c
+
+Based on significantly higher OE WTP values. Standard errors between brackets.
+
+willing to pay significantly more per travel distance and GHG emission than NorthAmericans and North-Americans are willing to pay significantly more than Asians.
+Interestingly, when relating the stated OE WTP values to respondent household income,
+the average share of WTP in household income is statistically the same across all air
+traveller groups (2.4% for the sample as a whole) even though Europeans and NorthAmericans earn significantly more than travellers from Asia (no significant difference
+exists in disposable household income between European and North-American travellers).
+Correcting for travel distance and GHG emissions, the relative results change however.
+Europeans are now relatively willing to pay significantly more than North-American and
+Asian travellers, while no significant difference can be detected between the latter two
+groups. Mean WTP per ton GHG equals 6.5% of disposable household income for
+European travellers compared to 2.9% and 2.3% for North-American and Asian air
+travellers respectively.
+Finally, when asked how likely it is that air travellers will actually pay the stated
+maximum WTP if the carbon travel tax is voluntary, the results are not very convincing.
+Forty percent of the North-Americans consider it unlikely that they would pay in that case
+against 35% of the Europeans and 14% of the Asians. Fifty percent of the Asian travellers,
+47% of the European and 37% of the North-American air travellers believe it is likely that
+they would pay.
+4.3 Factors determining air travel passenger WTP for a carbon travel tax
+Factors that have a significant impact on the WTP results per flight presented in Table 1 are
+analyzed through interval regression techniques using the statistical software Stata. The
+determinants of stated WTP can be derived from the conventional WTP function:
+0
+
+WTPi ¼ xi b þ "i
+where WTP* is the unobserved variable of willingness to pay and xi is a vector of
+individual respondent characteristics, β the corresponding vector of coefficients and ɛi is a
+normally distributed error term with zero mean and variance σ2.
+Having used a DB dichotomous choice CV approach, we have information on WTP
+intervals. Respondents are asked two questions: do you accept the start bid and do you
+
+308
+
+Climatic Change (2008) 90:299–313
+
+accept the follow-up bid. Based on these two questions, four possible intervals can be
+constructed for WTP (e.g. Hanemann et al. 1991; Alberini 1995):
+WTP*>bi
+ai <WTP*<bi
+ci <WTP*<ai
+WTP*<ci
+
+accept both start bid (ai) and follow-up bid (bi)
+accept the start bid (ai) and reject the follow-up bid (bi)
+reject the start bid (ai) and accept the follow-up bid (ci)
+reject both start bid (ai) and follow-up bid (ci)
+
+The interval regression model is estimated using maximum likelihood regression
+techniques (e.g. Maddala 1983). In view of the fact that the interval categories are ordered,
+the response variable represents the probability of selecting each response category. The
+multivariate regression results are presented in Table 2. All effects presented in Table 2,
+except for two of the three dummies representing air travellers’ place of residence, are
+statistically significant at the 10% level. The significance of the overall model fit is
+confirmed by the outcome of the Wald test. The total number of observations is lower than
+the original number of interviews because of the exclusion of missing values. The
+calculated pseudo R-squared is used here as a rough indicator of overall model fit. The
+statistic is not very high (almost 25%), but lacks the straightforward interpretation of
+explanatory power (McFadden 1994). Standard errors are corrected for possible heteroscedasticity using the Huber–White estimator of variance.
+
+Table 2 Interval regression results for WTP per flight
+Explanatory factor
+
+Values
+
+Constant
+North-American air travellers
+Asian air travellers
+Rest of the world air
+travellers
+Start bid
+Flying frequency continental
+Current price ticket
+Household disposable income
+Air traveller awareness
+impact flying
+on environment
+Air traveller perceived
+responsibility for Climate
+Change
+Air traveller perceived
+effectiveness carbon travel
+tax
+Log-likelihood
+Wald χ2
+Pseudo R-squared
+N
+
+–
+Dummy (1=respondent is North-American)
+Dummy (1=respondent is Asian)
+Dummy (1=respondent is from the rest of the world)
+
+−66.233*** (25.314)
+3.593 (7.998)
+−10.005* (5.799)
+−12.000 (10.400)
+
+Linear (€5–100)
+Linear (1–60 times/year)
+Linear (natural logarithm €10–3915/ticket)
+Linear (natural logarithm €450–5000/month)
+Dummy (1=respondent is aware and is able to list
+the impact of flying on the environment)
+
+0.455*** (0.072)
+0.584*** 0.228
+3.887* (2.154)
+6.164** (3.092)
+7.996* (4.531)
+
+Linear (0—not responsible at all–4—very
+responsible)
+
+4.818** (2.280)
+
+Linear (0—not effective at all–4—very effective)
+
+4.120** (2.063)
+
+Explanatory notes:
+Standard errors of the parameter estimates between brackets.
+*** p<0.01; ** p<0.05; * p<0.10.
+
+Parameter
+estimate
+
+−407.329
+97.77 (p<0.001)
+24.0
+292
+
+Climatic Change (2008) 90:299–313
+
+309
+
+Whilst accounting for a variety of influencing factors, including disposable
+household income, no significant differences can be detected between air travellers
+except for Asian travellers when European travellers are used as the baseline category
+in the regression model5. As before in Table 1—but this time accounting for income
+differences and other influencing factors—the probability that Asian air travellers end up
+in a higher ordered WTP interval is significantly lower than for European air travellers,
+whereas no significant differences can be found between European and North American
+passengers or the rest of the world.
+As expected based on economic theory, WTP is significantly influenced by disposable
+household income and the intensity of use of the good for which travellers are asked to
+pay. The more someone is able to pay, the higher the probability that someone replies
+positively to the presented bid amounts, all other things being equal. The same positive
+relationship is found between stated WTP for the carbon travel tax and the number of
+times respondents fly. We find a significant relationship for continental flights, but not for
+intercontinental flights (or the aggregate of both). A possible explanation for this finding
+may be that a number of respondents commented that they believe that a carbon travel
+tax is justified for continental flights in view of the fact that travellers can choose
+alternative modes of transportation for continental travel, but not for intercontinental
+travel.
+Travellers’ perception of their own responsibility for climate change and the
+effectiveness of the proposed carbon travel tax also have a significant positive impact on
+stated WTP. The more someone feels personally responsible for climate change or the
+higher the perceived effectiveness of taxing people for their contribution to climate change
+when flying, the higher the probability that someone says ‘yes’ to the presented bids.
+The finding that passenger awareness of the impact of flying on climate change has a
+significant positive impact on stated WTP supports our confidence in the WTP results. The
+more informed the respondent, the higher our confidence in general in the stated WTP
+responses. Overall confidence in the survey findings is furthermore founded on the fact that
+the survey meets important application recommendations that respondents should
+understand and be familiar with the good valued and have had or be allowed to obtain
+prior valuation and choice experience with respect to consumption levels of that good (e.g.
+Cummings et al. 1986; Mitchell and Carson 1989). All respondents in the sample had flown
+before, only 1% flew for the first time.
+As expected based on previous CV research (e.g. Mitchell and Carson 1989; Bateman et
+al. 2005), significant positive anchoring is found of stated WTP on the start bid and the
+current price travellers pay for their airplane ticket. The higher the start bid or the airfare,
+the higher the likelihood of falling in a higher ordered bid interval. Given the probabilistic
+nature of the estimated model, it is difficult to say how much the starting bid influences
+average WTP in absolute terms6. Both the start bid and the current price paid for the good
+in question provide an important psychological value cue to the respondent.
+
+5
+
+The correlation between the explanatory factors does not exceed 30 percent. The highest correlation
+between the place of residence and disposable household income is found for Asian travellers (r=-0.253; p<
+0.001).
+6
+Regressing the OE WTP values against disposable household income and start bid using OLS and a double
+log functional form results in a marginal effect of start bid on stated maximum WTP of 0.326 (p<0.001).
+This suggests that—all other things being equal—a one percent increase in the start bid results in a 0.3
+percent increase in stated maximum WTP.
+
+310
+
+Climatic Change (2008) 90:299–313
+
+The price paid for the airplane ticket is highly correlated with the distance flown (r=
+0.610; p<0.001). Including both is therefore not possible as this would result in
+multicolinearity. Travel distance has a significant positive impact on the response variable,
+but including this variable instead of the price variable makes the awareness factor become
+statistically insignificant, and this model is therefore not presented here.
+Finally, no significant impact can be detected of any of the other standard demographic
+and socio-economic respondent characteristic variables included in CV research. Whether
+the flight was for business or pleasure and the respondent flew business or economy class
+with or without family members did not have any influence on stated WTP either.
+
+5 Conclusions
+The willingness of the general public to invest in climate change mitigation may be much higher
+than is generally assumed. The main motivation for this positive WTP is not so much the
+general desire of people to give to charities and good causes, but rather stems from the
+recognition of responsibility and accountability for climate change as well as the genuine belief
+in the detrimental effects of climate change on future generations. We find that awareness and
+demand for climate change mitigation vary across aviation passengers depending on their place
+of origin. Europeans are most aware and willing to pay for carbon offsets when controlling for
+the distances flown and associated GHG emission using the higher OE WTP results, whereas
+North Americans and Asians are less informed and less willing to act, also not when accounting
+for income differences (i.e. ability to pay). The lack of awareness in Asian travellers is a concern
+given the projected growth in the aviation industry in Asia.
+The findings of this study supplement the existing economic literature on the costs of
+future climate change. Reviews of the costs of climate change such as those produced by
+Tol (1999), Pearce (2003), and the recent review by Stern (2006) have been limited to
+measuring ‘objective’ risks of expected material damage related to the impact of climate
+change on the economy and the environment. This study shows how the ‘subjective’ or
+perceived risk of climate change is an important additional motivation for tackling climate
+change. In our survey, people generally dislike being at risk and are willing to pay to reduce
+their exposure to risks associated with climate change. This reduced disamenity through
+mitigating climate change is an important economic benefit of action. Existence and
+bequest values and positive risk premiums over and above the ‘objective’ damage cost
+assessments should be accounted for more explicitly in existing economic reviews as it will
+add substantially to the burden of proof of direct action.
+Regarding the demand and supply of carbon offsets for GHG emissions from aviation,
+the results of our survey suggest that airline passengers’ demand for offsets may easily
+exceed the supply price of offsets. The survey results show that 75% of the passengers are
+willing to pay on average €25 per tCO2-eq emitted using the conservative lower bound
+WTP estimate. On the supply side, the average price per tCO2-eq is currently around €12.
+We therefore conclude that the market potential for carbon offsets is substantial. Given that
+the civil aviation industry currently emits approximately 1.3 billion tCO2-eq per year (Eyers
+et al. 2004), the market for carbon offsets alone could account for more than €23 billion in
+climate change mitigation activities annually when simply aggregating the results found
+here at one of the largest European airports across the whole aviation industry under the
+rough assumption that the survey results are representative for airports worldwide. This
+leads us to conclude the ‘convenient truth’ that air travel passengers are willing to pay to
+offset their GHG emissions.
+
+Climatic Change (2008) 90:299–313
+
+311
+
+6 Epilogue
+It has been exactly one year since the implementation of the survey and the revision of this
+paper. Several interesting developments took place in the context of passengers’ WTP to
+offset their CO2 emissions from which we can draw valuable lessons. First, numerous
+voluntary offset schemes were introduced by airlines and airports, which performed worse
+than expected by their initiators. An important reason seems to be that passengers appear to
+be willing to participate if and only if other passengers do so too. Free riders or better ‘free
+flyers’ in this case appear to have a negative influence on passengers’ willingness to
+participate in offset schemes. Second, several governments in Europe are proposing and
+seem determined to push through a compulsory climate change tax for air travellers
+although there is strong resistance and opposition from airline companies and airports.
+Opponents of such a tax claim that such unilateral national schemes will only reduce the
+competitive position of the aviation industry and the airports in the countries where such a
+tax is to be introduced. Equally important is the counterargument that the tax revenues are
+not earmarked for climate change policies. Our study confirms that passenger belief in the
+effectiveness of the tax significantly influences WTP and that introducing a voluntary tax is
+expected to result in a high degree of non-participation.
+Open Access This article is distributed under the terms of the Creative Commons Attribution
+Noncommercial License which permits any noncommercial use, distribution, and reproduction in any
+medium, provided the original author(s) and source are credited.
+
+Appendix
+Suppose that depending on your travel distance an extra carbon travel tax would be
+introduced on your plane ticket to reduce and avoid further climate change by investing this
+carbon travel tax in a ‘Trees for Travel’ program managed and controlled by an independent
+international organization, who invests this money in trees to compensate for your
+contribution to climate change.
+NOTE: if respondent is a business traveller whose ticket is paid for by the employer, ask
+him/her to answer the next questions as if he/she would have to pay the ticket him/herself
+1 Would you be willing to pay such a carbon travel tax in principle, the height of which
+depends on travel distance, to compensate for your contribution to the emission of CO2
+and hence climate change?
+Note: This money will be used exclusively for the funding of planting trees!
+1 No → GO TO QUESTION 2
+2 yes → GO TO QUESTION 3
+2 If you are not willing to pay for this in principle, can you indicate why not?
+[Try to circle only one answer if possible, namely the most important reason]
+0 I don’t believe in climate change
+1 My income is too low
+2 Climate change does not affect me or my family
+3 I prefer to spend my money on other things
+4 I don’t believe that such a program would have any real impact
+5 Other reason, namely. .........................................................................
+SKIP THE NEXT QUESTIONS 3 TO 7
+
+312
+
+Climatic Change (2008) 90:299–313
+
+3 Suppose the extra carbon travel tax to offset your contribution to the emission of CO2 of
+your specific travel distance today would be € X extra on top of your current airplane
+ticket. Would you be willing to pay this extra carbon travel tax?
+0 No → GO TO QUESTION 4
+1 yes → GO TO QUESTION 5
+4 If not this amount, are you willing to pay € Y extra on top of your current airplane ticket
+to compensate for your contribution to the emission of CO2 of your specific travel
+distance today?
+0 No → GO TO QUESTION 6
+1 yes → GO TO QUESTION 6
+5 Are you in that case also willing to pay € Z extra on top of your current airplane ticket
+to compensate for your contribution to the emission of CO2 of your specific travel
+distance today?
+0 No → GO TO QUESTION 6
+1 yes → GO TO QUESTION 6
+6 What is the MAXIMUM amount of money are you willing to pay over and above your
+current airplane ticket to compensate for your contribution to the emission of CO2 of
+your specific travel distance today?
+€ ..................
+7 What is the most important reason why you are willing to pay this specific maximum
+amount of money?
+[Try to circle only one answer if possible, namely the most important reason]
+0
+1
+2
+3
+4
+5
+6
+7
+8
+
+I feel responsible for my contribution to climate change
+I care about the environment in general
+To avoid future natural disasters
+To reduce future economic damage costs
+To protect future generations
+To protect flora and fauna on this earth
+I like to give to good causes
+The environment has the right to be protected irrespective of the costs
+Other reason, namely. ......................................................................
+
+References
+Alberini A (1995) Efficiency vs bias of willingness-to-pay estimates: bivariate and interval-data models. J
+Environ Econ Manage 29:169–180
+Arrow KJ (2007) Global climate change: a challenge to policy. The Economists’ Voice 4(3):2
+Arrow KJ, Solow R, Portney PR, Leamer EE, Radner R, Schuman H (1993) Report of the NOAA panel on
+contingent valuation. Fed Regist 58(10):4601–4614 January 15
+Bateman IJ, Carson RT, Day B, Hanemann M, Hanley N, Hett T, Jones-Lee M, Loomes G, Mourato S,
+Ozdemiroglu E, Pearce DW, Sugden R, Swanson J (2002) Economic valuation with stated preference
+techniques: a manual. Edward Elgar, Cheltenham, UK
+Bateman IJ, Brouwer R, Hanley N, Georgiou S, Machado M, Mourato S, Saunders C (2005) A ‘natural
+experiment’ approach to contingent valuation of private and public UV health risk reduction strategies in
+low and high risk Countries. Environ Resour Econ 31:47–72
+BBC (2007) Global public opinion survey on climate change. Web reference (10/12/2007): http://news.bbc.
+co.uk/2/shared/bsp/hi/pdfs/02_11_07bbcclimatesurvey.pdf
+
+Climatic Change (2008) 90:299–313
+
+313
+
+Beck U (1992) Risk Society: Towards a New Modernity. Sage London
+Boon B, Davidson M, Faber J, van Velzen A (2007) Allocation of allowances for aviation in the EU ETS. CE
+Delft, Delft, The Netherlands
+Cairns S, Newson C (2006) Predict and decide: aviation, climate change and UK policy. Environmental
+Change Institute, University of Oxford, UK
+Cameron TA (2001) Updating subjective risks in the presence of conflicting information: an application to
+climate change. J Risk Uncertain 30(1):63–97
+Cameron TA (2005) Individual option prices for climate change mitigation. J Public Econ 89:283–301
+Cummings RG, Brookshire DS, Schulze WD (1986) Valuing environmental goods: an assessment of the
+contingent valuation method. Rowman and Allanheld, Totowa
+Cvetkovich G, Earle TC (1992) Environmental hazards and the public. J Soc Issues 48(4):1–20
+Efron B, Tibshirani RJ (1993) An introduction to the bootstrap. Chapman and Hall, New York
+Eyers CJ, Norman P, Middel J, Plohr M, Michot S, Atkinson K, Christou RA (2004) AERO2k global
+aviation emissions inventories for 2002 and 2025. QinetiQ, Farnborough, UK
+Gore A (2006) An inconvenient truth: the planetary emergency of global warming and what we can do about
+it. Rodale Books, New York, p 328
+Haab TC, McConnell KE (1997) Referendum models and negative willingness to pay: alternative solutions. J
+Environ Econ Manage 32:251–270
+Hanemann WM, Kanninen B (1999) The statistical analysis of discrete-response CV data. In: Bateman Willis
+IJKG (ed) Valuing environmental preferences: theory and practice of the contingent valuation method in
+the US, EU, and developing countries. Oxford University Press, Oxford, pp 302–441
+Hanemann WM, Loomis JB, Kanninen B (1991) Statistical efficiency of double bounded dichotomous
+choice contingent valuation. Am J Agric Econ 73:1255–1263
+Hersch J, Viscusi WK (2006) The generational divide in support for environmental policies: European
+evidence. Clim Change 77:121–136
+Intergovernmental Panel on Climate Change (1999) Aviation and the global atmosphere. IPCC, Geneva,
+Switzerland
+Jones-Lee MW (1989) The economics of safety and physical risk. Blackwell, Oxford
+Layton DF, Brown G (2000) Heterogeneous preferences regarding global climate change. Rev Econ Stat
+82:616–624
+Layton DF, Levine RA (2002) How much does the far future matter? A hierarchical Bayesian analysis of the
+public’s willingness to mitigate ecological impacts of climate change. Daniel J. Evans School of Public
+Affairs, University of Washington, Seattle, WA, p 29
+Li H, Berrens RP, Bohara AK, Jenkins-Smith HC, Silva CL, Weimer DL (2004) Exploring the beta model
+using proportional budget information in a contingent valuation study. Ecol Econ 28:329–343
+Maddala GS (1983) Limited-dependent and qualitative variables in econometrics. Cambridge University
+Press, Cambridge, England
+McFadden D (1994) Contingent valuation and social choice. Am J Agric Econ 76:689–708
+Mitchell RC, Carson RT (1989) Using surveys to value public goods: the contingent valuation method.
+Resources for the Future, Washington DC
+Nunes PALD, Schokkaert E (2003) Identifying the warm glow effect in contingent valuation. J Environ Econ
+Manage 45:231–245
+Oberthur S (2003) Institutional interaction to address greenhouse gas emissions from international transport:
+ICAO, IMO and the Kyoto Protocol. Climate Policy 3:191–205
+Olsthoorn X (2001) Carbon dioxide emissions from international aviation: 1950–2050. J Air Transp Manag
+7:87–93
+Pearce D (2003) The social cost of carbon and its policy implications. Oxf Rev Econ Policy 19(3):362–384
+Pearce DW, Smale R (2005) Appraising flood control investments in the UK. In: Brouwer R, Pearce DW
+(eds) Cost-benefit analysis and water resources management. Edward Elgar, Cheltenham
+Schiphol Group (2006) Facts and figures 2005. Schiphol, The Netherlands. www.schipholgroup.com.
+Slovic P (1987) Perception of risk. Science 236:280–285
+Stern N (2006) The economics of climate change: the stern review. Cambridge University Press, Cambridge, UK
+Tol R (1999) The marginal costs of greenhouse gas emissions. Energy J 20(1):61–81
+Viscusi WK, Zeckhauser RJ (2006) The perception and valuation of the risks of climate change: a rational
+and behavioral blend. Clim Change 77:151–177
+
+

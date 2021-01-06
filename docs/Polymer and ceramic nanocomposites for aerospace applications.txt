@@ -1,0 +1,2931 @@
+Appl Nanosci (2017) 7:519–548
+https://doi.org/10.1007/s13204-017-0592-9
+
+ORIGINAL ARTICLE
+
+Polymer and ceramic nanocomposites for aerospace applications
+Vivek T. Rathod1 • Jayanth S. Kumar1 • Anjana Jain1
+
+Received: 29 June 2017 / Accepted: 29 August 2017 / Published online: 9 September 2017
+Ó The Author(s) 2017. This article is an open access publication
+
+Abstract This paper reviews the potential of polymer and
+ceramic matrix composites for aerospace/space vehicle
+applications. Special, unique and multifunctional properties arising due to the dispersion of nanoparticles in ceramic and metal matrix are briefly discussed followed by a
+classification of resulting aerospace applications. The paper
+presents polymer matrix composites comprising majority
+of aerospace applications in structures, coating, tribology,
+structural health monitoring, electromagnetic shielding and
+shape memory applications. The capabilities of the ceramic
+matrix nanocomposites to providing the electromagnetic
+shielding for aircrafts and better tribological properties to
+suit space environments are discussed. Structural health
+monitoring capability of ceramic matrix nanocomposite is
+also discussed. The properties of resulting nanocomposite
+material with its disadvantages like cost and processing
+difficulties are discussed. The paper concludes after the
+discussion of the possible future perspectives and challenges in implementation and further development of
+polymer and ceramic nanocomposite materials.
+Keywords Nanocomposite  Aerospace  Tribology 
+Structural health monitoring  Polymer matrix  Ceramic
+matrix
+
+& Anjana Jain
+janjana@nal.res.in
+1
+
+Materials Science Division, National Aerospace
+Laboratories, Bengaluru 560017, India
+
+Introduction
+Nanocomposites are the materials of twenty-first century
+having an annual growth rate of 25% due to their multifunctional capabilities. With unique design possibilities
+and properties, they attract the attention of researchers
+worldwide. Due to the possibility of combining desired
+properties, nanocomposites are expanding their potentials
+in aerospace applications and in future space missions.
+Selection of the constituents of nanocomposites (matrix
+and nanofillers) leads to the improvement of certain desired
+properties. For aerospace applications, mechanical, thermal, electrical, chemical and biodegradable properties are
+of interest. Chemical property like resistance or passiveness to corrosion is of prime importance. Apart from low
+weight requirements, aerospace structures pose requirement of mechanical properties for design like strength,
+toughness, fatigue life, impact resistance and scratch
+resistance. Aircrafts flying at high altitudes require properties like low solar absorption, radiation resistance, high
+thermal emissivity and electrical conductivity. Due to
+increasing use of nanocomposites, handling their disposal
+after the service life is of great concern. Thus, biodegradable property is also being preferred apart from their
+functional properties (Gangopadhyay and De 2000; Ray
+and Bousmina 2005; Pandey et al. 2005). Being environmentally friendly, few nanocomposites have opened the
+possibilities of clean technologies (Choa et al. 2003).
+Proper choice of nanofillers and matrix is a key in
+achieving the desired multifunctional properties that are
+required by many aerospace applications.
+Nanofillers with low volume of 1–5% can enhance the
+properties of composite materials that are comparable to
+those of conventional microfillers with 15–40% volume.
+Nanofillers have exceptional properties since they have
+
+123
+
+520
+
+Appl Nanosci (2017) 7:519–548
+
+basic structure at crystal level that is defect free. Nanomaterials can be classified as per the dimensions
+(Alexandre and Dubois 2000). Iso-dimensional (three-dimensional) nanoparticles have the three dimensions in
+nanoscale like silica, metal particles and semiconductor
+particles (Herron and Thorn 1998). Nanotubes or whiskers
+are second kind of two-dimensional nanoparticles that have
+two dimensions in nanometer scale (\100 nm) with the
+third dimension forming an elongated structure (aspect
+ratio more than 100) (Favier et al. 1997). Fillers like sheets
+are one-dimensional with one dimension like the thickness
+is in nanometer range (1 nm) and the other two dimensions
+have an aspect ratio [25 (Ray and Okamoto 2003;
+Alexandre and Dubois 2000). Each type of nanofiller has
+its own advantages, disadvantages and unique properties.
+Varieties of nanocomposites have been evolved
+depending upon the type of matrix used for which they are
+widely classified into three categories (as in case of
+microcomposites) as polymer matrix nanocomposites
+(PMNCs), ceramic matrix nanocomposites (CMNCs) and
+metal matrix nanocomposites. PMNC and CMNC have
+found applications for aircrafts and spacecrafts (see Fig. 1),
+whereas the use of metal matrix nanocomposite is limited
+due to the limitations of processing. Due to their ease of
+production, PMNCs have been widely used (Alexandre and
+Dubois 2000; Pandey et al. 2005; Thostenson et al. 2005;
+Choi and Awaji 2005; Ray and Bousmina 2005; Andrews
+and Weisenberger 2004). Disadvantages such as low
+modulus and shear strength of polymer matrix have been
+
+overcome by adding fibers, whiskers, platelets and carbon
+nanotubes (CNTs). Several inorganic fillers increase
+mechanical strength, impact strength, thermal stability and
+flame retardancy, which are required for aerospace applications (Fischer 2003). Future space missions are being
+planned which require large lightweight parts maintaining
+properties for over 30 years in very harsh environments
+involving exposure to atomic oxygen and solar radiation
+(Thompson et al. 2003). PMNCs such as polymer/aluminum (polymer/Al) and polymer/alumina (polymer/
+Al2O3) have improved ballistic performance (Meda et al.
+2005) for which they have been used in preparing rocket
+propellant. However, challenges arise when these properties of nanofillers have to be realized in nanocomposites.
+This deficiency is due to poorly dispersed nanoparticles
+and nanoparticle–matrix interaction (Andrews and
+Weisenberger 2004; Nalwa 2000; Dresselhaus et al. 2001).
+Depending upon the type of matrix used, functionalization
+of nanofillers improves dispersion and interaction within
+the matrix.
+Ceramic matrix nanocomposites combine the properties
+of ceramics like wear resistance, high thermal stability and
+chemical stability with the properties of nanofillers (Sternitzke 1997; Choi and Awaji 2005; Peigney et al. 2000).
+Nanofillers such as whiskers, fibers and platelets increase
+the fracture toughness of the ceramics, mitigating their
+brittleness (Becher 1991). In addition, these reinforcements
+arrest the crack and prevent its propagation. Phase transition
+and volume expansion in CMNC imparts toughening and
+
+Fig. 1 Nanocomposites for aerospace applications. Abbreviations
+used in this figure are: PMNC polymer matrix nanocomposite; CMNC
+ceramic matrix nanocomposite; DOPO 10-dihydro-9-xa-10-phosphaphenanthrene-10-oxide; PT phosphorus tetraglycidyl; EM electro
+magnetic; SHM structural health monitoring; PVA poly(venyl alcohol); PU polyurethane; CNT carbon nanotube; PVDF Poly(vinilidene
+
+fluoride); PPESK poly(phthalazinone ether sulfone ketone); TiO2
+titanium dioxide; PMMA polymethyl methacrylate; PZT lead zirconate titanate; CB carbon black; WC tungsten carbide; DLC
+diamond-like carbon; WS2 tungsten sulfide; SiC silicon carbide, PSS
+poly(sodium 4-styrenesulfonate)
+
+123
+
+Appl Nanosci (2017) 7:519–548
+
+strengthening (Awaji et al. 2002). Nanocomposites like
+alumina/silicon carbide (Al2O3/SiC) show increase in
+fracture toughness arising from the crack-bridging mechanism of nanosized reinforcements (Ferroni et al. 2001).
+Incorporation of nanofibers in ceramic matrix results in high
+toughness with superior failure properties (She et al. 2000).
+The discovery of CNTs (Iijima 1991) has led to the fabrication of multifunctional ceramic composites possessing
+improved mechanical, thermal and electrical properties
+(Biercuk et al. 2002; Ounaies et al. 2003; Weisenberger
+et al. 2003; Cho et al. 2009). Applications of CNT-woven
+fibers into textiles have added new scope in the area of
+nanocomposites (Dalton et al. 2003). CNTs have typically
+500 times more surface area based on equivalent volume of
+a carbon fiber with high aspect ratio (Andrews and
+Weisenberger 2004). A small number of defects per unit
+length impart very high tensile strength, electrical conductivity and thermal conductivity in the CMNCs.
+Metal matrix nanocomposites consisting of metal matrix
+with nanoreinforcements combine ductility and toughness
+with high strength in shear and compression. These properties make them very much suitable for aerospace applications as structural materials (Tjong and Wang 2004).
+However, metal matrix nanocomposites face several processing challenges for their migration into aerospace
+applications. A chart in Fig. 1 shows the PMNCs and
+CMNCs suitable for aerospace applications. Properties of
+nanocomposites are controlled by adjusting the properties,
+interaction with matrix, shape, arrangement and volume
+fraction of nanofillers. Reinforcement size, morphology,
+inter-reinforcement distance and the reinforcement–matrix
+interaction control the performance and bulk properties of
+the nanocomposite. Following the chart in Fig. 1, this
+paper reviews the properties and potentials of PMNCs and
+CMNCs in aerospace applications. Aerospace and space
+industries are more diverse which include freight haulers,
+military vehicles, satellites, spacecraft, space launch systems, microaerial vehicles, unmanned aerial vehicles,
+rotorcraft, ground-based systems etc. In the present paper,
+we focus on the structural applications of nanocomposites
+suitable for aerospace and space vehicles.
+
+Polymer matrix nanocomposites
+Polymers are macromolecules made up of the repeated
+units (monomers) connected by covalent bonds. By the
+dispersion of nanomaterials in polymers, the nanostructure
+of polymers can be modified. The polymer holds the
+reinforcement simultaneously retaining the properties of
+polymer. Polymer nanocomposites are classified into three
+categories depending upon the reinforcement type. These
+are discontinuous reinforcement nanocomposites, layered
+
+521
+
+reinforcement nanocomposites and nanofiber or CNT-reinforced nanocomposites. The properties based on nanostructure and morphology of various PMNCs and their
+corresponding aerospace applications are discussed next.
+Structural applications
+In some applications, apart from being lightweight, high
+performance is of prime importance in aerospace structures
+e.g., equipment enclosures, aircraft interiors, coatings,
+cockpit, crew gear, heat shrinkage tubing, space durable
+mirrors, housings, shrouds, nozzles and solar array substrates. Composite materials offer chemical stability and
+fire resistance apart from the advantage of low operating
+cost due to their lightweight. Three major drawbacks limit
+the applicability of composites in most aerospace structures. Firstly, a higher electrical resistance leads to the
+limitation for applications like electromagnetic shielding,
+circuits, antennas and lightning strike protection (Peng
+2011). Secondly, lower thermal conductivity of composites
+increases the load on deicing systems based on electrical
+heaters. Thirdly, composites are less resistant to impact and
+suffer from moisture absorption, environmental degradation and aging with time (Mahieux 2006; Martin 2008).
+Depending upon the matrix and filler used, many solutions
+have been offered by nanocomposites to overcome these
+limitations. Some of the nanocomposites and their aircraft
+applications are discussed next.
+Polyimide/clay
+Clay or layered silicates (LS) are the nanofillers that
+intercalate within the polymer to form layered nanocomposites. These are readily available at low cost and yield
+predictable stiffening in the nanocomposites. The ability to
+tune the surface chemistry via ion exchange reactions with
+organic and inorganic cations yields strong bonding
+between LS and polymer matrix. Due to the easy availability and well-known intercalation chemistry (Theng
+1979), clays are widely used in PMNC (Alexandre and
+Dubois 2000). Compared to microfiber composites, LSbased nanocomposites show improvements in moduli,
+strength, heat resistance and biodegradability along with
+decreased flammability and gas permeability. These
+improvements make LS-based nanocomposites attractive
+for aerospace applications (Bharadwaj 2001; Ray et al.
+2002; Giannelis 1998). Polyimide/clay nanocomposite is
+prepared by sol–gel process that involves embedding
+monomers and organic molecules on sol–gel matrices.
+Chemical bonds formed by the introduction of organic
+groups lead to the formation of sol–gel matrix within the
+polymer, simultaneously forming organic/inorganic networks (Avadhani and Chujo 1997).
+
+123
+
+522
+
+Appl Nanosci (2017) 7:519–548
+
+Polyimide/clay nanocomposites show enhanced stress
+and elongation at failure (Yano et al. 1997). Clay with
+montmorillonite (MMT) exchanged by hexadecylammonium with loading up to 5 wt% increases the bulk properties. Above this loading, the properties degrade by
+increasing brittleness. Increase in storage modulus is seen
+at any temperature as shown in Fig. 2, for polyimide-based
+nanocomposite filled with 2 wt% of organic clay. With
+such an improvement, glass transition temperature also
+decreases with increasing clay content. A greater
+improvement in mica-based nanocomposite is seen due to
+silicate layers with length of *218 nm and thickness of
+*1 nm. Mica and MMT clays have exfoliated structures,
+whereas aponite has a partially exfoliated–intercalated
+structure and hectorite-based nanocomposite has intercalated morphology. Polymer/LS possess gas barrier properties due to tortuous (maze) path created by LS as shown
+in Fig. 3 (Ray and Okamoto 2003, Bourbigot et al. 2000,
+Yano et al. 1997). The tortuosity factor TF is related to
+silicate length lS, silicate thickness WF and volume fraction
+of the nanocomposites VF by
+TF ¼ 1 þ
+
+lS
+VF :
+2WF
+
+ð1Þ
+
+The relative permeability coefficient PR is the ratio of
+permeability coefficient of composite and polymer matrix,
+respectively. Relative permeability coefficient is found to
+be inverse of tortuosity factor PR = 1/TF. Thus,
+permeability coefficient is smaller if the length of silicate
+is longer. Tortuosity effects the permeability of
+nanocomposite PS by the relation
+
+
+1  VF
+PS ¼ P P
+;
+ð2Þ
+TF
+where PP is the permeability of the pure polymer. Bourbigot et al. (Bourbigot et al. 2000) have demonstrated
+
+Fig. 2 Variation of storage elastic modulus with temperature of
+polyimide-based nanocomposites filled with 2 wt% of nanoclay
+(reproduced from (Yano et al. 1997) with the permission from John
+Wiley & Sons Inc.)
+
+123
+
+reduction in the permeability of gases like oxygen (O2),
+water vapor (H2O), helium (He), carbon dioxide (CO2) and
+ethyl acetate vapor in clay-based nanocomposites. A 2 wt%
+clay loading decreases the water vapor permeability coefficient by 10-fold. Figure 4 shows permeability of polyimide nanocomposites obtained with different types of
+fillers loaded by 2 wt% (Yano et al. 1997). Reduction in
+permeability is higher in nanocomposites with fillers of
+higher length. Fully exfoliated LS give the lowest permeability due to their creation of longer diffusive path. Owing
+to these properties along with excellent abrasion and heat
+resistance, polyimide/clay nanocomposites are used as step
+assist in automobiles. In a similar way, polyimide/clay
+nanocomposites are suitable for floor lining in the cargo
+area of commercial airliners.
+Epoxy/clay and epoxy/CNT
+Processing of polymer/clay or polymer/CNT nanocomposites involves the dispersion of clay or CNT in epoxy
+resin using ultrasonication followed by curing in molds to
+form a structure. Ultrasonication continues for usually
+30 min followed by curing for 24 h. Curing is carried out at
+70 °C to avoid damage to the nanostructures (Dinca et al.
+2012).
+Mechanical testing done on epoxy nanocomposites with
+clay or CNT fillers reveals an increased modulus of elasticity as shown in Table 1. Epoxy/CNT and epoxy/clay
+show better thermo-mechanical properties as compared to
+pristine matrix. COOH-functionalized epoxy/multiwalled
+carbon nanotube (epoxy/MWCNT) has a tensile strength of
+121.8 MPa, whereas pure epoxy has a tensile strength of
+95 MPa. Increase in CNT concentration increases the
+modulus of elasticity but decreases the tensile strength.
+Addition of nanoparticles is limited to 2% since rheological
+properties deteriorate above these levels.
+Epoxy/clay can serve as attractive replacements for the
+expensive talc powder and TiO2 to attenuate the permeability in fuel tanks (Stan et al. 2011, Luan et al. 2012).
+Nanocomposites like fluoropoly(ether-amic acid)/montmorillonite (6F-PEAA/MMT) and polyethylene terephthalate/LS have also yielded significant improvement in
+mechanical properties, impact strength, barrier properties
+and flame properties (Vora and Vora 2006). These properties are highly desirable in providing safety to aerospace
+structures in the event of fire and impact. Toyota used
+polymer/clay nanocomposite for structural applications by
+modifying natural clays (Giannelis 1996). Nanostructured
+LS is a clay used to prevent gas diffusion through polymers. Thus, epoxy/clay nanocomposite is suitable for fabrication of extremely lightweight and strong cryogenic gas
+storage tanks for aerospace applications. These
+
+Appl Nanosci (2017) 7:519–548
+
+523
+
+Fig. 3 Tortuous path in
+polymer/LS nanocomposite
+(reproduced from (Ray and
+Okamoto 2003) with the
+permission from Elsevier)
+
+solvent (Vaia et al. 1993; Vaia and Giannelis 1997). The
+LS is encased within liquid monomer to polymerize by the
+action of heat, radiation, diffusion, catalyst and exchange
+of cations between the layers (Usuki et al. 1993; Messersmith and Giannelis 1994). 2:1 phylosilicates is commonly
+used which has layer thickness of 1 nm made up of a sheet
+of alumina sandwiched between two silica sheets. Weak
+van der Waals interactions hold the layers together. Small
+molecules can be intercalated between these layers easily
+(Azeez et al. 2013). Isomorphic substitution in the interface
+produces negative charges counterbalanced by the alkaline
+cations. Cations also provide functional groups that can
+react with polymer matrix increasing the strength of the
+formed interface (Krishnamoorti et al. 1996). Montmorillonite (Mx(Al4-xMgx)Si8O20(OH)4) (MMT), hectorite
+(Mx(Mg6-xLix)Si8O20(OH)4) and saponite (MxMg6(Si8-xAlx)O20(OH)4) are the examples of commonly used LS,
+where hydrated cations are ion-exchanged with bulkier
+organic cations (Ray and Okamoto 2003). Montmorillonite
+imparts remarkable changes in thermal and mechanical
+properties of the nanocomposite. Incorporation of 4.1 wt%
+MMT in Nylon-6 matrix results in 102.7% increase in
+Young’s modulus (Kojima et al. 1993). Figure 5 shows the
+variation of Young’s modulus with clay content of an
+organo-modified nanocomposite (Kojima et al. 1993).
+Nylon-6/LS are used in timing belt cover of automotive
+engines (Bogue 2011). These nanocomposites additionally
+
+Fig. 4 Variation of relative permeability coefficient with clay length
+(reproduced from (Yano et al. 1997) with the permission from John
+Wiley & Sons Inc.)
+
+nanocomposites are also flame resistant (Gilman et al.
+1977) which make them suitable for aerospace and space
+environments.
+Nylon-6/layered silicate (Nylon-6/LS)
+Nylon-6/LS like nylon-6/MMT is prepared by a process of
+in situ intercalative polymerization. This involves the melt
+mixing of LS with nylon matrix without the need of a
+
+Table 1 Mechanical properties of epoxy/clay and epoxy/CNT nanocomposites
+Nanocomposite
+Epoxy
+Epoxy ? 2 wt% 30 B
+
+Tensile strength
+(MPa)
+95
+
+Shore
+hardness
+
+Thermal stability
+(°C)
+
+Modulus of elasticity
+(GPa)
+
+References
+
+75
+
+50
+
+2.8
+
+Dinca et al. (2012)
+
+102.5
+
+83
+
+56
+
+3.1
+
+Dinca et al. (2012)
+
+Epoxy ? 2 wt% MWCNT
+
+98
+
+77
+
+55
+
+–
+
+Dinca et al. (2012)
+
+Epoxy ? 2 wt% MWCNTCOOH
+
+121.8
+
+85
+
+59
+
+3.42
+
+Dinca et al. (2012)
+
+Epoxy
+
+52.5
+
+–
+
+–
+
+2.52
+
+Micheli et al.
+(2011a)
+
+Epoxy ? 0.1 wt% MWCNT
+
+24.7
+
+–
+
+–
+
+2.42
+
+Micheli et al.
+(2011a)
+
+Epoxy ? 0.5 wt% MWCNT
+
+29.5
+
+–
+
+–
+
+2.97
+
+Micheli et al.
+(2011a)
+
+123
+
+524
+
+Appl Nanosci (2017) 7:519–548
+
+erties of clay-based nanocomposites. The reason was
+attributed to the small size of POSS that restricts the
+mobility of surrounding polymer chain and good interfacial
+adhesion. Flame-retardant tests showed enhancement in
+flame-retardant properties due to the protection of underlying matrix by char formation on surface and the low
+surface energy associated with the Si–O–Si present in
+POSS (Ni et al. 2004). Water absorption drastically reduces
+due to hydrophobic and partially ionic nature of Si–O–Si
+link (Haque et al. 2003). These exceptional mechanical,
+thermal, flame-retardant and water-barrier properties
+makes the polymer/POSS nanocomposite suitable for highperformance aerospace structures.
+Fig. 5 Variation of Young’s modulus at 120 °C on clay content with
+organo-modified LS (reproduced from (Kojima et al. 1993) with the
+permission from Materials Research Society)
+
+possess an ablative property (Vaia et al. 1999) with which
+they have the potential for their use in aerospace engine
+components, body panels and crash guards.
+Epoxy/DOPO-based phosphorus tetraglycidyl
+High-performance materials possessing superior thermal
+and mechanical properties have seen rapid developments
+for aerospace applications involving adverse operating
+conditions. Epoxy resins have excellent properties like
+toughness, adhesion and chemical resistance. However,
+epoxy does not possess thermal and mechanical properties
+required by the aerospace structures. Phosphorus containing flame-retardant compounds like triphenyl phosphate
+requires high loading to achieve the desired flame retardation. Polyhedral oligomeric silsesquioxanes (POSS)
+reagents have appeared as alternative materials, which can
+be incorporated easily in a polymer matrix like acrylics,
+styryls, epoxy and polyethylene.
+A
+high-performance
+10-dihydro-9-xa-10-phosphaphenanthrene-10-oxide (DOPO)-based phosphorus
+tetraglycidyl epoxy nanocomposite has been proposed by
+Meenakshi et al. (Meenakshi et al. 2011) for aerospace
+structural applications due to its good mechanical, thermal,
+flame-retardant and water absorption properties. The
+nanoreinforcement POSS amine was mixed with the epoxy
+resin followed by curing process. The mechanical properties of such cured nanocomposites with resin types containing nanoclay and POSS amine as nanofillers are
+compared in Table 2. Bis (3-aminophenyl) phenylphosphine oxide (BAPPO) and diaminodiphenylmethane
+(DDM) were the curing agents used. The mechanical
+properties of the nanocomposites with POSS showed better
+mechanical properties even when compared to the prop-
+
+123
+
+Aerospace coating applications
+Aerospace structures are subjected to diverse environments that include variations in moisture and temperature. They are also subjected to the contact with jet fuel,
+deicing fluid and hydraulic fluid. The coatings should
+withstand lightning strikes, ultraviolet exposure and
+erosion from dust flowing at 500 mph. An aerospace
+coating typically has a primer and a topcoat. The primer
+provides the substrate with adhesion and protection from
+corrosion. The topcoat is required to have matte finish,
+flexibility, durability, chemical resistance, corrosion
+protection and stable color for good appearance
+(Blackford 1998). These requirements are classified as
+shown in Fig. 6. The conventional ways to meet such
+requirements are explained in brief next.
+Lightening protection and electromagnetic shielding:
+Lightning strike can cause direct effects, indirect effects
+and damages in an aircraft. Direct effects and damages can
+be caused from heat (*30,000 °C), acoustic shock waves
+(500 psi impact force) and electrical charge (*200,000 A
+current) (Rupke 2002). Indirect effect may cause damage
+or interruption of electronic equipment. Heat is generated
+by resistive or joule heating that causes most damage likely
+by the breakdown of matrix in composite. To prevent
+localized damage, thin metal mesh is embedded in outer
+layers of composite (Gagne and Therriault 2014). This also
+serves as a shield for electrical systems. Nonconductive
+composites are given protection by strips on exterior surface to intercept lightning allowing the transparency to
+electromagnetic waves emitted from the antennas (through
+composites panels of antenna fairings). When radio frequency transparency is not required, conductive material is
+applied over exterior surface. To improve electromagnetic
+interference (EMI) and lightning strike resistance, conductive resins and single-walled carbon nanotube Buckypaper materials were introduced in composite materials
+
+Appl Nanosci (2017) 7:519–548
+
+525
+
+Table 2 Mechanical properties of epoxy/DOPO nanocomposites (reprinted from (Meenakshi et al. 2011), with the permission from Elsevier)
+Resin system
+TG-DOPO ? DDM
+TG-DOPO ? 5% clay-DDM
+TG-DOPO ? 5% POSS-DDM
+
+Tensile strength
+(MPa)
+91
+
+Tensile modulus
+(GPa)
+
+Flexural strength
+(MPa)
+
+Flexural modulus
+(GPa)
+
+Impact strength
+(KJ/M2)
+
+6.90
+
+148
+
+4.78
+
+35
+
+77
+
+7.00
+
+157
+
+4.88
+
+31
+
+104
+
+7.13
+
+165
+
+4.95
+
+27
+
+TG-DOPO ? BAPPO
+
+97
+
+6.98
+
+154
+
+4.84
+
+27
+
+TG-DOPO ? 5% clay-BAPPO
+
+83
+
+7.11
+
+163
+
+4.93
+
+29
+
+110
+
+7.20
+
+171
+
+5.05
+
+24
+
+TG-DOPO ? 5% POSS-BAPPO
+
+Fig. 6 Requirements of aircraft
+structural coatings (Peng 2011)
+
+(Wang et al. 2005a; Gonnet et al. 2006; Park et al. 2009).
+These Bucky-paper materials consisted of highly loaded
+and magnetically aligned CNTs whose conductivity changed linearly with temperature.
+Erosion: Erosion due to sand particles is higher at
+oblique incidence due to scrubbing, microcutting action
+and chip formation in ductile metal and polymers and due
+to cracking and brittle fracture in ceramics and brittle
+polymers (Lancaster 1990; Baikoula and Kirger-Kocsis
+2002). Rain droplets cause impact induced debonding of
+coating from the surface causing fatigue and tearing
+(Lesser 1995). Rime and clear glaze of mixed ice (Armitage et al. 2004) can be rougher than a coarse sand paper
+during their peeling off from the aircraft skin causing
+erosion. Nickel, titanium shields, pure PU, blend of PU or
+polyethylene coatings are used conventionally for protection from erosion (Van Krevelen 1990).
+Deicing and anti-icing: Deicing and anti-icing performed on aircrafts help to remove and prevent the formation of ice. A thermally insulating coating reduces the
+efficiency of deicing process carried out by electrical
+heaters. In addition, retaining of heat within the insulation
+degrades the composite structures (Peng 2011). Electric
+matrix, CNT paper-resist heaters and transparent MWNT
+
+films have been developed for deicing (Yoon et al. 2007).
+Whereas, to reduce ice adhesion, ice-phobic coatings like
+Rain-X and MP55 poly(tetrafluoroethylene) (PTFE) coatings have been developed (Ferrick et al. 2006).
+Radiation and corrosion protection: Ultraviolet rays,
+humidity, heat and gas present in atmosphere cause
+corrosion. Galvanic corrosion also results from composite (anodic) and metal combinations (cathodic).
+Since corrosion is a primary mode of failure in aircrafts, coating is designed to provide corrosion protection. Coatings with low permeability for liquids give
+barrier protection. Inhibitive pigments added in the
+coatings impart electrochemical property and passive
+protection to provide sacrificial protection (Sorensen
+et al. 2009).
+To achieve these requirements, two-component PU
+systems have been used (Bierwagen and Tallman 2001).
+Current aircraft coatings have limited life and capabilities.
+Polymer nanocomposites provide the flexibility to tune for
+mechanical, chemical, electrical, thermal, optical properties and their selective combinations for the aerospace
+coatings (Baer et al. 2003). Development of novel coatings
+to address the challenges of lightning, icing, erosion and
+corrosion is a focused area of research at present.
+
+123
+
+526
+
+Appl Nanosci (2017) 7:519–548
+
+Following subsections present the nanocomposite coatings
+and their specific aerospace applications.
+Conductive polymer/CNT for EMI shielding
+Nanocomposite coatings embedded with fillers of various
+functionalities suit for the topcoat of the aircrafts satisfying
+its multiple requirements. Polyurethane elastomers possess
+high wear resistance, corrosion resistance, elasticity and
+adhesive property (Howarth 2003; Chattopadhyay and Raju
+2007). Fillers like clay, alumina, CNT and nanodiamond
+serve as main ingredients in the development of aerospace
+coatings (Peng 2011). Spray painting is a technique adapted for aircraft painting. Adding fillers increases the viscosity causing difficulty in spray painting along with
+inadequate wetting of nanoparticles and additives. Alternatively, electrospinning method is used to fire a jet of
+solution through capillary tube on the surface (Lyons and
+Ko 2005). The possibility of adding nanofibers and CNT in
+the solution can produce coatings with good flexibility,
+strength and area-to-volume ratio. The fabricated coatings
+for aerospace applications differ in composition depending
+upon the structural location and its corresponding functional requirements.
+Conductive filler like SWNT as low as 0.5 wt% is sufficient to impart electrical conductivity for electrostatic
+dissipation and EMI shielding. Variation of electrical
+resistivity with SWNT content (wt%) in a polycarbonate
+(PC) matrix is shown in Fig. 7 (Ramasubramaniam and
+Chen 2003). A drop of resistivity from 1013 to 108 is seen
+by an addition of 0.5 wt% MWNTs. For an addition of 5
+
+Fig. 7 Variation of electrical conductivity with SWNT loading of a
+PC/SWNT nanocomposite (dashed lines represent the lower limit/
+percolation threshold) (reproduced from (Ramasubramaniam and
+Chen 2003), with the permission from American Institute of Physics)
+
+123
+
+wt% MWNT, the resistivity further reduces to 106. Resistivity at 0.5 wt% loading is sufficient to achieve the electrostatic discharge requirements (Xia and Song 2006). Such
+low loading of filler does not alter other physical properties
+of the coating. Aircrafts that are heavily equipped with
+electronic systems can seek protection from high-intensity
+radiated fields by sources in air or on land or sea (Peng
+2011) by employing PC/SWNT nanocomposite coatings.
+In addition, the surface conductivity of PC/SWNT
+nanocomposite coatings also enhances the lightning strike
+protection.
+Conductive epoxy/CNT heaters for deicing
+Ice accretion occurs on an aircraft flying between 3000 and
+5000 ft, consequently increasing the weight and drag. Ice
+accumulation significantly alters the stall speed, which is
+risky (Gent et al. 2000; Zeppetelli and Habashi 2012). To
+mitigate ice accumulation, ice protection systems (IPS) in
+aircrafts use the air bleed from engines, which are not
+economical. Electromechanical deicing using ultrasonic
+exciters and electromagnets causes aircraft skin fatigue and
+noise. Electric heaters are widely used to prevent icing with
+greater efficiency. These solutions available today have
+limitations of weight, power, maintenance and integration
+within the structure. Thin-film nanocomposite heating
+element (0.038 mm) has been developed which is strong
+and flexible (Buschhorn et al. 2013, Brampton et al. 2014).
+These heaters have negligible weight, consume low power,
+are maintenance free and can be easily integrated within
+the structure. The heater patch consisted of *100 lm tall
+CNT arrays synthesized by a thermal catalytic chemical
+vapor deposition process (Bradford et al. 2010). The CNT
+array was densified to a film by pushing them in one
+direction using a steel tool of small radius. The film and its
+morphology are shown in Fig. 8. The films were integrated
+on a bistable composite laminate and on an aero-surface
+substrate using for testing. The dominant charge transport
+mechanism in such films is tunneling, which causes heating
+(Li et al. 2007).
+The voltage was applied across the heater on a
+bistable laminate, and the current was measured across it.
+A linear relation between voltage and current was seen
+above 0.1 A, where the resistance stayed constant. At 0.63
+A and 5 V, the bistable laminate snapped due to the rise in
+temperature. However, due to heating, the resistance did
+not change indicating the thermal stability of the
+nanocomposite heater. The snapping of the laminate causes
+the curvature to change rapidly causing the ice to shear off
+from the surface especially during a cold start. The heating
+and snapping of the wing surface ensure the freedom from
+ice buildup. The power PH required by thin-film heater
+drawing current IH is inversely proportional to thickness as
+
+Appl Nanosci (2017) 7:519–548
+
+527
+
+Scratch-resistant epoxy/clay and epoxy/alumina
+
+Fig. 8 Image from scanning electron microscopy (SEM) showing the
+morphology of densified CNT film and an optical image of a small
+film on a Teflon sheet (images courtesy of MIT necstlab, MIT Ó 201x
+(Buschhorn et al. 2013))
+
+PH ¼
+
+IH2 RH LH
+;
+wH hH
+
+ð3Þ
+
+where RH, LH, wH, and hH are the resistivity, length, width
+and thickness of the element. High electrical conductivity
+and low thickness allow the heater to heat itself and the
+substrate quickly. A linear relationship between power and
+temperature (of the heater and laminate) was seen above
+0.1 W of power. Thus, deicing temperature can be controlled by controlling the power of the nanocomposite
+heater. Ice tunnel test was performed on wings with
+nanocomposite heaters embedded on the skin (Buschhorn
+et al. 2013). Harsh environment was created with temperature from 20.9 to -3.9 °C, with an airspeed of *55.9 m/s
+and water content of 1.1 g/m3 with mean volume droplet
+size of 30 lm. Nanocomposite heaters demonstrated successful deicing capability (see Fig. 9) as required by aircrafts flying through snow and storm.
+
+Fig. 9 Aerosurface showing deicing during an IPS testing in ice
+tunnel (image courtesy of MIT necstlab, MIT Ó 201x (Buschhorn
+et al. 2013))
+
+Epoxy coatings are low-cost coatings exhibiting good
+hardness, adhesion, chemical resistance and corrosion
+resistance. Turri et al. (Turri et al. 2010) developed
+nanostructured coatings made of epoxy/clay and epoxy/
+alumina having additional properties like greater scratch
+strength, thermal properties and barrier properties, fulfilling major requirements of aerospace coatings. Fabrication
+of these coatings involves the mixing of resin and
+nanoparticles at 40 °C for 30 min. Nano-Al2O3 (AluC) and
+cloisite 30B, organophilic MMT clay (CL30B) fillers were
+added to prepare two different types of nanocomposites.
+Hardener was added to the mixture, and the resulting
+mixture was bar coated on a glass substrate followed by
+curing consecutively at ambient temperature, at 50 °C and
+at 120 °C, for 2 h at each temperature level to get a coating
+of 200–400 lm. Self-cross-linked hybrid coatings were
+prepared by mixing 5% silica in a silanized epoxy. Silanized epoxy was prepared by blending diglycidyl ether of
+bisphenol A and 3-aminopropyltriethoxysilane in 1:2 molar
+ratio for 2 h in nitrogen atmosphere. This mixture was
+added in a sol containing tetraethyl orthosilicate, water and
+ethanol at a molar ratio of 1:3:4.5 and gently stirred.
+Similarly, epoxy/Al2O3 coatings were also prepared.
+Atomic force microscopy (AFM) topography and
+demodulation images were obtained to study the surface
+roughness and scratch hardness. The surface topography
+was obtained from the mean surface roughness and rootmean-square values. A demodulation phase image for the
+hybrid epoxy/SiO2 nanocomposite is shown in Fig. 10. The
+roughness was estimated from median surface level and
+standard deviation within the image. The small domains
+
+Fig. 10 Phase image of epoxy/SiO2 nanocomposite coating (reproduced from (Turri et al. 2010), with the permission from Wiley
+Periodicals Inc.)
+
+123
+
+528
+
+Appl Nanosci (2017) 7:519–548
+
+indicated by bright spots are the hard phase, and dark zones
+are the soft polymer matrix. Phase separation is not seen in
+the image, and silica particles were fully embedded in the
+polymer matrix.
+Topographic images obtained after making a nanometric
+scratch on epoxy/clay and on hybrid epoxy/SiO2 coating
+are shown in Fig. 11a, b, respectively. A constant force of
+FAFM = 3400 nN was applied on the AFM tip. Pileup was
+observed at the scratch location from which the width of
+the scratch was measured. Scratch hardness HS is given in
+terms of normal load FAFM applied on the tip of AFM and
+width of the scratch WS as (Briscoe et al. 1996; Williams
+1996)
+HS ¼
+
+4FAFM
+:
+pWS2
+
+ð4Þ
+
+Standard tests like the Buchholtz indentation (for
+indentation hardness) and Taber tests (for wear
+resistance) were conducted. The indentation hardness
+
+(evaluated from Eq. (4)) and wear resistance estimated
+for various types of coatings are given in Table 3. Alumina
+and clay-based nanocomposites showed improvement in
+indentation and scratch hardness when compared to a
+pristine epoxy. However, there was considerable increase
+in surface mean roughness of epoxy/clay nanocomposite.
+The wear index was improved in case of epoxy/alumina
+and decreased in case of epoxy/clay. Thus, epoxy/alumina
+coating is better than the epoxy/clay coating. The hybrid
+epoxy/SiO2 coatings showed a remarkable improvement in
+scratch hardness maintaining the surface roughness below
+that of epoxy/clay coatings. Very high improvement in
+scratch hardness of 1830, 942 and 700% was seen in hybrid
+epoxy/SiO2 coatings when compared to pristine epoxy,
+epoxy/alumina and epoxy/clay coatings, respectively.
+Thus, hybrid epoxy/SiO2 coatings can be proposed as
+coatings for aircrafts operating in dusty conditions,
+sandstorms and hailstorms.
+Hydrophobic PVDF/MWCNT
+
+Fig. 11 Topographic images of: a epoxy/clay nanocomposite coating
+and b hybrid epoxy/SiO2 nanocomposite coating (Reproduced from
+(Turri et al. 2010), with the permission from Wiley Periodicals Inc.)
+
+123
+
+Superhydrophobic coatings have anti-sticking, anti-icing,
+self-cleaning and anti-corrosion properties, which can
+provide fluidic drag reduction and water corrosion prevention to the aerospace structures (Blossey 2003; Mishchenko et al. 2010; Hsu et al. 2013). Key parameters
+governing hydrophobicity are the nanoroughness and surface energy. Wenzel model describes an increased surface
+roughness leading to increased surface area imparting
+hydrophobic nature (Wenzel 1936), whereas the Cassie–
+Baxter model states that the air trapped within the grooves
+causes hydrophobic behavior (Cassie and Baxter 1944).
+Poly(vinilidene fluoride) PVDF is a strong polymer having
+properties like abrasion resistance and corrosion resistance.
+Addition of CNTs imparts additional properties to the
+PVDF like hydrophobicity and conductivity (for EMI
+shielding and lightning protection) making the PVDF/CNT
+nanocomposites a suitable material for aerospace coatings.
+PVDF/CNT nanocomposites coatings were prepared by
+Chakradhar et al. (Chakradhar et al. 2014) using spray
+coating method. PVDF and MWCNTs were dispersed in
+dimethyl formamide (DMF) using a magnetic stirrer for
+10 min, followed by ultrasonication for 50 min. The mixture was mixed with Milli Q water resulting in a precipitate. Precipitate was collected on a filter paper and dried.
+The dried powder was dissolved with acetone by ultrasonication for 30 min. The mixture was sprayed on a glass
+substrate to form 10–12 lm thick coatings.
+Surface morphology of coating with 66 wt% MWCNT
+examined by field electron scanning electron microscopy
+(FESEM) is shown in Fig. 12a. Protrusion-like structures
+were seen which cause enhanced surface roughness leading
+to reduced wettability as per the Cassie–Baxter’s law. The
+
+Appl Nanosci (2017) 7:519–548
+
+529
+
+Table 3 Properties of various epoxy nanocomposite coatings (Turri et al. 2010)
+Coating type
+
+Mean surface roughness (nm)
+
+Indentation hardness
+
+Wear index (mg/kcycle)
+
+Scratch hardness (MPa)
+
+Epoxy
+
+0.16 ± 0.02
+
+99 ± 2
+
+63 ± 15
+
+42.8 ± 3.2
+
+Epoxy/alumina
+
+0.59 ± 0.04
+
+101 ± 7
+
+75 ± 13
+
+83.1 ± 3.1
+
+Epoxy/clay
+
+3.15 ± 0.04
+
+98 ± 3
+
+33 ± 5
+
+112.3 ± 5.6
+
+Hybrid Epoxy/SiO2
+
+2.65 ± 0.09
+
+87 ± 11
+
+35 ± 7
+
+783.6 ± 51.6
+
+PVDF/MWCNT coatings exhibit superphobicity in contact
+with the water (see Fig. 12b). The water contact angle
+(WCA) and sliding angle (SA) were found to be 154° and
+\3°, respectively (superhydrophobic), as compared to the
+WCA of PVDF which is 105° (hydrophobic). The nanoroughness of the coating increased with the addition of
+MWCNT causing superhydrophobicity. WCA measured at
+different temperatures is shown in Fig. 13. For 20–30 wt%
+coatings, the WCA gradually reduced reaching 10° at
+623 K. The 33–66 wt% coatings showed considerable
+stability up to 573 K. Thus, 33 wt% of MWCNT in the
+PVDF imparted the necessary superhydrophobicity to the
+coatings maintaining additional properties of the PVDF.
+These properties make the PVDF/MWCNT coatings suitable for aerospace coatings for wet climates.
+Aerospace tribology
+Addition of lubricating and reinforcing fillers imparts tribological properties to the nanocomposites. Lubricating
+microfillers like graphite, PTFE, molybdenum disulfide
+(MoS2) decrease the friction of the sliding surfaces, but
+their weaker bond in the material reduces the strength.
+Reinforcing microfillers like glass and carbon fibers
+increases the strength but also increases the abrasiveness.
+Nanofillers overcome the drawbacks of these microreinforcements by the improvements in some characteristics of
+the nanocomposites (Dasari et al. 2009). Nanofillers
+
+Fig. 13 Variation of WCA with temperatures in PVDF/MWCNT
+coatings (reproduced from (Chakradhar et al. 2014), with the
+permission from Elsevier)
+
+increase the nucleation capability by improving interfacial
+interaction with the polymer matrix. Rigidity of the matrix
+is increased due to restricted mobility of the matrix
+occurring near vicinity of the fillers. Nanofillers are more
+effective than microfillers due to the increased surface area
+of fillers (Wetzel et al. 2003) that creates huge polymer/filler interfacial area resulting in enhanced bonding
+(Wetzel et al. 2003; Zhang et al. 2002). In addition,
+
+Fig. 12 a Field electron
+scanning electron microscopy
+(FESEM) image of a PVDF/
+MWCNT coating with 66 wt%
+MWCNT at room temperature.
+b Water droplets on a PVDF/
+MWCNT superhydrophobic
+coating at 300 K (Reproduced
+from (Chakradhar et al. 2014),
+with the permission from
+Elsevier)
+
+123
+
+530
+
+Appl Nanosci (2017) 7:519–548
+
+material removal during sliding is less since the size of
+nanofiller and surrounding polymer chain is similar.
+Apart from changing the physical and mechanical
+properties,
+nanofillers
+change
+the
+crystallinity,
+microstructure, glass transition temperature and degradation temperature (Friedrich 1993). Nanofillers influence the
+transfer films, which is crucial in minimizing the wear rate
+in bearings. Wear results from the rubbing bodies due to
+friction, impact, thermal and other forces (Lim and Ashby
+1987). Debris dislodge from the surface due to the loss of
+cohesion causing wear mechanisms like abrasion, adhesion, erosion, delamination, corrosion and fatigue. These
+mechanism involves softening, melting and pyrolysis
+making wear phenomenon more complex to understand. A
+widely accepted relation to estimate the wear volume loss
+V (m3) is given by
+V¼
+
+kW NL
+;
+H
+
+ð5Þ
+
+where kW is the wear coefficient (mm3/N-m), N normal
+load (N); l sliding distance (m); and H hardness of the
+wearing material. An important factor governing wear is
+the tribochemical reaction. Thus, Gibbs free energy
+(DG) criterion facilitates the selection of fillers (Zhao and
+Bahadur 1999). A negative DG indicates feasibility of a
+chemical reaction that helps on the formation of tribofilm
+reducing wear and favoring them for tribological
+applications.
+Shao et al. (Shao et al. 2004) found that the frictional
+coefficient and wear rate decreased rapidly (Fig. 14) when
+1 vol% nano-TiO2 particles were added to PPESK
+copolymer. Nanocomposite was slided over a steel ring in
+dry condition with velocity = 0.43 m/s, load = 200 N and
+duration = 1.5 h. Micro-TiO2 particles had negligible
+effect on friction coefficient and resulted in the increasing
+wear rate with increasing filler content. A continuous thin
+transfer film well bonded to the surface decreased the wear
+rate. A thin Fe2O3 film was formed, and the elemental Ti
+got attracted toward the steel surface bonding the formed
+film to the surface. Compared to the transfer film of pure
+PTFE (see scanning electron microscopy (SEM) image in
+Fig. 15), PTFE nanocomposites showed the smooth and
+coherent transfer films (Shi et al. 2007). Increasing the
+filler content increased the abrasiveness thereby increasing
+the wear rate. Si3N4 also exhibited hydrodynamic lubrication behavior due to tribochemical wear when used in
+thermoplastic or thermosetting polymer (Shi et al. 2003;
+Wang et al. 1996). A formation of SiO2 in the tribofilm
+reduced the friction and protected the sliding surfaces.
+Table 4 lists the tribological properties of some
+nanocomposites. The lowest wear rate was exhibited by
+polyimide/CNT nanocomposite. These PMNCs are lightweight, have low friction and have low wear rate. In
+
+123
+
+Fig. 14 Variation in properties of nano- and micro-TiO2-reinforced
+PPESK with different filler volume proportions: a coefficient of
+friction and b wear rate (reproduced from (Shao et al. 2004), with the
+permission from John Wiley and Sons)
+
+addition, fillers like CNT impart thermal conductivity to
+remove the heat built up during operation. Thus, PMNCs
+are the preferred materials for the aerospace bearing
+design.
+Structural health monitoring applications
+Structural health monitoring (SHM) systems increase the
+reliability and safety of structures, which is mandatory for
+many critical and high-performance structures of aircrafts.
+SHM systems have reduced the cost involved by periodic
+inspection, which happens to be around one-third of the
+total cost in acquiring and operating the aircrafts (Diamanti
+and Soutis 2010; Giurgiutiu and Soutis 2012). Piezoelectric
+and piezoresistive nanocomposite sensors and actuators
+have been developed recently that are easy to fabricate,
+have low cost, making them suitable for the use in SHM
+systems of large aircrafts and various measuring gauges.
+Piezoelectric polymer matrix nanocomposites
+Piezoelectric PZT wafers are the widely used transducer
+elements in SHM (Rathod and Mahapatra 2010; Giridhara
+
+Appl Nanosci (2017) 7:519–548
+
+531
+
+Fig. 15 Micrographs showing
+scanning electron microscopy
+(SEM) images of transfer films,
+a pure PTFE and b 17 wt%
+TiO2 particles in PTFE. Results
+obtained were with load of
+200 N, sliding velocity of
+1.39 m/s, sliding
+time = 30 min, sliding
+distance = 2.5 km (reprinted
+from (Shi et al. 2007), with the
+permission from Elsevier)
+
+Table 4 Tribological properties of some polymer nanocomposites (Dasari et al. 2009; Friedrich et al. 2005)
+Material systems
+
+Wear rate (10-6 mm3/km)
+
+Epoxy
+
+38
+
+Epoxy/4 vol% TiO2
+
+15
+
+Toughness (kJ/m2)
+9.3
+46
+
+Hardness (MPa)
+19
+–
+
+References
+Shi et al. (2003)
+Wetzel et al. (2002)
+
+Epoxy/0.9 vol% nano-Si3N4
+
+7
+
+13.2
+
+Epoxy/2 vol% Al2O3
+
+3.9
+
+55
+
+–
+
+Wetzel et al. (2003)
+
+–
+
+208
+
+Sreekala and Eger (2005)
+
+Epoxy/3 vol % SiO2
+
+22
+
+20
+
+Dasari et al. (2009)
+
+Polyimide/10 wt% CNT
+
+0.1
+
+–
+
+380
+
+Dasari et al. (2009)
+
+Polyimide/10 wt% graphite
+
+0.7
+
+–
+
+300
+
+Dasari et al. (2009)
+
+PEEK/7.5 wt% Si3N4
+
+1.3
+
+–
+
+133
+
+Wang et al. (1996)
+
+PEEK/7.5 wt% SiO2
+
+1.4
+
+–
+
+–
+
+Wang et al. (1997b)
+
+PEEK/2.5 wt% SiC
+PEEK/10 wt% ZrO2
+
+3.4
+3.9
+
+–
+–
+
+–
+–
+
+Wang et al. (1997a)
+Wang et al. (1998)
+
+PPS/5 vol% TiO2
+
+8
+
+–
+
+–
+
+Bahadur and Sunkara (2005)
+
+PTFE/Al2O3
+
+1.2
+
+–
+
+–
+
+Sawyer et al. (2003)
+
+et al. 2010; Rathod and Mahapatra 2011; Giurgiutiu 2014).
+Due to their toxic nature, brittleness and high cost,
+piezopolymer transducers like PVDF and poly(vinylidene
+fluoride–trifluoroethylene) (P(VDF-TrFE)) have been
+developed as alternatives (Rathod et al. 2010; Jain et al.
+2013a; Jain et al. 2013b). To facilitate the processing,
+piezoelectric PMNCs have been developed (Jain et al.
+2014; Rathod et al. 2014). Nanocomposites also possess
+structural and electrical properties that can be tailored by
+controlling its composition to make them suitable for
+transducer applications. Piezoelectric PMNC consists of
+piezoelectric nanofillers like PZT, zinc oxide (ZnO)
+embedded in a polymer matrix (Daben 1990; Jain et al.
+2014; van den Ende et al. 2007; Meyers et al. 2013). These
+nanofillers impart piezoelectricity simultaneously retaining
+the properties of the polymer. Recently, PVDF and epoxy
+polymers have received close attention as matrix material,
+as discussed next.
+
+PVDF/PZT films PVDF/PZT films exhibit piezoelectricity due to both PZT nanoparticles and the PVDF matrix. It
+also possesses the properties of PVDF like low acoustic
+impedance, strength, corrosion resistance, flexibility, nontoxic nature satisfying most of the requirements for aerospace sensor applications. Jain et al. (2014) have developed
+piezoelectric PVDF-PZT nanocomposite film sensors using
+a solvent cast method. A measured quantity of PVDF was
+dissolved in DMF by stirring and heating in the microwave
+oven until it dissolves. The PZT was dispersed thoroughly
+in the polymer PVDF solution. The average grain size of
+the PZT particles was in the range of 1 lm to 25 lm. The
+prepared solution was then casted on the glass plate and
+heated in an oven at about 65 °C. With the complete
+evaporation of solvent, PVDF-PZT nanocomposite films
+were obtained. The process was repeated with different
+weight fractions (ranging from 10 to 50 wt%) and different
+particle sizes of PZT. The prepared films were tested for
+
+123
+
+532
+
+Appl Nanosci (2017) 7:519–548
+
+structural, surface and mechanical properties by X-ray
+diffraction (XRD), SEM and tensile testing techniques,
+respectively. The graph in Fig. 16a presents the X-ray
+pattern of the film. It is clear from the patterns that most
+intense reflection occurs at 2h–30.98o, which is very close
+to the value mentioned in the literature (Daben 1990) for
+PVDF-PZT nanocomposite. The intensity of (110) reflection increases as the PZT concentration increases from 10
+to 50 wt%. In addition, with the increase in size of PZT
+particle, the pattern remains same. This indicates that
+although the particle size of PZT is varied, the crystallite
+size remains same.
+
+Fig. 16 Material characterization of PVDF-PZT nanocomposite film:
+a XRD pattern, b SEM, c variation in modulus with weight fraction of
+PZT
+
+123
+
+In order to study the microstructure and the dispersion of
+the ceramic powder within the polymer matrix, SEM was
+performed. A uniform distribution of PZT particles in the
+PVDF matrix is seen (see Fig. 16b) which has been
+observed by other investigators (Mendes et al. 2009; Suresh et al. 2009). From Fig. 16c, it has been found that the
+modulus increases with an increase in PZT content. At 50
+wt% of PZT, modulus is found to be 1574 MPa. The
+increase in modulus and degree of crystallinity (discussed
+earlier) improves the piezoelectric properties (Mendes
+et al. 2009). After synthesis, the PVDF-PZT composite
+films were electroded using silver ink and were poled using
+thermal and corona poling method by the application of
+high direct current (DC) electric field (9 kV/mm) at an
+elevated temperature. Piezoelectric coefficients have been
+measured using a Piezometer PM300. The average value of
+piezoelectric charge coefficient d33 obtained is 40 pC/N,
+and the maximum value obtained is 100 pC/N, which is
+much higher than the value obtained for the single-phase
+PVDF, which has an average d33 of 22 pC/N.
+The PVDF-PZT sensor is tested for static and dynamic
+strain sensing properties. The voltage response of the film
+bonded on a beam is measured by subjecting the beam to
+free vibration and transient impact loading. The sensor
+bonded on a cantilever beam at its root is connected to the
+oscilloscope (see Fig. 17). First, the sensitivity of the
+bonded PVDF-PZT sensor to the dynamic strains induced
+from the free vibration of the beam is studied.
+The cantilever beam specimen used is aluminum having
+length L = 0.33 m, width = 0.03 m and thickness
+h = 0.0015 m. A free vibration is induced in the beam by
+giving initial displacement and leaving it to vibrate on its
+own. The response of the PVDF-PZT sensor is recorded
+using oscilloscope with a sampling rate of 1 kHz. The
+voltage response for free vibration is shown in Fig. 18a.
+The frequency response is obtained by taking fast Fourier
+transform (FFT) of the voltage response as shown in
+Fig. 18b. Number of sampling points used in FFT is
+
+Fig. 17 Experimental setup showing the cantilever beam with
+PVDF-PZT nanocomposite sensor bonded on it
+
+Appl Nanosci (2017) 7:519–548
+
+533
+
+2 9 1012. The peaks reveal the resonance frequencies of
+the vibrating modes of cantilever beam. The first and
+second natural frequencies (F1 and F2) of the beam can be
+obtained using elementary beam theory (Euler–Bernoulli).
+The first two natural frequencies are given by
+sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+1:8752
+EI
+F1 ¼
+;
+ð6Þ
+2p
+qAL4
+sﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ
+4:6942
+EI
+;
+ð7Þ
+F1 ¼
+2p
+qAL4
+where E is Young’s modulus, I = wh3/12 is the area
+moment of inertia, q is the density and A is the crosssectional area. For aluminum material with E = 60 9 109
+and q = 2700, the first two natural frequencies estimated
+from elementary beam theory are F1 = 10.48 and
+F2 = 65.73 Hz. The natural frequencies from the graph
+(Fig. 18b) are F1 = 9.7 and F2 = 62.2 Hz. The peaks are
+in good agreement with respect to the natural frequencies
+obtained from the elementary beam model. Thus, the
+developed PVDF-PZT nanocomposite film sensors have
+
+(a)
+
+the ability to capture multiple modes of vibrations
+accurately.
+Response of the PVDF-PZT sensor to impact loading is
+obtained by dropping a steel ball on the tip of the cantilever
+beam from a known height. A ball diameter of
+d = 0.0095 m is dropped from a height of hI = 0.4 m at
+the tip of the cantilever beam. The steel ball hits the beam
+tip and falls off with negligible rebound of 1–2 mm converting entire impact energy into mechanical vibration.
+Magnitude of impact in terms of energy can be estimated as
+EI = mgh = 0.0137 N-m. The mass of ball is found to be
+m = 3.5 g. Impact response of the sensor mounted at the
+root of the cantilever is shown in Fig. 19a. The frequency
+response (FFT of the sensor signals) is shown in Fig. 19b.
+The sensor effectively captures the peaks in the frequency
+response representing several resonant frequencies of the
+beam. The natural frequencies from the graph (Fig. 19b)
+are F1 = 9.7 Hz and F2 = 62.9 Hz, which again closely
+matche the theoretical values. Thus, the developed PVDFPZT nanocomposite films have the ability to sense dynamic
+strains resulting from impact. With good sensitivity, low
+cost and corrosion resistance, these films are suitable for
+
+0.6
+
+(a)
+
+0.8
+0.6
+0.4
+
+0.2
+Voltage (V)
+
+Voltage (V)
+
+0.4
+
+0
+-0.2
+
+0.2
+0
+-0.2
+-0.4
+
+-0.4
+
+-0.6
+
+0
+
+0.5
+
+1
+Time (s)
+
+1.5
+
+-0.8
+0
+
+2
+
+0.2
+
+(b)
+
+(b)
+
+200
+
+30
+
+9.7 Hz
+
+0.4
+
+0.6
+Time (s)
+
+0.8
+
+1
+
+9.7 Hz
+
+25
+Voltage (V)
+
+Voltage (V)
+
+150
+
+100
+
+62.9 Hz
+
+15
+10
+
+62.2 Hz
+
+50
+
+0.02
+
+0.04
+
+50 Hz
+
+5
+
+50 Hz
+
+0
+0
+
+20
+
+0.06
+
+0.08
+
+0.1
+
+0
+0
+
+0.02
+
+0.04
+0.06
+Frequency (kHz)
+
+0.08
+
+0.1
+
+Frequency (kHz)
+Fig. 18 Response of PVDF-PZT bonded on a cantilever beam
+subjected to free vibration: a voltage response, b frequency response
+
+Fig. 19 Response of PVDF-PZT nanocomposite sensor bonded on a
+cantilever beam subjected to impact of magnitude E = 0.0137 N-m at
+the cantilever tip. a Voltage response. b Frequency response
+
+123
+
+534
+
+Appl Nanosci (2017) 7:519–548
+
+acoustic emission monitoring and condition monitoring of
+aircraft structures.
+Epoxy/PZT coatings The high PZT content in an epoxy
+matrix often leads to poor material homogeneity, which in
+turn lowers the mechanical properties. Recently, a potentially attractive class of epoxy called liquid crystalline
+thermosetting resins has been developed for the addition of
+PZT (van den Ende et al. 2007). The piezoelectric charge
+constants (d33) as a function of the PZT loading fraction are
+depicted in Fig. 20a. The piezoelectric constant increased
+with the increase in PZT loading. The novel epoxy/PZT
+nanocomposites produced possess a high piezoelectric
+charge constant d33. Recently, Rathod et al. (2014) have
+used embedded epoxy/PZT sensors with 80 wt% PZT for
+acoustic emission sensing applications for composite laminates. The acoustic emission sensed due to fiber breakage
+during the tensile testing is shown in Fig. 20b. Thus, the
+epoxy/PZT sensors qualify as the material for impact,
+vibration and acoustic emission sensing in aircraft
+
+structures. These nanocomposites show the potential to
+replace existing piezoelectric materials for automobile and
+aircraft applications especially operating in harsh
+environments.
+Polymer/ZnO films Apart from PZT nanoparticles, ZnO
+particles also exhibit inherent piezoelectricity (Wang and
+Song 2006; Zhu et al. 2008). (Loh and Chang 2011)
+developed ZnO-embedded piezopolymer thin films for
+dynamic strain sensing. Piezopolymer films were prepared
+by dispersing 1 wt% ZnO nanoparticles (20 nm) in PSS
+solution via 180 min of bath sonication (135 W, 42 kHz)
+followed by 30 min of high-energy probe sonication
+(4.76 mm tip, 150 W, 22 kHz). The resulting mixture was
+mixed in an equal amount of PVA solution followed by
+evaporation of solvent at 25 °C for 72 h. The resulting
+PSS-PVA/ZnO nanocomposite was peeled off from the
+substrate whose ZnO weight fraction WF can be calculated
+from the relation
+WF ¼
+
+WZnO
+ 100%,
+WZnO þ WPSS þ WPVA
+
+ð8Þ
+
+where W ZnO , W PSS and W PVA are the mass of ZnO, PSS
+and PVA, respectively. The SEM image of a nanocomposite with WF = 50 is shown in Fig. 21a. The random
+dispersion of ZnO nanoparticles indicated adequate dispersion in the polymeric matrix. The sizes of agglomerates
+varied from 20 to 38 nm, which are lesser than twice the
+size of nanoparticles. Thus, agglomeration was found to be
+negligible.
+The nanocomposite film was poled with electrodes
+mounted on opposite edges of the film under moderate
+electric field. The poled film was mounted on a cantilever
+beam near the fixed end. The cantilever was subjected to
+free vibration, and the voltage response of nanocomposite
+film was measured. The output voltage VO was normalized
+to take into account for the films of different sizes as
+VF ¼
+
+Fig. 20 a Piezoelectric coefficient d33 of the nanocomposite material
+as a function of the PZT volume fraction / (reproduced from van den
+Ende et al. 2007). Yamada’s model is fitted to the data. b First
+acoustic emission observed from embedded sensors under uniaxial
+stretching at 1 mm/min from embedded piezoceramic coating film
+(reproduced from Rathod et al. 2014)
+
+123
+
+VO LF
+;
+Wh
+
+ð9Þ
+
+where LF is the distance between the electrodes, W is the
+width of the film and hf is the thickness of the film. The
+normalized voltage response of the film is shown in
+Fig. 21b. The response is matched with the strain measured
+using standard strain gauge. These films are easy to prepare, and poling requires moderate electric filed. ZnO
+enhances the piezoelectricity in piezoelectric polymers
+(Dodds et al. 2011). Realizing this, Meyers et al. (Meyers
+et al. 2013) have further demonstrated the use of ZnObased nanocomposites as transducer for Lamb wave-based
+SHM in pipe structure. Thus, ZnO-based nanocomposites
+hold promising future in development of cost-effective
+SHM systems for aircraft structures.
+
+Appl Nanosci (2017) 7:519–548
+
+535
+
+agent. Mixing was done using shear force at 70 °C for 4 h.
+Ultrasonic mixing was avoided since CNTs suffer damage
+by tip sonification and cavitation. The mix was cast in a
+Teflon mold and kept at room temperature to remove air,
+followed by curing in an oven at low vacuum (16 inch Hg),
+at 120 °C for 12 h. After evaporation of the solvent, a
+nanocomposite film of 85 lm was peeled from the mold.
+Sensitivity of the sensor was determined by bonding it near
+the cantilever root. For the controlled displacement y
+applied at cantilever tip, the strain e is estimated by beam
+bending relation which is given by
+e¼
+
+3hðL  aÞ
+yðLÞ;
+2L3
+
+ð10Þ
+
+where h is the beam thickness, L is the beam length and a is
+the distance from beam tip to center of the sensor. Gauge
+factor Gf that estimates the sensitivity of piezoresistive
+sensor is given by
+Gf ¼
+
+Fig. 21 a High-magnification SEM images of a PSS-PVA/ZnO thin
+film with 50% weight fraction of ZnO showing random deposition of
+individual and small agglomerations of ZnO nanoparticles (20 and
+38 nm) within the polymeric matrix. b Free vibration response of a
+PSS-PVA/ZnO thin film with 50% weight fraction of ZnO overlaid
+with the induced dynamic strain as measured by the metal-foil strain
+gage (Reproduced from (Loh and Chang 2011))
+
+Piezoresistive polymer matrix nanocomposites
+Piezoresistive sensors work on the principle of change in
+resistance caused by the application of external stimuli.
+Conventional strain gauges have a gauge factor of *2,
+which is very low to detect the above-mentioned dynamic
+strain in aircrafts. These sensors and piezoelectric transducers prove costly to monitor large aircraft structures. The
+cost-effective piezoresistive nanocomposite sensors serve
+as an alternative to such conventional sensors (Rathod et al.
+2014; Sundararaman et al. 2015). Piezoresistive
+nanocomposites contain conductive nanofillers like CNT
+and CB that imparts conductivity.
+PMMA/CNT Extremely small size of CNTs has enabled
+Kang et al. (Kang et al. 2006) to develop artificial neuron
+made up of long CNT fiber-based PMNC. SWNTs were
+mixed in a solvent containing PMMA as a polymer-binding
+
+DR
+;
+e
+
+ð11Þ
+
+where DR is the normalized change of resistance
+DR = (RS-RI)/RI with RS being the final resistance after
+straining and RI being the initial resistance. With a percolation threshold of 0.1%, the variation of gauge factor is
+shown in Fig. 22a, where the gauge factor decreases as the
+CNT loading increases. The optimized content of SWNT
+was found to be 3 wt%. The MWCNT-based nanocomposite neuron possesses SHM capability which can be seen
+from the response observed (see Fig. 22b) when it is cut
+half way along its width. Thus, nanocomposite neurons can
+monitor very large areas of an aircraft for damages. Its easy
+fabrication, simple instrumentation and low cost make it an
+excellent choice as a sensor for SHM systems for large
+aircrafts.
+Epoxy/carbon black and Epoxy/CNT Embedded conventional sensors or transducers on the structure can act as a
+defect and create interference in the normal operation of
+the structure. For example, transducers (like PZT wafers)
+mounted on the surface of the skin of a wing may disturb
+the aerodynamic flow and reduce the efficiency of the
+wing. To address this problem, smart paints have been
+developed which are capable of sensing the dynamic strain
+apart from providing the protective and decorative functions of the paint. Smart composite paints developed by
+piezoelectric powder and epoxy resin require electroding
+and poling, which is complex and expensive (Egusa and
+Iwasawa 1998). Realizing the ability to measure the static
+and quasi-static pressure (Knite et al. 2004; Lu et al. 2006),
+Aldraihem et al. (Aldraihem et al. 2009) demonstrated the
+ability to measure dynamic pressure using epoxy/carbonblack nanocomposite sensor.
+
+123
+
+536
+
+Appl Nanosci (2017) 7:519–548
+
+Fig. 23 a Circular sample of PU/CB nanocomposite paint sensor.
+b Schematic arrangement of the paint sensor and its equivalent circuit
+(Reproduced from (Aldraihem et al. 2009), with the permission from
+Elsevier)
+
+Q2dc
+Q2 ¼ F;
+ðeAÞ
+
+
+ðR0 þ Ra ÞQ_ 1  Rg Q_ 2  Q_ 1 ¼ 0;
+
+M€
+x þ bx_ þ Kx 
+
+ð12Þ
+
+
+ xdc
+Q2dc
+Q2 
+x ¼ 0;
+Rg Q_ 2  Q_ 1 þ
+eA
+eA
+where, M, K and b are the equivalent mass, stiffness and
+damping, respectively. x is the displacement of the
+equivalent mass. Ra, Rg, R0 and Cg are the series
+resistance, parallel resistance, output resistance and
+parallel capacitance, respectively (Wang et al. 2005b). Q1
+
+123
+
+”
+
+The nanocomposite paint sensors were prepared by
+mixing CB particles (42 nm) in PU and pouring the mixture in metal mold for one day to form 0.942 mm thick
+films. Disk-shaped samples (24.6 mm diameter) were cut
+and electroded with silver paint as shown in Fig. 23a. The
+prepared paint sensors were tested by an arrangement as
+shown schematically in Fig. 23b. The force F(t) was
+applied on the sensor using a shaker. The voltage response
+was obtained from a Whetstone’s bridge. A single degree
+of freedom system model yields a set of coupled governing
+differential equations obtained by using the Hamilton’s
+principle for electromechanical systems as
+
+and Q2 are the electrical charges created by excitation, and
+Q2dc/ A is the electromechanical coupling factor. is the
+permittivity, and AE is the electrode area. For a given F(t),
+Eq. (12) can be solved for x(t), Q1(t) and Q2(t). Voltage
+change u due to mechanical vibration is given by
+u ¼ udc þ uðtÞ ¼ R0 Q_ 1dc þ R0 Q_ 1 ;
+
+”
+
+Fig. 22 a Gauge factor of PMMA/SWNT nanocomposite strain
+sensor, b dynamic response of a MWNT neuron on a beam before and
+after crack, demonstrating the dynamic strain sensing capability
+(reproduced from (Kang et al. 2006), with the permission from IOP
+Publishing Ltd)
+
+ð13Þ
+
+where the first part is due to static pressure and the second
+part is due to mechanical vibration. After modeling of the
+nanocomposite paints, Aldraihem et al. (2009) superposed
+its results that matched well with the experiments as shown
+in Fig. 24. With the availability of mathematical model and
+nanocomposite paint sensor, the sensor sensitivity can be
+studied for tuning capabilities to suit for parameters like
+frequency, strain level and environment conditions
+encountered by aerospace structures. The epoxy/CB
+nanocomposite paint can act as a continuously distributed
+sensor over large aircraft structures, fairing of launch
+vehicles and flexible space structures for vibration, noise
+and health monitoring applications. Apart from these carbon black-based pressure sensors, strain sensors have also
+been reported. The addition of combination of carbon black
+and multiwalled carbon nanotubes (MWCNT) in epoxy
+matrix results in a strain sensor with additional capabilities.
+Recently, Anand and Roy Mahapatra (2009a, b) have
+developed such highly sensitive strain sensor with the
+addition of 33% carbon black and *0.57% MWNTs that
+possess quasi-static and dynamic strain sensing capability,
+which is common parameter of interest to be monitored in
+
+Appl Nanosci (2017) 7:519–548
+
+537
+
+Fig. 24 Voltage response predicting the voltage drop caused by
+reduction in pressure over the PU/CB nanocomposite paint sensor
+(reproduced from (Aldraihem et al. 2009), with the permission from
+Elsevier)
+
+aerospace structures. The addition of carbon black brings
+down the cost of the sensor. They studied the variation of
+MWNT concentration on the performance of the strain
+sensor and brought out a technique to actively tune the
+gauge factor by varying the bias voltage of the sensing
+circuit (a voltage divider).
+Shape memory deployable structures
+Shape memory polymers recover strain of over 50–400%
+upon the application of heat. This ability has attracted the
+application of shape memory polymers in deployable
+aerospace structures. Recoverable strain in shape memory
+polymers is several orders higher than shape memory
+alloys. However, recovery stress is limited due to their
+lower stiffness. Recoverable stress improves by the addition of reinforcements (Gall et al. 2002). Gall et al. (2004)
+demonstrated the storage and release of internal stress in
+active PMNC with SiC nanoreinforcements. About 20 wt%
+SiC nanoparticles (700 nm diameter) were added to an
+epoxy polymer resin. A well-dispersed nanoparticle in
+polymer matrix was confirmed by SEM as shown in
+Fig. 25a (Gall et al. 2002). The stress–strain response of
+the epoxy/SiC nanocomposite at deformation temperature
+Td = 25 °C is shown in Fig. 25b. Elastic response
+exhibiting up to 50% strain followed the yielding and
+inelastic flow. The unloading resulted in an elastic recovery
+initially, followed by a nonlinear and spontaneous strain
+recovery. A residual inelastic strain of 35% was fully
+recovered by heating at TR = 120 °C.
+To determine the residual stress, a duplicate sample
+was held in the deformed state (2) under a fixed strain
+subjected to a similar heating profile observed during a
+
+Fig. 25 a Micrographs showing SEM of epoxy/SiC nanocomposite
+with 40 wt% SiC (reproduced from (Gall et al. 2002) with the
+permission from Elsevier). b Stress–strain curve under compression
+and recovery of the nanocomposite shape memory polymer. The
+insets display the sample shape (1) processed, (2) after compression
+and (3) after recovery. The sample is free from external conditions
+during strain recovery (reproduced from (Gall et al. 2004), with the
+permission from American Institute of Physics)
+
+full strain recovery. A recovery stress of 31 MPa was
+observed which is much higher than pure shape memory
+polymer resin. Other nanocomposites with nanofillers like
+CNT, carbon nanofiber, clay, CB and other organic particles also possess similar capabilities of improving the
+mechanical strength and shape recovery stress (Meng and
+Hu 2009). Clay imparts similar properties as SiC
+nanoparticles. CNT and CB nanofillers impart electrical
+and thermal conductive capabilities required by aerospace
+applications. The shape recovery property along with the
+thermal and conductive properties proposes the epoxy/SiC
+nanocomposites for aerospace deployable structure
+applications.
+
+123
+
+538
+
+Appl Nanosci (2017) 7:519–548
+
+Conductive electromagnetic shielding structures
+Modern airliners like Boeing 787 and Airbus 380 face
+challenges to satisfy mechanical and electromagnetic
+requirements simultaneously. Electromagnetic (EM)
+shielding is the ability to reflect and absorb the electromagnetic radiation to act as a shield against the penetration
+of radiation through it (Chung 2001). Apart from providing
+EM protection from lightning strike, conductive composites offer intentional interference with radar-absorbing
+materials, equipment-level shielding, protection from highintensity radiated fields and mitigation of human exposure.
+Carbon fiber composites have been extensively studied for
+such applications since their properties can be tailored
+(Neo and Varadan 2004). Epoxy-based nanocomposites
+have been well proven for their EMI shielding capabilities.
+Compared to nanocomposites with silver, iron oxide
+(Fe3O4) and iron (Fe) nanoparticles, epoxy/CNT
+nanocomposites have been reported to have better EMI
+shielding properties (Gairola et al. 2010; Liu et al. 2014).
+Epoxy/CNT nanocomposites showed 99.9% energy
+absorption capability in the X-band (8–12.4 GHz). A SEM
+of epoxy/CNT nanocomposite (see Fig. 26) showed the
+electrical and thermal paths in the form of CNT networks
+(Micheli et al. 2011a). Incorporation of CNT effects the
+mechanical properties as shown in Table 1, in Sect. 2.1.2.
+The shielding effectiveness SE is defined by the ratio of
+signal received with the sample and without sample given
+by
+ 2
+
+S
+SEðdBÞ ¼ 10Log 2OPEN ;
+ð14Þ
+SMATER
+where SOPEN is the scattering parameter (that is, the ratio of
+signal transmitted to signal received by the antenna) in the
+presence of shielding material and SMATER is the scattering
+parameter in the absence of shielding material.
+The improvement in the shielding effectiveness measured by a vector network analyzer is shown in Fig. 27
+(Micheli et al. 2011a). The measurements were done with
+the sample normal to the direction of electromagnetic wave
+propagation. The measured SE matched well with the SE
+predicted by a mathematical model following a winning
+particle optimization algorithm (Micheli et al. 2011b). The
+high shielding effectiveness property of 10 wt% CNT
+nanocomposite was comparable to that of an aluminum
+enclosure. Addition of multiple layers of shielding materials can give rise to additional reflections, which increases
+the SE. Epoxy/CNT nanocomposites also showed flame
+retardancy due to the formation of a jammed network
+structure in polymeric matrix (Im et al. 2010). Moreover,
+
+123
+
+Fig. 26 SEM image of epoxy/CNT nanocomposite with 3 wt%
+MWCNTs (reproduced from (Micheli et al. 2011a), with the
+permission from Elsevier)
+
+Fig. 27 Shielding effectiveness of a shielding structure with single
+layer of 6 wt% MWCNTs and 10 wt% MWCNTs (reproduced from
+(Micheli et al. 2011a), with the permission from Elsevier)
+
+multifunctional properties like high thermal and electrical
+conductivities and mechanical properties make them suitable for aerospace application where strength, lightning
+strike protection and EMI shielding are required (Im et al.
+2010). EM and radar-absorbing capabilities can be realized
+using biphase and triphase carbon fiber-reinforced
+nanocomposites (De Rosa et al. 2008). Thus, these
+nanocomposites can be installed on aircrafts as advanced
+EM shields for stealth applications or EMI suppression.
+
+Appl Nanosci (2017) 7:519–548
+
+539
+
+Ceramic matrix nanocomposites
+Ceramics are brittle materials susceptible to fracture. Most
+aerospace components are subjected to vibration and fatigue for which ceramics are not suitable. However,
+ceramics are hard, inert and stable at higher temperature
+levels. Aircraft components subjected to elevated temperature levels and corrosive environment require such properties. Significant effort has been put to impart toughness to
+the ceramic materials. To prevent ceramics from fracture,
+ductile phase is added which improves strength and fracture toughness. Properties of the nanocomposite relate
+primarily to the ratio of surface area/volume and relation of
+different phases of matrix and reinforcements. Various
+CMNCs for aerospace applications with their properties
+and the related morphology at nanoscale are presented
+next.
+Alumina/MWNT for EM shielding applications
+Alumina is typically used in structural applications but is
+an electrical insulator for which it cannot be used in aircrafts. CNTs are seen to impart toughness to the ceramic
+matrix with improved properties compared to the conventional carbon and SiC fibers, which just imparts toughness.
+MWNTs show multichannel, quasi-ballistic conducting
+behavior due to the participation of multiple walls in the
+electrical transport (Li et al. 2005). Their large diameter
+results in small band gap for semiconductor activity. High
+current density and conductivity (107 A/cm and
+1.85 9 103 S/cm, respectively) of MWNTs render them
+electrically conductive always (Ando et al. 1999). Loading
+of MWNTs in alumina results in improved structural
+integrity and electrical conductivity (Curtin and Sheldon
+2004). Thus, it is worth to present the preparation method
+and alternating current (AC) and DC conductivity studies
+of alumina/MWNT nanocomposites developed by Ahmad
+and Pan (2009). MWNTs were mixed ultrasonically with
+alumina in ethanol followed by ball milling for 24 h. The
+mixture was dried and transferred in cylindrical graphite
+mold to be plasma sintered at 1400 °C in vacuum under a
+pressure of 50 MPa.
+Figure 28 shows a SEM of MWNT/alumina nanocomposite (fractured surface) with 3 wt% MWNT. A welldispersed intertwining network formed by MWNTs at the
+grain boundaries can be seen. Conduction via tube–tube
+within the bundle and interlinked network of ropes results
+in the overall conduction in such nanocomposite. A standard four-point probe method gave the DC conductivity as
+shown in Fig. 29a. Insulator conductor transition was
+exhibited between 0.4 and 0.5 wt% of MWNTs. Eight
+order increase in conductivity was observed at 0.5%
+
+Fig. 28 SEM showing a fractured surface of MWNT/alumina
+nanocomposite with uniform distribution of MWNTs (reproduced
+from (Ahmad and Pan 2009), with the permission from Elsevier)
+
+MWNT after which a lesser rise was observed. The power
+law followed by the conductivity (Stauffer and Aharony
+1994) is given by
+rdc ¼ rc ðPMWNT  Pc Þt ; for PMWNT [ Pc ;
+
+ð15Þ
+
+where rdc and rc are the DC conductivities of the
+nanocomposite and the filler, respectively. PMWNT and Pc
+are the weight fraction and percolation threshold,
+respectively.
+The fit in Fig. 29a has the t = 1.82 (represents the
+dimensionality of the system) and Pc = 0.45 wt%. A
+smaller amount of t is contributed by the hopping between
+weakly connected parts of the network (Reghu et al. 1994).
+For t \ 2, thermally induced hopping transport dominates
+the conduction. Increase in wt% of MWNTs enhances the
+conductive path by increasing the inter-nanotube connections. Tunneling resistance is caused by inter-nanotube
+connections (Li et al. 2007). The conductivity of the
+nanocomposites is also seen to increase with temperature.
+The carrier mobility and thermally generated carrier
+mobility increase with temperature causing semiconductorlike effect. Fluctuation-induced tunneling model is used to
+describe this effect as a change of barrier height by fluctuation of thermal voltage causing the tunneling of the
+electrons (Ping 1980). The conductivity is given by (Sheng
+et al. 1978)
+
+
+T1
+rdc / exp
+;
+ð16Þ
+T þ T0
+where T1 ¼ wAe20 =8pkB , T0 ¼ 2T1 =pwv, T is the absolute
+temperature, kB is the Boltzman’s constant, v = (2mcV0/
+h2)1/2, e0 = 4V0/ew, mc is the electron mass, e is the
+charge, V0 is the potential barrier height, w is the insulating
+layer width and AJ is the area of capacitance formed at the
+junction.
+
+123
+
+540
+
+Appl Nanosci (2017) 7:519–548
+
+Alumina/MWNT for SHM applications
+
+Fig. 29 a DC conductivity of the MWNT/alumina nanocomposites
+as a function of MWNT contents. Inset shows DC conductivity with
+(PMWNT–Pc). b Frequency-dependent conductivity of the MWNT/
+alumina nanocomposites (Reproduced from (Ahmad and Pan 2009),
+with the permission from Elsevier)
+
+AC conductivity studies were done using an impedance
+analyzer at frequency ranging from 5 to 15 MHz at room
+temperature. The conductivity was initially constant and
+increased at higher frequencies for samples just above the
+percolation threshold (0.4 wt%) (see Fig. 29b). For higher
+MWCNT percentage, the conductivity becomes frequency
+independent. Below percolation threshold, the conductivity
+increases linearly with the slope of curve closer to unity
+indicating highly resistive material. The curve obeys the
+expression of dielectric conductivity r = 2Gfee0, where ei
+is the imaginary part of permittivity and e0 is the vacuum
+permittivity. In addition to the electrical properties, they
+possess excellent resistance to chemical, corrosion,
+extreme radiation and ultraviolet exposure generally
+encountered by aerospace structures. With these properties,
+MWNT alumina nanocomposites are suitable as electrostatic dissipation materials for aerospace structures.
+
+123
+
+Apart from applications like energy, transportation,
+defense, sporting goods and civil infrastructure, CMNCs
+are being researched for automotive and aerospace applications (De Volder et al. 2013). Automotive and aerospace
+applications demand SHM capabilities for safety of life and
+infrastructure, as explained in Sect. 2.4. Inam et al. (2014)
+presented the SHM capability in ceramic/carbon
+nanocomposite. SWNTs were dispersed in DMF by ultrasonication for 30 min followed by hand mixing of alumina
+nanopowder (particle size \50 nm). Ball milling of the
+mixture was done for 7 h followed by drying in rotary
+dryer for 12 h (60 °C) and in vacuum over for 48 h
+(100 °C). The mixture was ground and sieved at 250 mesh
+followed by drying in vacuum oven for 48 h (100 °C).
+Nanocomposites were prepared by spark plasma sintering
+(Jackson et al. 2010) from which 18 9 3 9 3 mm bars
+were prepared for various tests.
+Images in Fig. 30 show the fractured microstructure of
+alumina/CNT nanocomposite obtained from SEM. Homogeneously dispersed CNTs in various isolated location and
+a CNT mesh in central fractured location indicated uniform
+dispersion obtained by milling and drying process. Vickers
+indentations were performed with 500 g load and 10 s of
+indentation time. Five equally spaced indents were produced with parallel measurement of bulk electrical conductivity at room temperature using a four-point method. A
+drastic change in electrical conductivity was seen in alumina/CNT nanocomposite with number of indents. CNT
+and graphene-based nanocomposites showed higher sensitivity toward indentation damage. Also superposed are the
+results obtained from alumina/CB and alumina/graphene
+nanoplatelets. The indentation causes microcracks
+attributing to the fracture of fibers that result in reduced
+conductivity. Higher fracture toughness was also seen in
+these nanocomposites. Thus, with improved fracture
+toughness and safety provided by SHM capability, alumina/CNT nanocomposites can be used as structural
+components of aircraft, spacecraft and reentry vehicle
+operating at higher temperature.
+Aerospace tribology
+Aerospace systems involve costly inspection and maintenance procedures due to friction and wear in various
+movable devices. The parts that require periodic maintenance are the bearing surfaces of gears, pumps, reaction
+wheels, latches, sensor orientation mechanisms, actuators,
+antenna drives, solar arrays and gyroscopes (Voevodin
+et al. 1999). The life of bearing surfaces is affected by the
+loading, operating conditions and environmental conditions. Loading results in typical contact stress of 107–1010
+
+Appl Nanosci (2017) 7:519–548
+
+Fig. 30 a Fractured microstructure of alumina/carbon nanocomposites obtained from SEM. b Change in electrical conductivity of
+alumina/carbon nanocomposites due to Vickers indentation (Reproduced from (Inam et al. 2014), with the permission from Elsevier)
+
+Pa with sliding velocity varying from 0 to 20 m/s. This
+type of loading is typically a result of vibrations that causes
+wear and fatigue of the bearing surfaces. Extreme operating
+conditions at high and low altitude subject the tribological
+surfaces to variation of humidity and temperature (-40 to
+?300 °C for aircrafts and -100 to ?100 °C for space
+objects). The environment cycling and dust experienced by
+aircrafts also add to the problems of wear in bearing surfaces. High altitude aircrafts like SR-71 reconnaissance
+plane ‘Blackbird’ and spacecraft are subjected to atomic
+oxygen and electrostatically attracted dust causing abrasive
+wear (Graham 1997). Forthcoming space applications such
+as bearings for moment control devices and solar array
+joints require 109–1010 and 106–108 cycles, respectively,
+for a span of 15–30 years. Conventionally, solid lubricants
+like polymers, soft metals, PTFE and dichalcogenides have
+been used. Liquid lubricants like mineral oils and synthetic
+oils are used in sealed assemblies. Such lubrication and
+wear reduction methods cannot withstand the endurance
+requirements of aerospace like abrasion and oxidation
+resistance.
+
+541
+
+To meet the aerospace requirements, transition-metal
+dichalcogenides like MoS2, WS2, niobium diselenide
+(NbSe2) are mixed with organic and inorganic binders and
+the resulting mixture is deposited by spray or vacuum
+deposition process (Bhushan and Gupta 1991). The vacuum deposition technique allows the control of morphology, structure, chemistry and thickness of the coatings.
+Vacuum deposition also allows hard and lubricious phases
+in nanocomposite coatings. With these capabilities,
+advanced hard coatings that meet the aerospace endurance
+requirements can be prepared to reduce wear and friction
+(Miyoshi et al. 1997). Two-phase titanium carbide/DLC
+(TiC/DLC) and WC/DLC nanocomposites are not suitable in high-vacuum environment (Voevodin et al.
+1996a, 1996b) due to increase in friction from the
+graphitization of DLC. Space lubricants like MoS2 or WS2
+embedded in carbide/DLC/WC dichalcogenide composite
+last more than million cycles in space environment with
+humid/dry cycling (Voevodin et al. 1998). An adaptive
+WC/DLC/WS2 coating developed by Voevodin et al.
+(1999) imparts wear resistance and mechanical strength
+due to the presence of hard and crystalline WC. Amorphous DLC provides low wear and friction, whereas WS2
+phase provides lubrication in vacuum meeting the aerospace requirements.
+Voevodin et al. (1996a, 1996b) produced WC/DLC/WS2
+coatings by magnetron assisted pulsed laser deposition or
+by laser ablation. Approximately 0.5-lm thick coatings
+were obtained, which were polished to 0.02 lm Ra. At a
+vacuum of 10–6 Pa, the magnetron was operated with WS2
+target 8 W-cm-2 with 0.2 Pa argon such that the plasma
+was directed at 45° to the surface. A controlled laser beam
+ablates the graphite surface at 45° angle such that the
+composition was controlled by varying the WS2 sector
+area. The microstructure and the diffraction pattern
+demonstrate hexagonal WS2 crystal structure (see Fig. 31).
+One type of basal planes is perpendicular to the crystal axis
+(c-axis) with the spacing of 0.6 nm between the planes.
+Another set of basal planes have the spacing of 3 nm with
+the c-axis parallel to them. Grains of 5–10 nm randomly
+orient in the surrounding with dark and gray areas representing b-WC and DLC. WC/DLC/WS2 coatings consist of
+nearly amorphous or extremely nanocrystalline phases with
+10 nm dimension.
+A nanoindenter microprobe loaded in the range of 1 mN
+was used to determine hardness and Young’s moduli.
+Maximum penetration and load displacement curves were
+used to determine hardness and moduli, respectively. The
+hardness of the nanocomposite as a function of sulfur
+content is shown in Fig. 32. The coating hardness
+decreased from 15 to 7 GPa at 15–20% sulfur. At this
+composition, the elastic modulus also decreased from 230
+to 250 GPa to 100–130 GPa. The drop in properties is the
+
+123
+
+542
+
+Appl Nanosci (2017) 7:519–548
+
+Fig. 31 Transmission electron
+microscope images of the WC/
+DLC/WS2 coatings with 29%
+sulfur contents with the inset
+image showing selected-area
+diffraction patterns. The image
+on the right is the zoomed in
+image of the selected spot
+(Reproduced from (Voevodin
+et al. 1999), with the permission
+from Elsevier)
+
+results of the segregation of soft WS2 in the material. Due
+to the multiphase material composition, the entire range of
+hardness lies in between the hardness of WC having 24–28
+GPa and WS2 having 3 GPa (Bhushan and Gupta 1991).
+However, this slight reduction in hardness can result in
+significant low wear rates and increased endurance.
+A ball on disk tribometer was used to measure the
+friction of the nanocomposite coatings. Hundred gm of
+load was applied on a stainless steel ball with sliding speed
+of 10 m/min. The data were obtained on steady wear
+conditions over 50,000 sliding cycles. Similarities were
+seen in the variation of friction coefficient obtained in
+vacuum and nitrogen environments. A sharp reduction of
+friction coefficient resulted with 15–20% sulfur due to the
+formation of thick transfer films. Low friction resulted
+from WS2 due to week van der Waals forces between
+layers of S–W–S planes facilitating inter- and intra-crystalline slip (Prasad and Zabinski 1997). Reorientation and
+
+Fig. 32 Variation in the hardness of WC/DLC/WS2 coatings as a
+function of sulfur content (reproduced from (Voevodin et al. 1999),
+with the permission from Elsevier)
+
+123
+
+conglomeration of WS2 grains were observed by Raman
+analysis. Friction coefficient obtained from the tests in
+vacuum was found to be highest when compared to friction
+coefficients in moist air and nitrogen. A lower friction
+coefficient of 0.1 was observed at a lower sulfur content.
+This was due to the formation of amorphous carbon in the
+wear tracks. With 15–20% sulfur, WS3 and tungsten trioxide (WO3) phases were detected by Raman analysis.
+Oxidation of ball material also leads to the occurrence of
+Fe2O3 and chrome oxide. This transfer of ball material
+leads to an increase in coefficient of friction. Coatings with
+more than 20% sulfur show lower coefficient of friction.
+The friction coefficient study indicates the need of 20%
+sulfur coating.
+Endurance tests were carried out in space conditions
+(vacuum) of long duration with 2,000,000 cycles. A profilometer and an optical microscope were used to track the
+area and diameter of the wear track used in the estimation
+of normalized wear volume (mm3/N-m). Figure 33 shows
+the variation of wear rate with sulfur content after 10,000
+sliding cycles in different environments. The wear rate
+decreases considerably at 20% sulfur content. A similar
+behavior was seen in the variation of friction coefficient.
+Reverse dependence was seen in moist air. With 20–30%
+sulfur, the wear rate was lowest in vacuum. This lowest
+wear rate is due to the formation of WO3. The coatings
+with 22% sulfur further endured two million sliding cycles
+with friction coefficient of 0.03–0.06. Slight reduction in
+friction with test duration was seen due to the ongoing
+process of reorientation and accumulation of WS2 phase.
+This type of higher initial wear followed by long period of
+low wear is typical in solid lubricants (Singer et al. 1996).
+Additional requirement posed by aerospace bearing
+applications is the stability of the performance in environment with varying humidity, for which the test environment was varied between dry nitrogen \0.05% RH and
+moist air with 50% RH for every 5000 sliding cycles. The
+coatings with 15% sulfur showed friction coefficient of
+
+Appl Nanosci (2017) 7:519–548
+
+Fig. 33 Variation of wear rates as a function of sulfur content for
+moist air (filled square), dry nitrogen (circle) and high vacuum (filled
+circle) (reproduced from (Voevodin et al. 1999), with the permission
+from Elsevier)
+
+0.02–0.05 and 0.1–0.2 at low and high humidity, respectively. WS2 and DLC provided the lubrication in low and
+high humid conditions, respectively. The coatings have the
+capability to adapt to the humidity conditions by destroying
+the WS2 planes by oxidation, replacing them with graphite
+planes formed from DLC through friction-induced transformation. The next dry cycle causes desorption of water
+molecules resulting in the wear of graphite sheets leading
+to the exposure of WS2 grains. The low wear, low friction
+and adaptability to changing environment of WC/DLC/
+WS2 coatings fulfill the criteria for space applications,
+which is wear rate\10–6 mm3/N-m and friction coefficient
+\0.1 (Voevodin et al. 1999). Thus, the adaptive WC/DLC/
+WS2 coatings are excellent tribological materials for selflubricated wear-resistant coatings for aerospace and space
+applications that demand excellent endurance and low wear
+rates in different environments.
+
+Perspectives and challenges
+Upcoming potentials of nanocomposites can be easily
+guessed by the massive investments of researchers and
+industrialists worldwide in research and development. For
+instance, General Motors have used nanoclay and talc for
+structural applications. GE and Cabot in USA are using
+nanocomposites in the form of nanosmart switches, conductive polymers and sensors. Such commercialization will
+ease the availability and bring down the cost of
+nanocomposites. Advancement of processing methods
+together with the molecular level control of nanomaterials
+distribution and interaction with the matrix material is seen
+to optimize the properties and performance of nanocomposites. Thus, the nanocomposites have a good chance in
+the application of advanced aerospace systems. Advances
+
+543
+
+in robust manufacturing technology for nanocomposites
+will enable their migration in applications like electronics,
+thin films, ultralight aerostructures and shape memory
+polymers for space-deployable spacecrafts. Electrochromic
+polymers are being developed for thermo-optical uses,
+whereas electroactive polymers have the potentials to be
+used in the design of photoactive structures suitable for
+space missions. Recent advancements in polymer
+nanocomposites and the current research trend are creating
+new opportunities to develop next-generation aircraft and
+space structures (Youssef 2013). In case of PMNC, fire
+retardancy and weatherability is seen to gain much
+importance. In case of CMNC coatings, engine components, temperature sensors and high temperature structures
+can receive much importance. The PMNCs are far ahead in
+development when compared to CMNC and MMNCs. This
+is due to their development being driven by funding and
+their technology readiness or maturity level. The new
+manufacturing techniques for chirally sorted CNTs
+(Ganzhorn et al. 2011) and long CNTs ranging to half
+meter (Zhang et al. 2013) have the potential to open new
+areas of research and development for sensing and structural applications for aerospace industry.
+The present paper focusses on the available solutions
+that suit aerospace/space applications. However for these
+solutions to be incorporated practically in various different
+aerospace structures, aerospace certification requirements
+may pose additional studies to be done related to manufacturability, reliability, uniformity and repeatability.
+Affordability and availability are other aspects which
+aerospace industry will consider to curb cost and save time.
+Nanocomposites face several challenges in their processing
+and characterization. For instance, processing of nanofibers
+is difficult which if solved will yield ultralightweight
+components as compared to their microfiber counterparts.
+Development of nanocomposites involves interdisciplinary
+research involving chemistry, physics, materials science
+and engineering to relate various properties with the
+nanostructure. Improvement of mechanical properties by
+surface modification of nanofiber and determination of
+properties by modeling and simulation can aid in the
+development of nanocomposites. Dispersion, alignment,
+volume fraction and ease of fabrication along with their
+cost factor are the critical parameters to decide the potential of nanocomposites (Thostenson et al. 2005). A processing nanostructure property map developed by Ashby
+(1992) provides the method to take into account of most of
+these critical factors.
+Release of nanoparticles in environment is hazardous
+since they can interact with cells by their reactivity,
+nanosized structure and surface area. This has received
+huge attention in recent times to study the human and
+environmental exposure to nanomaterials via waste
+
+123
+
+544
+
+Appl Nanosci (2017) 7:519–548
+
+materials and other pathways (Aschberger et al. 2011;
+Dreher 2004). A stringent requirement for clean environment demands the use of fillers of natural origin to obtain
+recyclable and biodegradable nanocomposites. Natural fillers are minerals, vegetal materials, reinforcements based
+on common elements, layered double hydroxides and layered hydroxide salts (Camargo et al. 2009). Similarly,
+environment-friendly polymer matrix can be derived from
+plasticized polyhydroxylalkanoates, saccharides, polylactide and poly (e-caprolactone). The low cost of these fillers
+and matrix will enable their use in variety of aerospace
+applications.
+
+Concluding remarks
+Nanocomposite is an evolving area of interdisciplinary
+research motivated by nanotechnology. The capability to
+tailor materials at nanoscale has opened up the possibilities
+of developing next-generation multifunctional materials
+suitable to meet the requirements posed by the aerospace
+industry. Structural failure, lightning strike, icing and
+erosion pose several requirements on aerospace systems.
+The aerospace requirements like mechanical, chemical,
+thermal and electrical properties are achieved by polymer
+and CMNC with the nanofillers like nanoclay, alumina,
+carbon nanotubes, nanocarbon, TiO2, SiC, PZT.
+Nanoclays are affordable nanofillers that impart high
+strength, low permeability and excellent flame-retardant
+properties suitable for aerospace structures. MMT
+nanocomposites and DOPO-based phosphorus tetraglycidyl
+nanocomposites also satisfy the structural requirements of
+aerospace. CNTs and CB impart the electrical and thermal
+conductivity to the nanocomposites structures sufficient to
+provide lightning strike resistance to aircrafts. Carbon
+black-based piezoresistive nanocomposite strain gauges
+show a high gauge factor of 26 that is suitable for vibration-based condition monitoring and SHM in large aircraft
+structures. CNT-based conductive nanocomposites have
+also demonstrated the EM shielding and radar-absorbing
+capabilities for aircrafts. Polyurethane nanocomposite
+coatings containing carbon nanotubes have lightning
+resistance, deicing capabilities and EM shielding capabilities as required for commercial and military aircrafts.
+Apart from structural and coating applications, nanocomposites are developed as lightweight bearings for aerospace
+and space applications. These are PMNCs like PTFE/TiO2
+and CMNC like WC/DLC/WS2 coatings. Aerospace
+industry requires repeatable properties of structures for
+their certifications. This is possible if the nanoparticle
+content is same throughout and the nanoparticles have
+uniform size, shape and chirality. In addition, uniform and
+consistent supply of nanoparticles is required to avoid
+
+123
+
+recertification of parts with new nanoparticles, which is
+very expensive.
+Future research is being focused on the development of
+processing techniques to enhance dispersion of fillers,
+reduce the agglomeration and increase the interface properties between the nanofiller and the matrix. To solve these
+problems, the use of simulation tools to study the
+enhancement of properties will be beneficial. In addition,
+the development of low-cost biodegradable nanocomposites will significantly benefit life and environment.
+Open Access This article is distributed under the terms of the Creative
+Commons Attribution 4.0 International License (http://creativecommons.
+org/licenses/by/4.0/), which permits unrestricted use, distribution, and
+reproduction in any medium, provided you give appropriate credit to the
+original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.
+Publisher’s Note Springer Nature remains neutral with regard to
+jurisdictional claims in published maps and institutional affiliations.
+
+References
+Ahmad K, Pan W (2009) Dramatic effect of multiwalled carbon
+nanotubes on the electrical properties of alumina based ceramic
+nanocomposites. Compos Sci Technol 69:1016–1021
+Aldraihem OJ, Akl WN, Baz AM (2009) Nanocomposite functional
+paint sensor for vibration and noise monitoring. Sens Actuators,
+A 149:233–240
+Alexandre M, Dubois P (2000) Polymer-layered silicate nanocomposites: preparation, properties and uses of a new class of
+materials. Mater Sci Eng, R 28:1–63
+Anand SV, Roy Mahapatra D (2009a) The dynamics of polymerized
+carbon nanotubes in semiconductor polymer electronics and
+electro-mechanical sensing. Nanotechnol 20(145707):1–7
+Anand SV, Roy Mahapatra D (2009b) Quasi-static and dynamic strain
+sensing using carbon nanotube/epoxy nanocomposite thin films.
+Smart Mater Struct 18(045013):1–13
+Ando Y, Zhao X, Shimoyama H, Sakai G, Kaneto K (1999) Physical
+properties of multiwalled carbon nanotubes. Int J Inorg Mater
+1:77–82
+Andrews R, Weisenberger MC (2004) Carbon nanotube polymer
+composites. Curr Opin Solid State Mater Sci 8:31–37
+Armitage NP, Gabriel JCP, Gruner G (2004) Quasi-LangmuirBlodgett thin film deposition of carbon nanotubes. J Appl Phys
+95:3228–3230
+Aschberger K, Micheletti C, Sokull-Klüttgen B, Christensen FM
+(2011) Analysis of currently available data for characterising the
+risk of engineered nanomaterials to the environment and human
+health—lessons learned from four case studies. Environ Int
+37:1143–1156
+Ashby MF (1992) Materials selection in mechanical design. Pergamon Press, United Kingdom
+Avadhani CV, Chujo Y (1997) Polyimide-silica gel hybrids containing metal salts: preparation via the sol–gel reaction. Appl
+Organomet Chem 11:153–161
+Awaji H, Choi SM, Yagi E (2002) Mechanisms of toughening and
+strengthening in ceramic-based nanocomposites. Mech Mater
+34:411–422
+Azeez AA, Rhee KY, Park SJ, Hui D (2013) Epoxy clay nanocomposites—processing, properties and applications: a review.
+Compos Part B 45:308–320
+
+Appl Nanosci (2017) 7:519–548
+Baer DR, Burrows PE, El-Azab AA (2003) Enhancing coating
+functionality using nanoscience and nanotechnology. Prog Org
+Coat 47:342–356
+Bahadur S, Sunkara C (2005) Effect of transfer film structure,
+composition and bonding on the tribological behaviour of
+polyphenylene sulfide filled with nano particles of TiO2, ZnO,
+CuO and SiC. Wear 258:1411–1421
+Baikoula NM, Kirger-Kocsis J (2002) Review Processes and influencing parameters of the solid particle erosion of polymers and
+their composites. J Mater Sci 37:3807–3820
+Becher PF (1991) Microstructural design of toughened ceramics.
+J Am Ceram Soc 74:255–269
+Bharadwaj RK (2001) Modeling the barrier properties of polymer
+layered silicate nanocomposites. Macromol 34:9189–9192
+Bhushan B, Gupta BK (1991) Handbook of tribology: materials,
+coatings, and surface treatments. McGraw-Hill Publishing, New
+York
+Biercuk MJ, Llaguno MC, Radosavljevic M, Hyun JK, Johnson AT,
+Fischer JE (2002) Carbon nanotube composites for thermal
+management. Appl Phys Lett 80:2767–2769
+Bierwagen GP, Tallman DE (2001) Choice and measurement of
+crucial aircraft coatings system properties. Prog Org Coat
+41:201–216
+Blackford R (1998) Performance demands on aerospace paints
+relative to environmental legislation. Aircr Eng Aerosp Tec
+70:451–455
+Blossey R (2003) Self-cleaning surfaces - virtual realities. Nat Mater
+2:301–306
+Bogue R (2011) Nanocomposites: a review of technology and
+applications. Assembly Autom 31:106–112
+Bourbigot S, Bras ML, Dabrowski F, Gilman JW, Kashiwagi T
+(2000) PA-6 clay nanocomposite hybrid as char forming agent in
+intumescent formulations. Fire Mater 24:201–208
+Bradford PD, Wang X, Zhao H, Maria JP, Jia Q, Zhu YT (2010) A
+novel approach to fabricate high volume fraction nanocomposites with long aligned carbon nanotubes. Compos Sci Technol
+70:1980–1985
+Brampton CJ, Pickering SG, Bowen CR, Kim AH, Buschhorn ST,
+Lee J, Wardle BL (2014) Actuation of bistable laminates by
+conductive polymer nanocomposites for use in thermal-mechanical aerosurface de-icing. 54th AIAA/ASME/ASCE/AHS/ASC
+Conf., National Harbor, Maryland
+Briscoe BJ, Pelillo E, Sinha SK (1996) Scratch hardness and
+deformation maps for polycarbonate and polyethylene. Polym
+Eng Sci 36:2996–3005
+Buschhorn ST, Kessler SS, Lachman N, Gavin J, Thomas G, Wardle
+BL (2013) Electrothermal icing protection of aerosurfaces using
+conductive polymer nanocomposites. 54th AIAA/ASME/ASCE/
+AHS/ASC Conf., Boston, Massachusetts
+Camargo PHC, Satyanarayana KG, Wypych F (2009) Nanocomposites: synthesis, structure, properties and new application opportunities. Mater Res 12:1–39
+Cassie ABD, Baxter S (1944) Wettability of porous surfaces. Trans
+Faraday Soc 40:546–551
+Chakradhar RPS, Prasad G, Bera P, Anandan C (2014) Stable superhydrophobic coatings using PVDF-MWCNT nanocomposite.
+Appl Surf Sci 301:208–215
+Chattopadhyay DK, Raju KVSN (2007) Structural engineering of
+polyurethane coatings for high performance applications. Prog
+Polym Sci 32:352–418
+Cho J, Boccaccini AR, Shaffer MSP (2009) Ceramic matrix
+composites containing carbon nanotubes. J Mater Sci
+44:1934–1951
+Choa YH, Yang JK, Kim BH, Jeong YK, Lee JS, Nakayama T,
+Sekino T, Niihara K (2003) Preparation and characterization of
+
+545
+metal/ceramic nanoporous nanocomposite powders. J Magn
+Magn Mater 266:12–19
+Choi SM, Awaji H (2005) Nanocomposites: a new material design
+concept. Sci Technol Adv Mater 6:2–10
+Chung DDL (2001) Electromagnetic interference shielding effectiveness of carbon material. Carbon 39:279–285
+Curtin WA, Sheldon BW (2004) CNT - reinforced ceramics and
+metals. Mater Today 7:44–49
+Daben Y (1990) Composite piezoelectric film made from PVDF polymer
+and PCM-PZT ferroelectric ceramics. Ferroelectr 101:291–296
+Dalton AB, Collins S, Munoz E, Razal JM, Ebron VH, Ferraris JP,
+Coleman JN, Kim BG, Baughman RH (2003) Super-tough
+carbon-nanotube fibres: these extraordinary composite fibres can
+be woven into electronic textiles. Nature 423:703-703
+Dasari A, Yu ZZ, Mai YW (2009) Fundamental aspects and recent
+progress on wear/scratch damage in polymer nanocomposites.
+Mater Sci Eng, R 63:31–80
+De Rosa IM, Sarasini F, Sarto MS, Tamburrano A (2008) EMC
+impact of advanced carbon fiber/carbon nanotube reinforced
+composites for next-generation aerospace applications. IEEE
+Trans Electromagn Compat 50:556–563
+De Volder MFL, Tawfick SH, Baughman RH, Hart AJ (2013) Carbon
+nano tubes: present and future commercial applications. Sci
+339:535–539
+Diamanti K, Soutis C (2010) Structural health monitoring techniques
+for aircraft composite structures. Prog Aerosp Sci 46:342–352
+Dinca I, Ban C, Stefan A, Pelin G (2012) Nanocomposites as
+advanced materials for aerospace industry. INCAS Bull 4:73–83
+Dodds JS, Meyers FN, Loh KJ (2011) Piezoelectric characterization
+of PVDF-TrFE thin films enhanced with ZnO nanoparticles.
+IEEE Sens J 12:1889–1890
+Dreher KL (2004) Health and environmental impact of nanotechnology: toxicological assessment of manufactured nanoparticles.
+Toxicol Sci 77:3–5
+Dresselhaus MS, Dresslhaus G, Avouris P (2001) Carbon nanotubes:
+Synthesis, structure, properties and applications. Springer Verlag, Berlin
+Egusa S, Iwasawa N (1998) Piezoelectric paints as one approach to
+smart structural materials with health-monitoring capabilities.
+Smart Mater Struct 7:438–445
+Favier V, Cavaille JV, Canova GR, Shrivastava SC (1997) Mechanical percolation in cellulose whisker nanocomposites. Polym Eng
+Sci 37:1732–1739
+Ferrick MG, Mulherin ND, Haehnel RB, Coutermarch BA, Durell
+GD, Tantillo TJ, St. Clair TL, Weiser ES, Cano RJ, Smith TM,
+Martinez EC (2006) Double lap shear testing of coating modified
+ice adhesion to liquid oxygen feed line bracket, space shuttle
+external tank. Storming Media NASA order NNL05AA401
+Ferroni LP, Pezzotti G, Isshiki T, Kleebe HJ (2001) Determination of
+amorphous interfacial phases in Al2O3/SiC nanocomposites by
+computer-aided high-resolution electron microscopy. Acta Mater
+49:2109–2113
+Fischer H (2003) Polymer nanocomposites: from fundamental
+research to specific applications. Mater Sci Eng, C 23:763–772
+Friedrich K (1993) Advances in composite tribology. Elsevier,
+Amsterdam, pp 209–273
+Friedrich K, Zhang Z, Schlarb AK (2005) Effects of various fillers on
+the sliding wear of polymer composites. Compos Sci Technol
+65:2329–2343
+Gagne M, Therriault D (2014) Lightning strike protection of
+composites. Prog Aerosp Sci 64:1–16
+Gairola SP, Verma V, Kumar L, Dar MA, Annapoorni S, Kotnala RK
+(2010) Enhanced microwave absorption properties in polyaniline
+and nano-ferrite composite in X-band. Synth Met
+160:2315–2318
+
+123
+
+546
+
+Appl Nanosci (2017) 7:519–548
+
+Gall K, Dunn ML, Liu Y, Finch D, Lake M, Munshi NA (2002) Shape
+memory polymer nanocomposites. Acta Mater 50:5115–5126
+Gall K, Dunn ML, Liu Y, Stefanic G, Balzar D (2004) Internal stress
+storage in shape memory polymer nanocomposites. Appl Phys
+Lett 85:290–292
+Gangopadhyay R, De A (2000) Conducting polymer nanocomposites:
+a brief overview. Chem Mater 12:608–622
+Ganzhorn M, Vijayaraghavan A, Dehm S, Hennrich F, Green AA,
+Fichtner M, Voigt A, Rapp M, von Lohneysen H, Hersam MC,
+Kappes MM, Krupke R (2011) Hydrogen sensing with diameterand chirality-sorted carbon nanotubes. ACS Nano 5:1670–1676
+Gent RW, Dart NP, Cansdale JT (2000) Aircraft Icing. Philos Trans R
+Soc A 358:2873–2911
+Giannelis EP (1996) Polymer layered silicate nanocomposites. Adv
+Mater 8:29–35
+Giannelis EP (1998) Polymer-layered silicate nanocomposites: synthesis, properties and applications. Appl Organomet Chem 12:675–680
+Gilman JW, Kashiwagi T, Lichtenhan JD (1977) Nanocomposites: a
+revolutionary new flame retardant approach. SAMPE J 33:40–46
+Giridhara G, Rathod VT, Naik S, Mahapatra DR, Gopalakrishnan S
+(2010) Rapid localization of damage using a circular sensor
+array and Lamb wave based triangulation. Mech Syst Sig
+Process 24:2929–2946
+Giurgiutiu V (2014) Structural health monitoring with piezoelectric
+wafer active sensors. Academic Press, Cambridge
+Giurgiutiu V, Soutis C (2012) Enhanced composites integrity through
+structural health monitoring. Appl Compos Mater 19:813–829
+Gonnet P, Liang Z, Choi ES, Kadambala RS, Zhang C, Brooks JS,
+Wang B, Kramer L (2006) Thermal conductivity of magnetically
+aligned carbon nanotube buckypapers and nanocomposites. Curr
+Appl Phys 6:119–122
+Graham RH (1997) SR-71 Revealed, Motor books Int, WI, USA,
+pp 224
+Haque A, Shamsuzzoha M, Hussain F, Dean D (2003) S2-glass/epoxy
+polymer nanocomposites: manufacturing, structures, thermal and
+mechanical properties. J Compos Mater 37:1821–1837
+Herron N, Thorn DL (1998) Nanoparticles: uses and relationships to
+molecular cluster compounds. Adv Mater 10:1173–1184
+Howarth GA (2003) Polyurethanes, polyurethane dispersions and
+polyureas: past, present and future. Surf Coat Int Part B: Coat
+Trans 86:111–118
+Hsu CP, Chang LY, Chiu CW, Lee PTC, Lin JJ (2013) Facile
+fabrication of robust superhydrophobic epoxy film with polyamine dispersed carbon nanotubes. ACS Appl Mater Interfaces
+5:538–545
+Iijima S (1991) Helical microtubules of graphitic carbon. Nature
+354:56–58
+Im JS, Lee SK, In SJ, Lee YS (2010) Improved flame retardant
+properties of epoxy resin by fluorinated MMT/MWCNT additives. J Anal Appl Pyrolysis 89:225–235
+Inam F, Bhat BR, Vo T, Daoush WM (2014) Structural health
+monitoring capabilities in ceramic-carbon nanocomposites.
+Ceram Int 40:3793–3798
+Jackson HF, Jayaseelan DD, Lee WE, Reece MJ, Inam F, Manara D,
+Casoni CP, Bruycker FD, Boboridis K (2010) Laser melting of
+spark plasma-sintered zirconium carbide: thermo physical properties of a generation IV very high-temperature reactor material.
+Int J Appl Ceram Technol 7:316–326
+Jain A, Kumar JS, Mahapatra DR, Rathod VT (2013a) Development
+of P(VDF-TrFE) films and its quasi-static and dynamic strain
+response. Int J Eng Res Technol 2:2598–2605
+Jain A, Kumar JS, Srikanth S, Rathod VT, Mahapatra DR (2013b)
+Sensitivity of polyvinylidene fluoride films to mechanical
+vibration modes and impact after optimizing stretching conditions. Polym Eng Sci 53:707–715
+
+123
+
+Jain A, Kumar JS, Kumar MR, Ganesh AS, Srikanth S (2014) PVDFPZT composite films for transducer applications. Mech Adv
+Mater Struct 21:181–186
+Kang I, Schulz MJ, Kim JH, Shanov V, Shi D (2006) Vessel in
+Shanov and Donglu Shi, A carbon nanotube strain sensor
+for structural health monitoring. Smart Mater Struct
+15:737–748
+Knite M, Teteris V, Kiploka A, Kaupuzs J (2004) Polyisoprene—
+carbon black nanocaomposites as tensile strain and pressure
+sensor materials. Sens Actuators, A 110:142–149
+Kojima Y, Usuki A, Kawasumi M, Okada A, Fukushima Y, Kurauchi
+T, Kamigaito O (1993) Mechanical properties of Nylon 6-clay
+hybrid. J Mater Res 8:1185–1189
+Krishnamoorti R, Vaia RA, Giannelis EP (1996) Structure and
+dynamics of polymer-layered silicate nanocomposites. Chem
+Mater 8:1728–1734
+Lancaster JK (1990) Material-specific wear mechanisms: relevance to
+wear modelling. Wear 141:159–183
+Lesser M (1995) Thirty years of liquid impact research: a tutorial
+review. Wear 186:28–34
+Li HJ, Lu WG, Li JJ, Bai XD, Gu CZ (2005) Multichannel ballistic
+transport in multiwall carbon nanotubes. Phys Rev Lett
+95:086601-1
+Li C, Thostenson ET, Chou TW (2007) Dominant role of tunneling
+resistance in the electrical conductivity of carbon nanotubebased composites. Appl Phys Lett 91:223114-1
+Lim SC, Ashby MF (1987) Overview no. 55 wear-mechanism maps.
+Acta Metall 35:1–24
+Liu Y, Song D, Wu C, Leng J (2014) EMI shielding performance of
+nanocomposites with MWCNTs, nanosized Fe3O4 and Fe.
+Compos Part B 63:34–40
+Loh KJ, Chang D (2011) Zinc oxide nanoparticle-polymeric thin films
+for dynamic strain sensing. J Mater Sci 46:228–237
+Lu J, Chen X, Lu W, Chen G (2006) The piezoresistive behaviors of
+polyethylene/foliated graphite nanocomposites. Eur Polym J
+42:1015–1021
+Luan J, Wang S, Hu Z, Zhang L (2012) Synthesis techniques,
+properties and applications of polymer nanocomposites. Curr
+Org Synth 9:114–136
+Lyons J, Ko F (2005) Feature article: melt electrospinning of
+polymers: A review. Polym News: Polym Sci Mon 30:170–178
+Mahieux CA (2006) Environmental degradation in industrial composites. Elsevier, Chicago
+Martin R (2008) Ageing of composites. Woodhead Publishing,
+Cambridge
+Meda L, Marra G, Galfetti L, Inchingalo S, Severini F, Luca LD
+(2005) Nano-composites for rocket solid propellants. Compos
+Sci Technol 65:769–773
+Meenakshi KS, Sudhan EPJ, Kumar SA, Umapathy MJ (2011)
+Development and characterization of novel DOPO based phosphorus tetraglycidyl epoxy nanocomposites for aerospace applications. Prog Org Coat 72:402–409
+Mendes SF, Costa CM, Sencadas V, Nunes JS, Cost P, Gregorio R Jr,
+Mendez SL (2009) Effect of the ceramic grain size and
+concentration on the dynamical mechanical and dielectric
+behavior of Poly(vinilidene fluoride)/Pb(Zr0.53Ti0.47)O3 composites. Appl Phys A 96:899–908
+Meng Q, Hu J (2009) A review of shape memory polymer composites
+and blends. Compos Part A 40:1661–1672
+Messersmith PB, Giannelis EP (1994) Synthesis and characterization
+of layered silicate-epoxy nanocomposites. Chem Mater
+6:1719–1725
+Meyers FN, Loh KJ, Dodds JS, Baltazar A (2013) Active sensing and
+damage detection using piezoelectric zinc oxide-based nanocomposites. Nanotechnol 24:185501
+
+Appl Nanosci (2017) 7:519–548
+Micheli D, Apollo C, Pastore R, Morles RB, Laurenzi S, Marchetti M
+(2011a) Nanostructured composite materials for electromagnetic
+interference shielding applications. Acta Astronaut 69:747–757
+Micheli D, Apollo C, Pastore R, Morles RB, Marchetti M, Gradoni G
+(2011b) Electromagnetic characterization of composite materials
+and microwave absorbing modelling. In: Reddy B (ed) Advances
+in nanocomposites - synthesis, characterization and industrial
+applications. InTech, Croatia, pp 359–384
+Mishchenko L, Hatton B, Bahadur V, Taylor JA, Krupenkin T,
+Aizenberg J (2010) Design of ice-free nanostructured surfaces
+based on repulsion of impacting water droplets. ACS Nano
+4:7699–7707
+Miyoshi K, Wu RLC, Lanter WC (1997) Friction and wear of diamond
+like carbon on fine-grain diamond. Tribol Lett 3:141–145
+Nalwa HS (2000) Handbook of nanostructured materials and technology. Academic Press, New York
+Neo CP, Varadan VK (2004) Optimization of carbon fibercomposite
+for microwave absorber. IEEE Trans Electromagn Compat
+46:102–106
+Ni Y, Zheng S, Nie K (2004) Morphology and thermal properties of
+inorganic–organic hybrids involving epoxy resin and polyhedral
+oligomeric silsesquioxanes. Polym 45:5557–5568
+Ounaies Z, Park C, Wise KE, Siochi EJ, Harrison JS (2003) Electrical
+properties of single wall carbon nanotube reinforced polyimide
+composites. Compos Sci Technol 63:1637–1646
+Pandey JK, Reddy KR, Kumar AP, Singh RP (2005) An overview on
+the degradability of polymer nanocomposites. Polym Degrad
+Stab 88:234–250
+Park JG, Louis J, Cheng Q, Bao J, Smithyman J, Liang R, Wang B,
+Zhang C, Brooks JS, Kramer L, Fanchasis P, Dorough D (2009)
+Electromagnetic interference shielding properties of carbon
+nanotube buckypaper composites. Nanotechnol 20(415702):1–7
+Peigney A, Laurent C, Flahaut E, Rousset A (2000) Carbon nanotubes
+in novel ceramic matrix nanocomposites. Ceram Int 26:677–683
+Peng HX (2011) Polyurethane nanocomposite coatings for aeronautical applications. In: Leng J, Lau AKT (eds) Multifunctional
+polymer nanocomposites. CRC Press, Boca Raton, pp 337–387
+Ping S (1980) Fluctuation-induced tunneling conduction in disordered
+materials. Phys Rev B 21:2180–2195
+Prasad S, Zabinski J (1997) Lubricants: super slippery solids. Nat
+387:761–763
+Ramasubramaniam R, Chen J (2003) Homogeneous carbon nanotube/
+polymer composites for electrical applications. Appl Phys Lett
+83:2928–2930
+Rathod VT, Mahapatra DR (2010) Lamb wave based monitoring of
+plate-stiffener deboding using a circular array of piezoelectric
+sensors. Ini J Smart Sens Intell Syst 3:27–44
+Rathod VT, Mahapatra DR (2011) Ultrasonic Lamb wave based
+monitoring of corrosion type of damage in plate using a circular
+array of piezo electric transducers. NDT Int 44:628–636
+Rathod VT, Mahapatra DR, Jain A, Gayathri A (2010) Characterization of a large area PVDF thin film for electro-mechanical and
+ultrasonic sensing applications. Sens Actuators, A 163:164–171
+Rathod VT, Hiremath SR, Mahapatra DR (2014) Strength and fatigue
+life evaluation of composite laminate with embedded sensors.
+Proc SPIE, 9062
+Ray SS, Bousmina M (2005) Biodegradable polymers and their
+layered silicate nanocomposites: in greening the 21st century
+materials world. Prog Mater Sci 50:962–1079
+Ray SS, Okamoto M (2003) Polymer/layered silicate nanocomposites:
+a review from preparation to processing. Prog Polym Sci
+28:1539–1641
+Ray SS, Yamada K, Okamoto M, Ueda K (2002) Polylactide-layered
+silicate nanocomposite: a novel biodegradable material. Nano
+Lett 2:1093–1096
+
+547
+Reghu M, Yoon CO, Yang CY, Moses D, Smith P, Heeger AJ, Cao Y
+(1994) Transport in polyaniline networks near the percolation
+threshold. Phys Rev B 50:13931–13941
+Rupke EJP (2002) Lightning direct effects handbook. Lightning
+Technologies Inc., Pittsfield
+Sawyer WG, Freudenberg KD, Bhimaraj P, Schadler LS (2003) A
+study on the friction and wear behavior of PTFE filled with
+alumina nanoparticles. Wear 254:573–580
+Shao X, Liu W, Xue Q (2004) The tribological behavior of
+micrometer and nanometer TiO2 particle-filled poly (phthalazine ether sulfone ketone) composites. J Appl Polym Sci
+92:906–914
+She J, Inoue T, Suzuki M, Sodeoka S, Ueno K (2000) Mechanical
+properties and fracture behavior of fibrous Al2O3/SiC ceramics.
+J Eur Ceram Soc 20:1877–1881
+Sheng P, Sichel EK, Gittleman JI (1978) Fluctuation-induced
+tunneling conduction in carbon-polyvinylchloride composites.
+Phys Rev Lett 40:1197–1200
+Shi G, Zhang MQ, Rong MZ, Wetzel B, Friedrich K (2003) Friction
+and wear of low nanometer Si3N4 filled epoxy composites. Wear
+254:784–796
+Shi YJ, Feng X, Wang HY, Liu C, Lu XH (2007) Effects of filler
+crystal structure and shape on the tribological properties of PTFE
+composites. Tribol Int 40:1195–1203
+Singer IL, Fayeulle S, Ehni PD (1996) Wear behavior of triodesputtered MoS2 coatings in dry sliding contact with steel and
+ceramics. Wear 195:7–20
+Sorensen PA, Kiil S, Dam-Johansen K, Weinell CE (2009) Anticorrosive coatings: a review. J Coat Technol Res 6:135–176
+Sreekala MS, Eger C (2005) Property improvements of an epoxy resin
+by nanosilica particle reinforcement. In: Friedrich K, Fakirov S,
+Zhang Z (eds) polymer composites: From nano - to macro-scale.
+Springer, US, pp 91–105
+Stan A, Dinca I, Ban C, Ilina S, Donescu D, Paven H, Dumitrache L,
+Gavrila L, Voicu I (2011) Epoxy- layered silicate and epoxy
+MWCNTs nanocomposites. Appl Mech Mater 146:160–169
+Stauffer D, Aharony A (1994) Introduction to percolation theory.
+Taylor & Francis, London
+Sternitzke M (1997) Review: structural ceramic nanocomposites.
+J Eur Ceram Soc 17:1061–1082
+Sundararaman V, Rathod VT, Mahapatra DR (2015) Temperature
+compensation in CNT-composite distributed strain sensors. Proc
+SPIE, 9436
+Suresh MB, Yeh TH, Yu CC, Chou CC (2009) Dielectric and
+ferroelectric properties of polyvinylidene fluoride (PVDF)-Pb0.52Zr0.48TiO3 (PZT) nano composite films. Ferroelectr 381:80–86
+Theng BKG (1979) Formation and properties of clay–polymer
+complexes. Elsevier, Amsterdam
+Thompson CM, Herring HM, Gates TS, Connel JW (2003) Preparation and characterization of metal oxide/polyimide nanocomposites. Compos Sci Technol 63:1591–1598
+Thostenson ET, Li C, Chou TW (2005) Nanocomposites in context.
+Compos Sci Technol 65:491–516
+Tjong SC, Wang GS (2004) High-cycle fatigue properties of Al-based
+composites reinforced with in situ TiB2 and Al2O3 particulates.
+Mater Sci Eng, A 386:48–53
+Turri S, Torlaj L, Piccinini F, Levi M (2010) Abrasion and
+nanoscratch in nanostructured epoxy coatings. J Appl Polym
+Sci 118:1720–1727
+Usuki A, Kojima Y, Kawasumi M, Okada A, Fukushima Y, Kurauchi
+T, Kamigaito O (1993) Synthesis of nylon 6-clay hybrid. J Mater
+Res 8:1179–1184
+Vaia RA, Giannelis EP (1997) Polymer melt intercalation in
+organically-modified layered silicates: model predictions and
+experiment. Macromol 30:8000–8009
+
+123
+
+548
+
+Appl Nanosci (2017) 7:519–548
+
+Vaia RA, Ishii H, Giannelis EP (1993) Synthesis and properties of
+two-dimensional nanostructures by direct intercalation of polymer melts in layered silicates. Chem Mater 5:1694–1696
+Vaia RA, Price G, Ruth PN, Nguyen HT, Lichtenhan J (1999)
+Polymerrlayered silicate nanocomposites as high performance
+ablative materials. Appl Clay Sci 15:67–92
+van den Ende DA, de Almeida P, van der Zwaag S (2007)
+Piezoelectric and mechanical properties of novel composites of
+PZT and a liquid crystalline thermosetting resin. J Mater Sci
+42:6417–6425
+Van Krevelen DW (1990) Properties of polymers: their correlation
+with chemical structure: Their numerical estimation and prediction from additive group contributions. Elsevier, Amsterdam
+Voevodin AA, Capano MA, Safriet AJ, Donley MS, Zabinski JS
+(1996a) Combined magnetron sputtering and pulsed laser
+deposition of carbides and diamond-like carbon films. Appl
+Phys Lett 69:188–190
+Voevodin AA, Phelps AW, Zabinski JS, Donley MS (1996b) Friction
+induced phase transformation of pulsed laser deposited diamondlike carbon. Diamond Relat Mater 5:1264–1269
+Voevodin AA, Bultman J, Zabinski JS (1998) Investigation into threedimensional laser processing of tribological coatings. Surf Coat
+Technol 107:12–19
+Voevodin AA, O’Neill JP, Zabinski JS (1999) Nanocomposite
+tribological coatings for aerospace applications. Surf Coat
+Technol 116:36–45
+Vora RH, Vora M (2006) 1,20 -Bis(4-aminophenoxy)benzene based
+designed fluoro-poly(ether-imide)/MMT clay nanocomposites:
+synthesis and properties for high performance applications.
+Mater Sci Eng, B 132:90–102
+Wang ZL, Song J (2006) Piezoelectric nanogenerators based on zinc
+oxide nanowire arrays. Sci 312:242–246
+Wang QH, Xu J, Shen W, Liu W (1996) An investigation of the
+friction and wear properties of nanometer Si3N4 filled PEEK.
+Wear 196:82–86
+Wang QH, Xu J, Shen W, Xue Q (1997a) The effect of nanometer SiC
+filler on the tribological behavior of PEEK. Wear 209:316–321
+Wang Q, Xue Q, Shen W (1997b) The friction and wear properties of
+nanometre SiO2-filled polyetheretherketone. Tribol Int
+30:193–197
+Wang Q, Xue Q, Shen W, Zhang J (1998) The friction and wear
+properties of nanometer ZrO2-filled polyetheretherketone. J Appl
+Polym Sci 69:135–141
+Wang B, Liang R, Zhang C, Funches P, Kramer L (2005a)
+Investigation of lightning and EMI shielding properties of
+
+123
+
+SWNT Buckypaper nanocomposites, DTIC Accession Number:
+ADA430333
+Wang YJ, Pan Y, Zhang XW, Tan K (2005b) Impedance spectra of
+carbon black filled high-density polyethylene composites. J Appl
+Polym Sci 98:1344–1350
+Weisenberger MC, Grulke EA, Jacques D, Rantell AT, Andrews R
+(2003) Enhanced mechanical properties of polyacrylonitrile:
+multiwall carbon nanotube composite fibers. J Nanosci Nanotechnol 3:535–539
+Wenzel RN (1936) Resistance of solid surfaces to wetting by water.
+Ind Eng Chem 28:988–994
+Wetzel B, Haupert F, Friedrich K, Zhang MQ, Rong MZ (2002)
+Impact and wear resistance of polymer nanocomposites at low
+filler content. Polym Eng Sci 42:1919–1927
+Wetzel B, Haupert F, Zhang MQ (2003) Epoxy nanocomposites with
+high mechanical and tribological performance. Compos Sci
+Technol 63:2055–2067
+Williams JA (1996) Analytical models of scratch hardness. Tribol Int
+29:675–694
+Xia H, Song M (2006) Preparation and characterization of polyurethane
+grafted single-walled carbon nanotubes and derived polyurethane
+nanocomposites. J Mater Chem 16:1843–1851
+Yano K, Usuki A, Okada A (1997) Synthesis and properties of
+polyimide-clay hybrid films. J Polym Sci, Part A: Polym Chem
+35:2289–2294
+Yoon YH, Song JW, Kim D, Kim J, Park JK, Oh SK, Han CS (2007)
+Transparent film heater using single-walled carbon nanotubes.
+Adv Mater 19:4284–4287
+Youssef AM (2013) Polymer nanocomposites as a new trend for
+packaging applications. Polym Plast Technol Eng 52:635–660
+Zeppetelli D, Habashi WG (2012) In-flight icing risk management
+through computational fluid dynamics-icing analysis. J Aircr
+49:611–621
+Zhang MQ, Rong MZ, Yu SL, Wetzel B, Friedrich K (2002) Effect of
+particle surface treatment on the tribological performance of
+epoxy based nanocomposites. Wear 253:1086–1093
+Zhang R, Zhang Y, Zhang Q, Xie H, Qian W, Wei F (2013) Growth
+of half-meter long carbon nanotubes based on schulz-flory
+distribution. ACS Nano 7:6156–6161
+Zhao Q, Bahadur S (1999) The mechanism of filler action and the
+criterion of filler selection for reducing wear. Wear 229:660–668
+Zhu R, Wang D, Xiang S, Zhou Z, Ye X (2008) Piezoelectric
+characterization of a single zinc oxide nanowire using a
+nanoelectromechanical oscillator. Nanotechnol 19:285712/
+285711
+
+
