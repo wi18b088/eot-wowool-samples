@@ -4,8 +4,9 @@ graph_config = {
             #"Document" : {"data" : "ip.id()"} 
             },
        "links" : [
-          {     "from"      : { "expr" : "Reference_Title", "label" : "Title"},
-                "to"        : { "expr" : "Website", "label" :"Website"},
+          {     
+                "from"      : { "expr" : "Website", "label" :"Website"},
+                "to"        : { "expr" : "Reference_Title", "label" : "Title"},
                 "relation"  : { "label" : "Reference_link"}
           },
           {     "from"      : { "expr" : "Reference_Title", "label" : "Title"},
@@ -15,7 +16,13 @@ graph_config = {
           {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"Punct"}, 
                 "to"        : { "expr" : "Reference_Title", "label" : "Title"}, 
                 "relation"  : { "label" : "AuthorOf" },
-                "file"      : True #doesn't seem to do anything???
+                # "file"      : True #doesn't seem to do anything???
+                # "file" : {"data":"Document"}
+          }, 
+          {
+                "from"      : { "expr" : "Reference_Title", "label" : "Title"}, 
+                "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
+                "relation"  : { "label" : "Referenced" },
           }, 
           {     "from"      : { "expr" : "Year", "label" :"Year" },
                 "to"        : { "expr" : "Website", "label" :"Website"},
