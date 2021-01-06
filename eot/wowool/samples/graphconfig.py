@@ -21,7 +21,7 @@ graph_config = {
           }, 
           {
                 "from"      : { "expr" : "Reference_Title", "label" : "Title"}, 
-                "to"        : { "data" : "Document", "label" : "FilenameStem"}, 
+                "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
                 "relation"  : { "label" : "Referenced" },
           }, 
           {     "from"      : { "expr" : "Year", "label" :"Year" },
