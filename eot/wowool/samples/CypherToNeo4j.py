@@ -9,3 +9,5 @@ with open("C:\\Users\\Sjoerd\\whatever\\neo4jgithub\\eot-wowool-samples\\eot\\wo
 for i, cypher_query in enumerate(lines):
    print(i, cypher_query)
    neo4jdb.run(cypher_query)
+
+# program will fail, wowool detects multiple symbols, even though they aren't in any of the rules. Find fix -- Sjoerd
