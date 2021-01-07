@@ -23,7 +23,7 @@ try:
         doc = entities(doc)
         doc = myrule(doc)
         # print(doc)
-        requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website','Reference_Title', 'Reference_Name', 'Year', 'BatteryDict', 'Speed'])
+        requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website','Reference_Title', 'Reference_Name', 'Year', 'Speed'])
         concept_filter = lambda concept : concept.uri in requested_concepts
         for concept in Concept.iter(doc)  :
                 # print( f"Tagname: {concept.uri}, literal: {concept.literal:<20}, stem={concept.stem}" )
