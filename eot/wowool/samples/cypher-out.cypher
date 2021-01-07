@@ -914,11 +914,15 @@ MERGE ( o:EOT:Reference_Name { name : 'Isikveren , A.T.' }) RETURN id(o)
 MERGE ( o:EOT:Title { name : 'Hybrid - electric motive power systems for commuter transport application .' }) RETURN id(o)
 MATCH (from:EOT:Reference_Name{name:'Isikveren , A.T.'}),(to:EOT:Title {name:'Hybrid - electric motive power systems for commuter transport application .'}) MERGE (from)-[:AUTHOROF]->(to)
 MERGE ( o:EOT:Reference_Name { name : 'Seemann , R .' }) RETURN id(o)
-MERGE ( o:EOT:Title { name : 'Jet engine' }) RETURN id(o)
-MATCH (from:EOT:Reference_Name{name:'Seemann , R .'}),(to:EOT:Title {name:'Jet engine'}) MERGE (from)-[:AUTHOROF]->(to)
+MERGE ( o:EOT:Title { name : 'Jet engine
+' }) RETURN id(o)
+MATCH (from:EOT:Reference_Name{name:'Seemann , R .'}),(to:EOT:Title {name:'Jet engine
+'}) MERGE (from)-[:AUTHOROF]->(to)
 MERGE ( o:EOT:Reference_Name { name : 'Langhans , S .' }) RETURN id(o)
-MERGE ( o:EOT:Title { name : 'Jet engine' }) RETURN id(o)
-MATCH (from:EOT:Reference_Name{name:'Langhans , S .'}),(to:EOT:Title {name:'Jet engine'}) MERGE (from)-[:AUTHOROF]->(to)
+MERGE ( o:EOT:Title { name : 'Jet engine
+' }) RETURN id(o)
+MATCH (from:EOT:Reference_Name{name:'Langhans , S .'}),(to:EOT:Title {name:'Jet engine
+'}) MERGE (from)-[:AUTHOROF]->(to)
 MERGE ( o:EOT:Reference_Name { name : 'Markou , C .' }) RETURN id(o)
 MERGE ( o:EOT:Title { name : 'Airline maintenance cost executive commentary .' }) RETURN id(o)
 MATCH (from:EOT:Reference_Name{name:'Markou , C .'}),(to:EOT:Title {name:'Airline maintenance cost executive commentary .'}) MERGE (from)-[:AUTHOROF]->(to)
@@ -1097,14 +1101,20 @@ MERGE ( o:EOT:Reference_Name { name : 'Tagge , G.E.' }) RETURN id(o)
 MERGE ( o:EOT:Title { name : 'Irish , L.A. , Bailey , A.R. : Systems Study for an Integrated Digital / Electric Aircraft ( IDEA ) .' }) RETURN id(o)
 MATCH (from:EOT:Reference_Name{name:'Tagge , G.E.'}),(to:EOT:Title {name:'Irish , L.A. , Bailey , A.R. : Systems Study for an Integrated Digital / Electric Aircraft ( IDEA ) .'}) MERGE (from)-[:AUTHOROF]->(to)
 MERGE ( o:EOT:Reference_Name { name : 'Giannakakis , P .' }) RETURN id(o)
-MERGE ( o:EOT:Title { name : 'Jet engine' }) RETURN id(o)
-MATCH (from:EOT:Reference_Name{name:'Giannakakis , P .'}),(to:EOT:Title {name:'Jet engine'}) MERGE (from)-[:AUTHOROF]->(to)
+MERGE ( o:EOT:Title { name : 'Jet engine
+' }) RETURN id(o)
+MATCH (from:EOT:Reference_Name{name:'Giannakakis , P .'}),(to:EOT:Title {name:'Jet engine
+'}) MERGE (from)-[:AUTHOROF]->(to)
 MERGE ( o:EOT:Reference_Name { name : 'Laskaridis , P .' }) RETURN id(o)
-MERGE ( o:EOT:Title { name : 'Jet engine' }) RETURN id(o)
-MATCH (from:EOT:Reference_Name{name:'Laskaridis , P .'}),(to:EOT:Title {name:'Jet engine'}) MERGE (from)-[:AUTHOROF]->(to)
+MERGE ( o:EOT:Title { name : 'Jet engine
+' }) RETURN id(o)
+MATCH (from:EOT:Reference_Name{name:'Laskaridis , P .'}),(to:EOT:Title {name:'Jet engine
+'}) MERGE (from)-[:AUTHOROF]->(to)
 MERGE ( o:EOT:Reference_Name { name : 'Pilidis , P .' }) RETURN id(o)
-MERGE ( o:EOT:Title { name : 'Jet engine' }) RETURN id(o)
-MATCH (from:EOT:Reference_Name{name:'Pilidis , P .'}),(to:EOT:Title {name:'Jet engine'}) MERGE (from)-[:AUTHOROF]->(to)
+MERGE ( o:EOT:Title { name : 'Jet engine
+' }) RETURN id(o)
+MATCH (from:EOT:Reference_Name{name:'Pilidis , P .'}),(to:EOT:Title {name:'Jet engine
+'}) MERGE (from)-[:AUTHOROF]->(to)
 MERGE ( o:EOT:Year { name : '2011' }) RETURN id(o)
 MERGE ( o:EOT:Website { name : 'https://doi.org/10.2514/1.55872' }) RETURN id(o)
 MATCH (from:EOT:Year{name:'2011'}),(to:EOT:Website {name:'https://doi.org/10.2514/1.55872'}) MERGE (from)-[:YEARPUBLISHED]->(to)
