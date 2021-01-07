@@ -61,11 +61,11 @@ graph_config = {
                 "relation"  : { "label" : "Cost" }
           },
           {     "from"      : { "expr" : "Price", "label" :"Price" },
-                "to"        : { "expr" : "BatteryDict", "label" :"BatteryDict"},
+                "to"        : { "expr" : "Battery", "label" :"BatteryDict"},
                 "relation"  : { "label" : "Cost" }
           },
-          {     "from"      : { "expr" : "BatteryDens", "label" :"BatteryDens" },
-                "to"        : { "expr" : "BatteryDict", "label" :"BatteryDict"},
+          {     "from"      : { "expr" : "BatteryDensity", "label" :"BatteryDens" },
+                "to"        : { "expr" : "Battery", "label" :"BatteryDict"},
                 "relation"  : { "label" : "Density" }
           },
           {     "from"      : { "expr" : "EnginePower", "label" :"EnginePower" },
@@ -75,8 +75,38 @@ graph_config = {
           {     "from"      : { "expr" : "Speed", "label" :"Speed" }, 
                 "to"        : { "expr" : "EngineType", "label" :"EngineType"  },
                 "relation"  : { "label" : "EngineSpeed" }
-          },                              
-
+          },
+          {
+                "from"      : { "expr" : "EngineType", "label" : "EngineType"}, 
+                "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
+                "relation"  : { "label" : "FoundIn" },
+          },
+          {
+                "from"      : { "expr" : "Battery", "label" : "BatteryDict"}, 
+                "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
+                "relation"  : { "label" : "FoundIn" },
+          },
+          {
+                "from"      : { "expr" : "City", "label" : "City"}, 
+                "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
+                "relation"  : { "label" : "FoundIn" },
+          },
+          {
+                "from"      : { "expr" : "Manufacturer", "label" : "Manufacturer"}, 
+                "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
+                "relation"  : { "label" : "FoundIn" },
+          },
+          {
+                "from"      : { "expr" : "Range", "label" : "Range"}, 
+                "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
+                "relation"  : { "label" : "FoundIn" },
+          },
+          {
+                "from"      : { "expr" : "Flying", "label" : "Flying"}, 
+                "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
+                "relation"  : { "label" : "FoundIn" },
+          },                                      
+                  #Not in use: EnginePower,
       ],
       #"global" : { "file" : True , "snippet"   : False , "operator":".." } #seems to work but connects everything to the file and only the file....
 }
