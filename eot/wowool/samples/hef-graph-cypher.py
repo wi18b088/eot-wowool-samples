@@ -36,7 +36,7 @@ try:
         
         from pathlib import Path
         filename = Path(ip.id()).stem
-        filename = "yolololololololo"
+        #filename = "yolololololololo"
         # not working, entire filepath still in cypher out
         graphit.slots = {}
         graphit.slots['Document'] = {"data": filename}
