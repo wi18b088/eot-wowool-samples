@@ -19,5 +19,6 @@ RUN sed -i 's/#dbms\.default_listen_address=0\.0\.0\.0/dbms\.default_listen_addr
 # Symlinks to /usr/local/bin; python3 shabang
 
 # Start neo4j when container starts
+# startup_fix.sh still relevant?
 # CMD ["neo4j","start"]
 CMD neo4j start && bash
