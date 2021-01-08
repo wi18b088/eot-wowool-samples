@@ -20,10 +20,17 @@ RUN sed -i 's/#dbms\.default_listen_address=0\.0\.0\.0/dbms\.default_listen_addr
 
 # Create environment variables for our wrapper programmes
 # Symlinks to /usr/local/bin; python3 shabang
+
+# functionality that we want to expose to the client / user
+# scrape - /scraping repository?/ (scrape files from the defined sources with provided parameters)
+# createcyper - hef-graph-cypher.py (run wowool engine and create cypher output)
+
+# cyphertoneo - CypherToNeo4j.py (Feeds cypher into neo4j database)
 RUN ln /share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/CypherToNeo4j.py /usr/local/bin/cyphertoneo
 RUN chmod +x /usr/local/bin/cyphertoneo
 
-# Create directory for inout folder to be mounted when starting the docker
+# Create mount point for inout folder to be mounted when starting the docker
+RUN mkdir /mnt/inout/
 
 # Start neo4j when container starts
 # startup_fix.sh still relevant?
