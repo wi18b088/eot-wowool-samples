@@ -105,8 +105,23 @@ graph_config = {
                 "from"      : { "expr" : "Flying", "label" : "Flying"}, 
                 "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
                 "relation"  : { "label" : "FoundIn" },
-          },                                      
-                  #Not in use: EnginePower,
+          },
+          {
+                "from"      : { "expr" : "Management", "label" : "Management"}, 
+                "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
+                "relation"  : { "label" : "FoundIn" },
+          },
+          {
+                "from"      : { "expr" : "EnginePower", "label" : "EnginePower"}, 
+                "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
+                "relation"  : { "label" : "FoundIn" },
+          },
+          {
+                "from"      : { "expr" : "System", "label" : "System"}, 
+                "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
+                "relation"  : { "label" : "FoundIn" },
+          },                                            
+                  #Not in use: 
       ],
       #"global" : { "file" : True , "snippet"   : False , "operator":".." } #seems to work but connects everything to the file and only the file....
 }
