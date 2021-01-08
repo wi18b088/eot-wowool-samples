@@ -17,6 +17,8 @@ RUN sed -i 's/#dbms\.default_listen_address=0\.0\.0\.0/dbms\.default_listen_addr
 
 # Create environment variables for our wrapper programmes
 # Symlinks to /usr/local/bin; python3 shabang
+RUN ln /share/neo4jgithub/eot-wowool-samples/CypherToNeo4j.py cypertoneo
+RUN chmod +x /share/neo4jgithub/eot-wowool-samples/CypherToNeo4j.py
 
 # Start neo4j when container starts
 # startup_fix.sh still relevant?
