@@ -10,6 +10,9 @@ RUN apt install -y git
 RUN mkdir -p /share/neo4jgithub/eot-wowool-samples
 RUN git clone https://github.com/wi18b088/eot-wowool-samples.git /share/neo4jgithub/eot-wowool-samples
 
+# Clone Scraping repository
+# Mind the manually mounted inout folder for persistence inside the Docker container
+
 # Install neo4j
 RUN apt install -y neo4j
 RUN neo4j-admin set-initial-password 12345
@@ -17,8 +20,10 @@ RUN sed -i 's/#dbms\.default_listen_address=0\.0\.0\.0/dbms\.default_listen_addr
 
 # Create environment variables for our wrapper programmes
 # Symlinks to /usr/local/bin; python3 shabang
-RUN ln /share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/CypherToNeo4j.py cypertoneo
-RUN chmod +x /share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/CypherToNeo4j.py
+RUN ln /share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/CypherToNeo4j.py /usr/local/bin/cyphertoneo
+RUN chmod +x /usr/local/bin/cyphertoneo
+
+# Create directory for inout folder to be mounted when starting the docker
 
 # Start neo4j when container starts
 # startup_fix.sh still relevant?
