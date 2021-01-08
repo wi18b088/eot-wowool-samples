@@ -8,6 +8,7 @@ RUN apt install -y git
 
 # Cloning our repository
 RUN mkdir -p /share/neo4jgithub/eot-wowool-samples
+# Maybe omit for testing purposes and share folder with Docker when running locally
 RUN git clone https://github.com/wi18b088/eot-wowool-samples.git /share/neo4jgithub/eot-wowool-samples
 
 # Clone Scraping repository
