@@ -7,12 +7,18 @@ RUN apt update
 RUN apt install -y git
 
 # Cloning our repository
-RUN mkdir -p /share/neo4jgithub/eot-wowool-samples
+# RUN mkdir -p /share/neo4jgithub/eot-wowool-samples
 # Maybe omit for testing purposes and share folder with Docker when running locally
-RUN git clone https://github.com/wi18b088/eot-wowool-samples.git /share/neo4jgithub/eot-wowool-samples
+# Use only in production
+# RUN git clone https://github.com/wi18b088/eot-wowool-samples.git /share/neo4jgithub/eot-wowool-samples
 
-# Clone Scraping repository
-# Mind the manually mounted inout folder for persistence inside the Docker container
+# Get the files for hef-scraper
+RUN mkdir -p /share/hef-scraper
+RUN git clone https://github.com/wi18b088/HEFscraper.git /share/hef-scraper/HEFscraper
+
+# Install python3 requirements
+RUN pip install -r /share/hef-scraper/HEFscraper/requirements.txt
+# RUN pip install -r /share/neo4jgithub/eot-wowool-samples/requirements.txt
 
 # Install neo4j
 RUN apt install -y neo4j
