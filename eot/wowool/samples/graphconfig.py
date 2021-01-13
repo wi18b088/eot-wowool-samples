@@ -1,7 +1,6 @@
 graph_config = {
       "slots" : {
-            "Title" : {"expr" : "Reference_Title"},
-            #"Document" : {"data" : "ip.id()"} 
+            "Title" : {"expr" : "Reference_Title"}
             },
        "links" : [
           {     
@@ -16,8 +15,6 @@ graph_config = {
           {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"Punct"}, 
                 "to"        : { "expr" : "Reference_Title", "label" : "Title"}, 
                 "relation"  : { "label" : "AuthorOf" },
-                # "file"      : True #doesn't seem to do anything???
-                # "file" : {"data":"Document"}
           }, 
           {
                 "from"      : { "expr" : "Reference_Title", "label" : "Title"}, 
