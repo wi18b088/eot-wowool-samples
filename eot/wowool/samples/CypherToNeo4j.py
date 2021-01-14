@@ -1,15 +1,22 @@
 #!/usr/bin/env python3
 import neo4j
 import os
-# print(os.listdir())
-neo4jdb = neo4j.Connector("http://localhost:7474", ("neo4j", "12345")) # local password of neo4j database
-# neo4jdb = neo4j.Connector("http://192.168.122.61:7474", ("neo4j", "12345")) # local password of neo4j database
-# with open("C:\\Users\\Sjoerd\\whatever\\neo4jgithub\\eot-wowool-samples\\eot\\wowool\\samples\\cypher-out.cypher", "r") as fh:
-# with open("eot/wowool/samples/cypher-out.cypher", "r") as fh:
+import pathlib
 
-# For docker:
-with open("cypher-out.cypher", "r") as fh:
+cypher_file_name = "cypher-out.cypher"
+cypher_path = "/mnt/inout/output/hef-graph-cypher/"
+neo4jdb = neo4j.Connector("http://localhost:7474", ("neo4j", "12345"))
+
+if pathlib.Path(cypher_path + cypher_file_name).is_file():
+    cypherfile = cypher_path + cypher_file_name
+else:
+   print("no cypher output found. Using demo file.")
+   cypherfile = cypher_file_name
+
+with open(cypherfile, "r") as fh:
    lines = fh.readlines()
 for i, cypher_query in enumerate(lines):
    print(i, cypher_query)
    neo4jdb.run(cypher_query)
+
+print("Creating Cypher finished. You can now visit localhost:7474/browser/ in your webbrowser and look at the neo4j database.")

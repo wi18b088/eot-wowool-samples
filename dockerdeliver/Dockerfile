@@ -31,10 +31,10 @@ RUN echo "alias scrape-springerlink-pdf=\"python3 /share/hef-scraper/HEFscraper/
 # UNIVERSAL SCRAPER
 
 # createcyper - hef-graph-cypher.py (run wowool engine and create cypher output)
+RUN echo "alias create-cyper=\"python3 /share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/hef-graph-cypher.py\"" >> /root/.bash_aliases
 
 # cyphertoneo - CypherToNeo4j.py (Feeds cypher into neo4j database)
-# RUN ln /share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/CypherToNeo4j.py /usr/local/bin/cyphertoneo
-# RUN chmod +x /usr/local/bin/cyphertoneo
+RUN echo "alias cypher-to-neo4j=\"python3 /share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/CypherToNeo4j.py\"" >> /root/.bash_aliases
 
 # Create mount point for inout folder to be mounted when starting the docker
 RUN mkdir /mnt/inout/
