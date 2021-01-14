@@ -1,7 +1,6 @@
 graph_config = {
       "slots" : {
             "Title" : {"expr" : "Reference_Title"},
-            #"Document" : {"data" : "ip.id()"} 
             },
        "links" : [
           {     
@@ -16,8 +15,6 @@ graph_config = {
           {     "from"      : { "expr" : "Reference_Name", "label" :"Reference_Name","delimiter":"Punct"}, 
                 "to"        : { "expr" : "Reference_Title", "label" : "Title"}, 
                 "relation"  : { "label" : "AuthorOf" },
-                # "file"      : True #doesn't seem to do anything???
-                # "file" : {"data":"Document"}
           }, 
           {
                 "from"      : { "expr" : "Reference_Title", "label" : "Title"}, 
@@ -121,7 +118,5 @@ graph_config = {
                 "to"        : { "slot" : "Document", "label" : "FilenameStem"}, 
                 "relation"  : { "label" : "FoundIn" },
           },                                            
-                  #Not in use: 
       ],
-      #"global" : { "file" : True , "snippet"   : False , "operator":".." } #seems to work but connects everything to the file and only the file....
 }

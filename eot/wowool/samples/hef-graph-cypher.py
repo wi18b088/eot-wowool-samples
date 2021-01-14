@@ -6,14 +6,37 @@ from eot.wowool.annotation import Concept
 from eot.wowool.error import Error
 from eot.wowool.tool.entity_graph import EntityGraph
 from eot.io import InputProviders
+import pathlib
 
-from graphconfig import graph_config
+
+# Check if external configuration exists
+# Check for HEFrules.dom in /mnt/inout/config/
+# Check for graphconfig.py in /mnt/inout/config/
+external_config_file_path = "/mnt/inout/config/"
+rule_file_name = "HEFrules.dom"
+external_config_file_name = "graphconfig.py"
+
+if pathlib.Path(external_config_file_path + rule_file_name).is_file():
+    myrule = Domain(external_config_file_path + rule_file_name)
+else:
+    myrule = Domain(rule_file_name)
+
+if pathlib.Path( external_config_file_path + external_config_file_name).is_file():
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("hef-config", external_config_file_path + external_config_file_name)
+    config_module = importlib.util.module_from_spec(spec)
+    spec.loader.exec_module(config_module)
+
+    try:
+        graph_config = config_module.graph_config
+    except AttributeError:
+        from graphconfig import graph_config
+else:
+    from graphconfig import graph_config
 
 try:
     english = Analyzer(language="english")
     entities = Domain( "english-entity" )
-    # rule = Domain( source = """ rule:{ 'user' '\:' {(<>)+}=USER }; """)
-    myrule = Domain("HEFrules.dom")
 
     f = open("cypher-out.cypher", "w")
     webpage = open("index.html", "w")
@@ -22,7 +45,6 @@ try:
         doc = english(ip)
         doc = entities(doc)
         doc = myrule(doc)
-        # print(doc)
         requested_concepts = set(['EngineType','Battery', 'Flying','Range', 'BatteryDensity', 'EnginePower', 'Manufacturer', 'City', 'Time', 'Price', 'Website','Reference_Title', 'Reference_Name', 'Year', 'Speed', 'Management', 'System'])
         concept_filter = lambda concept : concept.uri in requested_concepts
         for concept in Concept.iter(doc)  :
@@ -32,7 +54,6 @@ try:
         
         print("-"*10)
         graphit = EntityGraph( graph_config )
-        # returns a panda dataframe.
         
         from pathlib import Path
         filename = Path(ip.id()).stem
