@@ -18,7 +18,7 @@ rule_file_name = "HEFrules.dom"
 external_config_file_name = "graphconfig.py"
 
 output_directory = "/mnt/inout/output/hef-graph-cypher/"
-input_docs_directory = "/mnt/inout/output/scraper/springerLink/txt/"
+input_docs_directory = "/mnt/inout/output/scraper/txt/"
 
 if not os.path.exists(output_directory):
     pathlib.Path(output_directory).mkdir(parents=True, exist_ok=True)

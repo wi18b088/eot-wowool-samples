@@ -7,8 +7,8 @@ RUN apt update
 RUN apt install -y git
 
 # Cloning our repository
-# RUN mkdir -p /share/neo4jgithub/eot-wowool-samples
-# RUN git clone https://github.com/wi18b088/eot-wowool-samples.git /share/neo4jgithub/eot-wowool-samples
+RUN mkdir -p /share/neo4jgithub/eot-wowool-samples
+RUN git clone https://github.com/wi18b088/eot-wowool-samples.git /share/neo4jgithub/eot-wowool-samples
 
 # Get the files for hef-scraper
 RUN mkdir -p /share/hef-scraper
@@ -16,7 +16,7 @@ RUN git clone https://github.com/wi18b088/HEFscraper.git /share/hef-scraper/HEFs
 
 # Install python3 requirements
 RUN pip install -r /share/hef-scraper/HEFscraper/requirements.txt
-# RUN pip install -r /share/neo4jgithub/eot-wowool-samples/requirements.txt
+RUN pip install -r /share/neo4jgithub/eot-wowool-samples/requirements.txt
 
 # Install neo4j
 RUN apt install -y neo4j
@@ -28,10 +28,10 @@ RUN sed -i 's/#dbms\.default_listen_address=0\.0\.0\.0/dbms\.default_listen_addr
 # scrape - /scraping repository?/ (scrape files from the defined sources with provided parameters)
 RUN echo "alias scrape-springerlink=\"python3 /share/hef-scraper/HEFscraper/src/springerlink.py\"" >> /root/.bash_aliases
 RUN echo "alias scrape-springerlink-pdf=\"python3 /share/hef-scraper/HEFscraper/src/pdf-downloader.py\"" >> /root/.bash_aliases
-# UNIVERSAL SCRAPER
+RUN echo "alias scrape-universal=\"python3 /share/hef-scraper/HEFscraper/src/universalscraper.py\"" >> /root/.bash_aliases
 
 # createcyper - hef-graph-cypher.py (run wowool engine and create cypher output)
-RUN echo "alias create-cyper=\"python3 /share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/hef-graph-cypher.py\"" >> /root/.bash_aliases
+RUN echo "alias create-cypher=\"python3 /share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/hef-graph-cypher.py\"" >> /root/.bash_aliases
 
 # cyphertoneo - CypherToNeo4j.py (Feeds cypher into neo4j database)
 RUN echo "alias cypher-to-neo4j=\"python3 /share/neo4jgithub/eot-wowool-samples/eot/wowool/samples/CypherToNeo4j.py\"" >> /root/.bash_aliases
